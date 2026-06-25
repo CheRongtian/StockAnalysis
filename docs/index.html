@@ -681,7 +681,7 @@ function closeKline(event){
 }
 window.addEventListener('resize', () => chart && chart.resize());
 document.addEventListener('keydown', event => { if(event.key === 'Escape') closeKline(); });
-refreshOnOpen();
+loadData();
 </script>
 </body>
 </html>

@@ -2,8 +2,8 @@ name: Daily stock data update
 
 on:
   schedule:
-    # Beijing time 16:10, Monday to Friday. GitHub cron uses UTC.
-    - cron: "10 8 * * 1-5"
+    # Every hour, Monday to Friday. GitHub cron uses UTC.
+    - cron: "0 * * * 1-5"
   workflow_dispatch:
     inputs:
       sector_limit:
