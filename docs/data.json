@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25 16:54",
+  "updated_at": "2026-06-25 16:58",
   "trade_date": "2026-06-25",
   "config": {
     "sector_limit": null,
@@ -1278,9 +1278,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 12,
+        "breakout_up": 11,
         "above": 17,
         "tangle": 14,
+        "below_d1": 1,
         "below_d2": 1,
         "excluded": 6
       },
@@ -1413,18 +1414,6 @@
           "close": 28.39,
           "change_pct": 2.64,
           "deviation": 4.34,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301269",
-          "name": "华大九天",
-          "status": "breakout_up",
-          "ma20": 103.79,
-          "close": 110.1,
-          "change_pct": 2.09,
-          "deviation": 6.08,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -1800,6 +1789,18 @@
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "301269",
+          "name": "华大九天",
+          "status": "below_d1",
+          "ma20": 98.284,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
         },
         {
           "code": "300251",
@@ -3791,8 +3792,8 @@
       "truncated": false,
       "status_counts": {
         "breakout_up": 14,
-        "above": 33,
-        "below_d1": 3
+        "above": 32,
+        "below_d1": 4
       },
       "stocks": [
         {
@@ -3998,18 +3999,6 @@
           "above_streak": 6,
           "below_streak": 0,
           "deviation_alert": "warn"
-        },
-        {
-          "code": "301418",
-          "name": "协昌科技",
-          "status": "above",
-          "ma20": 46.2,
-          "close": 54.63,
-          "change_pct": 16.66,
-          "deviation": 18.25,
-          "above_streak": 16,
-          "below_streak": 0,
-          "deviation_alert": null
         },
         {
           "code": "688525",
@@ -4364,6 +4353,18 @@
           "name": "杰普特",
           "status": "below_d1",
           "ma20": 379.863,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "301418",
+          "name": "协昌科技",
+          "status": "below_d1",
+          "ma20": 43.469,
           "close": 0.0,
           "change_pct": -100.0,
           "deviation": -100.0,
@@ -5045,9 +5046,9 @@
       "truncated": false,
       "status_counts": {
         "breakout_up": 12,
-        "above": 32,
+        "above": 30,
         "tangle": 4,
-        "below_d1": 2
+        "below_d1": 4
       },
       "stocks": [
         {
@@ -5471,18 +5472,6 @@
           "deviation_alert": null
         },
         {
-          "code": "300943",
-          "name": "春晖智控",
-          "status": "above",
-          "ma20": 38.388,
-          "close": 47.4,
-          "change_pct": 5.76,
-          "deviation": 23.48,
-          "above_streak": 5,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "002428",
           "name": "云南锗业",
           "status": "above",
@@ -5539,18 +5528,6 @@
           "change_pct": 5.1,
           "deviation": 8.25,
           "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "605358",
-          "name": "立昂微",
-          "status": "above",
-          "ma20": 65.504,
-          "close": 70.5,
-          "change_pct": 4.91,
-          "deviation": 7.63,
-          "above_streak": 30,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5639,10 +5616,34 @@
           "deviation_alert": "strong"
         },
         {
+          "code": "300943",
+          "name": "春晖智控",
+          "status": "below_d1",
+          "ma20": 36.018,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
+        },
+        {
           "code": "688048",
           "name": "长光华芯",
           "status": "below_d1",
           "ma20": 353.943,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "605358",
+          "name": "立昂微",
+          "status": "below_d1",
+          "ma20": 61.978,
           "close": 0.0,
           "change_pct": -100.0,
           "deviation": -100.0,
@@ -6936,6 +6937,15 @@
   ],
   "deviation_alerts": [
     {
+      "sector": "AI应用",
+      "code": "301269",
+      "name": "华大九天",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 98.284
+    },
+    {
       "sector": "算力",
       "code": "688041",
       "name": "海光信息",
@@ -6973,6 +6983,15 @@
     },
     {
       "sector": "芯片",
+      "code": "301418",
+      "name": "协昌科技",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 43.469
+    },
+    {
+      "sector": "芯片",
       "code": "301013",
       "name": "利和兴",
       "deviation": -100.0,
@@ -7000,12 +7019,30 @@
     },
     {
       "sector": "商业航天",
+      "code": "300943",
+      "name": "春晖智控",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 36.018
+    },
+    {
+      "sector": "商业航天",
       "code": "688048",
       "name": "长光华芯",
       "deviation": -100.0,
       "alert": "strong",
       "close": 0.0,
       "ma20": 353.943
+    },
+    {
+      "sector": "商业航天",
+      "code": "605358",
+      "name": "立昂微",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 61.978
     },
     {
       "sector": "芯片",
