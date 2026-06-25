@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25 14:53",
+  "updated_at": "2026-06-25 15:48",
   "trade_date": "2026-06-25",
   "config": {
     "sector_limit": null,
@@ -22,11 +22,11 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 4,
+        "breakout_up": 5,
         "above": 35,
         "tangle": 6,
         "below_d2": 2,
-        "excluded": 3
+        "excluded": 2
       },
       "stocks": [
         {
@@ -42,13 +42,25 @@
           "deviation_alert": null
         },
         {
+          "code": "300187",
+          "name": "永清环保",
+          "status": "breakout_up",
+          "ma20": 5.357,
+          "close": 5.53,
+          "change_pct": 4.93,
+          "deviation": 3.24,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603843",
           "name": "*ST正平",
           "status": "breakout_up",
-          "ma20": 8.325,
-          "close": 8.62,
-          "change_pct": 2.99,
-          "deviation": 3.54,
+          "ma20": 8.33,
+          "close": 8.73,
+          "change_pct": 4.3,
+          "deviation": 4.8,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -70,9 +82,9 @@
           "name": "*ST四通",
           "status": "breakout_up",
           "ma20": 9.122,
-          "close": 9.45,
-          "change_pct": 0.21,
-          "deviation": 3.59,
+          "close": 9.43,
+          "change_pct": 0.0,
+          "deviation": 3.38,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -81,10 +93,10 @@
           "code": "301265",
           "name": "华新科技",
           "status": "above",
-          "ma20": 27.021,
-          "close": 31.88,
-          "change_pct": 14.68,
-          "deviation": 17.98,
+          "ma20": 27.019,
+          "close": 31.84,
+          "change_pct": 14.53,
+          "deviation": 17.84,
           "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
@@ -162,18 +174,6 @@
           "deviation_alert": null
         },
         {
-          "code": "603407",
-          "name": "长裕集团",
-          "status": "above",
-          "ma20": 60.641,
-          "close": 90.55,
-          "change_pct": 10.0,
-          "deviation": 49.32,
-          "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
           "code": "002842",
           "name": "翔鹭钨业",
           "status": "above",
@@ -189,10 +189,10 @@
           "code": "688530",
           "name": "欧莱新材",
           "status": "above",
-          "ma20": 59.771,
-          "close": 87.9,
-          "change_pct": 8.53,
-          "deviation": 47.06,
+          "ma20": 59.755,
+          "close": 87.6,
+          "change_pct": 8.16,
+          "deviation": 46.6,
           "above_streak": 11,
           "below_streak": 0,
           "deviation_alert": "warn"
@@ -201,11 +201,23 @@
           "code": "600531",
           "name": "豫光金铅",
           "status": "above",
-          "ma20": 13.418,
-          "close": 17.0,
-          "change_pct": 7.87,
-          "deviation": 26.7,
+          "ma20": 13.419,
+          "close": 17.02,
+          "change_pct": 7.99,
+          "deviation": 26.84,
           "above_streak": 4,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "300706",
+          "name": "阿石创",
+          "status": "above",
+          "ma20": 63.141,
+          "close": 78.1,
+          "change_pct": 7.37,
+          "deviation": 23.69,
+          "above_streak": 12,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -214,33 +226,45 @@
           "name": "中科三环",
           "status": "above",
           "ma20": 13.132,
-          "close": 15.02,
-          "change_pct": 7.36,
-          "deviation": 14.37,
+          "close": 15.01,
+          "change_pct": 7.29,
+          "deviation": 14.3,
           "above_streak": 13,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "300706",
-          "name": "阿石创",
+          "code": "002167",
+          "name": "东方锆业",
           "status": "above",
-          "ma20": 63.127,
-          "close": 77.83,
-          "change_pct": 7.0,
-          "deviation": 23.29,
+          "ma20": 15.339,
+          "close": 22.77,
+          "change_pct": 6.1,
+          "deviation": 48.44,
           "above_streak": 12,
           "below_streak": 0,
-          "deviation_alert": null
+          "deviation_alert": "warn"
+        },
+        {
+          "code": "603588",
+          "name": "高能环境",
+          "status": "above",
+          "ma20": 14.696,
+          "close": 19.6,
+          "change_pct": 6.0,
+          "deviation": 33.37,
+          "above_streak": 12,
+          "below_streak": 0,
+          "deviation_alert": "warn"
         },
         {
           "code": "000510",
           "name": "新金路",
           "status": "above",
-          "ma20": 20.157,
-          "close": 26.03,
-          "change_pct": 6.11,
-          "deviation": 29.14,
+          "ma20": 20.155,
+          "close": 26.0,
+          "change_pct": 5.99,
+          "deviation": 29.0,
           "above_streak": 10,
           "below_streak": 0,
           "deviation_alert": null
@@ -249,35 +273,11 @@
           "code": "002428",
           "name": "云南锗业",
           "status": "above",
-          "ma20": 95.746,
-          "close": 130.46,
-          "change_pct": 5.99,
-          "deviation": 36.26,
+          "ma20": 95.728,
+          "close": 130.1,
+          "change_pct": 5.7,
+          "deviation": 35.91,
           "above_streak": 9,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "603588",
-          "name": "高能环境",
-          "status": "above",
-          "ma20": 14.695,
-          "close": 19.59,
-          "change_pct": 5.95,
-          "deviation": 33.31,
-          "above_streak": 12,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "002167",
-          "name": "东方锆业",
-          "status": "above",
-          "ma20": 15.335,
-          "close": 22.69,
-          "change_pct": 5.73,
-          "deviation": 47.96,
-          "above_streak": 12,
           "below_streak": 0,
           "deviation_alert": "warn"
         },
@@ -285,11 +285,35 @@
           "code": "000657",
           "name": "中钨高新",
           "status": "above",
-          "ma20": 81.761,
-          "close": 105.54,
-          "change_pct": 5.46,
-          "deviation": 29.08,
+          "ma20": 81.768,
+          "close": 105.68,
+          "change_pct": 5.6,
+          "deviation": 29.24,
           "above_streak": 24,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "002057",
+          "name": "中钢天源",
+          "status": "above",
+          "ma20": 10.947,
+          "close": 12.52,
+          "change_pct": 4.42,
+          "deviation": 14.37,
+          "above_streak": 12,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "600459",
+          "name": "贵研铂业",
+          "status": "above",
+          "ma20": 24.825,
+          "close": 26.86,
+          "change_pct": 4.11,
+          "deviation": 8.2,
+          "above_streak": 17,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -298,22 +322,10 @@
           "name": "川发龙蟒",
           "status": "above",
           "ma20": 8.896,
-          "close": 10.3,
-          "change_pct": 4.25,
-          "deviation": 15.78,
+          "close": 10.28,
+          "change_pct": 4.05,
+          "deviation": 15.56,
           "above_streak": 4,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002057",
-          "name": "中钢天源",
-          "status": "above",
-          "ma20": 10.946,
-          "close": 12.49,
-          "change_pct": 4.17,
-          "deviation": 14.11,
-          "above_streak": 12,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -321,23 +333,23 @@
           "code": "002378",
           "name": "章源钨业",
           "status": "above",
-          "ma20": 33.334,
-          "close": 38.48,
-          "change_pct": 3.97,
-          "deviation": 15.44,
+          "ma20": 33.335,
+          "close": 38.5,
+          "change_pct": 4.03,
+          "deviation": 15.49,
           "above_streak": 11,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "600459",
-          "name": "贵研铂业",
+          "code": "600367",
+          "name": "红星发展",
           "status": "above",
-          "ma20": 24.82,
-          "close": 26.78,
-          "change_pct": 3.8,
-          "deviation": 7.89,
-          "above_streak": 17,
+          "ma20": 49.964,
+          "close": 52.98,
+          "change_pct": 3.88,
+          "deviation": 6.04,
+          "above_streak": 30,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -345,10 +357,10 @@
           "code": "600549",
           "name": "厦门钨业",
           "status": "above",
-          "ma20": 69.071,
-          "close": 85.84,
-          "change_pct": 3.38,
-          "deviation": 24.28,
+          "ma20": 69.072,
+          "close": 85.86,
+          "change_pct": 3.41,
+          "deviation": 24.3,
           "above_streak": 16,
           "below_streak": 0,
           "deviation_alert": null
@@ -358,34 +370,10 @@
           "name": "宁波韵升",
           "status": "above",
           "ma20": 13.584,
-          "close": 15.82,
-          "change_pct": 3.2,
-          "deviation": 16.46,
+          "close": 15.83,
+          "change_pct": 3.26,
+          "deviation": 16.53,
           "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600367",
-          "name": "红星发展",
-          "status": "above",
-          "ma20": 49.941,
-          "close": 52.52,
-          "change_pct": 2.98,
-          "deviation": 5.16,
-          "above_streak": 30,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002785",
-          "name": "万里石",
-          "status": "above",
-          "ma20": 41.684,
-          "close": 44.62,
-          "change_pct": 2.72,
-          "deviation": 7.04,
-          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -393,11 +381,35 @@
           "code": "000969",
           "name": "安泰科技",
           "status": "above",
-          "ma20": 23.525,
-          "close": 26.5,
-          "change_pct": 2.36,
-          "deviation": 12.65,
+          "ma20": 23.526,
+          "close": 26.53,
+          "change_pct": 2.47,
+          "deviation": 12.77,
           "above_streak": 9,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "002785",
+          "name": "万里石",
+          "status": "above",
+          "ma20": 41.678,
+          "close": 44.5,
+          "change_pct": 2.44,
+          "deviation": 6.77,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "600392",
+          "name": "盛和资源",
+          "status": "above",
+          "ma20": 26.247,
+          "close": 32.2,
+          "change_pct": 1.9,
+          "deviation": 22.68,
+          "above_streak": 10,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -414,28 +426,28 @@
           "deviation_alert": null
         },
         {
-          "code": "600392",
-          "name": "盛和资源",
+          "code": "600497",
+          "name": "驰宏锌锗",
           "status": "above",
-          "ma20": 26.245,
-          "close": 32.17,
-          "change_pct": 1.8,
-          "deviation": 22.58,
-          "above_streak": 10,
+          "ma20": 9.843,
+          "close": 12.31,
+          "change_pct": 1.74,
+          "deviation": 25.06,
+          "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "600497",
-          "name": "驰宏锌锗",
+          "code": "603407",
+          "name": "长裕集团",
           "status": "above",
-          "ma20": 9.842,
-          "close": 12.3,
-          "change_pct": 1.65,
-          "deviation": 24.97,
-          "above_streak": 8,
+          "ma20": 62.295,
+          "close": 91.87,
+          "change_pct": 1.46,
+          "deviation": 47.48,
+          "above_streak": 7,
           "below_streak": 0,
-          "deviation_alert": null
+          "deviation_alert": "warn"
         },
         {
           "code": "002213",
@@ -446,18 +458,6 @@
           "change_pct": 1.14,
           "deviation": 5.53,
           "above_streak": 8,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002601",
-          "name": "龙佰集团",
-          "status": "above",
-          "ma20": 15.18,
-          "close": 17.46,
-          "change_pct": 0.58,
-          "deviation": 15.02,
-          "above_streak": 5,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -474,13 +474,25 @@
           "deviation_alert": null
         },
         {
+          "code": "002601",
+          "name": "龙佰集团",
+          "status": "above",
+          "ma20": 15.179,
+          "close": 17.43,
+          "change_pct": 0.4,
+          "deviation": 14.83,
+          "above_streak": 5,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "600259",
           "name": "中稀有色",
           "status": "above",
-          "ma20": 96.546,
-          "close": 104.48,
-          "change_pct": -0.28,
-          "deviation": 8.22,
+          "ma20": 96.567,
+          "close": 104.89,
+          "change_pct": 0.11,
+          "deviation": 8.62,
           "above_streak": 10,
           "below_streak": 0,
           "deviation_alert": null
@@ -489,23 +501,11 @@
           "code": "001257",
           "name": "盛龙股份",
           "status": "above",
-          "ma20": 27.548,
+          "ma20": 27.61,
           "close": 29.65,
-          "change_pct": -2.56,
-          "deviation": 7.63,
-          "above_streak": 8,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300187",
-          "name": "永清环保",
-          "status": "tangle",
-          "ma20": 5.356,
-          "close": 5.52,
-          "change_pct": 4.74,
-          "deviation": 3.06,
-          "above_streak": 0,
+          "change_pct": 0.0,
+          "deviation": 7.39,
+          "above_streak": 9,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -513,10 +513,10 @@
           "code": "002345",
           "name": "潮宏基",
           "status": "tangle",
-          "ma20": 9.263,
-          "close": 9.14,
-          "change_pct": 1.78,
-          "deviation": -1.33,
+          "ma20": 9.264,
+          "close": 9.15,
+          "change_pct": 1.89,
+          "deviation": -1.23,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -525,10 +525,10 @@
           "code": "603977",
           "name": "国泰集团",
           "status": "tangle",
-          "ma20": 14.024,
-          "close": 14.01,
-          "change_pct": 1.45,
-          "deviation": -0.1,
+          "ma20": 14.025,
+          "close": 14.03,
+          "change_pct": 1.59,
+          "deviation": 0.03,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -538,9 +538,9 @@
           "name": "厦门国贸",
           "status": "tangle",
           "ma20": 5.614,
-          "close": 5.63,
-          "change_pct": 0.72,
-          "deviation": 0.29,
+          "close": 5.64,
+          "change_pct": 0.89,
+          "deviation": 0.46,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -550,9 +550,9 @@
           "name": "金徽股份",
           "status": "tangle",
           "ma20": 16.924,
-          "close": 16.6,
-          "change_pct": 0.61,
-          "deviation": -1.91,
+          "close": 16.59,
+          "change_pct": 0.55,
+          "deviation": -1.97,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -570,13 +570,25 @@
           "deviation_alert": null
         },
         {
+          "code": "600704",
+          "name": "物产中大",
+          "status": "tangle",
+          "ma20": 4.838,
+          "close": 4.94,
+          "change_pct": -0.2,
+          "deviation": 2.11,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "600655",
           "name": "豫园股份",
           "status": "below_d2",
           "ma20": 4.482,
-          "close": 4.25,
-          "change_pct": 0.24,
-          "deviation": -5.19,
+          "close": 4.24,
+          "change_pct": 0.0,
+          "deviation": -5.4,
           "above_streak": 0,
           "below_streak": 2,
           "deviation_alert": null
@@ -585,24 +597,12 @@
           "code": "000655",
           "name": "金岭矿业",
           "status": "below_d2",
-          "ma20": 6.976,
-          "close": 6.69,
-          "change_pct": -0.21,
-          "deviation": -4.1,
+          "ma20": 6.975,
+          "close": 6.67,
+          "change_pct": -0.51,
+          "deviation": -4.37,
           "above_streak": 0,
           "below_streak": 2,
-          "deviation_alert": null
-        },
-        {
-          "code": "601106",
-          "name": "中国一重",
-          "status": "excluded",
-          "ma20": 3.573,
-          "close": 3.36,
-          "change_pct": -0.3,
-          "deviation": -5.96,
-          "above_streak": 0,
-          "below_streak": 27,
           "deviation_alert": null
         },
         {
@@ -610,23 +610,23 @@
           "name": "宏达股份",
           "status": "excluded",
           "ma20": 13.312,
-          "close": 11.76,
-          "change_pct": -0.59,
-          "deviation": -11.66,
+          "close": 11.77,
+          "change_pct": -0.51,
+          "deviation": -11.59,
           "above_streak": 0,
           "below_streak": 29,
           "deviation_alert": null
         },
         {
-          "code": "000850",
-          "name": "华茂股份",
+          "code": "601106",
+          "name": "中国一重",
           "status": "excluded",
-          "ma20": 3.835,
-          "close": 3.61,
-          "change_pct": -0.82,
-          "deviation": -5.85,
+          "ma20": 3.573,
+          "close": 3.35,
+          "change_pct": -0.59,
+          "deviation": -6.23,
           "above_streak": 0,
-          "below_streak": 30,
+          "below_streak": 27,
           "deviation_alert": null
         }
       ],
@@ -1278,13 +1278,25 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 11,
-        "above": 15,
-        "tangle": 15,
+        "breakout_up": 12,
+        "above": 17,
+        "tangle": 14,
         "below_d2": 1,
-        "excluded": 8
+        "excluded": 6
       },
       "stocks": [
+        {
+          "code": "920249",
+          "name": "利尔达",
+          "status": "breakout_up",
+          "ma20": 9.31,
+          "close": 11.14,
+          "change_pct": 29.99,
+          "deviation": 19.65,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
         {
           "code": "000034",
           "name": "神州数码",
@@ -1326,9 +1338,9 @@
           "name": "泽宇智能",
           "status": "breakout_up",
           "ma20": 21.503,
-          "close": 22.6,
-          "change_pct": 8.03,
-          "deviation": 5.1,
+          "close": 22.61,
+          "change_pct": 8.08,
+          "deviation": 5.15,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -1337,10 +1349,10 @@
           "code": "002929",
           "name": "润建股份",
           "status": "breakout_up",
-          "ma20": 64.97,
-          "close": 69.35,
-          "change_pct": 6.53,
-          "deviation": 6.74,
+          "ma20": 64.972,
+          "close": 69.4,
+          "change_pct": 6.61,
+          "deviation": 6.81,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -1349,10 +1361,10 @@
           "code": "300562",
           "name": "乐心医疗",
           "status": "breakout_up",
-          "ma20": 12.17,
-          "close": 13.07,
-          "change_pct": 5.32,
-          "deviation": 7.4,
+          "ma20": 12.169,
+          "close": 13.05,
+          "change_pct": 5.16,
+          "deviation": 7.24,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -1361,22 +1373,10 @@
           "code": "002713",
           "name": "*ST东易",
           "status": "breakout_up",
-          "ma20": 11.192,
-          "close": 12.09,
-          "change_pct": 4.86,
-          "deviation": 8.02,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688387",
-          "name": "信科移动",
-          "status": "breakout_up",
-          "ma20": 16.454,
-          "close": 17.71,
-          "change_pct": 4.73,
-          "deviation": 7.63,
+          "ma20": 11.191,
+          "close": 12.08,
+          "change_pct": 4.77,
+          "deviation": 7.94,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -1394,13 +1394,25 @@
           "deviation_alert": null
         },
         {
+          "code": "920171",
+          "name": "志晟信息",
+          "status": "breakout_up",
+          "ma20": 19.514,
+          "close": 20.33,
+          "change_pct": 3.83,
+          "deviation": 4.18,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "000938",
           "name": "紫光股份",
           "status": "breakout_up",
           "ma20": 27.209,
-          "close": 28.38,
-          "change_pct": 2.6,
-          "deviation": 4.3,
+          "close": 28.39,
+          "change_pct": 2.64,
+          "deviation": 4.34,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -1409,22 +1421,34 @@
           "code": "301269",
           "name": "华大九天",
           "status": "breakout_up",
-          "ma20": 103.787,
-          "close": 110.06,
-          "change_pct": 2.05,
-          "deviation": 6.04,
+          "ma20": 103.79,
+          "close": 110.1,
+          "change_pct": 2.09,
+          "deviation": 6.08,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
+          "code": "002990",
+          "name": "盛视科技",
+          "status": "above",
+          "ma20": 51.486,
+          "close": 72.6,
+          "change_pct": 10.0,
+          "deviation": 41.01,
+          "above_streak": 7,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "300033",
           "name": "同花顺",
           "status": "above",
-          "ma20": 222.331,
-          "close": 258.86,
-          "change_pct": 7.77,
-          "deviation": 16.43,
+          "ma20": 222.338,
+          "close": 259.0,
+          "change_pct": 7.83,
+          "deviation": 16.49,
           "above_streak": 4,
           "below_streak": 0,
           "deviation_alert": null
@@ -1433,10 +1457,10 @@
           "code": "688671",
           "name": "碧兴物联",
           "status": "above",
-          "ma20": 26.273,
-          "close": 33.25,
-          "change_pct": 6.88,
-          "deviation": 26.55,
+          "ma20": 26.276,
+          "close": 33.3,
+          "change_pct": 7.04,
+          "deviation": 26.73,
           "above_streak": 5,
           "below_streak": 0,
           "deviation_alert": null
@@ -1445,23 +1469,11 @@
           "code": "301248",
           "name": "杰创智能",
           "status": "above",
-          "ma20": 74.433,
-          "close": 86.7,
-          "change_pct": 6.72,
-          "deviation": 16.48,
+          "ma20": 74.432,
+          "close": 86.69,
+          "change_pct": 6.71,
+          "deviation": 16.47,
           "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688202",
-          "name": "美迪西",
-          "status": "above",
-          "ma20": 57.207,
-          "close": 71.56,
-          "change_pct": 6.33,
-          "deviation": 25.09,
-          "above_streak": 4,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1470,10 +1482,22 @@
           "name": "京东方A",
           "status": "above",
           "ma20": 6.138,
-          "close": 7.51,
-          "change_pct": 6.22,
-          "deviation": 22.36,
+          "close": 7.52,
+          "change_pct": 6.36,
+          "deviation": 22.52,
           "above_streak": 25,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "688202",
+          "name": "美迪西",
+          "status": "above",
+          "ma20": 57.204,
+          "close": 71.49,
+          "change_pct": 6.23,
+          "deviation": 24.97,
+          "above_streak": 4,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1482,9 +1506,9 @@
           "name": "迪安诊断",
           "status": "above",
           "ma20": 17.678,
-          "close": 19.82,
-          "change_pct": 5.38,
-          "deviation": 12.12,
+          "close": 19.83,
+          "change_pct": 5.43,
+          "deviation": 12.17,
           "above_streak": 5,
           "below_streak": 0,
           "deviation_alert": null
@@ -1493,23 +1517,11 @@
           "code": "300059",
           "name": "东方财富",
           "status": "above",
-          "ma20": 18.999,
-          "close": 21.14,
-          "change_pct": 4.76,
-          "deviation": 11.27,
+          "ma20": 18.997,
+          "close": 21.11,
+          "change_pct": 4.61,
+          "deviation": 11.12,
           "above_streak": 4,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603916",
-          "name": "苏博特",
-          "status": "above",
-          "ma20": 13.893,
-          "close": 15.46,
-          "change_pct": 4.6,
-          "deviation": 11.28,
-          "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1518,10 +1530,22 @@
           "name": "吉宏股份",
           "status": "above",
           "ma20": 22.229,
-          "close": 27.3,
-          "change_pct": 4.48,
-          "deviation": 22.81,
+          "close": 27.29,
+          "change_pct": 4.44,
+          "deviation": 22.77,
           "above_streak": 6,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "603916",
+          "name": "苏博特",
+          "status": "above",
+          "ma20": 13.891,
+          "close": 15.41,
+          "change_pct": 4.26,
+          "deviation": 10.94,
+          "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1529,11 +1553,23 @@
           "code": "300803",
           "name": "指南针",
           "status": "above",
-          "ma20": 91.486,
-          "close": 102.03,
-          "change_pct": 4.09,
-          "deviation": 11.52,
+          "ma20": 91.487,
+          "close": 102.05,
+          "change_pct": 4.11,
+          "deviation": 11.55,
           "above_streak": 7,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920367",
+          "name": "新赣江",
+          "status": "above",
+          "ma20": 16.133,
+          "close": 18.1,
+          "change_pct": 3.08,
+          "deviation": 12.19,
+          "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1541,11 +1577,23 @@
           "code": "688222",
           "name": "成都先导",
           "status": "above",
-          "ma20": 27.49,
-          "close": 31.64,
-          "change_pct": 2.79,
-          "deviation": 15.09,
+          "ma20": 27.489,
+          "close": 31.61,
+          "change_pct": 2.7,
+          "deviation": 14.99,
           "above_streak": 4,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "688387",
+          "name": "信科移动",
+          "status": "above",
+          "ma20": 16.486,
+          "close": 18.13,
+          "change_pct": 2.37,
+          "deviation": 9.97,
+          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1553,10 +1601,10 @@
           "code": "001229",
           "name": "魅视科技",
           "status": "above",
-          "ma20": 27.107,
-          "close": 29.17,
-          "change_pct": 2.28,
-          "deviation": 7.61,
+          "ma20": 27.103,
+          "close": 29.09,
+          "change_pct": 2.0,
+          "deviation": 7.33,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
@@ -1565,35 +1613,23 @@
           "code": "301396",
           "name": "宏景科技",
           "status": "above",
-          "ma20": 199.336,
-          "close": 302.49,
-          "change_pct": 1.64,
-          "deviation": 51.75,
+          "ma20": 199.362,
+          "close": 303.0,
+          "change_pct": 1.81,
+          "deviation": 51.98,
           "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": "strong"
         },
         {
-          "code": "000032",
-          "name": "深桑达A",
+          "code": "603679",
+          "name": "华体科技",
           "status": "above",
-          "ma20": 19.366,
-          "close": 25.7,
-          "change_pct": 1.42,
-          "deviation": 32.71,
-          "above_streak": 9,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "920367",
-          "name": "新赣江",
-          "status": "above",
-          "ma20": 16.037,
-          "close": 17.56,
-          "change_pct": -9.02,
-          "deviation": 9.5,
-          "above_streak": 2,
+          "ma20": 18.571,
+          "close": 21.21,
+          "change_pct": 1.58,
+          "deviation": 14.21,
+          "above_streak": 12,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1601,10 +1637,10 @@
           "code": "002432",
           "name": "九安医疗",
           "status": "tangle",
-          "ma20": 70.376,
-          "close": 71.86,
-          "change_pct": 5.6,
-          "deviation": 2.11,
+          "ma20": 70.375,
+          "close": 71.83,
+          "change_pct": 5.55,
+          "deviation": 2.07,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1613,10 +1649,10 @@
           "code": "603206",
           "name": "嘉环科技",
           "status": "tangle",
-          "ma20": 17.402,
-          "close": 17.93,
-          "change_pct": 4.43,
-          "deviation": 3.04,
+          "ma20": 17.403,
+          "close": 17.95,
+          "change_pct": 4.54,
+          "deviation": 3.15,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1626,9 +1662,9 @@
           "name": "三七互娱",
           "status": "tangle",
           "ma20": 18.533,
-          "close": 18.97,
-          "change_pct": 4.17,
-          "deviation": 2.36,
+          "close": 18.96,
+          "change_pct": 4.12,
+          "deviation": 2.31,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1649,46 +1685,10 @@
           "code": "688411",
           "name": "海博思创",
           "status": "tangle",
-          "ma20": 270.496,
-          "close": 275.7,
-          "change_pct": 3.57,
-          "deviation": 1.92,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300081",
-          "name": "ST恒信",
-          "status": "tangle",
-          "ma20": 4.111,
-          "close": 4.13,
-          "change_pct": 3.25,
-          "deviation": 0.46,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "601519",
-          "name": "大智慧",
-          "status": "tangle",
-          "ma20": 9.246,
-          "close": 9.48,
-          "change_pct": 2.82,
-          "deviation": 2.53,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "000063",
-          "name": "中兴通讯",
-          "status": "tangle",
-          "ma20": 37.616,
-          "close": 38.45,
-          "change_pct": 2.75,
-          "deviation": 2.22,
+          "ma20": 270.506,
+          "close": 275.89,
+          "change_pct": 3.64,
+          "deviation": 1.99,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1697,10 +1697,58 @@
           "code": "002605",
           "name": "姚记科技",
           "status": "tangle",
-          "ma20": 18.523,
-          "close": 18.97,
-          "change_pct": 2.71,
-          "deviation": 2.41,
+          "ma20": 18.524,
+          "close": 18.98,
+          "change_pct": 2.76,
+          "deviation": 2.46,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "300081",
+          "name": "ST恒信",
+          "status": "tangle",
+          "ma20": 4.11,
+          "close": 4.11,
+          "change_pct": 2.75,
+          "deviation": 0.0,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "000063",
+          "name": "中兴通讯",
+          "status": "tangle",
+          "ma20": 37.615,
+          "close": 38.44,
+          "change_pct": 2.73,
+          "deviation": 2.19,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "301208",
+          "name": "中亦科技",
+          "status": "tangle",
+          "ma20": 29.785,
+          "close": 30.46,
+          "change_pct": 2.7,
+          "deviation": 2.27,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "600690",
+          "name": "海尔智家",
+          "status": "tangle",
+          "ma20": 20.4,
+          "close": 19.86,
+          "change_pct": 2.69,
+          "deviation": -2.65,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1718,25 +1766,13 @@
           "deviation_alert": null
         },
         {
-          "code": "600690",
-          "name": "海尔智家",
+          "code": "601519",
+          "name": "大智慧",
           "status": "tangle",
-          "ma20": 20.4,
-          "close": 19.85,
-          "change_pct": 2.64,
-          "deviation": -2.69,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301208",
-          "name": "中亦科技",
-          "status": "tangle",
-          "ma20": 29.783,
-          "close": 30.42,
-          "change_pct": 2.56,
-          "deviation": 2.14,
+          "ma20": 9.245,
+          "close": 9.45,
+          "change_pct": 2.49,
+          "deviation": 2.22,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1745,10 +1781,10 @@
           "code": "002236",
           "name": "大华股份",
           "status": "tangle",
-          "ma20": 16.501,
-          "close": 16.68,
-          "change_pct": 2.02,
-          "deviation": 1.09,
+          "ma20": 16.5,
+          "close": 16.67,
+          "change_pct": 1.96,
+          "deviation": 1.03,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1757,22 +1793,10 @@
           "code": "603977",
           "name": "国泰集团",
           "status": "tangle",
-          "ma20": 14.024,
-          "close": 14.01,
-          "change_pct": 1.45,
-          "deviation": -0.1,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920171",
-          "name": "志晟信息",
-          "status": "tangle",
-          "ma20": 19.48,
-          "close": 19.58,
-          "change_pct": -4.02,
-          "deviation": 0.52,
+          "ma20": 14.025,
+          "close": 14.03,
+          "change_pct": 1.59,
+          "deviation": 0.03,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1790,13 +1814,25 @@
           "deviation_alert": null
         },
         {
+          "code": "001330",
+          "name": "博纳影业",
+          "status": "excluded",
+          "ma20": 7.4,
+          "close": 6.93,
+          "change_pct": 10.0,
+          "deviation": -6.35,
+          "above_streak": 0,
+          "below_streak": 17,
+          "deviation_alert": null
+        },
+        {
           "code": "002624",
           "name": "完美世界",
           "status": "excluded",
-          "ma20": 13.117,
-          "close": 11.95,
-          "change_pct": 4.55,
-          "deviation": -8.89,
+          "ma20": 13.115,
+          "close": 11.92,
+          "change_pct": 4.29,
+          "deviation": -9.11,
           "above_streak": 0,
           "below_streak": 10,
           "deviation_alert": null
@@ -1806,9 +1842,9 @@
           "name": "世纪华通",
           "status": "excluded",
           "ma20": 14.18,
-          "close": 13.75,
-          "change_pct": 4.25,
-          "deviation": -3.03,
+          "close": 13.74,
+          "change_pct": 4.17,
+          "deviation": -3.1,
           "above_streak": 0,
           "below_streak": 8,
           "deviation_alert": null
@@ -1817,24 +1853,12 @@
           "code": "600730",
           "name": "*ST高科",
           "status": "excluded",
-          "ma20": 12.905,
-          "close": 10.71,
-          "change_pct": 3.28,
-          "deviation": -17.01,
+          "ma20": 12.908,
+          "close": 10.77,
+          "change_pct": 3.86,
+          "deviation": -16.57,
           "above_streak": 0,
           "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300628",
-          "name": "亿联网络",
-          "status": "excluded",
-          "ma20": 35.48,
-          "close": 33.79,
-          "change_pct": 1.72,
-          "deviation": -4.76,
-          "above_streak": 0,
-          "below_streak": 13,
           "deviation_alert": null
         },
         {
@@ -1850,39 +1874,15 @@
           "deviation_alert": null
         },
         {
-          "code": "300760",
-          "name": "迈瑞医疗",
+          "code": "300628",
+          "name": "亿联网络",
           "status": "excluded",
-          "ma20": 144.325,
-          "close": 138.69,
-          "change_pct": 1.43,
-          "deviation": -3.9,
+          "ma20": 35.479,
+          "close": 33.75,
+          "change_pct": 1.6,
+          "deviation": -4.87,
           "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "001330",
-          "name": "博纳影业",
-          "status": "excluded",
-          "ma20": 7.519,
-          "close": 6.3,
-          "change_pct": -1.87,
-          "deviation": -16.21,
-          "above_streak": 0,
-          "below_streak": 16,
-          "deviation_alert": null
-        },
-        {
-          "code": "920249",
-          "name": "利尔达",
-          "status": "excluded",
-          "ma20": 9.19,
-          "close": 8.57,
-          "change_pct": -2.72,
-          "deviation": -6.75,
-          "above_streak": 0,
-          "below_streak": 4,
+          "below_streak": 13,
           "deviation_alert": null
         }
       ],
@@ -2534,20 +2534,20 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 17,
+        "breakout_up": 18,
         "above": 29,
         "tangle": 2,
-        "excluded": 2
+        "excluded": 1
       },
       "stocks": [
         {
           "code": "300323",
           "name": "华灿光电",
           "status": "breakout_up",
-          "ma20": 16.307,
-          "close": 18.4,
-          "change_pct": 12.06,
-          "deviation": 12.83,
+          "ma20": 16.303,
+          "close": 18.32,
+          "change_pct": 11.57,
+          "deviation": 12.37,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2589,6 +2589,18 @@
           "deviation_alert": null
         },
         {
+          "code": "603459",
+          "name": "红板科技",
+          "status": "breakout_up",
+          "ma20": 91.168,
+          "close": 94.96,
+          "change_pct": 10.0,
+          "deviation": 4.16,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002335",
           "name": "科华数据",
           "status": "breakout_up",
@@ -2601,13 +2613,13 @@
           "deviation_alert": null
         },
         {
-          "code": "300911",
-          "name": "亿田智能",
+          "code": "301282",
+          "name": "金禄电子",
           "status": "breakout_up",
-          "ma20": 23.329,
-          "close": 24.83,
-          "change_pct": 7.16,
-          "deviation": 6.43,
+          "ma20": 28.964,
+          "close": 30.31,
+          "change_pct": 6.69,
+          "deviation": 4.65,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2616,10 +2628,10 @@
           "code": "002929",
           "name": "润建股份",
           "status": "breakout_up",
-          "ma20": 64.971,
-          "close": 69.38,
-          "change_pct": 6.57,
-          "deviation": 6.79,
+          "ma20": 64.972,
+          "close": 69.4,
+          "change_pct": 6.61,
+          "deviation": 6.81,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2637,13 +2649,13 @@
           "deviation_alert": null
         },
         {
-          "code": "301282",
-          "name": "金禄电子",
+          "code": "300911",
+          "name": "亿田智能",
           "status": "breakout_up",
-          "ma20": 28.962,
-          "close": 30.27,
-          "change_pct": 6.55,
-          "deviation": 4.51,
+          "ma20": 23.318,
+          "close": 24.6,
+          "change_pct": 6.17,
+          "deviation": 5.5,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2653,9 +2665,21 @@
           "name": "浪潮信息",
           "status": "breakout_up",
           "ma20": 63.073,
-          "close": 68.58,
-          "change_pct": 5.83,
-          "deviation": 8.73,
+          "close": 68.57,
+          "change_pct": 5.82,
+          "deviation": 8.72,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "002733",
+          "name": "雄韬股份",
+          "status": "breakout_up",
+          "ma20": 33.596,
+          "close": 34.71,
+          "change_pct": 5.76,
+          "deviation": 3.32,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2665,21 +2689,9 @@
           "name": "商络电子",
           "status": "breakout_up",
           "ma20": 40.969,
-          "close": 42.91,
-          "change_pct": 5.69,
-          "deviation": 4.74,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002733",
-          "name": "雄韬股份",
-          "status": "breakout_up",
-          "ma20": 33.594,
-          "close": 34.67,
-          "change_pct": 5.64,
-          "deviation": 3.2,
+          "close": 42.92,
+          "change_pct": 5.71,
+          "deviation": 4.76,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2688,10 +2700,10 @@
           "code": "300739",
           "name": "明阳电路",
           "status": "breakout_up",
-          "ma20": 30.976,
-          "close": 33.73,
-          "change_pct": 5.47,
-          "deviation": 8.89,
+          "ma20": 30.977,
+          "close": 33.74,
+          "change_pct": 5.5,
+          "deviation": 8.92,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2733,16 +2745,28 @@
           "deviation_alert": null
         },
         {
-          "code": "002815",
-          "name": "崇达技术",
+          "code": "603843",
+          "name": "*ST正平",
           "status": "breakout_up",
-          "ma20": 17.954,
-          "close": 18.73,
-          "change_pct": 4.0,
-          "deviation": 4.32,
+          "ma20": 8.33,
+          "close": 8.73,
+          "change_pct": 4.3,
+          "deviation": 4.8,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "688521",
+          "name": "芯原股份",
+          "status": "above",
+          "ma20": 251.54,
+          "close": 338.05,
+          "change_pct": 12.35,
+          "deviation": 34.39,
+          "above_streak": 6,
+          "below_streak": 0,
+          "deviation_alert": "warn"
         },
         {
           "code": "002579",
@@ -2805,6 +2829,18 @@
           "deviation_alert": "warn"
         },
         {
+          "code": "600522",
+          "name": "中天科技",
+          "status": "above",
+          "ma20": 51.125,
+          "close": 68.1,
+          "change_pct": 10.0,
+          "deviation": 33.2,
+          "above_streak": 17,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "002484",
           "name": "江海股份",
           "status": "above",
@@ -2853,18 +2889,6 @@
           "deviation_alert": null
         },
         {
-          "code": "600522",
-          "name": "中天科技",
-          "status": "above",
-          "ma20": 51.123,
-          "close": 68.06,
-          "change_pct": 9.93,
-          "deviation": 33.13,
-          "above_streak": 17,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
           "code": "300613",
           "name": "富瀚微",
           "status": "above",
@@ -2904,10 +2928,10 @@
           "code": "300252",
           "name": "金信诺",
           "status": "above",
-          "ma20": 16.734,
-          "close": 18.61,
-          "change_pct": 6.95,
-          "deviation": 11.21,
+          "ma20": 16.735,
+          "close": 18.62,
+          "change_pct": 7.01,
+          "deviation": 11.27,
           "above_streak": 10,
           "below_streak": 0,
           "deviation_alert": null
@@ -2916,10 +2940,10 @@
           "code": "688041",
           "name": "海光信息",
           "status": "above",
-          "ma20": 298.222,
-          "close": 360.32,
-          "change_pct": 6.89,
-          "deviation": 20.82,
+          "ma20": 298.22,
+          "close": 360.28,
+          "change_pct": 6.88,
+          "deviation": 20.81,
           "above_streak": 6,
           "below_streak": 0,
           "deviation_alert": null
@@ -2941,10 +2965,22 @@
           "name": "杰创智能",
           "status": "above",
           "ma20": 74.432,
-          "close": 86.68,
-          "change_pct": 6.7,
-          "deviation": 16.46,
+          "close": 86.69,
+          "change_pct": 6.71,
+          "deviation": 16.47,
           "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "603011",
+          "name": "合锻智能",
+          "status": "above",
+          "ma20": 32.032,
+          "close": 35.51,
+          "change_pct": 6.57,
+          "deviation": 10.86,
+          "above_streak": 20,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -2961,98 +2997,50 @@
           "deviation_alert": null
         },
         {
-          "code": "603011",
-          "name": "合锻智能",
-          "status": "above",
-          "ma20": 32.03,
-          "close": 35.46,
-          "change_pct": 6.42,
-          "deviation": 10.71,
-          "above_streak": 20,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "600105",
           "name": "永鼎股份",
           "status": "above",
           "ma20": 56.192,
-          "close": 72.97,
-          "change_pct": 6.15,
-          "deviation": 29.86,
+          "close": 72.96,
+          "change_pct": 6.14,
+          "deviation": 29.84,
           "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
-        },
-        {
-          "code": "301536",
-          "name": "星宸科技",
-          "status": "above",
-          "ma20": 95.15,
-          "close": 128.85,
-          "change_pct": 5.98,
-          "deviation": 35.42,
-          "above_streak": 9,
-          "below_streak": 0,
-          "deviation_alert": "warn"
         },
         {
           "code": "300475",
           "name": "香农芯创",
           "status": "above",
-          "ma20": 210.024,
-          "close": 306.24,
+          "ma20": 210.025,
+          "close": 306.25,
           "change_pct": 5.75,
-          "deviation": 45.81,
+          "deviation": 45.82,
           "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": "warn"
         },
         {
-          "code": "688521",
-          "name": "芯原股份",
+          "code": "301536",
+          "name": "星宸科技",
           "status": "above",
-          "ma20": 247.26,
-          "close": 300.9,
-          "change_pct": 5.58,
-          "deviation": 21.69,
-          "above_streak": 5,
+          "ma20": 95.1,
+          "close": 127.85,
+          "change_pct": 5.16,
+          "deviation": 34.44,
+          "above_streak": 9,
           "below_streak": 0,
-          "deviation_alert": null
+          "deviation_alert": "warn"
         },
         {
-          "code": "688385",
-          "name": "复旦微电",
+          "code": "301682",
+          "name": "宏明电子",
           "status": "above",
-          "ma20": 57.792,
-          "close": 64.15,
-          "change_pct": 5.49,
-          "deviation": 11.0,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "003018",
-          "name": "金富科技",
-          "status": "above",
-          "ma20": 60.626,
-          "close": 78.01,
-          "change_pct": 5.26,
-          "deviation": 28.67,
+          "ma20": 174.491,
+          "close": 188.88,
+          "change_pct": 5.1,
+          "deviation": 8.25,
           "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300088",
-          "name": "长信科技",
-          "status": "above",
-          "ma20": 8.601,
-          "close": 10.3,
-          "change_pct": 4.99,
-          "deviation": 19.76,
-          "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -3069,26 +3057,50 @@
           "deviation_alert": null
         },
         {
-          "code": "920808",
-          "name": "曙光数创",
+          "code": "688385",
+          "name": "复旦微电",
           "status": "above",
-          "ma20": 76.552,
-          "close": 82.96,
-          "change_pct": 2.55,
-          "deviation": 8.37,
+          "ma20": 57.776,
+          "close": 63.83,
+          "change_pct": 4.97,
+          "deviation": 10.48,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "301682",
-          "name": "宏明电子",
+          "code": "300088",
+          "name": "长信科技",
           "status": "above",
-          "ma20": 173.137,
-          "close": 179.71,
-          "change_pct": 0.26,
-          "deviation": 3.8,
-          "above_streak": 6,
+          "ma20": 8.6,
+          "close": 10.29,
+          "change_pct": 4.89,
+          "deviation": 19.65,
+          "above_streak": 8,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920808",
+          "name": "曙光数创",
+          "status": "above",
+          "ma20": 77.083,
+          "close": 86.96,
+          "change_pct": 4.82,
+          "deviation": 12.81,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "003018",
+          "name": "金富科技",
+          "status": "above",
+          "ma20": 60.607,
+          "close": 77.62,
+          "change_pct": 4.74,
+          "deviation": 28.07,
+          "above_streak": 7,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -3120,24 +3132,12 @@
           "code": "002602",
           "name": "世纪华通",
           "status": "excluded",
-          "ma20": 14.181,
-          "close": 13.76,
-          "change_pct": 4.32,
-          "deviation": -2.97,
+          "ma20": 14.18,
+          "close": 13.74,
+          "change_pct": 4.17,
+          "deviation": -3.1,
           "above_streak": 0,
           "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "603459",
-          "name": "红板科技",
-          "status": "excluded",
-          "ma20": 91.62,
-          "close": 86.33,
-          "change_pct": -1.9,
-          "deviation": -5.77,
-          "above_streak": 0,
-          "below_streak": 12,
           "deviation_alert": null
         }
       ],
@@ -3779,21 +3779,32 @@
       "matched_symbol": "芯片概念",
       "matched_code": "301085",
       "index_symbol": "芯片概念",
-      "member_source": "html:301085(48)",
+      "member_source": "html:301085(50)",
       "status": "bullish",
       "ma20": 5378.36,
       "close": 5758.45,
       "deviation": 7.07,
-      "source_stock_count": 48,
-      "processed_stock_count": 48,
-      "classified_stock_count": 48,
+      "source_stock_count": 50,
+      "processed_stock_count": 50,
+      "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 12,
-        "above": 34,
-        "excluded": 2
+        "breakout_up": 14,
+        "above": 36
       },
       "stocks": [
+        {
+          "code": "920249",
+          "name": "利尔达",
+          "status": "breakout_up",
+          "ma20": 9.31,
+          "close": 11.14,
+          "change_pct": 29.99,
+          "deviation": 19.65,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
         {
           "code": "300650",
           "name": "太龙股份",
@@ -3822,10 +3833,10 @@
           "code": "688115",
           "name": "思林杰",
           "status": "breakout_up",
-          "ma20": 55.211,
-          "close": 66.29,
-          "change_pct": 18.16,
-          "deviation": 20.07,
+          "ma20": 55.215,
+          "close": 66.36,
+          "change_pct": 18.29,
+          "deviation": 20.19,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3843,18 +3854,6 @@
           "deviation_alert": null
         },
         {
-          "code": "300323",
-          "name": "华灿光电",
-          "status": "breakout_up",
-          "ma20": 16.307,
-          "close": 18.4,
-          "change_pct": 12.06,
-          "deviation": 12.83,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "688592",
           "name": "司南导航",
           "status": "breakout_up",
@@ -3867,13 +3866,25 @@
           "deviation_alert": null
         },
         {
+          "code": "300323",
+          "name": "华灿光电",
+          "status": "breakout_up",
+          "ma20": 16.303,
+          "close": 18.32,
+          "change_pct": 11.57,
+          "deviation": 12.37,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "688028",
           "name": "沃尔德",
           "status": "breakout_up",
-          "ma20": 115.143,
-          "close": 128.14,
-          "change_pct": 10.27,
-          "deviation": 11.29,
+          "ma20": 115.144,
+          "close": 128.16,
+          "change_pct": 10.28,
+          "deviation": 11.3,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3922,6 +3933,18 @@
           "close": 27.94,
           "change_pct": 10.0,
           "deviation": 11.23,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "603459",
+          "name": "红板科技",
+          "status": "breakout_up",
+          "ma20": 91.168,
+          "close": 94.96,
+          "change_pct": 10.0,
+          "deviation": 4.16,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3978,10 +4001,10 @@
           "code": "688025",
           "name": "杰普特",
           "status": "above",
-          "ma20": 404.782,
-          "close": 498.38,
-          "change_pct": 18.96,
-          "deviation": 23.12,
+          "ma20": 404.778,
+          "close": 498.29,
+          "change_pct": 18.94,
+          "deviation": 23.1,
           "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
@@ -3990,10 +4013,10 @@
           "code": "301418",
           "name": "协昌科技",
           "status": "above",
-          "ma20": 46.189,
-          "close": 54.41,
-          "change_pct": 16.19,
-          "deviation": 17.8,
+          "ma20": 46.2,
+          "close": 54.63,
+          "change_pct": 16.66,
+          "deviation": 18.25,
           "above_streak": 16,
           "below_streak": 0,
           "deviation_alert": null
@@ -4002,10 +4025,10 @@
           "code": "688525",
           "name": "佰维存储",
           "status": "above",
-          "ma20": 345.772,
-          "close": 480.28,
+          "ma20": 345.773,
+          "close": 480.3,
           "change_pct": 15.18,
-          "deviation": 38.9,
+          "deviation": 38.91,
           "above_streak": 10,
           "below_streak": 0,
           "deviation_alert": "warn"
@@ -4026,10 +4049,10 @@
           "code": "688403",
           "name": "汇成股份",
           "status": "above",
-          "ma20": 25.791,
-          "close": 41.38,
-          "change_pct": 14.31,
-          "deviation": 60.44,
+          "ma20": 25.787,
+          "close": 41.3,
+          "change_pct": 14.09,
+          "deviation": 60.16,
           "above_streak": 14,
           "below_streak": 0,
           "deviation_alert": "strong"
@@ -4038,35 +4061,11 @@
           "code": "688545",
           "name": "兴福电子",
           "status": "above",
-          "ma20": 96.105,
-          "close": 125.89,
-          "change_pct": 14.19,
-          "deviation": 30.99,
+          "ma20": 96.096,
+          "close": 125.7,
+          "change_pct": 14.01,
+          "deviation": 30.81,
           "above_streak": 11,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "688123",
-          "name": "聚辰股份",
-          "status": "above",
-          "ma20": 135.877,
-          "close": 188.08,
-          "change_pct": 13.38,
-          "deviation": 38.42,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "301013",
-          "name": "利和兴",
-          "status": "above",
-          "ma20": 59.632,
-          "close": 84.9,
-          "change_pct": 13.28,
-          "deviation": 42.37,
-          "above_streak": 30,
           "below_streak": 0,
           "deviation_alert": "warn"
         },
@@ -4074,25 +4073,73 @@
           "code": "301392",
           "name": "汇成真空",
           "status": "above",
-          "ma20": 179.862,
-          "close": 226.0,
-          "change_pct": 13.0,
-          "deviation": 25.65,
+          "ma20": 179.912,
+          "close": 227.01,
+          "change_pct": 13.5,
+          "deviation": 26.18,
           "above_streak": 6,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
+          "code": "301013",
+          "name": "利和兴",
+          "status": "above",
+          "ma20": 59.632,
+          "close": 84.91,
+          "change_pct": 13.29,
+          "deviation": 42.39,
+          "above_streak": 30,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
+          "code": "688123",
+          "name": "聚辰股份",
+          "status": "above",
+          "ma20": 135.863,
+          "close": 187.8,
+          "change_pct": 13.21,
+          "deviation": 38.23,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "300077",
           "name": "国民技术",
           "status": "above",
-          "ma20": 23.638,
-          "close": 29.02,
-          "change_pct": 12.57,
-          "deviation": 22.77,
+          "ma20": 23.639,
+          "close": 29.03,
+          "change_pct": 12.61,
+          "deviation": 22.81,
           "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "300120",
+          "name": "经纬辉开",
+          "status": "above",
+          "ma20": 8.9,
+          "close": 11.02,
+          "change_pct": 12.45,
+          "deviation": 23.82,
+          "above_streak": 4,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "688521",
+          "name": "芯原股份",
+          "status": "above",
+          "ma20": 251.54,
+          "close": 338.05,
+          "change_pct": 12.35,
+          "deviation": 34.39,
+          "above_streak": 6,
+          "below_streak": 0,
+          "deviation_alert": "warn"
         },
         {
           "code": "300747",
@@ -4110,13 +4157,25 @@
           "code": "301678",
           "name": "新恒汇",
           "status": "above",
-          "ma20": 57.683,
-          "close": 67.37,
-          "change_pct": 11.82,
-          "deviation": 16.79,
+          "ma20": 57.684,
+          "close": 67.38,
+          "change_pct": 11.83,
+          "deviation": 16.81,
           "above_streak": 6,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "920725",
+          "name": "惠丰钻石",
+          "status": "above",
+          "ma20": 81.627,
+          "close": 122.0,
+          "change_pct": 10.18,
+          "deviation": 49.46,
+          "above_streak": 24,
+          "below_streak": 0,
+          "deviation_alert": "warn"
         },
         {
           "code": "000100",
@@ -4287,6 +4346,18 @@
           "deviation_alert": null
         },
         {
+          "code": "600522",
+          "name": "中天科技",
+          "status": "above",
+          "ma20": 51.125,
+          "close": 68.1,
+          "change_pct": 10.0,
+          "deviation": 33.2,
+          "above_streak": 17,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "603019",
           "name": "中科曙光",
           "status": "above",
@@ -4320,54 +4391,6 @@
           "deviation": 14.09,
           "above_streak": 8,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "605589",
-          "name": "圣泉集团",
-          "status": "above",
-          "ma20": 59.156,
-          "close": 72.96,
-          "change_pct": 10.0,
-          "deviation": 23.34,
-          "above_streak": 30,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688521",
-          "name": "芯原股份",
-          "status": "above",
-          "ma20": 247.26,
-          "close": 300.9,
-          "change_pct": 5.58,
-          "deviation": 21.69,
-          "above_streak": 5,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603459",
-          "name": "红板科技",
-          "status": "excluded",
-          "ma20": 91.62,
-          "close": 86.33,
-          "change_pct": -1.9,
-          "deviation": -5.77,
-          "above_streak": 0,
-          "below_streak": 12,
-          "deviation_alert": null
-        },
-        {
-          "code": "920249",
-          "name": "利尔达",
-          "status": "excluded",
-          "ma20": 9.19,
-          "close": 8.57,
-          "change_pct": -2.72,
-          "deviation": -6.75,
-          "above_streak": 0,
-          "below_streak": 4,
           "deviation_alert": null
         }
       ],
@@ -5008,22 +5031,20 @@
       "name": "商业航天",
       "matched_symbol": "商业航天",
       "matched_code": "309130",
-      "index_symbol": "卫星导航",
+      "index_symbol": "商业航天",
       "member_source": "html:309130(50)",
       "status": "tangle",
-      "ma20": 5000.07,
-      "close": 5006.69,
-      "deviation": 0.13,
+      "ma20": 2413.2,
+      "close": 2431.47,
+      "deviation": 0.76,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 12,
+        "breakout_up": 13,
         "above": 33,
-        "tangle": 3,
-        "below_d2": 1,
-        "excluded": 1
+        "tangle": 4
       },
       "stocks": [
         {
@@ -5051,13 +5072,25 @@
           "deviation_alert": null
         },
         {
+          "code": "603459",
+          "name": "红板科技",
+          "status": "breakout_up",
+          "ma20": 91.168,
+          "close": 94.96,
+          "change_pct": 10.0,
+          "deviation": 4.16,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "001389",
           "name": "广合科技",
           "status": "breakout_up",
-          "ma20": 186.763,
-          "close": 200.9,
-          "change_pct": 9.18,
-          "deviation": 7.57,
+          "ma20": 186.758,
+          "close": 200.8,
+          "change_pct": 9.13,
+          "deviation": 7.52,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5066,10 +5099,10 @@
           "code": "603031",
           "name": "安孚科技",
           "status": "breakout_up",
-          "ma20": 55.636,
-          "close": 57.81,
-          "change_pct": 8.06,
-          "deviation": 3.91,
+          "ma20": 55.637,
+          "close": 57.82,
+          "change_pct": 8.07,
+          "deviation": 3.92,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5090,10 +5123,10 @@
           "code": "002129",
           "name": "TCL中环",
           "status": "breakout_up",
-          "ma20": 9.872,
-          "close": 10.18,
-          "change_pct": 7.16,
-          "deviation": 3.13,
+          "ma20": 9.871,
+          "close": 10.17,
+          "change_pct": 7.05,
+          "deviation": 3.03,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5102,10 +5135,10 @@
           "code": "301282",
           "name": "金禄电子",
           "status": "breakout_up",
-          "ma20": 28.962,
-          "close": 30.27,
-          "change_pct": 6.55,
-          "deviation": 4.51,
+          "ma20": 28.964,
+          "close": 30.31,
+          "change_pct": 6.69,
+          "deviation": 4.65,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5115,9 +5148,9 @@
           "name": "顶固集创",
           "status": "breakout_up",
           "ma20": 22.084,
-          "close": 24.08,
-          "change_pct": 6.31,
-          "deviation": 9.04,
+          "close": 24.07,
+          "change_pct": 6.27,
+          "deviation": 9.0,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5279,6 +5312,18 @@
           "deviation_alert": null
         },
         {
+          "code": "600522",
+          "name": "中天科技",
+          "status": "above",
+          "ma20": 51.125,
+          "close": 68.1,
+          "change_pct": 10.0,
+          "deviation": 33.2,
+          "above_streak": 17,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "605589",
           "name": "圣泉集团",
           "status": "above",
@@ -5303,52 +5348,28 @@
           "deviation_alert": "warn"
         },
         {
-          "code": "600522",
-          "name": "中天科技",
+          "code": "001696",
+          "name": "宗申动力",
           "status": "above",
-          "ma20": 51.123,
-          "close": 68.06,
-          "change_pct": 9.93,
-          "deviation": 33.13,
-          "above_streak": 17,
+          "ma20": 19.351,
+          "close": 25.26,
+          "change_pct": 7.95,
+          "deviation": 30.53,
+          "above_streak": 12,
           "below_streak": 0,
           "deviation_alert": "warn"
-        },
-        {
-          "code": "688333",
-          "name": "铂力特",
-          "status": "above",
-          "ma20": 92.237,
-          "close": 105.5,
-          "change_pct": 7.87,
-          "deviation": 14.38,
-          "above_streak": 5,
-          "below_streak": 0,
-          "deviation_alert": null
         },
         {
           "code": "002046",
           "name": "国机精工",
           "status": "above",
-          "ma20": 60.314,
-          "close": 75.45,
-          "change_pct": 7.86,
-          "deviation": 25.1,
+          "ma20": 60.312,
+          "close": 75.41,
+          "change_pct": 7.81,
+          "deviation": 25.03,
           "above_streak": 13,
           "below_streak": 0,
           "deviation_alert": null
-        },
-        {
-          "code": "001696",
-          "name": "宗申动力",
-          "status": "above",
-          "ma20": 19.35,
-          "close": 25.23,
-          "change_pct": 7.82,
-          "deviation": 30.39,
-          "above_streak": 12,
-          "below_streak": 0,
-          "deviation_alert": "warn"
         },
         {
           "code": "000066",
@@ -5363,13 +5384,25 @@
           "deviation_alert": null
         },
         {
+          "code": "688333",
+          "name": "铂力特",
+          "status": "above",
+          "ma20": 92.211,
+          "close": 104.98,
+          "change_pct": 7.34,
+          "deviation": 13.85,
+          "above_streak": 5,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300285",
           "name": "国瓷材料",
           "status": "above",
-          "ma20": 69.273,
-          "close": 98.25,
-          "change_pct": 7.12,
-          "deviation": 41.83,
+          "ma20": 69.28,
+          "close": 98.4,
+          "change_pct": 7.28,
+          "deviation": 42.03,
           "above_streak": 30,
           "below_streak": 0,
           "deviation_alert": "warn"
@@ -5378,10 +5411,10 @@
           "code": "000733",
           "name": "振华科技",
           "status": "above",
-          "ma20": 54.454,
-          "close": 60.89,
-          "change_pct": 7.01,
-          "deviation": 11.82,
+          "ma20": 54.455,
+          "close": 60.9,
+          "change_pct": 7.03,
+          "deviation": 11.84,
           "above_streak": 7,
           "below_streak": 0,
           "deviation_alert": null
@@ -5390,23 +5423,11 @@
           "code": "300252",
           "name": "金信诺",
           "status": "above",
-          "ma20": 16.734,
-          "close": 18.61,
-          "change_pct": 6.95,
-          "deviation": 11.21,
+          "ma20": 16.735,
+          "close": 18.62,
+          "change_pct": 7.01,
+          "deviation": 11.27,
           "above_streak": 10,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002436",
-          "name": "兴森科技",
-          "status": "above",
-          "ma20": 42.55,
-          "close": 53.48,
-          "change_pct": 6.47,
-          "deviation": 25.69,
-          "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5414,11 +5435,23 @@
           "code": "603011",
           "name": "合锻智能",
           "status": "above",
-          "ma20": 32.03,
-          "close": 35.46,
-          "change_pct": 6.42,
-          "deviation": 10.71,
+          "ma20": 32.032,
+          "close": 35.51,
+          "change_pct": 6.57,
+          "deviation": 10.86,
           "above_streak": 20,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "002436",
+          "name": "兴森科技",
+          "status": "above",
+          "ma20": 42.552,
+          "close": 53.53,
+          "change_pct": 6.57,
+          "deviation": 25.8,
+          "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5439,10 +5472,22 @@
           "name": "永鼎股份",
           "status": "above",
           "ma20": 56.192,
-          "close": 72.97,
-          "change_pct": 6.15,
-          "deviation": 29.86,
+          "close": 72.96,
+          "change_pct": 6.14,
+          "deviation": 29.84,
           "above_streak": 8,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "300943",
+          "name": "春晖智控",
+          "status": "above",
+          "ma20": 38.388,
+          "close": 47.4,
+          "change_pct": 5.76,
+          "deviation": 23.48,
+          "above_streak": 5,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5471,30 +5516,6 @@
           "deviation_alert": null
         },
         {
-          "code": "300943",
-          "name": "春晖智控",
-          "status": "above",
-          "ma20": 38.383,
-          "close": 47.3,
-          "change_pct": 5.53,
-          "deviation": 23.23,
-          "above_streak": 5,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688323",
-          "name": "瑞华泰",
-          "status": "above",
-          "ma20": 44.19,
-          "close": 69.56,
-          "change_pct": 5.43,
-          "deviation": 57.41,
-          "above_streak": 12,
-          "below_streak": 0,
-          "deviation_alert": "strong"
-        },
-        {
           "code": "300433",
           "name": "蓝思科技",
           "status": "above",
@@ -5510,23 +5531,35 @@
           "code": "688048",
           "name": "长光华芯",
           "status": "above",
-          "ma20": 376.026,
-          "close": 441.66,
-          "change_pct": 5.16,
-          "deviation": 17.45,
+          "ma20": 376.033,
+          "close": 441.8,
+          "change_pct": 5.19,
+          "deviation": 17.49,
           "above_streak": 5,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "300088",
-          "name": "长信科技",
+          "code": "688323",
+          "name": "瑞华泰",
           "status": "above",
-          "ma20": 8.601,
-          "close": 10.3,
-          "change_pct": 4.99,
-          "deviation": 19.76,
-          "above_streak": 8,
+          "ma20": 44.182,
+          "close": 69.4,
+          "change_pct": 5.18,
+          "deviation": 57.08,
+          "above_streak": 12,
+          "below_streak": 0,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "301682",
+          "name": "宏明电子",
+          "status": "above",
+          "ma20": 174.491,
+          "close": 188.88,
+          "change_pct": 5.1,
+          "deviation": 8.25,
+          "above_streak": 7,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5534,11 +5567,23 @@
           "code": "605358",
           "name": "立昂微",
           "status": "above",
-          "ma20": 65.503,
-          "close": 70.49,
-          "change_pct": 4.9,
-          "deviation": 7.61,
+          "ma20": 65.504,
+          "close": 70.5,
+          "change_pct": 4.91,
+          "deviation": 7.63,
           "above_streak": 30,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "300088",
+          "name": "长信科技",
+          "status": "above",
+          "ma20": 8.6,
+          "close": 10.29,
+          "change_pct": 4.89,
+          "deviation": 19.65,
+          "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5546,22 +5591,10 @@
           "code": "002049",
           "name": "紫光国微",
           "status": "above",
-          "ma20": 77.714,
-          "close": 87.51,
-          "change_pct": 4.63,
-          "deviation": 12.61,
-          "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301682",
-          "name": "宏明电子",
-          "status": "above",
-          "ma20": 173.137,
-          "close": 179.71,
-          "change_pct": 0.26,
-          "deviation": 3.8,
+          "ma20": 77.713,
+          "close": 87.5,
+          "change_pct": 4.62,
+          "deviation": 12.59,
           "above_streak": 6,
           "below_streak": 0,
           "deviation_alert": null
@@ -5570,10 +5603,10 @@
           "code": "300757",
           "name": "罗博特科",
           "status": "tangle",
-          "ma20": 634.038,
-          "close": 648.0,
-          "change_pct": 7.55,
-          "deviation": 2.2,
+          "ma20": 633.988,
+          "close": 647.0,
+          "change_pct": 7.39,
+          "deviation": 2.05,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -5605,658 +5638,646 @@
         {
           "code": "688220",
           "name": "翱捷科技",
-          "status": "below_d2",
-          "ma20": 99.757,
-          "close": 97.12,
-          "change_pct": -0.09,
-          "deviation": -2.64,
+          "status": "tangle",
+          "ma20": 99.191,
+          "close": 101.68,
+          "change_pct": 4.7,
+          "deviation": 2.51,
           "above_streak": 0,
-          "below_streak": 2,
-          "deviation_alert": null
-        },
-        {
-          "code": "603459",
-          "name": "红板科技",
-          "status": "excluded",
-          "ma20": 91.62,
-          "close": 86.33,
-          "change_pct": -1.9,
-          "deviation": -5.77,
-          "above_streak": 0,
-          "below_streak": 12,
+          "below_streak": 0,
           "deviation_alert": null
         }
       ],
       "klines": [
         {
           "date": "2026-02-04",
-          "open": 5207.977,
-          "high": 5235.075,
-          "low": 5135.29,
-          "close": 5194.603
+          "open": 2496.209,
+          "high": 2521.405,
+          "low": 2474.738,
+          "close": 2503.278
         },
         {
           "date": "2026-02-05",
-          "open": 5132.624,
-          "high": 5196.841,
-          "low": 5118.437,
-          "close": 5140.128
+          "open": 2471.434,
+          "high": 2495.446,
+          "low": 2451.44,
+          "close": 2462.632
         },
         {
           "date": "2026-02-06",
-          "open": 5090.619,
-          "high": 5170.321,
-          "low": 5065.101,
-          "close": 5104.987
+          "open": 2437.922,
+          "high": 2482.813,
+          "low": 2429.811,
+          "close": 2451.798
         },
         {
           "date": "2026-02-09",
-          "open": 5189.584,
-          "high": 5250.341,
-          "low": 5167.768,
-          "close": 5238.392
+          "open": 2491.934,
+          "high": 2514.322,
+          "low": 2479.72,
+          "close": 2509.727
         },
         {
           "date": "2026-02-10",
-          "open": 5242.154,
-          "high": 5248.811,
-          "low": 5186.947,
-          "close": 5219.677
+          "open": 2509.552,
+          "high": 2511.845,
+          "low": 2480.811,
+          "close": 2495.93
         },
         {
           "date": "2026-02-11",
-          "open": 5219.987,
-          "high": 5258.415,
-          "low": 5172.077,
-          "close": 5172.304
+          "open": 2494.238,
+          "high": 2516.86,
+          "low": 2479.904,
+          "close": 2479.923
         },
         {
           "date": "2026-02-12",
-          "open": 5173.276,
-          "high": 5216.544,
-          "low": 5141.068,
-          "close": 5192.941
+          "open": 2479.67,
+          "high": 2507.089,
+          "low": 2465.039,
+          "close": 2495.005
         },
         {
           "date": "2026-02-13",
-          "open": 5175.221,
-          "high": 5230.522,
-          "low": 5156.057,
-          "close": 5157.052
+          "open": 2486.142,
+          "high": 2511.859,
+          "low": 2479.868,
+          "close": 2480.618
         },
         {
           "date": "2026-02-24",
-          "open": 5209.707,
-          "high": 5232.564,
-          "low": 5151.3,
-          "close": 5194.201
+          "open": 2507.282,
+          "high": 2521.424,
+          "low": 2485.267,
+          "close": 2505.955
         },
         {
           "date": "2026-02-25",
-          "open": 5203.81,
-          "high": 5271.185,
-          "low": 5185.15,
-          "close": 5261.52
+          "open": 2511.829,
+          "high": 2548.717,
+          "low": 2501.217,
+          "close": 2543.461
         },
         {
           "date": "2026-02-26",
-          "open": 5260.317,
-          "high": 5337.156,
-          "low": 5233.59,
-          "close": 5328.563
+          "open": 2542.753,
+          "high": 2582.941,
+          "low": 2530.466,
+          "close": 2580.274
         },
         {
           "date": "2026-02-27",
-          "open": 5295.338,
-          "high": 5375.246,
-          "low": 5288.573,
-          "close": 5374.073
+          "open": 2565.053,
+          "high": 2601.149,
+          "low": 2563.851,
+          "close": 2601.149
         },
         {
           "date": "2026-03-02",
-          "open": 5338.285,
-          "high": 5414.165,
-          "low": 5314.902,
-          "close": 5346.992
+          "open": 2580.254,
+          "high": 2619.64,
+          "low": 2573.202,
+          "close": 2588.327
         },
         {
           "date": "2026-03-03",
-          "open": 5354.369,
-          "high": 5355.607,
-          "low": 5025.248,
-          "close": 5029.182
+          "open": 2591.116,
+          "high": 2592.253,
+          "low": 2437.602,
+          "close": 2439.555
         },
         {
           "date": "2026-03-04",
-          "open": 4943.919,
-          "high": 5085.934,
-          "low": 4943.919,
-          "close": 5036.359
+          "open": 2399.814,
+          "high": 2474.489,
+          "low": 2399.814,
+          "close": 2445.584
         },
         {
           "date": "2026-03-05",
-          "open": 5122.817,
-          "high": 5130.073,
-          "low": 5052.232,
-          "close": 5096.75
+          "open": 2488.508,
+          "high": 2499.847,
+          "low": 2462.042,
+          "close": 2482.983
         },
         {
           "date": "2026-03-06",
-          "open": 5071.313,
-          "high": 5166.778,
-          "low": 5063.983,
-          "close": 5143.141
+          "open": 2467.684,
+          "high": 2516.337,
+          "low": 2463.39,
+          "close": 2496.723
         },
         {
           "date": "2026-03-09",
-          "open": 5043.875,
-          "high": 5105.226,
-          "low": 4955.683,
-          "close": 5091.362
+          "open": 2448.431,
+          "high": 2476.888,
+          "low": 2407.745,
+          "close": 2469.844
         },
         {
           "date": "2026-03-10",
-          "open": 5140.137,
-          "high": 5227.794,
-          "low": 5140.137,
-          "close": 5227.346
+          "open": 2491.919,
+          "high": 2532.554,
+          "low": 2491.919,
+          "close": 2532.255
         },
         {
           "date": "2026-03-11",
-          "open": 5242.408,
-          "high": 5283.415,
-          "low": 5185.375,
-          "close": 5192.789
+          "open": 2538.853,
+          "high": 2556.98,
+          "low": 2514.629,
+          "close": 2518.818
         },
         {
           "date": "2026-03-12",
-          "open": 5175.971,
-          "high": 5189.72,
-          "low": 5069.653,
-          "close": 5101.62
+          "open": 2512.348,
+          "high": 2517.417,
+          "low": 2462.973,
+          "close": 2479.013
         },
         {
           "date": "2026-03-13",
-          "open": 5069.547,
-          "high": 5088.334,
-          "low": 4991.373,
-          "close": 5001.409
+          "open": 2466.21,
+          "high": 2473.621,
+          "low": 2428.38,
+          "close": 2433.391
         },
         {
           "date": "2026-03-16",
-          "open": 4995.176,
-          "high": 5032.49,
-          "low": 4947.647,
-          "close": 5032.49
+          "open": 2433.307,
+          "high": 2435.259,
+          "low": 2395.621,
+          "close": 2432.933
         },
         {
           "date": "2026-03-17",
-          "open": 5052.352,
-          "high": 5056.006,
-          "low": 4888.613,
-          "close": 4889.679
+          "open": 2442.012,
+          "high": 2444.061,
+          "low": 2360.505,
+          "close": 2361.107
         },
         {
           "date": "2026-03-18",
-          "open": 4911.676,
-          "high": 5015.275,
-          "low": 4884.985,
-          "close": 5013.749
+          "open": 2371.329,
+          "high": 2411.961,
+          "low": 2358.124,
+          "close": 2411.158
         },
         {
           "date": "2026-03-19",
-          "open": 4933.988,
-          "high": 4970.498,
-          "low": 4882.221,
-          "close": 4901.923
+          "open": 2373.087,
+          "high": 2384.778,
+          "low": 2338.889,
+          "close": 2348.944
         },
         {
           "date": "2026-03-20",
-          "open": 4934.241,
-          "high": 4947.054,
-          "low": 4760.608,
-          "close": 4760.608
+          "open": 2361.621,
+          "high": 2368.414,
+          "low": 2285.077,
+          "close": 2285.318
         },
         {
           "date": "2026-03-23",
-          "open": 4655.015,
-          "high": 4713.8,
-          "low": 4473.509,
-          "close": 4500.824
+          "open": 2237.842,
+          "high": 2266.508,
+          "low": 2151.251,
+          "close": 2164.076
         },
         {
           "date": "2026-03-24",
-          "open": 4595.567,
-          "high": 4632.554,
-          "low": 4497.984,
-          "close": 4631.603
+          "open": 2209.586,
+          "high": 2225.515,
+          "low": 2161.814,
+          "close": 2225.515
         },
         {
           "date": "2026-03-25",
-          "open": 4662.109,
-          "high": 4742.832,
-          "low": 4662.109,
-          "close": 4717.346
+          "open": 2240.524,
+          "high": 2279.857,
+          "low": 2240.524,
+          "close": 2267.79
         },
         {
           "date": "2026-03-26",
-          "open": 4725.953,
-          "high": 4725.984,
-          "low": 4599.813,
-          "close": 4628.693
+          "open": 2273.168,
+          "high": 2274.699,
+          "low": 2216.521,
+          "close": 2228.656
         },
         {
           "date": "2026-03-27",
-          "open": 4551.18,
-          "high": 4692.306,
-          "low": 4551.18,
-          "close": 4670.166
+          "open": 2193.321,
+          "high": 2260.231,
+          "low": 2192.909,
+          "close": 2247.876
         },
         {
           "date": "2026-03-30",
-          "open": 4598.589,
-          "high": 4722.86,
-          "low": 4596.142,
-          "close": 4721.187
+          "open": 2217.396,
+          "high": 2271.624,
+          "low": 2213.384,
+          "close": 2271.624
         },
         {
           "date": "2026-03-31",
-          "open": 4719.536,
-          "high": 4811.937,
-          "low": 4684.254,
-          "close": 4684.316
+          "open": 2268.317,
+          "high": 2309.464,
+          "low": 2248.972,
+          "close": 2249.037
         },
         {
           "date": "2026-04-01",
-          "open": 4771.508,
-          "high": 4779.992,
-          "low": 4701.453,
-          "close": 4742.508
+          "open": 2291.872,
+          "high": 2294.661,
+          "low": 2258.256,
+          "close": 2278.496
         },
         {
           "date": "2026-04-02",
-          "open": 4723.462,
-          "high": 4749.131,
-          "low": 4609.086,
-          "close": 4635.945
+          "open": 2269.093,
+          "high": 2282.817,
+          "low": 2216.383,
+          "close": 2228.229
         },
         {
           "date": "2026-04-03",
-          "open": 4663.325,
-          "high": 4669.875,
-          "low": 4563.82,
-          "close": 4571.613
+          "open": 2239.589,
+          "high": 2242.523,
+          "low": 2193.432,
+          "close": 2197.146
         },
         {
           "date": "2026-04-07",
-          "open": 4579.722,
-          "high": 4626.926,
-          "low": 4566.815,
-          "close": 4596.584
+          "open": 2201.679,
+          "high": 2223.739,
+          "low": 2193.699,
+          "close": 2207.577
         },
         {
           "date": "2026-04-08",
-          "open": 4701.4,
-          "high": 4847.299,
-          "low": 4701.4,
-          "close": 4847.299
+          "open": 2256.211,
+          "high": 2326.643,
+          "low": 2256.211,
+          "close": 2326.643
         },
         {
           "date": "2026-04-09",
-          "open": 4794.677,
-          "high": 4837.584,
-          "low": 4782.927,
-          "close": 4806.134
+          "open": 2302.387,
+          "high": 2322.842,
+          "low": 2295.428,
+          "close": 2307.839
         },
         {
           "date": "2026-04-10",
-          "open": 4841.484,
-          "high": 4894.63,
-          "low": 4827.694,
-          "close": 4827.694
+          "open": 2323.485,
+          "high": 2351.494,
+          "low": 2322.474,
+          "close": 2322.474
         },
         {
           "date": "2026-04-13",
-          "open": 4794.046,
-          "high": 4873.209,
-          "low": 4794.046,
-          "close": 4863.4
+          "open": 2306.213,
+          "high": 2338.75,
+          "low": 2306.213,
+          "close": 2335.564
         },
         {
           "date": "2026-04-14",
-          "open": 4907.052,
-          "high": 4971.316,
-          "low": 4886.015,
-          "close": 4971.316
+          "open": 2353.995,
+          "high": 2381.615,
+          "low": 2344.041,
+          "close": 2381.615
         },
         {
           "date": "2026-04-15",
-          "open": 4998.159,
-          "high": 5038.468,
-          "low": 4943.73,
-          "close": 4959.27
+          "open": 2395.477,
+          "high": 2415.889,
+          "low": 2370.414,
+          "close": 2377.412
         },
         {
           "date": "2026-04-16",
-          "open": 4963.964,
-          "high": 5049.992,
-          "low": 4946.584,
-          "close": 5044.731
+          "open": 2380.706,
+          "high": 2413.966,
+          "low": 2370.892,
+          "close": 2412.152
         },
         {
           "date": "2026-04-17",
-          "open": 5032.398,
-          "high": 5113.819,
-          "low": 5028.974,
-          "close": 5100.342
+          "open": 2407.058,
+          "high": 2449.466,
+          "low": 2405.039,
+          "close": 2444.876
         },
         {
           "date": "2026-04-20",
-          "open": 5106.44,
-          "high": 5206.295,
-          "low": 5105.257,
-          "close": 5202.371
+          "open": 2445.984,
+          "high": 2493.88,
+          "low": 2445.984,
+          "close": 2492.082
         },
         {
           "date": "2026-04-21",
-          "open": 5185.359,
-          "high": 5186.851,
-          "low": 5136.776,
-          "close": 5172.029
+          "open": 2484.026,
+          "high": 2484.834,
+          "low": 2465.442,
+          "close": 2483.158
         },
         {
           "date": "2026-04-22",
-          "open": 5137.622,
-          "high": 5219.11,
-          "low": 5134.394,
-          "close": 5218.79
+          "open": 2464.868,
+          "high": 2502.2,
+          "low": 2464.868,
+          "close": 2502.158
         },
         {
           "date": "2026-04-23",
-          "open": 5218.761,
-          "high": 5232.748,
-          "low": 5094.12,
-          "close": 5128.663
+          "open": 2499.157,
+          "high": 2504.178,
+          "low": 2440.903,
+          "close": 2456.95
         },
         {
           "date": "2026-04-24",
-          "open": 5103.256,
-          "high": 5120.255,
-          "low": 5025.587,
-          "close": 5055.454
+          "open": 2442.211,
+          "high": 2448.79,
+          "low": 2405.46,
+          "close": 2418.3
         },
         {
           "date": "2026-04-27",
-          "open": 5051.161,
-          "high": 5113.374,
-          "low": 5000.322,
-          "close": 5107.103
+          "open": 2413.13,
+          "high": 2435.938,
+          "low": 2394.553,
+          "close": 2433.734
         },
         {
           "date": "2026-04-28",
-          "open": 5076.182,
-          "high": 5076.182,
-          "low": 4966.338,
-          "close": 4988.659
+          "open": 2419.636,
+          "high": 2419.636,
+          "low": 2372.498,
+          "close": 2383.282
         },
         {
           "date": "2026-04-29",
-          "open": 4961.319,
-          "high": 5040.473,
-          "low": 4961.319,
-          "close": 5024.962
+          "open": 2370.452,
+          "high": 2412.896,
+          "low": 2370.452,
+          "close": 2405.643
         },
         {
           "date": "2026-04-30",
-          "open": 5020.778,
-          "high": 5112.253,
-          "low": 5014.382,
-          "close": 5101.613
+          "open": 2404.785,
+          "high": 2435.129,
+          "low": 2399.946,
+          "close": 2430.551
         },
         {
           "date": "2026-05-06",
-          "open": 5154.701,
-          "high": 5282.12,
-          "low": 5154.701,
-          "close": 5247.96
+          "open": 2450.373,
+          "high": 2498.349,
+          "low": 2450.373,
+          "close": 2486.024
         },
         {
           "date": "2026-05-07",
-          "open": 5277.472,
-          "high": 5370.117,
-          "low": 5266.598,
-          "close": 5370.117
+          "open": 2493.488,
+          "high": 2536.519,
+          "low": 2487.38,
+          "close": 2536.519
         },
         {
           "date": "2026-05-08",
-          "open": 5343.852,
-          "high": 5494.797,
-          "low": 5334.998,
-          "close": 5484.556
+          "open": 2522.232,
+          "high": 2589.946,
+          "low": 2517.554,
+          "close": 2585.894
         },
         {
           "date": "2026-05-11",
-          "open": 5548.155,
-          "high": 5591.382,
-          "low": 5516.619,
-          "close": 5571.99
+          "open": 2611.8,
+          "high": 2631.226,
+          "low": 2599.558,
+          "close": 2622.591
         },
         {
           "date": "2026-05-12",
-          "open": 5576.981,
-          "high": 5577.049,
-          "low": 5467.57,
-          "close": 5510.074
+          "open": 2623.411,
+          "high": 2623.411,
+          "low": 2574.91,
+          "close": 2595.841
         },
         {
           "date": "2026-05-13",
-          "open": 5476.801,
-          "high": 5595.142,
-          "low": 5475.617,
-          "close": 5590.602
+          "open": 2580.528,
+          "high": 2636.279,
+          "low": 2579.341,
+          "close": 2635.113
         },
         {
           "date": "2026-05-14",
-          "open": 5611.024,
-          "high": 5613.832,
-          "low": 5417.876,
-          "close": 5417.876
+          "open": 2644.059,
+          "high": 2644.805,
+          "low": 2559.853,
+          "close": 2559.853
         },
         {
           "date": "2026-05-15",
-          "open": 5415.376,
-          "high": 5452.019,
-          "low": 5296.958,
-          "close": 5337.385
+          "open": 2562.002,
+          "high": 2582.742,
+          "low": 2518.68,
+          "close": 2537.145
         },
         {
           "date": "2026-05-18",
-          "open": 5326.757,
-          "high": 5424.625,
-          "low": 5318.035,
-          "close": 5403.696
+          "open": 2528.904,
+          "high": 2570.02,
+          "low": 2520.9,
+          "close": 2560.201
         },
         {
           "date": "2026-05-19",
-          "open": 5396.726,
-          "high": 5466.631,
-          "low": 5362.823,
-          "close": 5466.243
+          "open": 2556.259,
+          "high": 2585.318,
+          "low": 2533.056,
+          "close": 2585.255
         },
         {
           "date": "2026-05-20",
-          "open": 5439.118,
-          "high": 5455.792,
-          "low": 5383.12,
-          "close": 5414.698
+          "open": 2572.113,
+          "high": 2580.274,
+          "low": 2549.723,
+          "close": 2564.872
         },
         {
           "date": "2026-05-21",
-          "open": 5441.212,
-          "high": 5480.803,
-          "low": 5220.434,
-          "close": 5227.926
+          "open": 2578.858,
+          "high": 2594.906,
+          "low": 2478.415,
+          "close": 2481.567
         },
         {
           "date": "2026-05-22",
-          "open": 5270.202,
-          "high": 5358.19,
-          "low": 5233.987,
-          "close": 5350.075
+          "open": 2502.615,
+          "high": 2549.77,
+          "low": 2487.494,
+          "close": 2545.789
         },
         {
           "date": "2026-05-25",
-          "open": 5395.929,
-          "high": 5426.47,
-          "low": 5319.361,
-          "close": 5391.405
+          "open": 2568.828,
+          "high": 2580.125,
+          "low": 2534.517,
+          "close": 2564.547
         },
         {
           "date": "2026-05-26",
-          "open": 5363.575,
-          "high": 5363.575,
-          "low": 5175.089,
-          "close": 5253.993
+          "open": 2551.664,
+          "high": 2551.664,
+          "low": 2472.085,
+          "close": 2508.455
         },
         {
           "date": "2026-05-27",
-          "open": 5259.331,
-          "high": 5278.904,
-          "low": 5092.56,
-          "close": 5128.234
+          "open": 2508.323,
+          "high": 2523.683,
+          "low": 2436.248,
+          "close": 2453.801
         },
         {
           "date": "2026-05-28",
-          "open": 5113.532,
-          "high": 5246.025,
-          "low": 5097.313,
-          "close": 5224.56
+          "open": 2448.851,
+          "high": 2509.72,
+          "low": 2442.729,
+          "close": 2501.316
         },
         {
           "date": "2026-05-29",
-          "open": 5239.602,
-          "high": 5244.357,
-          "low": 4940.267,
-          "close": 4970.109
+          "open": 2507.223,
+          "high": 2508.795,
+          "low": 2380.574,
+          "close": 2393.202
         },
         {
           "date": "2026-06-01",
-          "open": 4958.862,
-          "high": 5051.626,
-          "low": 4950.904,
-          "close": 4960.877
+          "open": 2387.191,
+          "high": 2430.467,
+          "low": 2381.913,
+          "close": 2386.006
         },
         {
           "date": "2026-06-02",
-          "open": 4969.457,
-          "high": 4991.453,
-          "low": 4829.137,
-          "close": 4957.368
+          "open": 2386.539,
+          "high": 2402.492,
+          "low": 2326.166,
+          "close": 2388.723
         },
         {
           "date": "2026-06-03",
-          "open": 4958.708,
-          "high": 5074.436,
-          "low": 4944.946,
-          "close": 4997.296
+          "open": 2388.114,
+          "high": 2436.649,
+          "low": 2378.453,
+          "close": 2404.174
         },
         {
           "date": "2026-06-04",
-          "open": 4941.768,
-          "high": 4994.876,
-          "low": 4939.22,
-          "close": 4981.694
+          "open": 2379.058,
+          "high": 2405.355,
+          "low": 2377.212,
+          "close": 2399.37
         },
         {
           "date": "2026-06-05",
-          "open": 4979.196,
-          "high": 5116.677,
-          "low": 4926.208,
-          "close": 5042.917
+          "open": 2399.221,
+          "high": 2458.699,
+          "low": 2366.206,
+          "close": 2425.518
         },
         {
           "date": "2026-06-08",
-          "open": 4872.552,
-          "high": 5008.536,
-          "low": 4823.304,
-          "close": 4877.139
+          "open": 2345.718,
+          "high": 2413.616,
+          "low": 2321.788,
+          "close": 2348.411
         },
         {
           "date": "2026-06-09",
-          "open": 4931.73,
-          "high": 4969.884,
-          "low": 4876.587,
-          "close": 4969.884
+          "open": 2373.82,
+          "high": 2391.567,
+          "low": 2340.181,
+          "close": 2391.567
         },
         {
           "date": "2026-06-10",
-          "open": 4928.224,
-          "high": 4965.739,
-          "low": 4803.973,
-          "close": 4863.138
+          "open": 2368.598,
+          "high": 2385.133,
+          "low": 2313.737,
+          "close": 2341.689
         },
         {
           "date": "2026-06-11",
-          "open": 4814.403,
-          "high": 4850.787,
-          "low": 4757.022,
-          "close": 4806.604
+          "open": 2318.585,
+          "high": 2338.512,
+          "low": 2296.886,
+          "close": 2324.898
         },
         {
           "date": "2026-06-12",
-          "open": 4880.726,
-          "high": 4958.728,
-          "low": 4833.273,
-          "close": 4850.348
+          "open": 2358.583,
+          "high": 2393.754,
+          "low": 2337.15,
+          "close": 2345.42
         },
         {
           "date": "2026-06-15",
-          "open": 4871.292,
-          "high": 4989.256,
-          "low": 4863.777,
-          "close": 4989.256
+          "open": 2355.511,
+          "high": 2414.971,
+          "low": 2354.945,
+          "close": 2414.971
         },
         {
           "date": "2026-06-16",
-          "open": 5006.077,
-          "high": 5073.753,
-          "low": 4968.793,
-          "close": 5054.714
+          "open": 2424.39,
+          "high": 2459.566,
+          "low": 2413.373,
+          "close": 2452.479
         },
         {
           "date": "2026-06-17",
-          "open": 5017.03,
-          "high": 5121.315,
-          "low": 5016.949,
-          "close": 5097.387
+          "open": 2438.772,
+          "high": 2486.077,
+          "low": 2438.687,
+          "close": 2472.4
         },
         {
           "date": "2026-06-18",
-          "open": 5068.043,
-          "high": 5159.457,
-          "low": 5041.451,
-          "close": 5120.828
+          "open": 2457.279,
+          "high": 2498.377,
+          "low": 2444.359,
+          "close": 2480.456
         },
         {
           "date": "2026-06-22",
-          "open": 5130.078,
-          "high": 5138.693,
-          "low": 4932.594,
-          "close": 5093.541
+          "open": 2485.436,
+          "high": 2488.813,
+          "low": 2401.337,
+          "close": 2477.02
         },
         {
           "date": "2026-06-23",
-          "open": 5061.666,
-          "high": 5097.135,
-          "low": 4978.436,
-          "close": 5008.901
+          "open": 2465.271,
+          "high": 2477.239,
+          "low": 2417.825,
+          "close": 2431.109
         },
         {
           "date": "2026-06-24",
-          "open": 4978.951,
-          "high": 5020.087,
-          "low": 4896.32,
-          "close": 5006.687
+          "open": 2417.487,
+          "high": 2436.634,
+          "low": 2380.218,
+          "close": 2431.467
         }
       ]
     },
@@ -6915,64 +6936,73 @@
       "sector": "芯片",
       "code": "688403",
       "name": "汇成股份",
-      "deviation": 60.44,
+      "deviation": 60.16,
       "alert": "strong",
-      "close": 41.38,
-      "ma20": 25.791
+      "close": 41.3,
+      "ma20": 25.787
     },
     {
       "sector": "商业航天",
       "code": "688323",
       "name": "瑞华泰",
-      "deviation": 57.41,
+      "deviation": 57.08,
       "alert": "strong",
-      "close": 69.56,
-      "ma20": 44.19
+      "close": 69.4,
+      "ma20": 44.182
     },
     {
       "sector": "AI应用",
       "code": "301396",
       "name": "宏景科技",
-      "deviation": 51.75,
+      "deviation": 51.98,
       "alert": "strong",
-      "close": 302.49,
-      "ma20": 199.336
+      "close": 303.0,
+      "ma20": 199.362
     },
     {
-      "sector": "小金属",
-      "code": "603407",
-      "name": "长裕集团",
-      "deviation": 49.32,
+      "sector": "芯片",
+      "code": "920725",
+      "name": "惠丰钻石",
+      "deviation": 49.46,
       "alert": "warn",
-      "close": 90.55,
-      "ma20": 60.641
+      "close": 122.0,
+      "ma20": 81.627
     },
     {
       "sector": "小金属",
       "code": "002167",
       "name": "东方锆业",
-      "deviation": 47.96,
+      "deviation": 48.44,
       "alert": "warn",
-      "close": 22.69,
-      "ma20": 15.335
+      "close": 22.77,
+      "ma20": 15.339
+    },
+    {
+      "sector": "小金属",
+      "code": "603407",
+      "name": "长裕集团",
+      "deviation": 47.48,
+      "alert": "warn",
+      "close": 91.87,
+      "ma20": 62.295
     },
     {
       "sector": "小金属",
       "code": "688530",
       "name": "欧莱新材",
-      "deviation": 47.06,
+      "deviation": 46.6,
       "alert": "warn",
-      "close": 87.9,
-      "ma20": 59.771
+      "close": 87.6,
+      "ma20": 59.755
     },
     {
       "sector": "算力",
       "code": "300475",
       "name": "香农芯创",
-      "deviation": 45.81,
+      "deviation": 45.82,
       "alert": "warn",
-      "close": 306.24,
-      "ma20": 210.024
+      "close": 306.25,
+      "ma20": 210.025
     },
     {
       "sector": "芯片",
@@ -6996,22 +7026,22 @@
       "sector": "芯片",
       "code": "301013",
       "name": "利和兴",
-      "deviation": 42.37,
+      "deviation": 42.39,
       "alert": "warn",
-      "close": 84.9,
+      "close": 84.91,
       "ma20": 59.632
     },
     {
       "sector": "商业航天",
       "code": "300285",
       "name": "国瓷材料",
-      "deviation": 41.83,
+      "deviation": 42.03,
       "alert": "warn",
-      "close": 98.25,
-      "ma20": 69.273
+      "close": 98.4,
+      "ma20": 69.28
     },
     {
-      "sector": "算力·芯片",
+      "sector": "AI应用·算力·芯片",
       "code": "002990",
       "name": "盛视科技",
       "deviation": 41.01,
@@ -7023,19 +7053,10 @@
       "sector": "芯片",
       "code": "688525",
       "name": "佰维存储",
-      "deviation": 38.9,
+      "deviation": 38.91,
       "alert": "warn",
-      "close": 480.28,
-      "ma20": 345.772
-    },
-    {
-      "sector": "芯片",
-      "code": "688123",
-      "name": "聚辰股份",
-      "deviation": 38.42,
-      "alert": "warn",
-      "close": 188.08,
-      "ma20": 135.877
+      "close": 480.3,
+      "ma20": 345.773
     },
     {
       "sector": "芯片",
@@ -7047,13 +7068,13 @@
       "ma20": 34.312
     },
     {
-      "sector": "小金属·商业航天",
-      "code": "002428",
-      "name": "云南锗业",
-      "deviation": 36.26,
+      "sector": "芯片",
+      "code": "688123",
+      "name": "聚辰股份",
+      "deviation": 38.23,
       "alert": "warn",
-      "close": 130.46,
-      "ma20": 95.746
+      "close": 187.8,
+      "ma20": 135.863
     },
     {
       "sector": "小金属·芯片·商业航天",
@@ -7065,13 +7086,31 @@
       "ma20": 61.772
     },
     {
+      "sector": "小金属·商业航天",
+      "code": "002428",
+      "name": "云南锗业",
+      "deviation": 35.91,
+      "alert": "warn",
+      "close": 130.1,
+      "ma20": 95.728
+    },
+    {
       "sector": "算力",
       "code": "301536",
       "name": "星宸科技",
-      "deviation": 35.42,
+      "deviation": 34.44,
       "alert": "warn",
-      "close": 128.85,
-      "ma20": 95.15
+      "close": 127.85,
+      "ma20": 95.1
+    },
+    {
+      "sector": "算力·芯片",
+      "code": "688521",
+      "name": "芯原股份",
+      "deviation": 34.39,
+      "alert": "warn",
+      "close": 338.05,
+      "ma20": 251.54
     },
     {
       "sector": "芯片",
@@ -7095,28 +7134,19 @@
       "sector": "小金属",
       "code": "603588",
       "name": "高能环境",
-      "deviation": 33.31,
+      "deviation": 33.37,
       "alert": "warn",
-      "close": 19.59,
-      "ma20": 14.695
+      "close": 19.6,
+      "ma20": 14.696
     },
     {
-      "sector": "算力·商业航天",
+      "sector": "算力·芯片·商业航天",
       "code": "600522",
       "name": "中天科技",
-      "deviation": 33.13,
+      "deviation": 33.2,
       "alert": "warn",
-      "close": 68.06,
-      "ma20": 51.123
-    },
-    {
-      "sector": "AI应用",
-      "code": "000032",
-      "name": "深桑达A",
-      "deviation": 32.71,
-      "alert": "warn",
-      "close": 25.7,
-      "ma20": 19.366
+      "close": 68.1,
+      "ma20": 51.125
     },
     {
       "sector": "芯片",
@@ -7138,21 +7168,21 @@
     },
     {
       "sector": "芯片",
-      "code": "688545",
-      "name": "兴福电子",
-      "deviation": 30.99,
-      "alert": "warn",
-      "close": 125.89,
-      "ma20": 96.105
-    },
-    {
-      "sector": "芯片",
       "code": "688380",
       "name": "中微半导",
       "deviation": 30.89,
       "alert": "warn",
       "close": 61.74,
       "ma20": 47.17
+    },
+    {
+      "sector": "芯片",
+      "code": "688545",
+      "name": "兴福电子",
+      "deviation": 30.81,
+      "alert": "warn",
+      "close": 125.7,
+      "ma20": 96.096
     },
     {
       "sector": "商业航天",
@@ -7167,10 +7197,10 @@
       "sector": "商业航天",
       "code": "001696",
       "name": "宗申动力",
-      "deviation": 30.39,
+      "deviation": 30.53,
       "alert": "warn",
-      "close": 25.23,
-      "ma20": 19.35
+      "close": 25.26,
+      "ma20": 19.351
     }
   ],
   "errors": [
