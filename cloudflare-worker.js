@@ -184,7 +184,7 @@ export default {
 
     try {
       const url = new URL(request.url);
-      if (request.method === 'POST' && url.pathname === '/refresh') {
+      if ((request.method === 'POST' || request.method === 'GET') && url.pathname === '/refresh') {
         return await refresh(env);
       }
       if (request.method === 'GET' && url.pathname === '/status') {
