@@ -201,6 +201,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 <script>
+const REFRESH_WORKER_URL = 'https://YOUR_WORKER_URL.workers.dev';
 const STATUS_ORDER = ['breakout_up','above','tangle','below_d1','below_d2','excluded'];
 const STATUS_CONFIG = {
   breakout_up:{label:'突破上穿', desc:'今日有效上穿20日均线', dot:'#ff5b5b'},
@@ -245,6 +246,19 @@ function getMarket(code){
   if(code.startsWith('6')) return 'sh';
   if(code.startsWith('4') || code.startsWith('8') || code.startsWith('9')) return 'bj';
   return 'sz';
+}
+function sleep(ms){
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+function refreshWorkerReady(){
+  return REFRESH_WORKER_URL && !REFRESH_WORKER_URL.includes('YOUR_WORKER_URL');
+}
+function setStartupMessage(title, detail=''){
+  document.getElementById('source-line').textContent = title;
+  document.getElementById('app').innerHTML = `<div class="empty">
+    <div style="font-size:16px;font-weight:700;margin-bottom:8px">${esc(title)}</div>
+    <div style="font-family:var(--mono);font-size:12px;color:var(--muted)">${esc(detail)}</div>
+  </div>`;
 }
 
 function flattenStocks(){
@@ -470,6 +484,67 @@ async function loadData(){
   }
 }
 
+async function loadDataFromWorker(){
+  const res = await fetch(`${REFRESH_WORKER_URL}/data?t=${Date.now()}`, {cache:'no-store'});
+  if(!res.ok) throw new Error(`读取最新数据失败 HTTP ${res.status}`);
+  DATA = await res.json();
+  render();
+}
+
+async function refreshOnOpen(){
+  if(!refreshWorkerReady()){
+    document.getElementById('app').innerHTML = `<div class="error">
+      <div style="font-size:16px;font-weight:700;margin-bottom:8px">未配置刷新服务</div>
+      <div style="font-family:var(--mono);font-size:12px;color:var(--muted)">请先把 REFRESH_WORKER_URL 改成 Cloudflare Worker 地址</div>
+    </div>`;
+    return;
+  }
+
+  try{
+    setStartupMessage('正在更新数据', '正在触发 GitHub Actions...');
+    const startRes = await fetch(`${REFRESH_WORKER_URL}/refresh`, {
+      method:'POST',
+      cache:'no-store',
+    });
+    const started = await startRes.json();
+    if(!startRes.ok || !started.ok){
+      throw new Error(started.error || `触发失败 HTTP ${startRes.status}`);
+    }
+
+    const since = encodeURIComponent(started.since || new Date().toISOString());
+    const runId = started.run_id ? `&run_id=${encodeURIComponent(started.run_id)}` : '';
+    const maxAttempts = 80;
+
+    for(let attempt = 1; attempt <= maxAttempts; attempt++){
+      setStartupMessage('正在更新数据', `GitHub Actions 运行中 ${attempt}/${maxAttempts}`);
+      await sleep(10000);
+
+      const statusRes = await fetch(`${REFRESH_WORKER_URL}/status?since=${since}${runId}&t=${Date.now()}`, {
+        cache:'no-store',
+      });
+      const status = await statusRes.json();
+      if(!statusRes.ok || !status.ok){
+        throw new Error(status.error || `查询失败 HTTP ${statusRes.status}`);
+      }
+      if(status.status === 'success'){
+        setStartupMessage('正在读取最新数据', '数据已更新，正在载入...');
+        await loadDataFromWorker();
+        return;
+      }
+      if(status.status === 'failed'){
+        throw new Error(`GitHub Actions 失败：${status.conclusion || 'unknown'}`);
+      }
+    }
+
+    throw new Error('更新超时');
+  }catch(err){
+    document.getElementById('app').innerHTML = `<div class="error">
+      <div style="font-size:16px;font-weight:700;margin-bottom:8px">数据更新失败</div>
+      <div style="font-family:var(--mono);font-size:12px;color:var(--muted)">${esc(err.message)}</div>
+    </div>`;
+  }
+}
+
 function setModalStats(stock){
   const change = stock?.change_pct ?? null;
   document.getElementById('stat-close').textContent = fmt(stock?.close);
@@ -587,7 +662,7 @@ function closeKline(event){
 }
 window.addEventListener('resize', () => chart && chart.resize());
 document.addEventListener('keydown', event => { if(event.key === 'Escape') closeKline(); });
-loadData();
+refreshOnOpen();
 </script>
 </body>
 </html>
