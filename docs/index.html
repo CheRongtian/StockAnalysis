@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科技主题强势股扫描</title>
+<style>
+  :root {
+    --bg:#101319;
+    --surface:#171b23;
+    --surface2:#1f2530;
+    --surface3:#252c38;
+    --border:#303847;
+    --text:#eef3f8;
+    --muted:#8d98a8;
+    --blue:#55a7ff;
+    --cyan:#5ad7d1;
+    --violet:#9b7cff;
+    --red:#ff5b5b;
+    --red-dim:#321518;
+    --green:#2bbf7a;
+    --green-dim:#0e281c;
+    --amber:#f0b64a;
+    --amber-dim:#2b210d;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px;line-height:1.55}
+  button,input{font:inherit}
+  header{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 22px;border-bottom:1px solid var(--border);background:rgba(16,19,25,.96);backdrop-filter:blur(14px)}
+  .brand{display:flex;align-items:center;gap:10px;min-width:0}
+  .brand-mark{width:10px;height:10px;border-radius:50%;background:var(--cyan);box-shadow:0 0 18px var(--cyan)}
+  .brand-title{font-size:15px;font-weight:700;white-space:nowrap}
+  .brand-sub{font-family:var(--mono);font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .header-right{display:flex;align-items:center;gap:10px;min-width:0}
+  .meta{font-family:var(--mono);font-size:11px;color:var(--muted);white-space:nowrap}
+  .meta b{color:var(--text);font-weight:600}
+  .icon-btn{height:32px;display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:0 12px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--text);cursor:pointer;white-space:nowrap}
+  .icon-btn:hover{border-color:var(--blue);color:var(--blue)}
+  nav{display:flex;align-items:center;gap:4px;padding:0 22px;border-bottom:1px solid var(--border);overflow-x:auto;background:#11151c}
+  .tab{height:42px;display:flex;align-items:center;gap:7px;padding:0 14px;border-bottom:2px solid transparent;color:var(--muted);font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;user-select:none}
+  .tab:hover{color:var(--text)}
+  .tab.active{color:var(--text);border-bottom-color:var(--blue)}
+  .badge{min-width:20px;padding:1px 6px;border-radius:999px;background:var(--surface3);color:var(--muted);font-family:var(--mono);font-size:10px;text-align:center}
+  .badge.hot{background:var(--red-dim);color:var(--red)}
+  main{max-width:1460px;margin:0 auto;padding:22px}
+  .view{display:none}
+  .view.active{display:block}
+  .topline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:18px}
+  .metric{border:1px solid var(--border);border-radius:8px;background:var(--surface);padding:13px 14px;min-height:74px}
+  .metric-label{font-size:11px;color:var(--muted);margin-bottom:6px}
+  .metric-value{font-family:var(--mono);font-size:22px;font-weight:700;line-height:1.1}
+  .metric-sub{font-size:11px;color:var(--muted);margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .sector-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px;margin-bottom:22px}
+  .sector-card{border:1px solid var(--border);border-radius:8px;background:var(--surface);padding:13px 14px;cursor:pointer;transition:border-color .15s,transform .12s,background .15s}
+  .sector-card:hover{border-color:var(--blue);transform:translateY(-1px)}
+  .sector-card.selected{border-color:var(--blue);background:#122235}
+  .sector-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .sector-name{font-weight:700;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .status-pill{font-size:11px;font-weight:700;border-radius:4px;padding:2px 7px;white-space:nowrap}
+  .status-bullish{color:var(--red);background:var(--red-dim)}
+  .status-bearish{color:var(--green);background:var(--green-dim)}
+  .status-tangle{color:var(--amber);background:var(--amber-dim)}
+  .status-unknown{color:var(--muted);background:var(--surface3)}
+  .sector-meta{margin-top:9px;font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .sector-meta b{color:var(--text);font-weight:600}
+  .mini-pills{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px;min-height:20px}
+  .mini-pill{font-family:var(--mono);font-size:10px;border-radius:3px;padding:1px 6px;background:var(--surface3);color:var(--muted)}
+  .mini-pill.up{background:var(--red-dim);color:var(--red)}
+  .mini-pill.strong{background:#281923;color:#ff8ea1}
+  .mini-pill.flat{background:var(--amber-dim);color:var(--amber)}
+  .mini-pill.down{background:var(--green-dim);color:var(--green)}
+  .kline-link{margin-top:9px;width:100%;height:26px;border:1px solid var(--border);border-radius:5px;background:transparent;color:var(--muted);cursor:pointer;font-family:var(--mono);font-size:11px}
+  .kline-link:hover{border-color:var(--cyan);color:var(--cyan)}
+  .detail-head{display:flex;align-items:flex-end;gap:14px;margin:6px 0 16px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+  .detail-title{font-size:21px;font-weight:800;line-height:1.2}
+  .detail-source{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:auto;text-align:right}
+  .detail-source b{color:var(--text)}
+  .groups{display:flex;flex-direction:column;gap:22px}
+  .group-head{display:flex;align-items:center;gap:9px;margin-bottom:10px}
+  .dot{width:8px;height:8px;border-radius:50%}
+  .group-title{font-size:13px;font-weight:800}
+  .group-count{font-family:var(--mono);font-size:11px;padding:1px 7px;border-radius:999px;background:var(--surface3);color:var(--muted)}
+  .line{height:1px;flex:1;background:var(--border)}
+  .group-desc{font-size:11px;color:var(--muted)}
+  .stock-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(172px,1fr));gap:8px}
+  .stock-card{position:relative;overflow:hidden;border:1px solid var(--border);border-radius:7px;background:var(--surface);padding:12px 13px;cursor:pointer;transition:border-color .15s,transform .12s}
+  .stock-card:hover{border-color:#586274;transform:translateY(-1px)}
+  .stock-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--surface3)}
+  .card-breakout_up{background:#281418;border-color:#ff5b5b55}.card-breakout_up::before{background:var(--red)}
+  .card-above::before{background:#ff8ea188}
+  .card-tangle{background:#201b10;border-color:#f0b64a44}.card-tangle::before{background:var(--amber)}
+  .card-below_d1,.card-below_d2{background:#101f18;border-color:#2bbf7a44}.card-below_d1::before,.card-below_d2::before{background:var(--green)}
+  .card-excluded{opacity:.72}.card-excluded::before{background:var(--muted)}
+  .stock-name{font-weight:700;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:34px}
+  .stock-code{font-family:var(--mono);font-size:11px;color:var(--muted);margin:2px 0 8px}
+  .stock-main{display:flex;align-items:flex-end;justify-content:space-between;gap:8px}
+  .stock-price{font-family:var(--mono);font-size:15px;font-weight:700}
+  .stock-change{font-family:var(--mono);font-size:14px;font-weight:800}
+  .pos{color:var(--red)}.neg{color:var(--green)}.neu{color:var(--muted)}
+  .dev-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:5px;font-family:var(--mono);font-size:11px}
+  .dev-label{color:var(--muted);font-family:var(--sans);font-size:10px}
+  .streak{margin-top:5px;font-family:var(--mono);font-size:10px;color:var(--muted)}
+  .alert-flag{position:absolute;top:7px;right:7px;border-radius:3px;padding:1px 5px;font-size:9px;font-weight:900;background:var(--amber-dim);color:var(--amber)}
+  .toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .seg{height:30px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--muted);padding:0 12px;cursor:pointer;font-size:12px;font-weight:700}
+  .seg:hover{color:var(--text);border-color:#596275}
+  .seg.active{color:var(--blue);border-color:var(--blue);background:#112235}
+  .search{height:32px;min-width:230px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--text);padding:0 10px;outline:none}
+  .search:focus{border-color:var(--blue)}
+  .alert-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:9px}
+  .alert-card{border:1px solid var(--border);border-left-width:3px;border-radius:7px;background:var(--surface);padding:13px 14px;cursor:pointer}
+  .alert-card.warn{border-left-color:var(--amber)}
+  .alert-card.strong{border-left-color:var(--red);background:#211319}
+  .alert-top{display:flex;justify-content:space-between;gap:10px;margin-bottom:7px}
+  .alert-name{font-weight:800;font-size:13px}
+  .alert-code{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .alert-sector{max-width:110px;font-size:11px;color:var(--muted);background:var(--surface3);border-radius:4px;padding:1px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .alert-num{font-family:var(--mono);font-size:23px;font-weight:900;line-height:1.1;margin:5px 0}
+  .alert-sub{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .empty,.error{padding:58px 0;text-align:center;color:var(--muted)}
+  .error{color:var(--amber)}
+  .modal-mask{position:fixed;inset:0;background:#000a;display:none;align-items:center;justify-content:center;z-index:200;padding:18px}
+  .modal-mask.show{display:flex}
+  .modal{width:min(940px,96vw);max-height:92vh;display:flex;flex-direction:column;border:1px solid var(--border);border-radius:8px;background:var(--surface);overflow:hidden}
+  .modal-head{display:flex;align-items:center;gap:12px;padding:13px 18px;border-bottom:1px solid var(--border)}
+  .modal-title{font-size:16px;font-weight:800}
+  .modal-code{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .modal-stats{display:flex;gap:14px;margin-left:auto;font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .modal-stats b{color:var(--text)}
+  .close-btn{width:30px;height:30px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;font-size:18px;line-height:1}
+  .close-btn:hover{color:var(--text);border-color:#596275}
+  .modal-body{position:relative;min-height:430px;padding:12px}
+  #chart{width:100%;height:430px}
+  .chart-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+  @media(max-width:760px){
+    header{align-items:flex-start;padding:10px 14px}
+    .brand{display:block}
+    .brand-mark{display:none}
+    .header-right{width:100%;justify-content:flex-end}
+    nav{padding:0 14px}
+    main{padding:14px}
+    .topline{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .detail-head{display:block}
+    .detail-source{margin:8px 0 0;text-align:left}
+    .group-desc{display:none}
+    .stock-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+    .modal-head{align-items:flex-start;flex-wrap:wrap}
+    .modal-stats{order:3;width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+    .close-btn{margin-left:auto}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-mark"></div>
+    <div>
+      <div class="brand-title">科技主题强势股扫描</div>
+      <div class="brand-sub" id="source-line">loading data.json</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="meta" id="meta">--</div>
+    <button class="icon-btn" onclick="loadData()" title="重新读取数据"><span>↻</span><span>重新读取</span></button>
+  </div>
+</header>
+
+<nav>
+  <div class="tab active" data-view="sectors" onclick="switchView('sectors',this)">主题扫描 <span class="badge" id="sector-badge">0</span></div>
+  <div class="tab" data-view="alerts" onclick="switchView('alerts',this)">乖离预警 <span class="badge hot" id="alert-badge">0</span></div>
+  <div class="tab" data-view="stocks" onclick="switchView('stocks',this)">个股检索 <span class="badge" id="stock-badge">0</span></div>
+</nav>
+
+<main id="app">
+  <div class="empty">加载中...</div>
+</main>
+
+<div class="modal-mask" id="modal-mask" onclick="closeKline(event)">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-head">
+      <div>
+        <div class="modal-title" id="modal-title">--</div>
+        <div class="modal-code" id="modal-code">--</div>
+      </div>
+      <div class="modal-stats">
+        <div>收盘 <b id="stat-close">--</b></div>
+        <div>涨跌 <b id="stat-change">--</b></div>
+        <div>MA20 <b id="stat-ma20">--</b></div>
+        <div>偏离 <b id="stat-dev">--</b></div>
+      </div>
+      <button class="close-btn" onclick="closeKline()" title="关闭">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="chart-loading" id="chart-loading">加载K线数据...</div>
+      <div id="chart"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<script>
+const STATUS_ORDER = ['breakout_up','above','tangle','below_d1','below_d2','excluded'];
+const STATUS_CONFIG = {
+  breakout_up:{label:'突破上穿', desc:'今日有效上穿20日均线', dot:'#ff5b5b'},
+  above:{label:'持续强势', desc:'连续位于20日均线上方', dot:'#ff8ea1'},
+  tangle:{label:'均线纠缠', desc:'位于20日均线附近', dot:'#f0b64a'},
+  below_d1:{label:'跌破第1天', desc:'首次有效跌破20日均线', dot:'#2bbf7a'},
+  below_d2:{label:'跌破第2天', desc:'连续第2天跌破20日均线', dot:'#2bbf7a'},
+  excluded:{label:'剔除观察', desc:'连续跌破3天以上', dot:'#8d98a8'},
+};
+const SECTOR_LABEL = {bullish:'多头', bearish:'空头', tangle:'纠缠', unknown:'--'};
+
+let DATA = null;
+let activeSector = 0;
+let alertFilter = 'all';
+let stockFilter = 'all';
+let stockSearch = '';
+let chart = null;
+const stockCache = {};
+
+function esc(value){
+  return String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+function fmt(value, digits=2){
+  return value == null || Number.isNaN(Number(value)) ? '--' : Number(value).toFixed(digits);
+}
+function pct(value){
+  if(value == null || Number.isNaN(Number(value))) return '--';
+  const number = Number(value);
+  return `${number >= 0 ? '+' : ''}${number.toFixed(2)}%`;
+}
+function cls(value){
+  if(value == null) return 'neu';
+  return Number(value) > 0.5 ? 'pos' : Number(value) < -0.5 ? 'neg' : 'neu';
+}
+function statusText(status){
+  return STATUS_CONFIG[status]?.label || status || '--';
+}
+function statusClass(status){
+  return `status-${status || 'unknown'}`;
+}
+function getMarket(code){
+  if(code.startsWith('6')) return 'sh';
+  if(code.startsWith('4') || code.startsWith('8') || code.startsWith('9')) return 'bj';
+  return 'sz';
+}
+
+function flattenStocks(){
+  if(!DATA) return [];
+  const seen = {};
+  DATA.sectors.forEach(sector => {
+    (sector.stocks || []).forEach(stock => {
+      const copy = {...stock, sector: sector.name};
+      stockCache[stock.code] = copy;
+      if(!seen[stock.code]){
+        seen[stock.code] = {...copy, sectors:[sector.name]};
+      } else {
+        if(!seen[stock.code].sectors.includes(sector.name)) seen[stock.code].sectors.push(sector.name);
+        if(Math.abs(stock.deviation || 0) > Math.abs(seen[stock.code].deviation || 0)){
+          seen[stock.code] = {...seen[stock.code], ...copy, sectors: seen[stock.code].sectors};
+        }
+      }
+    });
+  });
+  return Object.values(seen).map(stock => ({...stock, sector: stock.sectors.join('·')}));
+}
+
+function metricsHtml(stocks){
+  const sectors = DATA?.sectors || [];
+  const alerts = DATA?.deviation_alerts || [];
+  const breakout = stocks.filter(s => s.status === 'breakout_up').length;
+  const above = stocks.filter(s => s.status === 'above').length;
+  const bullish = sectors.filter(s => s.status === 'bullish').length;
+  return `<div class="topline">
+    <div class="metric"><div class="metric-label">科技主题</div><div class="metric-value">${sectors.length}</div><div class="metric-sub">多头 ${bullish}</div></div>
+    <div class="metric"><div class="metric-label">已分类个股</div><div class="metric-value">${stocks.length}</div><div class="metric-sub">去重后数量</div></div>
+    <div class="metric"><div class="metric-label">突破上穿</div><div class="metric-value">${breakout}</div><div class="metric-sub">持续强势 ${above}</div></div>
+    <div class="metric"><div class="metric-label">乖离预警</div><div class="metric-value">${alerts.length}</div><div class="metric-sub">按绝对乖离率排序</div></div>
+  </div>`;
+}
+
+function sectorCard(sector, idx){
+  const counts = sector.status_counts || {};
+  return `<div class="sector-card${idx === activeSector ? ' selected' : ''}" onclick="selectSector(${idx})">
+    <div class="sector-row">
+      <div class="sector-name">${esc(sector.name)}</div>
+      <div class="status-pill ${statusClass(sector.status)}">${SECTOR_LABEL[sector.status] || '--'}</div>
+    </div>
+    <div class="sector-meta">偏离 <b class="${cls(sector.deviation)}">${pct(sector.deviation)}</b> · 分类 <b>${sector.classified_stock_count || 0}</b>/<b>${sector.source_stock_count || 0}</b></div>
+    <div class="mini-pills">
+      ${counts.breakout_up ? `<span class="mini-pill up">突破 ${counts.breakout_up}</span>` : ''}
+      ${counts.above ? `<span class="mini-pill strong">强势 ${counts.above}</span>` : ''}
+      ${counts.tangle ? `<span class="mini-pill flat">纠缠 ${counts.tangle}</span>` : ''}
+      ${(counts.below_d1 || counts.below_d2) ? `<span class="mini-pill down">跌破 ${(counts.below_d1 || 0) + (counts.below_d2 || 0)}</span>` : ''}
+    </div>
+    <button class="kline-link" onclick="event.stopPropagation();openSectorKline(${idx})">K线</button>
+  </div>`;
+}
+
+function stockCard(stock){
+  stockCache[stock.code] = stock;
+  const change = stock.change_pct ?? stock.deviation;
+  const alert = stock.deviation_alert ? `<div class="alert-flag">${stock.deviation_alert === 'strong' ? '50%' : '30%'}</div>` : '';
+  let streak = '';
+  if(stock.status === 'breakout_up') streak = `站上第${stock.above_streak || 1}天`;
+  else if(stock.status === 'above' && stock.above_streak > 1) streak = `连续${stock.above_streak}天`;
+  else if(String(stock.status).startsWith('below')) streak = `跌破第${stock.below_streak || 1}天`;
+  else streak = statusText(stock.status);
+  return `<div class="stock-card card-${esc(stock.status)}" onclick="openStockKline('${esc(stock.code)}')">
+    ${alert}
+    <div class="stock-name">${esc(stock.name)}</div>
+    <div class="stock-code">${esc(stock.code)}${stock.sector ? ` · ${esc(stock.sector)}` : ''}</div>
+    <div class="stock-main">
+      <div class="stock-price">${fmt(stock.close)}</div>
+      <div class="stock-change ${cls(change)}">${pct(change)}</div>
+    </div>
+    <div class="dev-row">
+      <span class="dev-label">偏离均线</span>
+      <span class="${cls(stock.deviation)}">${pct(stock.deviation)}</span>
+    </div>
+    <div class="streak">${esc(streak)}</div>
+  </div>`;
+}
+
+function renderSectorDetail(sector){
+  if(!sector) return '<div class="empty">暂无扫描数据</div>';
+  const groups = {};
+  STATUS_ORDER.forEach(key => groups[key] = []);
+  (sector.stocks || []).forEach(stock => {
+    stockCache[stock.code] = {...stock, sector: sector.name};
+    if(groups[stock.status]) groups[stock.status].push({...stock, sector: sector.name});
+  });
+  const groupHtml = STATUS_ORDER.map(key => {
+    const list = groups[key] || [];
+    if(!list.length) return '';
+    const cfg = STATUS_CONFIG[key];
+    return `<section>
+      <div class="group-head">
+        <div class="dot" style="background:${cfg.dot}"></div>
+        <div class="group-title">${cfg.label}</div>
+        <div class="group-count">${list.length}</div>
+        <div class="line"></div>
+        <div class="group-desc">${cfg.desc}</div>
+      </div>
+      <div class="stock-grid">${list.map(stockCard).join('')}</div>
+    </section>`;
+  }).join('');
+  return `<div class="detail-head">
+    <div>
+      <div class="detail-title">${esc(sector.name)}</div>
+      <div class="sector-meta">指数 ${fmt(sector.close)} · MA20 ${fmt(sector.ma20)} · <span class="${cls(sector.deviation)}">${pct(sector.deviation)}</span></div>
+    </div>
+    <div class="detail-source">
+      概念 <b>${esc(sector.matched_symbol || '--')}</b><br>
+      成分股 <b>${sector.source_stock_count || 0}</b> · 来源 <b>${esc(sector.member_source || '--')}</b>
+    </div>
+  </div>
+  <div class="groups">${groupHtml || '<div class="empty">暂无可展示个股</div>'}</div>`;
+}
+
+function renderSectorsView(){
+  const sectors = DATA?.sectors || [];
+  const stocks = flattenStocks();
+  if(!sectors.length) return `${metricsHtml(stocks)}<div class="empty">暂无扫描数据</div>`;
+  if(activeSector >= sectors.length) activeSector = 0;
+  return `${metricsHtml(stocks)}
+    <div class="sector-grid">${sectors.map(sectorCard).join('')}</div>
+    <div id="sector-detail">${renderSectorDetail(sectors[activeSector])}</div>`;
+}
+
+function alertCard(alert){
+  const stock = {...alert, name: alert.name, change_pct: null, deviation_alert: alert.alert, sector: alert.sector};
+  stockCache[alert.code] = stock;
+  return `<div class="alert-card ${esc(alert.alert)}" onclick="openStockKline('${esc(alert.code)}')">
+    <div class="alert-top">
+      <div><div class="alert-name">${esc(alert.name)}</div><div class="alert-code">${esc(alert.code)}</div></div>
+      <div class="alert-sector" title="${esc(alert.sector)}">${esc(alert.sector)}</div>
+    </div>
+    <div class="alert-num ${cls(alert.deviation)}">${pct(alert.deviation)}</div>
+    <div class="alert-sub">收盘 ${fmt(alert.close)} · MA20 ${fmt(alert.ma20)}</div>
+  </div>`;
+}
+
+function renderAlertsView(){
+  const alerts = [...(DATA?.deviation_alerts || [])].sort((a,b) => Math.abs(b.deviation || 0) - Math.abs(a.deviation || 0));
+  const strong = alerts.filter(a => a.alert === 'strong').length;
+  const warn = alerts.filter(a => a.alert === 'warn').length;
+  const filtered = alertFilter === 'all' ? alerts : alerts.filter(a => a.alert === alertFilter);
+  return `<div class="toolbar">
+    <button class="seg${alertFilter === 'all' ? ' active' : ''}" onclick="setAlertFilter('all')">全部 ${alerts.length}</button>
+    <button class="seg${alertFilter === 'strong' ? ' active' : ''}" onclick="setAlertFilter('strong')">强提醒 ${strong}</button>
+    <button class="seg${alertFilter === 'warn' ? ' active' : ''}" onclick="setAlertFilter('warn')">提醒 ${warn}</button>
+  </div>
+  ${filtered.length ? `<div class="alert-grid">${filtered.map(alertCard).join('')}</div>` : '<div class="empty">当前无乖离率预警</div>'}`;
+}
+
+function renderStocksView(){
+  const all = flattenStocks().sort((a,b) => Math.abs(b.deviation || 0) - Math.abs(a.deviation || 0));
+  const keyword = stockSearch.trim().toLowerCase();
+  const filtered = all.filter(stock => {
+    const statusOk = stockFilter === 'all' || stock.status === stockFilter;
+    const text = `${stock.code} ${stock.name} ${stock.sector}`.toLowerCase();
+    return statusOk && (!keyword || text.includes(keyword));
+  });
+  return `<div class="toolbar">
+    <input class="search" value="${esc(stockSearch)}" placeholder="代码 / 名称 / 主题" oninput="setStockSearch(this.value)">
+    <button class="seg${stockFilter === 'all' ? ' active' : ''}" onclick="setStockFilter('all')">全部</button>
+    <button class="seg${stockFilter === 'breakout_up' ? ' active' : ''}" onclick="setStockFilter('breakout_up')">突破</button>
+    <button class="seg${stockFilter === 'above' ? ' active' : ''}" onclick="setStockFilter('above')">强势</button>
+    <button class="seg${stockFilter === 'tangle' ? ' active' : ''}" onclick="setStockFilter('tangle')">纠缠</button>
+    <button class="seg${stockFilter === 'excluded' ? ' active' : ''}" onclick="setStockFilter('excluded')">剔除</button>
+  </div>
+  ${filtered.length ? `<div class="stock-grid">${filtered.map(stockCard).join('')}</div>` : '<div class="empty">没有匹配的个股</div>'}`;
+}
+
+function render(){
+  const current = document.querySelector('.tab.active')?.dataset.view || 'sectors';
+  const stocks = flattenStocks();
+  document.getElementById('sector-badge').textContent = DATA?.sectors?.length || 0;
+  document.getElementById('alert-badge').textContent = DATA?.deviation_alerts?.length || 0;
+  document.getElementById('stock-badge').textContent = stocks.length;
+  document.getElementById('meta').innerHTML = DATA?.trade_date ? `<b>${esc(DATA.trade_date)}</b> · ${esc(DATA.updated_at || '--')}` : '--';
+  document.getElementById('source-line').textContent = DATA?.sectors?.length ? `data.json · ${DATA.sectors.length} themes` : 'data.json';
+  document.getElementById('app').innerHTML = `
+    <div class="view${current === 'sectors' ? ' active' : ''}" data-view="sectors">${renderSectorsView()}</div>
+    <div class="view${current === 'alerts' ? ' active' : ''}" data-view="alerts">${renderAlertsView()}</div>
+    <div class="view${current === 'stocks' ? ' active' : ''}" data-view="stocks">${renderStocksView()}</div>`;
+}
+
+function switchView(view, el){
+  document.querySelectorAll('.tab').forEach(tab => tab.classList.toggle('active', tab === el));
+  document.querySelectorAll('.view').forEach(panel => panel.classList.toggle('active', panel.dataset.view === view));
+}
+function selectSector(idx){
+  activeSector = idx;
+  render();
+}
+function setAlertFilter(value){
+  alertFilter = value;
+  render();
+  switchView('alerts', document.querySelector('.tab[data-view="alerts"]'));
+}
+function setStockFilter(value){
+  stockFilter = value;
+  render();
+  switchView('stocks', document.querySelector('.tab[data-view="stocks"]'));
+}
+function setStockSearch(value){
+  stockSearch = value;
+  const cursor = value.length;
+  render();
+  switchView('stocks', document.querySelector('.tab[data-view="stocks"]'));
+  const input = document.querySelector('.search');
+  if(input){
+    input.focus();
+    input.setSelectionRange(cursor, cursor);
+  }
+}
+
+async function loadData(){
+  try{
+    const res = await fetch(`data.json?t=${Date.now()}`);
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    DATA = await res.json();
+    render();
+  }catch(err){
+    document.getElementById('app').innerHTML = `<div class="error">数据加载失败：${esc(err.message)}</div>`;
+  }
+}
+
+function setModalStats(stock){
+  const change = stock?.change_pct ?? null;
+  document.getElementById('stat-close').textContent = fmt(stock?.close);
+  document.getElementById('stat-change').innerHTML = change == null ? '--' : `<span class="${cls(change)}">${pct(change)}</span>`;
+  document.getElementById('stat-ma20').textContent = fmt(stock?.ma20);
+  document.getElementById('stat-dev').innerHTML = stock?.deviation == null ? '--' : `<span class="${cls(stock.deviation)}">${pct(stock.deviation)}</span>`;
+}
+
+function openSectorKline(idx){
+  const sector = DATA?.sectors?.[idx];
+  if(!sector || !sector.klines || !sector.klines.length){
+    alert('暂无K线数据');
+    return;
+  }
+  showModal(`${sector.name} 主题指数`, sector.index_symbol || sector.matched_symbol || sector.name);
+  setModalStats({close:sector.close, ma20:sector.ma20, deviation:sector.deviation, change_pct:null});
+  renderKline(sector.klines);
+}
+
+function openStockKline(code){
+  const stock = stockCache[code] || {code};
+  showModal(stock.name || code, code);
+  setModalStats(stock);
+  fetchStockKline(code);
+}
+
+function showModal(title, code){
+  document.getElementById('modal-title').textContent = title;
+  document.getElementById('modal-code').textContent = code;
+  document.getElementById('modal-mask').classList.add('show');
+  document.getElementById('chart-loading').style.display = 'flex';
+  document.getElementById('chart').style.display = 'none';
+}
+
+async function fetchStockKline(code){
+  try{
+    const market = getMarket(code);
+    let rows = [];
+    if(market !== 'bj'){
+      const url = `https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=${market}${code},day,,,90,qfq`;
+      const res = await fetch(url);
+      const data = await res.json();
+      const key = `${market}${code}`;
+      rows = (data?.data?.[key]?.qfqday || []).map(item => ({
+        date:item[0], open:Number(item[1]), close:Number(item[2]), high:Number(item[3]), low:Number(item[4])
+      })).filter(row => Number.isFinite(row.open) && Number.isFinite(row.close) && Number.isFinite(row.high) && Number.isFinite(row.low));
+    }else{
+      const url = `https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=${market}${code}&scale=240&ma=no&datalen=90`;
+      const res = await fetch(url);
+      const data = await res.json();
+      rows = data.map(item => ({
+        date:item.day, open:Number(item.open), close:Number(item.close), high:Number(item.high), low:Number(item.low)
+      })).filter(row => Number.isFinite(row.open) && Number.isFinite(row.close) && Number.isFinite(row.high) && Number.isFinite(row.low));
+    }
+    if(!rows.length) throw new Error('无K线数据');
+    renderKline(rows);
+  }catch(err){
+    document.getElementById('chart-loading').textContent = `加载失败：${err.message}`;
+  }
+}
+
+function renderKline(rows){
+  document.getElementById('chart-loading').style.display = 'none';
+  document.getElementById('chart').style.display = 'block';
+  if(!chart) chart = echarts.init(document.getElementById('chart'), 'dark');
+  chart.clear();
+
+  const closes = rows.map(row => Number(row.close));
+  const ma20 = rows.map((_, idx) => {
+    if(idx < 19) return null;
+    const slice = closes.slice(idx - 19, idx + 1);
+    return Number((slice.reduce((a,b) => a + b, 0) / 20).toFixed(3));
+  });
+  const daily = rows.map((row, idx) => {
+    if(idx === 0) return 0;
+    return Number(((row.close - rows[idx - 1].close) / rows[idx - 1].close * 100).toFixed(2));
+  });
+  chart.setOption({
+    backgroundColor:'transparent',
+    tooltip:{
+      trigger:'axis',
+      axisPointer:{type:'cross'},
+      backgroundColor:'#1f2530',
+      borderColor:'#303847',
+      textStyle:{color:'#eef3f8',fontSize:12},
+      formatter: params => {
+        const candle = params.find(item => item.seriesName === 'K线');
+        const line = params.find(item => item.seriesName === 'MA20');
+        if(!candle) return '';
+        const [, open, close, low, high] = candle.value;
+        const change = daily[candle.dataIndex];
+        const color = change >= 0 ? '#ff5b5b' : '#2bbf7a';
+        return `<b>${candle.name}</b><br>开 ${open}　收 <span style="color:${color}">${close}</span><br>高 ${high}　低 ${low}<br>涨跌 <span style="color:${color}">${change >= 0 ? '+' : ''}${change}%</span><br>MA20 ${line?.value == null ? '--' : Number(line.value).toFixed(2)}`;
+      }
+    },
+    legend:{data:['MA20'],right:10,top:0,textStyle:{color:'#8d98a8'}},
+    grid:{left:64,right:24,top:38,bottom:60},
+    xAxis:{type:'category',data:rows.map(row => row.date),axisLine:{lineStyle:{color:'#303847'}},axisLabel:{color:'#8d98a8',fontSize:11},splitLine:{show:false}},
+    yAxis:{type:'value',scale:true,boundaryGap:['15%','15%'],axisLine:{lineStyle:{color:'#303847'}},axisLabel:{color:'#8d98a8',fontSize:11},splitLine:{lineStyle:{color:'#252c38'}}},
+    dataZoom:[
+      {type:'inside',start:35,end:100},
+      {type:'slider',start:35,end:100,height:24,bottom:8,borderColor:'#303847',fillerColor:'#252c38',textStyle:{color:'#8d98a8'}}
+    ],
+    series:[
+      {name:'MA20',type:'line',data:ma20,symbol:'none',lineStyle:{color:'#f0b64a',width:2}},
+      {name:'K线',type:'candlestick',data:rows.map(row => [row.open,row.close,row.low,row.high]),itemStyle:{color:'#ff5b5b',color0:'#2bbf7a',borderColor:'#ff5b5b',borderColor0:'#2bbf7a'}}
+    ]
+  });
+  setTimeout(() => chart.resize(), 20);
+}
+
+function closeKline(event){
+  if(event && event.target !== document.getElementById('modal-mask')) return;
+  document.getElementById('modal-mask').classList.remove('show');
+}
+window.addEventListener('resize', () => chart && chart.resize());
+document.addEventListener('keydown', event => { if(event.key === 'Escape') closeKline(); });
+loadData();
+</script>
+</body>
+</html>
