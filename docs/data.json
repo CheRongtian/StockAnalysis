@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25 15:48",
+  "updated_at": "2026-06-25 16:54",
   "trade_date": "2026-06-25",
   "config": {
     "sector_limit": null,
@@ -2534,9 +2534,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 18,
-        "above": 29,
+        "breakout_up": 17,
+        "above": 27,
         "tangle": 2,
+        "below_d1": 3,
         "excluded": 1
       },
       "stocks": [
@@ -2680,18 +2681,6 @@
           "close": 34.71,
           "change_pct": 5.76,
           "deviation": 3.32,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300975",
-          "name": "商络电子",
-          "status": "breakout_up",
-          "ma20": 40.969,
-          "close": 42.92,
-          "change_pct": 5.71,
-          "deviation": 4.76,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2937,18 +2926,6 @@
           "deviation_alert": null
         },
         {
-          "code": "688041",
-          "name": "海光信息",
-          "status": "above",
-          "ma20": 298.22,
-          "close": 360.28,
-          "change_pct": 6.88,
-          "deviation": 20.81,
-          "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "301127",
           "name": "武汉天源",
           "status": "above",
@@ -3093,18 +3070,6 @@
           "deviation_alert": null
         },
         {
-          "code": "003018",
-          "name": "金富科技",
-          "status": "above",
-          "ma20": 60.607,
-          "close": 77.62,
-          "change_pct": 4.74,
-          "deviation": 28.07,
-          "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "002822",
           "name": "ST中装",
           "status": "tangle",
@@ -3127,6 +3092,42 @@
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "status": "below_d1",
+          "ma20": 280.206,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "300975",
+          "name": "商络电子",
+          "status": "below_d1",
+          "ma20": 38.823,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "003018",
+          "name": "金富科技",
+          "status": "below_d1",
+          "ma20": 56.726,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
         },
         {
           "code": "002602",
@@ -3790,7 +3791,8 @@
       "truncated": false,
       "status_counts": {
         "breakout_up": 14,
-        "above": 36
+        "above": 33,
+        "below_d1": 3
       },
       "stocks": [
         {
@@ -3998,18 +4000,6 @@
           "deviation_alert": "warn"
         },
         {
-          "code": "688025",
-          "name": "杰普特",
-          "status": "above",
-          "ma20": 404.778,
-          "close": 498.29,
-          "change_pct": 18.94,
-          "deviation": 23.1,
-          "above_streak": 8,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "301418",
           "name": "协昌科技",
           "status": "above",
@@ -4082,18 +4072,6 @@
           "deviation_alert": null
         },
         {
-          "code": "301013",
-          "name": "利和兴",
-          "status": "above",
-          "ma20": 59.632,
-          "close": 84.91,
-          "change_pct": 13.29,
-          "deviation": 42.39,
-          "above_streak": 30,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
           "code": "688123",
           "name": "聚辰股份",
           "status": "above",
@@ -4150,18 +4128,6 @@
           "change_pct": 12.02,
           "deviation": 21.79,
           "above_streak": 17,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301678",
-          "name": "新恒汇",
-          "status": "above",
-          "ma20": 57.684,
-          "close": 67.38,
-          "change_pct": 11.83,
-          "deviation": 16.81,
-          "above_streak": 6,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -4392,6 +4358,42 @@
           "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "688025",
+          "name": "杰普特",
+          "status": "below_d1",
+          "ma20": 379.863,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "301013",
+          "name": "利和兴",
+          "status": "below_d1",
+          "ma20": 55.386,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "301678",
+          "name": "新恒汇",
+          "status": "below_d1",
+          "ma20": 54.314,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
         }
       ],
       "klines": [
@@ -5042,9 +5044,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 13,
-        "above": 33,
-        "tangle": 4
+        "breakout_up": 12,
+        "above": 32,
+        "tangle": 4,
+        "below_d1": 2
       },
       "stocks": [
         {
@@ -5139,18 +5142,6 @@
           "close": 30.31,
           "change_pct": 6.69,
           "deviation": 4.65,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300749",
-          "name": "顶固集创",
-          "status": "breakout_up",
-          "ma20": 22.084,
-          "close": 24.07,
-          "change_pct": 6.27,
-          "deviation": 9.0,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5528,18 +5519,6 @@
           "deviation_alert": null
         },
         {
-          "code": "688048",
-          "name": "长光华芯",
-          "status": "above",
-          "ma20": 376.033,
-          "close": 441.8,
-          "change_pct": 5.19,
-          "deviation": 17.49,
-          "above_streak": 5,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "688323",
           "name": "瑞华泰",
           "status": "above",
@@ -5646,6 +5625,30 @@
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "300749",
+          "name": "顶固集创",
+          "status": "below_d1",
+          "ma20": 20.88,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "688048",
+          "name": "长光华芯",
+          "status": "below_d1",
+          "ma20": 353.943,
+          "close": 0.0,
+          "change_pct": -100.0,
+          "deviation": -100.0,
+          "above_streak": 0,
+          "below_streak": 1,
+          "deviation_alert": "strong"
         }
       ],
       "klines": [
@@ -6933,6 +6936,78 @@
   ],
   "deviation_alerts": [
     {
+      "sector": "算力",
+      "code": "688041",
+      "name": "海光信息",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 280.206
+    },
+    {
+      "sector": "算力",
+      "code": "300975",
+      "name": "商络电子",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 38.823
+    },
+    {
+      "sector": "算力",
+      "code": "003018",
+      "name": "金富科技",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 56.726
+    },
+    {
+      "sector": "芯片",
+      "code": "688025",
+      "name": "杰普特",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 379.863
+    },
+    {
+      "sector": "芯片",
+      "code": "301013",
+      "name": "利和兴",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 55.386
+    },
+    {
+      "sector": "芯片",
+      "code": "301678",
+      "name": "新恒汇",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 54.314
+    },
+    {
+      "sector": "商业航天",
+      "code": "300749",
+      "name": "顶固集创",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 20.88
+    },
+    {
+      "sector": "商业航天",
+      "code": "688048",
+      "name": "长光华芯",
+      "deviation": -100.0,
+      "alert": "strong",
+      "close": 0.0,
+      "ma20": 353.943
+    },
+    {
       "sector": "芯片",
       "code": "688403",
       "name": "汇成股份",
@@ -7021,15 +7096,6 @@
       "alert": "warn",
       "close": 237.36,
       "ma20": 164.737
-    },
-    {
-      "sector": "芯片",
-      "code": "301013",
-      "name": "利和兴",
-      "deviation": 42.39,
-      "alert": "warn",
-      "close": 84.91,
-      "ma20": 59.632
     },
     {
       "sector": "商业航天",
