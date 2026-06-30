@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-30 23:28",
-  "trade_date": "2026-06-30",
+  "updated_at": "2026-07-01 01:44",
+  "trade_date": "2026-07-01",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -3779,9 +3779,9 @@
       "index_symbol": "芯片概念",
       "member_source": "html:301085(50)",
       "status": "bullish",
-      "ma20": 5467.67,
-      "close": 5856.37,
-      "deviation": 7.11,
+      "ma20": 5470.24,
+      "close": 5907.72,
+      "deviation": 8.0,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 49,
@@ -5008,9 +5008,9 @@
         {
           "date": "2026-06-30",
           "open": 5669.611,
-          "high": 5876.166,
+          "high": 5909.53,
           "low": 5652.78,
-          "close": 5856.368
+          "close": 5907.72
         }
       ]
     },
