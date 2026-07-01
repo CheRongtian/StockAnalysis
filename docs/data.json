@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01 14:59",
+  "updated_at": "2026-07-01 18:41",
   "trade_date": "2026-07-01",
   "config": {
     "sector_limit": null,
@@ -23,9 +23,9 @@
       "truncated": false,
       "status_counts": {
         "breakout_up": 8,
-        "above": 14,
+        "above": 13,
         "tangle": 10,
-        "excluded": 18
+        "excluded": 19
       },
       "stocks": [
         {
@@ -269,26 +269,14 @@
           "deviation_alert": null
         },
         {
-          "code": "603588",
-          "name": "高能环境",
+          "code": "002266",
+          "name": "浙富控股",
           "status": "above",
-          "ma20": 16.064,
-          "close": 19.65,
-          "change_pct": 2.34,
-          "deviation": 22.32,
-          "above_streak": 16,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "000970",
-          "name": "中科三环",
-          "status": "above",
-          "ma20": 13.812,
-          "close": 15.49,
-          "change_pct": 1.97,
-          "deviation": 12.15,
-          "above_streak": 17,
+          "ma20": 4.906,
+          "close": 5.18,
+          "change_pct": 2.37,
+          "deviation": 5.58,
+          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -602,6 +590,18 @@
           "deviation": -8.99,
           "above_streak": 0,
           "below_streak": 23,
+          "deviation_alert": null
+        },
+        {
+          "code": "002721",
+          "name": "金一文化",
+          "status": "excluded",
+          "ma20": 2.385,
+          "close": 2.28,
+          "change_pct": 2.7,
+          "deviation": -4.38,
+          "above_streak": 0,
+          "below_streak": 27,
           "deviation_alert": null
         },
         {
@@ -1278,9 +1278,8 @@
       "truncated": false,
       "status_counts": {
         "breakout_up": 18,
-        "above": 13,
-        "tangle": 13,
-        "below_d2": 1,
+        "above": 12,
+        "tangle": 15,
         "excluded": 5
       },
       "stocks": [
@@ -1501,6 +1500,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920790",
+          "name": "联迪信息",
+          "status": "above",
+          "ma20": 22.346,
+          "close": 28.72,
+          "change_pct": 14.29,
+          "deviation": 28.53,
+          "above_streak": 8,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "688207",
           "name": "格灵深瞳",
           "status": "above",
@@ -1573,6 +1584,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920367",
+          "name": "新赣江",
+          "status": "above",
+          "ma20": 17.037,
+          "close": 24.22,
+          "change_pct": 8.03,
+          "deviation": 42.16,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "300033",
           "name": "同花顺",
           "status": "above",
@@ -1617,42 +1640,6 @@
           "change_pct": 6.72,
           "deviation": 12.57,
           "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300562",
-          "name": "乐心医疗",
-          "status": "above",
-          "ma20": 12.326,
-          "close": 14.4,
-          "change_pct": 6.59,
-          "deviation": 16.82,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920367",
-          "name": "新赣江",
-          "status": "above",
-          "ma20": 16.654,
-          "close": 22.42,
-          "change_pct": 5.8,
-          "deviation": 34.62,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "920790",
-          "name": "联迪信息",
-          "status": "above",
-          "ma20": 21.893,
-          "close": 25.13,
-          "change_pct": 2.15,
-          "deviation": 14.79,
-          "above_streak": 7,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1753,6 +1740,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920171",
+          "name": "志晟信息",
+          "status": "tangle",
+          "ma20": 19.436,
+          "close": 19.87,
+          "change_pct": 7.35,
+          "deviation": 2.23,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300324",
           "name": "旋极信息",
           "status": "tangle",
@@ -1801,6 +1800,18 @@
           "deviation_alert": null
         },
         {
+          "code": "300642",
+          "name": "透景生命",
+          "status": "tangle",
+          "ma20": 12.675,
+          "close": 12.59,
+          "change_pct": 6.69,
+          "deviation": -0.67,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603106",
           "name": "恒银科技",
           "status": "tangle",
@@ -1810,18 +1821,6 @@
           "deviation": 1.02,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920171",
-          "name": "志晟信息",
-          "status": "below_d2",
-          "ma20": 19.41,
-          "close": 18.51,
-          "change_pct": -0.43,
-          "deviation": -4.64,
-          "above_streak": 0,
-          "below_streak": 2,
           "deviation_alert": null
         },
         {
@@ -2533,10 +2532,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 14,
-        "above": 12,
-        "tangle": 15,
-        "excluded": 9
+        "breakout_up": 13,
+        "above": 13,
+        "tangle": 14,
+        "excluded": 10
       },
       "stocks": [
         {
@@ -2648,18 +2647,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920699",
-          "name": "海达尔",
-          "status": "breakout_up",
-          "ma20": 68.217,
-          "close": 71.49,
-          "change_pct": 7.83,
-          "deviation": 4.8,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "300192",
           "name": "科德教育",
           "status": "breakout_up",
@@ -2706,6 +2693,18 @@
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "920699",
+          "name": "海达尔",
+          "status": "above",
+          "ma20": 69.433,
+          "close": 92.93,
+          "change_pct": 29.99,
+          "deviation": 33.84,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": "warn"
         },
         {
           "code": "002929",
@@ -3020,18 +3019,6 @@
           "deviation_alert": null
         },
         {
-          "code": "301208",
-          "name": "中亦科技",
-          "status": "tangle",
-          "ma20": 29.603,
-          "close": 29.91,
-          "change_pct": 4.98,
-          "deviation": 1.04,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "000601",
           "name": "韶能股份",
           "status": "excluded",
@@ -3137,6 +3124,18 @@
           "deviation": -13.9,
           "above_streak": 0,
           "below_streak": 19,
+          "deviation_alert": null
+        },
+        {
+          "code": "300949",
+          "name": "奥雅股份",
+          "status": "excluded",
+          "ma20": 22.205,
+          "close": 21.18,
+          "change_pct": 5.01,
+          "deviation": -4.62,
+          "above_streak": 0,
+          "below_streak": 27,
           "deviation_alert": null
         }
       ],
@@ -3789,8 +3788,8 @@
       "truncated": false,
       "status_counts": {
         "breakout_up": 11,
-        "above": 29,
-        "tangle": 4,
+        "above": 28,
+        "tangle": 5,
         "excluded": 5
       },
       "stocks": [
@@ -3927,6 +3926,18 @@
           "deviation_alert": null
         },
         {
+          "code": "300873",
+          "name": "海晨股份",
+          "status": "above",
+          "ma20": 17.997,
+          "close": 28.72,
+          "change_pct": 20.01,
+          "deviation": 59.58,
+          "above_streak": 13,
+          "below_streak": 0,
+          "deviation_alert": "strong"
+        },
+        {
           "code": "688106",
           "name": "金宏气体",
           "status": "above",
@@ -3947,18 +3958,6 @@
           "change_pct": 20.01,
           "deviation": 66.12,
           "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": "strong"
-        },
-        {
-          "code": "300873",
-          "name": "海晨股份",
-          "status": "above",
-          "ma20": 17.997,
-          "close": 28.72,
-          "change_pct": 20.01,
-          "deviation": 59.58,
-          "above_streak": 13,
           "below_streak": 0,
           "deviation_alert": "strong"
         },
@@ -4057,6 +4056,18 @@
           "above_streak": 11,
           "below_streak": 0,
           "deviation_alert": "warn"
+        },
+        {
+          "code": "920981",
+          "name": "晶赛科技",
+          "status": "above",
+          "ma20": 42.077,
+          "close": 49.5,
+          "change_pct": 12.37,
+          "deviation": 17.64,
+          "above_streak": 12,
+          "below_streak": 0,
+          "deviation_alert": null
         },
         {
           "code": "688233",
@@ -4251,30 +4262,6 @@
           "deviation_alert": null
         },
         {
-          "code": "300801",
-          "name": "泰和科技",
-          "status": "above",
-          "ma20": 28.03,
-          "close": 35.45,
-          "change_pct": 9.75,
-          "deviation": 26.47,
-          "above_streak": 8,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920981",
-          "name": "晶赛科技",
-          "status": "above",
-          "ma20": 41.376,
-          "close": 44.05,
-          "change_pct": 5.13,
-          "deviation": 6.46,
-          "above_streak": 11,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "000536",
           "name": "华映科技",
           "status": "tangle",
@@ -4318,6 +4305,18 @@
           "close": 17.91,
           "change_pct": 10.01,
           "deviation": -2.14,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "002881",
+          "name": "美格智能",
+          "status": "tangle",
+          "ma20": 40.75,
+          "close": 40.08,
+          "change_pct": 9.99,
+          "deviation": -1.64,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -5031,10 +5030,9 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 11,
-        "above": 21,
-        "tangle": 11,
-        "below_d2": 1,
+        "breakout_up": 10,
+        "above": 22,
+        "tangle": 12,
         "excluded": 6
       },
       "stocks": [
@@ -5106,18 +5104,6 @@
           "close": 18.72,
           "change_pct": 9.99,
           "deviation": 3.47,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688811",
-          "name": "有研复材",
-          "status": "breakout_up",
-          "ma20": 28.541,
-          "close": 31.0,
-          "change_pct": 9.42,
-          "deviation": 8.62,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5315,6 +5301,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688811",
+          "name": "有研复材",
+          "status": "above",
+          "ma20": 28.826,
+          "close": 33.06,
+          "change_pct": 6.65,
+          "deviation": 14.69,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603978",
           "name": "深圳新星",
           "status": "above",
@@ -5399,6 +5397,18 @@
           "deviation_alert": null
         },
         {
+          "code": "301306",
+          "name": "西测测试",
+          "status": "above",
+          "ma20": 147.805,
+          "close": 166.45,
+          "change_pct": 5.02,
+          "deviation": 12.61,
+          "above_streak": 12,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002935",
           "name": "天奥电子",
           "status": "above",
@@ -5407,18 +5417,6 @@
           "change_pct": 4.92,
           "deviation": 11.09,
           "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300943",
-          "name": "春晖智控",
-          "status": "above",
-          "ma20": 39.684,
-          "close": 47.0,
-          "change_pct": 4.56,
-          "deviation": 18.44,
-          "above_streak": 9,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5454,6 +5452,18 @@
           "close": 31.72,
           "change_pct": 9.0,
           "deviation": -0.79,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920363",
+          "name": "莱赛激光",
+          "status": "tangle",
+          "ma20": 12.261,
+          "close": 12.55,
+          "change_pct": 7.26,
+          "deviation": 2.36,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -5552,18 +5562,6 @@
           "deviation": 1.04,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920363",
-          "name": "莱赛激光",
-          "status": "below_d2",
-          "ma20": 12.255,
-          "close": 11.7,
-          "change_pct": 0.17,
-          "deviation": -4.53,
-          "above_streak": 0,
-          "below_streak": 2,
           "deviation_alert": null
         },
         {
@@ -7050,6 +7048,15 @@
       "ma20": 17.061
     },
     {
+      "sector": "AI应用",
+      "code": "920367",
+      "name": "新赣江",
+      "deviation": 42.16,
+      "alert": "warn",
+      "close": 24.22,
+      "ma20": 17.037
+    },
+    {
       "sector": "芯片",
       "code": "688549",
       "name": "中巨芯",
@@ -7086,15 +7093,6 @@
       "ma20": 18.101
     },
     {
-      "sector": "AI应用",
-      "code": "920367",
-      "name": "新赣江",
-      "deviation": 34.62,
-      "alert": "warn",
-      "close": 22.42,
-      "ma20": 16.654
-    },
-    {
       "sector": "小金属·芯片",
       "code": "600641",
       "name": "先导基电",
@@ -7102,6 +7100,15 @@
       "alert": "warn",
       "close": 43.85,
       "ma20": 32.584
+    },
+    {
+      "sector": "算力",
+      "code": "920699",
+      "name": "海达尔",
+      "deviation": 33.84,
+      "alert": "warn",
+      "close": 92.93,
+      "ma20": 69.433
     },
     {
       "sector": "商业航天",
