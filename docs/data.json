@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02 17:56",
+  "updated_at": "2026-07-02 20:01",
   "trade_date": "2026-07-02",
   "config": {
     "sector_limit": null,
@@ -19,13 +19,13 @@
       "deviation": 0.59,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "classified_stock_count": 49,
       "truncated": false,
       "status_counts": {
         "breakout_up": 6,
         "above": 12,
         "tangle": 11,
-        "excluded": 21
+        "excluded": 20
       },
       "stocks": [
         {
@@ -554,18 +554,6 @@
           "deviation": -4.06,
           "above_streak": 0,
           "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "920263",
-          "name": "中航泰达",
-          "status": "excluded",
-          "ma20": 7.794,
-          "close": 7.3,
-          "change_pct": 1.25,
-          "deviation": -6.33,
-          "above_streak": 0,
-          "below_streak": 7,
           "deviation_alert": null
         },
         {
@@ -1274,13 +1262,13 @@
       "deviation": -1.55,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "classified_stock_count": 48,
       "truncated": false,
       "status_counts": {
         "breakout_up": 11,
         "above": 8,
         "tangle": 16,
-        "excluded": 15
+        "excluded": 13
       },
       "stocks": [
         {
@@ -1716,18 +1704,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920021",
-          "name": "流金科技",
-          "status": "excluded",
-          "ma20": 8.027,
-          "close": 7.69,
-          "change_pct": 7.4,
-          "deviation": -4.19,
-          "above_streak": 0,
-          "below_streak": 28,
-          "deviation_alert": null
-        },
-        {
           "code": "603598",
           "name": "引力传媒",
           "status": "excluded",
@@ -1797,18 +1773,6 @@
           "deviation": -5.48,
           "above_streak": 0,
           "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "688246",
-          "name": "嘉和美康",
-          "status": "excluded",
-          "ma20": 23.027,
-          "close": 20.81,
-          "change_pct": 2.51,
-          "deviation": -9.63,
-          "above_streak": 0,
-          "below_streak": 6,
           "deviation_alert": null
         },
         {
@@ -2529,11 +2493,11 @@
       "deviation": 0.15,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "classified_stock_count": 49,
       "truncated": false,
       "status_counts": {
         "breakout_up": 8,
-        "above": 11,
+        "above": 10,
         "tangle": 15,
         "excluded": 16
       },
@@ -2633,18 +2597,6 @@
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
-        },
-        {
-          "code": "920699",
-          "name": "海达尔",
-          "status": "above",
-          "ma20": 71.693,
-          "close": 107.2,
-          "change_pct": 15.36,
-          "deviation": 49.53,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": "warn"
         },
         {
           "code": "002354",
@@ -3784,13 +3736,13 @@
       "deviation": 7.99,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 49,
+      "classified_stock_count": 43,
       "truncated": false,
       "status_counts": {
         "breakout_up": 8,
-        "above": 29,
-        "tangle": 6,
-        "excluded": 6
+        "above": 26,
+        "tangle": 4,
+        "excluded": 5
       },
       "stocks": [
         {
@@ -4022,30 +3974,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920725",
-          "name": "惠丰钻石",
-          "status": "above",
-          "ma20": 90.129,
-          "close": 106.45,
-          "change_pct": 9.88,
-          "deviation": 18.11,
-          "above_streak": 29,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920015",
-          "name": "锦华新材",
-          "status": "above",
-          "ma20": 51.799,
-          "close": 57.8,
-          "change_pct": 8.54,
-          "deviation": 11.59,
-          "above_streak": 17,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "603078",
           "name": "江化微",
           "status": "above",
@@ -4078,18 +4006,6 @@
           "change_pct": 7.51,
           "deviation": 18.36,
           "above_streak": 4,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920510",
-          "name": "丰光精密",
-          "status": "above",
-          "ma20": 21.575,
-          "close": 25.2,
-          "change_pct": 6.69,
-          "deviation": 16.8,
-          "above_streak": 19,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -4250,18 +4166,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920807",
-          "name": "奔朗新材",
-          "status": "tangle",
-          "ma20": 12.195,
-          "close": 12.2,
-          "change_pct": 8.93,
-          "deviation": 0.04,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "603031",
           "name": "安孚科技",
           "status": "tangle",
@@ -4295,30 +4199,6 @@
           "deviation": 1.08,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920175",
-          "name": "东方碳素",
-          "status": "tangle",
-          "ma20": 10.697,
-          "close": 10.49,
-          "change_pct": 3.86,
-          "deviation": -1.94,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920021",
-          "name": "流金科技",
-          "status": "excluded",
-          "ma20": 8.027,
-          "close": 7.69,
-          "change_pct": 7.4,
-          "deviation": -4.19,
-          "above_streak": 0,
-          "below_streak": 28,
           "deviation_alert": null
         },
         {
@@ -6929,15 +6809,6 @@
       "alert": "strong",
       "close": 30.01,
       "ma20": 18.753
-    },
-    {
-      "sector": "算力",
-      "code": "920699",
-      "name": "海达尔",
-      "deviation": 49.53,
-      "alert": "warn",
-      "close": 107.2,
-      "ma20": 71.693
     },
     {
       "sector": "芯片",
