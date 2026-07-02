@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02 20:01",
+  "updated_at": "2026-07-02 23:01",
   "trade_date": "2026-07-02",
   "config": {
     "sector_limit": null,
@@ -14,18 +14,18 @@
       "index_symbol": "小金属概念",
       "member_source": "html:300809(50)",
       "status": "tangle",
-      "ma20": 3760.69,
-      "close": 3782.82,
-      "deviation": 0.59,
+      "ma20": 3759.66,
+      "close": 3763.98,
+      "deviation": 0.11,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 49,
+      "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
         "breakout_up": 6,
         "above": 12,
         "tangle": 11,
-        "excluded": 20
+        "excluded": 21
       },
       "stocks": [
         {
@@ -557,6 +557,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920263",
+          "name": "中航泰达",
+          "status": "excluded",
+          "ma20": 7.794,
+          "close": 7.3,
+          "change_pct": 1.25,
+          "deviation": -6.33,
+          "above_streak": 0,
+          "below_streak": 7,
+          "deviation_alert": null
+        },
+        {
           "code": "600295",
           "name": "鄂尔多斯",
           "status": "excluded",
@@ -618,13 +630,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-02-11",
-          "open": 3759.557,
-          "high": 3864.026,
-          "low": 3759.557,
-          "close": 3837.829
-        },
         {
           "date": "2026-02-12",
           "open": 3835.776,
@@ -1247,6 +1252,13 @@
           "high": 3817.033,
           "low": 3720.305,
           "close": 3782.823
+        },
+        {
+          "date": "2026-07-02",
+          "open": 3749.216,
+          "high": 3839.506,
+          "low": 3733.976,
+          "close": 3763.982
         }
       ]
     },
@@ -1257,18 +1269,18 @@
       "index_symbol": "AI应用",
       "member_source": "html:309264(50)",
       "status": "tangle",
-      "ma20": 841.44,
-      "close": 828.41,
-      "deviation": -1.55,
+      "ma20": 838.37,
+      "close": 819.12,
+      "deviation": -2.3,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 48,
+      "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
         "breakout_up": 11,
         "above": 8,
         "tangle": 16,
-        "excluded": 13
+        "excluded": 15
       },
       "stocks": [
         {
@@ -1704,6 +1716,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920021",
+          "name": "流金科技",
+          "status": "excluded",
+          "ma20": 8.027,
+          "close": 7.69,
+          "change_pct": 7.4,
+          "deviation": -4.19,
+          "above_streak": 0,
+          "below_streak": 28,
+          "deviation_alert": null
+        },
+        {
           "code": "603598",
           "name": "引力传媒",
           "status": "excluded",
@@ -1773,6 +1797,18 @@
           "deviation": -5.48,
           "above_streak": 0,
           "below_streak": 11,
+          "deviation_alert": null
+        },
+        {
+          "code": "688246",
+          "name": "嘉和美康",
+          "status": "excluded",
+          "ma20": 23.027,
+          "close": 20.81,
+          "change_pct": 2.51,
+          "deviation": -9.63,
+          "above_streak": 0,
+          "below_streak": 6,
           "deviation_alert": null
         },
         {
@@ -1849,13 +1885,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-02-11",
-          "open": 1071.828,
-          "high": 1073.037,
-          "low": 1059.942,
-          "close": 1060.067
-        },
         {
           "date": "2026-02-12",
           "open": 1060.811,
@@ -2478,6 +2507,13 @@
           "high": 835.819,
           "low": 805.638,
           "close": 828.413
+        },
+        {
+          "date": "2026-07-02",
+          "open": 826.913,
+          "high": 839.599,
+          "low": 817.491,
+          "close": 819.124
         }
       ]
     },
@@ -2488,16 +2524,16 @@
       "index_symbol": "东数西算(算力)",
       "member_source": "html:308828(50)",
       "status": "tangle",
-      "ma20": 2340.34,
-      "close": 2343.84,
-      "deviation": 0.15,
+      "ma20": 2334.93,
+      "close": 2289.8,
+      "deviation": -1.93,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 49,
+      "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
         "breakout_up": 8,
-        "above": 10,
+        "above": 11,
         "tangle": 15,
         "excluded": 16
       },
@@ -2597,6 +2633,18 @@
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "920699",
+          "name": "海达尔",
+          "status": "above",
+          "ma20": 71.693,
+          "close": 107.2,
+          "change_pct": 15.36,
+          "deviation": 49.53,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": "warn"
         },
         {
           "code": "002354",
@@ -3092,13 +3140,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-02-11",
-          "open": 2380.725,
-          "high": 2400.569,
-          "low": 2375.543,
-          "close": 2375.781
-        },
         {
           "date": "2026-02-12",
           "open": 2395.931,
@@ -3721,6 +3762,13 @@
           "high": 2366.484,
           "low": 2324.197,
           "close": 2343.844
+        },
+        {
+          "date": "2026-07-02",
+          "open": 2313.052,
+          "high": 2357.031,
+          "low": 2283.624,
+          "close": 2289.801
         }
       ]
     },
@@ -3731,18 +3779,18 @@
       "index_symbol": "芯片概念",
       "member_source": "html:301085(50)",
       "status": "bullish",
-      "ma20": 5508.27,
-      "close": 5948.58,
-      "deviation": 7.99,
+      "ma20": 5542.13,
+      "close": 5928.16,
+      "deviation": 6.97,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 43,
+      "classified_stock_count": 49,
       "truncated": false,
       "status_counts": {
         "breakout_up": 8,
-        "above": 26,
-        "tangle": 4,
-        "excluded": 5
+        "above": 29,
+        "tangle": 6,
+        "excluded": 6
       },
       "stocks": [
         {
@@ -3974,6 +4022,30 @@
           "deviation_alert": null
         },
         {
+          "code": "920725",
+          "name": "惠丰钻石",
+          "status": "above",
+          "ma20": 90.129,
+          "close": 106.45,
+          "change_pct": 9.88,
+          "deviation": 18.11,
+          "above_streak": 29,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920015",
+          "name": "锦华新材",
+          "status": "above",
+          "ma20": 51.799,
+          "close": 57.8,
+          "change_pct": 8.54,
+          "deviation": 11.59,
+          "above_streak": 17,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603078",
           "name": "江化微",
           "status": "above",
@@ -4006,6 +4078,18 @@
           "change_pct": 7.51,
           "deviation": 18.36,
           "above_streak": 4,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920510",
+          "name": "丰光精密",
+          "status": "above",
+          "ma20": 21.575,
+          "close": 25.2,
+          "change_pct": 6.69,
+          "deviation": 16.8,
+          "above_streak": 19,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -4166,6 +4250,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920807",
+          "name": "奔朗新材",
+          "status": "tangle",
+          "ma20": 12.195,
+          "close": 12.2,
+          "change_pct": 8.93,
+          "deviation": 0.04,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603031",
           "name": "安孚科技",
           "status": "tangle",
@@ -4199,6 +4295,30 @@
           "deviation": 1.08,
           "above_streak": 0,
           "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920175",
+          "name": "东方碳素",
+          "status": "tangle",
+          "ma20": 10.697,
+          "close": 10.49,
+          "change_pct": 3.86,
+          "deviation": -1.94,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920021",
+          "name": "流金科技",
+          "status": "excluded",
+          "ma20": 8.027,
+          "close": 7.69,
+          "change_pct": 7.4,
+          "deviation": -4.19,
+          "above_streak": 0,
+          "below_streak": 28,
           "deviation_alert": null
         },
         {
@@ -4263,13 +4383,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-02-11",
-          "open": 4645.443,
-          "high": 4676.406,
-          "low": 4629.803,
-          "close": 4630.059
-        },
         {
           "date": "2026-02-12",
           "open": 4643.22,
@@ -4892,6 +5005,13 @@
           "high": 6035.216,
           "low": 5901.326,
           "close": 5948.583
+        },
+        {
+          "date": "2026-07-02",
+          "open": 5799.355,
+          "high": 5935.89,
+          "low": 5730.331,
+          "close": 5928.164
         }
       ]
     },
@@ -4902,9 +5022,9 @@
       "index_symbol": "商业航天",
       "member_source": "html:309130(50)",
       "status": "tangle",
-      "ma20": 2405.21,
-      "close": 2438.2,
-      "deviation": 1.37,
+      "ma20": 2404.1,
+      "close": 2381.94,
+      "deviation": -0.92,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -5518,13 +5638,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-02-11",
-          "open": 2494.238,
-          "high": 2516.86,
-          "low": 2479.904,
-          "close": 2479.923
-        },
         {
           "date": "2026-02-12",
           "open": 2479.67,
@@ -6147,6 +6260,13 @@
           "high": 2456.462,
           "low": 2421.911,
           "close": 2438.201
+        },
+        {
+          "date": "2026-07-02",
+          "open": 2402.36,
+          "high": 2449.24,
+          "low": 2376.024,
+          "close": 2381.943
         }
       ]
     },
@@ -6157,9 +6277,9 @@
       "index_symbol": "机器人概念",
       "member_source": "none",
       "status": "tangle",
-      "ma20": 4129.37,
-      "close": 4131.06,
-      "deviation": 0.04,
+      "ma20": 4124.6,
+      "close": 4092.54,
+      "deviation": -0.78,
       "source_stock_count": 0,
       "processed_stock_count": 0,
       "classified_stock_count": 0,
@@ -6167,13 +6287,6 @@
       "status_counts": {},
       "stocks": [],
       "klines": [
-        {
-          "date": "2026-02-11",
-          "open": 4340.1,
-          "high": 4359.354,
-          "low": 4327.682,
-          "close": 4328.079
-        },
         {
           "date": "2026-02-12",
           "open": 4334.765,
@@ -6796,6 +6909,13 @@
           "high": 4158.725,
           "low": 4077.136,
           "close": 4131.06
+        },
+        {
+          "date": "2026-07-02",
+          "open": 4095.578,
+          "high": 4192.097,
+          "low": 4082.585,
+          "close": 4092.536
         }
       ]
     }
@@ -6809,6 +6929,15 @@
       "alert": "strong",
       "close": 30.01,
       "ma20": 18.753
+    },
+    {
+      "sector": "算力",
+      "code": "920699",
+      "name": "海达尔",
+      "deviation": 49.53,
+      "alert": "warn",
+      "close": 107.2,
+      "ma20": 71.693
     },
     {
       "sector": "芯片",
