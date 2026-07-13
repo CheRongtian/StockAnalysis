@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-11 07:44",
-  "trade_date": "2026-07-11",
+  "updated_at": "2026-07-13 09:19",
+  "trade_date": "2026-07-13",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -1864,10 +1864,10 @@
           "code": "002044",
           "name": "美年健康",
           "status": "excluded",
-          "ma20": 5.026,
-          "close": 4.64,
-          "change_pct": 4.98,
-          "deviation": -7.68,
+          "ma20": 5.017,
+          "close": 4.631,
+          "change_pct": 4.99,
+          "deviation": -7.69,
           "above_streak": 0,
           "below_streak": 7,
           "deviation_alert": null
