@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16 19:23",
+  "updated_at": "2026-07-16 21:09",
   "trade_date": "2026-07-16",
   "config": {
     "sector_limit": null,
@@ -2525,9 +2525,9 @@
       "index_symbol": "东数西算(算力)",
       "member_source": "html:308828(50)",
       "status": "bearish",
-      "ma20": 2278.94,
-      "close": 2106.59,
-      "deviation": -7.56,
+      "ma20": 2264.36,
+      "close": 2089.24,
+      "deviation": -7.73,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -3141,13 +3141,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-05",
-          "open": 2348.901,
-          "high": 2362.923,
-          "low": 2334.661,
-          "close": 2347.131
-        },
         {
           "date": "2026-03-06",
           "open": 2335.226,
@@ -3770,6 +3763,13 @@
           "high": 2153.967,
           "low": 2097.72,
           "close": 2106.587
+        },
+        {
+          "date": "2026-07-16",
+          "open": 2080.682,
+          "high": 2139.401,
+          "low": 2064.956,
+          "close": 2089.236
         }
       ]
     },
@@ -3780,9 +3780,9 @@
       "index_symbol": "芯片概念",
       "member_source": "html:301085(50)",
       "status": "bearish",
-      "ma20": 5587.37,
-      "close": 5036.66,
-      "deviation": -9.86,
+      "ma20": 5550.06,
+      "close": 4881.25,
+      "deviation": -12.05,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -4396,13 +4396,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-05",
-          "open": 4641.543,
-          "high": 4685.456,
-          "low": 4603.405,
-          "close": 4635.176
-        },
         {
           "date": "2026-03-06",
           "open": 4606.638,
@@ -5025,6 +5018,13 @@
           "high": 5217.227,
           "low": 5014.328,
           "close": 5036.659
+        },
+        {
+          "date": "2026-07-16",
+          "open": 4953.731,
+          "high": 5069.415,
+          "low": 4854.178,
+          "close": 4881.248
         }
       ]
     },
@@ -5035,9 +5035,9 @@
       "index_symbol": "商业航天",
       "member_source": "html:309130(50)",
       "status": "bearish",
-      "ma20": 2348.19,
-      "close": 2126.18,
-      "deviation": -9.45,
+      "ma20": 2328.91,
+      "close": 2086.92,
+      "deviation": -10.39,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -5652,13 +5652,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-05",
-          "open": 2488.508,
-          "high": 2499.847,
-          "low": 2462.042,
-          "close": 2482.983
-        },
         {
           "date": "2026-03-06",
           "open": 2467.684,
@@ -6281,6 +6274,13 @@
           "high": 2176.147,
           "low": 2117.962,
           "close": 2126.179
+        },
+        {
+          "date": "2026-07-16",
+          "open": 2100.742,
+          "high": 2144.553,
+          "low": 2077.829,
+          "close": 2086.921
         }
       ]
     },
@@ -6291,9 +6291,9 @@
       "index_symbol": "机器人概念",
       "member_source": "none",
       "status": "bearish",
-      "ma20": 4039.21,
-      "close": 3782.98,
-      "deviation": -6.34,
+      "ma20": 4016.43,
+      "close": 3752.87,
+      "deviation": -6.56,
       "source_stock_count": 0,
       "processed_stock_count": 0,
       "classified_stock_count": 0,
@@ -6301,13 +6301,6 @@
       "status_counts": {},
       "stocks": [],
       "klines": [
-        {
-          "date": "2026-03-05",
-          "open": 4242.525,
-          "high": 4269.571,
-          "low": 4215.367,
-          "close": 4237.463
-        },
         {
           "date": "2026-03-06",
           "open": 4220.055,
@@ -6930,6 +6923,13 @@
           "high": 3839.452,
           "low": 3765.585,
           "close": 3782.976
+        },
+        {
+          "date": "2026-07-16",
+          "open": 3749.617,
+          "high": 3827.971,
+          "low": 3728.103,
+          "close": 3752.87
         }
       ]
     }
