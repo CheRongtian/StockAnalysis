@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-18 07:39",
-  "trade_date": "2026-07-18",
+  "updated_at": "2026-07-20 09:18",
+  "trade_date": "2026-07-20",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "html:300809(50)",
       "status": "bearish",
-      "ma20": 3639.83,
-      "close": 3283.63,
-      "deviation": -9.79,
+      "ma20": 3603.85,
+      "close": 3139.54,
+      "deviation": -12.88,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -631,13 +631,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-06",
-          "open": 4007.129,
-          "high": 4073.519,
-          "low": 3970.815,
-          "close": 4035.965
-        },
         {
           "date": "2026-03-09",
           "open": 3972.081,
@@ -1260,6 +1253,13 @@
           "high": 3344.229,
           "low": 3269.83,
           "close": 3283.628
+        },
+        {
+          "date": "2026-07-17",
+          "open": 3268.044,
+          "high": 3274.013,
+          "low": 3123.579,
+          "close": 3139.54
         }
       ]
     },
@@ -1874,7 +1874,7 @@
         },
         {
           "code": "002713",
-          "name": "*ST东易",
+          "name": "东易日盛",
           "status": "excluded",
           "ma20": 11.446,
           "close": 10.03,
@@ -3106,7 +3106,7 @@
         },
         {
           "code": "002713",
-          "name": "*ST东易",
+          "name": "东易日盛",
           "status": "excluded",
           "ma20": 11.446,
           "close": 10.03,
