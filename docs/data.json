@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20 21:40",
+  "updated_at": "2026-07-20 23:41",
   "trade_date": "2026-07-20",
   "config": {
     "sector_limit": null,
@@ -2531,10 +2531,10 @@
       "deviation": -13.58,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "classified_stock_count": 49,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 17,
+        "breakout_up": 16,
         "above": 7,
         "tangle": 7,
         "below_d2": 1,
@@ -2549,18 +2549,6 @@
           "close": 6.83,
           "change_pct": 18.17,
           "deviation": 20.63,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920010",
-          "name": "凯添燃气",
-          "status": "breakout_up",
-          "ma20": 8.14,
-          "close": 8.73,
-          "change_pct": 10.51,
-          "deviation": 7.25,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
