@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21 07:43",
+  "updated_at": "2026-07-21 09:15",
   "trade_date": "2026-07-21",
   "config": {
     "sector_limit": null,
@@ -2938,6 +2938,18 @@
           "deviation_alert": null
         },
         {
+          "code": "000539",
+          "name": "粤电力A",
+          "status": "excluded",
+          "ma20": 6.219,
+          "close": 5.82,
+          "change_pct": 10.02,
+          "deviation": -6.41,
+          "above_streak": 0,
+          "below_streak": 22,
+          "deviation_alert": null
+        },
+        {
           "code": "000815",
           "name": "美利云",
           "status": "excluded",
@@ -2947,18 +2959,6 @@
           "deviation": -5.18,
           "above_streak": 0,
           "below_streak": 17,
-          "deviation_alert": null
-        },
-        {
-          "code": "000539",
-          "name": "粤电力A",
-          "status": "excluded",
-          "ma20": 6.239,
-          "close": 5.84,
-          "change_pct": 9.98,
-          "deviation": -6.39,
-          "above_streak": 0,
-          "below_streak": 22,
           "deviation_alert": null
         },
         {
