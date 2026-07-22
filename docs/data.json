@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22 06:41",
+  "updated_at": "2026-07-22 09:14",
   "trade_date": "2026-07-22",
   "config": {
     "sector_limit": null,
@@ -5135,10 +5135,10 @@
           "code": "688308",
           "name": "欧科亿",
           "status": "excluded",
-          "ma20": 146.551,
-          "close": 101.68,
-          "change_pct": 18.79,
-          "deviation": -30.62,
+          "ma20": 146.301,
+          "close": 101.43,
+          "change_pct": 18.84,
+          "deviation": -30.67,
           "above_streak": 0,
           "below_streak": 12,
           "deviation_alert": "warn"
@@ -7038,10 +7038,10 @@
       "sector": "商业航天",
       "code": "688308",
       "name": "欧科亿",
-      "deviation": -30.62,
+      "deviation": -30.67,
       "alert": "warn",
-      "close": 101.68,
-      "ma20": 146.551
+      "close": 101.43,
+      "ma20": 146.301
     },
     {
       "sector": "小金属",
