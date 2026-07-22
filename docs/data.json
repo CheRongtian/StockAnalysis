@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-22 22:51",
-  "trade_date": "2026-07-22",
+  "updated_at": "2026-07-23 00:11",
+  "trade_date": "2026-07-23",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "html:300809(50)",
       "status": "bearish",
-      "ma20": 3487.15,
-      "close": 3204.77,
-      "deviation": -8.1,
+      "ma20": 3486.05,
+      "close": 3182.74,
+      "deviation": -8.7,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1256,9 +1256,9 @@
         {
           "date": "2026-07-22",
           "open": 3157.884,
-          "high": 3213.619,
+          "high": 3226.31,
           "low": 3157.884,
-          "close": 3204.767
+          "close": 3182.745
         }
       ]
     },
@@ -3779,9 +3779,9 @@
       "index_symbol": "芯片概念",
       "member_source": "html:301085(50)",
       "status": "bearish",
-      "ma20": 5303.12,
-      "close": 4547.05,
-      "deviation": -14.26,
+      "ma20": 5299.13,
+      "close": 4467.36,
+      "deviation": -15.7,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 48,
@@ -4997,9 +4997,9 @@
         {
           "date": "2026-07-22",
           "open": 4494.787,
-          "high": 4588.195,
-          "low": 4492.177,
-          "close": 4547.046
+          "high": 4589.935,
+          "low": 4437.388,
+          "close": 4467.361
         }
       ]
     },
