@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22 15:27",
+  "updated_at": "2026-07-22 18:10",
   "trade_date": "2026-07-22",
   "config": {
     "sector_limit": null,
@@ -476,12 +476,12 @@
           "code": "920914",
           "name": "远航精密",
           "status": "excluded",
-          "ma20": 17.597,
-          "close": 16.04,
-          "change_pct": 3.02,
-          "deviation": -8.85,
+          "ma20": 17.375,
+          "close": 16.56,
+          "change_pct": 3.24,
+          "deviation": -4.69,
           "above_streak": 0,
-          "below_streak": 19,
+          "below_streak": 20,
           "deviation_alert": null
         },
         {
@@ -1279,8 +1279,8 @@
       "status_counts": {
         "breakout_up": 12,
         "above": 21,
-        "tangle": 11,
-        "excluded": 6
+        "tangle": 12,
+        "excluded": 5
       },
       "stocks": [
         {
@@ -1440,18 +1440,6 @@
           "deviation_alert": "warn"
         },
         {
-          "code": "920367",
-          "name": "新赣江",
-          "status": "above",
-          "ma20": 24.017,
-          "close": 28.17,
-          "change_pct": 11.43,
-          "deviation": 17.29,
-          "above_streak": 17,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "002197",
           "name": "证通电子",
           "status": "above",
@@ -1476,6 +1464,18 @@
           "deviation_alert": "warn"
         },
         {
+          "code": "920367",
+          "name": "新赣江",
+          "status": "above",
+          "ma20": 24.676,
+          "close": 30.74,
+          "change_pct": 9.12,
+          "deviation": 24.57,
+          "above_streak": 18,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "000938",
           "name": "紫光股份",
           "status": "above",
@@ -1498,6 +1498,18 @@
           "above_streak": 4,
           "below_streak": 0,
           "deviation_alert": "strong"
+        },
+        {
+          "code": "920508",
+          "name": "殷图网联",
+          "status": "above",
+          "ma20": 14.048,
+          "close": 16.44,
+          "change_pct": 6.75,
+          "deviation": 17.03,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
         },
         {
           "code": "300369",
@@ -1620,18 +1632,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920508",
-          "name": "殷图网联",
-          "status": "above",
-          "ma20": 13.985,
-          "close": 15.4,
-          "change_pct": 2.67,
-          "deviation": 10.12,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "600415",
           "name": "小商品城",
           "status": "above",
@@ -1728,6 +1728,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920953",
+          "name": "国子软件",
+          "status": "tangle",
+          "ma20": 21.938,
+          "close": 22.36,
+          "change_pct": 5.97,
+          "deviation": 1.92,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002625",
           "name": "光启技术",
           "status": "tangle",
@@ -1776,6 +1788,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920982",
+          "name": "锦波生物",
+          "status": "tangle",
+          "ma20": 125.544,
+          "close": 128.95,
+          "change_pct": 3.23,
+          "deviation": 2.71,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "600337",
           "name": "ST美克",
           "status": "tangle",
@@ -1795,18 +1819,6 @@
           "close": 28.73,
           "change_pct": 2.64,
           "deviation": -1.79,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920982",
-          "name": "锦波生物",
-          "status": "tangle",
-          "ma20": 126.189,
-          "close": 124.91,
-          "change_pct": -3.81,
-          "deviation": -1.01,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1867,18 +1879,6 @@
           "close": 10.7,
           "change_pct": 2.98,
           "deviation": -9.81,
-          "above_streak": 0,
-          "below_streak": 20,
-          "deviation_alert": null
-        },
-        {
-          "code": "920953",
-          "name": "国子软件",
-          "status": "excluded",
-          "ma20": 22.052,
-          "close": 21.1,
-          "change_pct": 0.05,
-          "deviation": -4.31,
           "above_streak": 0,
           "below_streak": 20,
           "deviation_alert": null
@@ -2890,11 +2890,11 @@
           "code": "920493",
           "name": "并行科技",
           "status": "above",
-          "ma20": 111.291,
-          "close": 120.29,
-          "change_pct": 3.09,
-          "deviation": 8.09,
-          "above_streak": 2,
+          "ma20": 111.316,
+          "close": 124.4,
+          "change_pct": 3.42,
+          "deviation": 11.75,
+          "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -3789,8 +3789,7 @@
       "status_counts": {
         "breakout_up": 4,
         "above": 12,
-        "tangle": 9,
-        "below_d2": 1,
+        "tangle": 10,
         "excluded": 22
       },
       "stocks": [
@@ -4083,6 +4082,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920476",
+          "name": "海能技术",
+          "status": "tangle",
+          "ma20": 22.103,
+          "close": 21.6,
+          "change_pct": 6.4,
+          "deviation": -2.28,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "688141",
           "name": "杰华特",
           "status": "tangle",
@@ -4092,18 +4103,6 @@
           "deviation": -1.75,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920476",
-          "name": "海能技术",
-          "status": "below_d2",
-          "ma20": 22.041,
-          "close": 20.3,
-          "change_pct": 0.0,
-          "deviation": -7.9,
-          "above_streak": 0,
-          "below_streak": 2,
           "deviation_alert": null
         },
         {
@@ -5019,9 +5018,9 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 3,
+        "breakout_up": 4,
         "above": 10,
-        "tangle": 10,
+        "tangle": 9,
         "excluded": 27
       },
       "stocks": [
@@ -5033,6 +5032,18 @@
           "close": 14.92,
           "change_pct": 10.03,
           "deviation": 12.89,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920299",
+          "name": "灿能电力",
+          "status": "breakout_up",
+          "ma20": 16.188,
+          "close": 17.46,
+          "change_pct": 4.61,
+          "deviation": 7.86,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5074,6 +5085,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920943",
+          "name": "优机股份",
+          "status": "above",
+          "ma20": 14.501,
+          "close": 16.45,
+          "change_pct": 5.92,
+          "deviation": 13.44,
+          "above_streak": 9,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002439",
           "name": "启明星辰",
           "status": "above",
@@ -5110,6 +5133,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920493",
+          "name": "并行科技",
+          "status": "above",
+          "ma20": 111.316,
+          "close": 124.4,
+          "change_pct": 3.42,
+          "deviation": 11.75,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300968",
           "name": "格林精密",
           "status": "above",
@@ -5129,18 +5164,6 @@
           "close": 76.18,
           "change_pct": 3.14,
           "deviation": 9.2,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920493",
-          "name": "并行科技",
-          "status": "above",
-          "ma20": 111.291,
-          "close": 120.29,
-          "change_pct": 3.09,
-          "deviation": 8.09,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
@@ -5166,18 +5189,6 @@
           "change_pct": 1.72,
           "deviation": 18.54,
           "above_streak": 5,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920943",
-          "name": "优机股份",
-          "status": "above",
-          "ma20": 14.393,
-          "close": 15.53,
-          "change_pct": -3.96,
-          "deviation": 7.9,
-          "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5287,30 +5298,6 @@
           "deviation": -0.74,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920299",
-          "name": "灿能电力",
-          "status": "tangle",
-          "ma20": 16.199,
-          "close": 16.69,
-          "change_pct": -4.36,
-          "deviation": 3.03,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920438",
-          "name": "戈碧迦",
-          "status": "excluded",
-          "ma20": 136.224,
-          "close": 126.61,
-          "change_pct": 25.36,
-          "deviation": -7.06,
-          "above_streak": 0,
-          "below_streak": 7,
           "deviation_alert": null
         },
         {
@@ -5473,12 +5460,12 @@
           "code": "920914",
           "name": "远航精密",
           "status": "excluded",
-          "ma20": 17.597,
-          "close": 16.04,
-          "change_pct": 3.02,
-          "deviation": -8.85,
+          "ma20": 17.375,
+          "close": 16.56,
+          "change_pct": 3.24,
+          "deviation": -4.69,
           "above_streak": 0,
-          "below_streak": 19,
+          "below_streak": 20,
           "deviation_alert": null
         },
         {
@@ -5491,6 +5478,18 @@
           "deviation": -15.32,
           "above_streak": 0,
           "below_streak": 30,
+          "deviation_alert": null
+        },
+        {
+          "code": "920438",
+          "name": "戈碧迦",
+          "status": "excluded",
+          "ma20": 135.682,
+          "close": 129.98,
+          "change_pct": 2.66,
+          "deviation": -4.2,
+          "above_streak": 0,
+          "below_streak": 8,
           "deviation_alert": null
         },
         {
@@ -5554,6 +5553,30 @@
           "deviation_alert": null
         },
         {
+          "code": "920576",
+          "name": "天力复合",
+          "status": "excluded",
+          "ma20": 53.044,
+          "close": 42.5,
+          "change_pct": 2.09,
+          "deviation": -19.88,
+          "above_streak": 0,
+          "below_streak": 8,
+          "deviation_alert": null
+        },
+        {
+          "code": "920169",
+          "name": "七丰精工",
+          "status": "excluded",
+          "ma20": 19.41,
+          "close": 16.81,
+          "change_pct": 2.06,
+          "deviation": -13.39,
+          "above_streak": 0,
+          "below_streak": 22,
+          "deviation_alert": null
+        },
+        {
           "code": "000066",
           "name": "中国长城",
           "status": "excluded",
@@ -5561,6 +5584,18 @@
           "close": 15.27,
           "change_pct": 1.87,
           "deviation": -13.46,
+          "above_streak": 0,
+          "below_streak": 7,
+          "deviation_alert": null
+        },
+        {
+          "code": "920116",
+          "name": "星图测控",
+          "status": "excluded",
+          "ma20": 59.033,
+          "close": 46.3,
+          "change_pct": 1.78,
+          "deviation": -21.57,
           "above_streak": 0,
           "below_streak": 7,
           "deviation_alert": null
@@ -5587,42 +5622,6 @@
           "deviation": -24.31,
           "above_streak": 0,
           "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "920169",
-          "name": "七丰精工",
-          "status": "excluded",
-          "ma20": 19.699,
-          "close": 16.47,
-          "change_pct": 1.48,
-          "deviation": -16.39,
-          "above_streak": 0,
-          "below_streak": 21,
-          "deviation_alert": null
-        },
-        {
-          "code": "920576",
-          "name": "天力复合",
-          "status": "excluded",
-          "ma20": 53.848,
-          "close": 41.63,
-          "change_pct": 1.34,
-          "deviation": -22.69,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "920116",
-          "name": "星图测控",
-          "status": "excluded",
-          "ma20": 59.831,
-          "close": 45.49,
-          "change_pct": 1.27,
-          "deviation": -23.97,
-          "above_streak": 0,
-          "below_streak": 6,
           "deviation_alert": null
         }
       ],
