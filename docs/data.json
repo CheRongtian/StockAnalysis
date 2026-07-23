@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23 15:32",
+  "updated_at": "2026-07-23 18:08",
   "trade_date": "2026-07-23",
   "config": {
     "sector_limit": null,
@@ -22,10 +22,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 6,
+        "breakout_up": 7,
         "above": 2,
         "tangle": 9,
-        "excluded": 33
+        "excluded": 32
       },
       "stocks": [
         {
@@ -60,6 +60,18 @@
           "close": 11.66,
           "change_pct": 10.0,
           "deviation": 9.0,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920914",
+          "name": "远航精密",
+          "status": "breakout_up",
+          "ma20": 17.273,
+          "close": 18.06,
+          "change_pct": 9.06,
+          "deviation": 4.56,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -614,18 +626,6 @@
           "deviation": -7.35,
           "above_streak": 0,
           "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "920914",
-          "name": "远航精密",
-          "status": "excluded",
-          "ma20": 17.375,
-          "close": 16.56,
-          "change_pct": 3.24,
-          "deviation": -4.69,
-          "above_streak": 0,
-          "below_streak": 20,
           "deviation_alert": null
         }
       ],
@@ -1279,8 +1279,8 @@
       "status_counts": {
         "breakout_up": 6,
         "above": 4,
-        "tangle": 11,
-        "excluded": 29
+        "tangle": 12,
+        "excluded": 28
       },
       "stocks": [
         {
@@ -1435,6 +1435,18 @@
           "close": 7.72,
           "change_pct": 7.52,
           "deviation": 2.55,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920159",
+          "name": "农大科技",
+          "status": "tangle",
+          "ma20": 27.002,
+          "close": 26.82,
+          "change_pct": 6.01,
+          "deviation": -0.67,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1704,6 +1716,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920036",
+          "name": "觅睿科技",
+          "status": "excluded",
+          "ma20": 33.152,
+          "close": 29.28,
+          "change_pct": 4.46,
+          "deviation": -11.68,
+          "above_streak": 0,
+          "below_streak": 21,
+          "deviation_alert": null
+        },
+        {
           "code": "300155",
           "name": "安居宝",
           "status": "excluded",
@@ -1857,30 +1881,6 @@
           "deviation": -20.18,
           "above_streak": 0,
           "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "920159",
-          "name": "农大科技",
-          "status": "excluded",
-          "ma20": 27.14,
-          "close": 25.3,
-          "change_pct": 0.12,
-          "deviation": -6.78,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "920036",
-          "name": "觅睿科技",
-          "status": "excluded",
-          "ma20": 33.739,
-          "close": 28.03,
-          "change_pct": 0.04,
-          "deviation": -16.92,
-          "above_streak": 0,
-          "below_streak": 20,
           "deviation_alert": null
         }
       ],
@@ -2529,11 +2529,11 @@
       "deviation": -9.38,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 49,
+      "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
         "breakout_up": 6,
-        "above": 3,
+        "above": 4,
         "tangle": 9,
         "excluded": 31
       },
@@ -2643,6 +2643,18 @@
           "change_pct": 7.29,
           "deviation": 21.43,
           "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920010",
+          "name": "凯添燃气",
+          "status": "above",
+          "ma20": 8.076,
+          "close": 9.0,
+          "change_pct": 6.26,
+          "deviation": 11.45,
+          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -4070,6 +4082,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920725",
+          "name": "惠丰钻石",
+          "status": "excluded",
+          "ma20": 91.366,
+          "close": 82.26,
+          "change_pct": 8.24,
+          "deviation": -9.97,
+          "above_streak": 0,
+          "below_streak": 9,
+          "deviation_alert": null
+        },
+        {
           "code": "300763",
           "name": "锦浪科技",
           "status": "excluded",
@@ -4355,18 +4379,6 @@
           "deviation": -10.78,
           "above_streak": 0,
           "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "920725",
-          "name": "惠丰钻石",
-          "status": "excluded",
-          "ma20": 93.353,
-          "close": 76.0,
-          "change_pct": -2.56,
-          "deviation": -18.59,
-          "above_streak": 0,
-          "below_streak": 8,
           "deviation_alert": null
         }
       ],
@@ -5018,10 +5030,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 8,
+        "breakout_up": 9,
         "above": 1,
-        "tangle": 10,
-        "excluded": 31
+        "tangle": 11,
+        "excluded": 29
       },
       "stocks": [
         {
@@ -5092,6 +5104,18 @@
           "close": 11.66,
           "change_pct": 10.0,
           "deviation": 6.26,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920914",
+          "name": "远航精密",
+          "status": "breakout_up",
+          "ma20": 17.273,
+          "close": 18.06,
+          "change_pct": 9.06,
+          "deviation": 4.56,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5241,6 +5265,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920556",
+          "name": "雅达股份",
+          "status": "tangle",
+          "ma20": 6.665,
+          "close": 6.68,
+          "change_pct": 4.87,
+          "deviation": 0.23,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002363",
           "name": "隆基机械",
           "status": "tangle",
@@ -5322,6 +5358,18 @@
           "deviation": -7.53,
           "above_streak": 0,
           "below_streak": 13,
+          "deviation_alert": null
+        },
+        {
+          "code": "920169",
+          "name": "七丰精工",
+          "status": "excluded",
+          "ma20": 19.227,
+          "close": 18.1,
+          "change_pct": 7.67,
+          "deviation": -5.86,
+          "above_streak": 0,
+          "below_streak": 23,
           "deviation_alert": null
         },
         {
@@ -5586,42 +5634,6 @@
           "deviation": -11.1,
           "above_streak": 0,
           "below_streak": 14,
-          "deviation_alert": null
-        },
-        {
-          "code": "920914",
-          "name": "远航精密",
-          "status": "excluded",
-          "ma20": 17.375,
-          "close": 16.56,
-          "change_pct": 3.24,
-          "deviation": -4.69,
-          "above_streak": 0,
-          "below_streak": 20,
-          "deviation_alert": null
-        },
-        {
-          "code": "920169",
-          "name": "七丰精工",
-          "status": "excluded",
-          "ma20": 19.41,
-          "close": 16.81,
-          "change_pct": 2.06,
-          "deviation": -13.39,
-          "above_streak": 0,
-          "below_streak": 22,
-          "deviation_alert": null
-        },
-        {
-          "code": "920556",
-          "name": "雅达股份",
-          "status": "excluded",
-          "ma20": 6.694,
-          "close": 6.37,
-          "change_pct": 0.31,
-          "deviation": -4.85,
-          "above_streak": 0,
-          "below_streak": 26,
           "deviation_alert": null
         }
       ],
