@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24 15:24",
+  "updated_at": "2026-07-24 18:03",
   "trade_date": "2026-07-24",
   "config": {
     "sector_limit": null,
@@ -329,42 +329,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920033",
-          "name": "康普化学",
-          "status": "excluded",
-          "ma20": 14.297,
-          "close": 13.5,
-          "change_pct": 1.66,
-          "deviation": -5.58,
-          "above_streak": 0,
-          "below_streak": 13,
-          "deviation_alert": null
-        },
-        {
-          "code": "920792",
-          "name": "东和新材",
-          "status": "excluded",
-          "ma20": 9.686,
-          "close": 9.33,
-          "change_pct": 1.08,
-          "deviation": -3.68,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "920068",
-          "name": "天工股份",
-          "status": "excluded",
-          "ma20": 15.737,
-          "close": 14.41,
-          "change_pct": 0.63,
-          "deviation": -8.44,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
           "code": "000697",
           "name": "炼石航空",
           "status": "excluded",
@@ -437,6 +401,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920792",
+          "name": "东和新材",
+          "status": "excluded",
+          "ma20": 9.658,
+          "close": 9.16,
+          "change_pct": -1.82,
+          "deviation": -5.16,
+          "above_streak": 0,
+          "below_streak": 5,
+          "deviation_alert": null
+        },
+        {
           "code": "300706",
           "name": "阿石创",
           "status": "excluded",
@@ -506,6 +482,18 @@
           "deviation": -19.42,
           "above_streak": 0,
           "below_streak": 17,
+          "deviation_alert": null
+        },
+        {
+          "code": "920068",
+          "name": "天工股份",
+          "status": "excluded",
+          "ma20": 15.634,
+          "close": 14.04,
+          "change_pct": -2.57,
+          "deviation": -10.2,
+          "above_streak": 0,
+          "below_streak": 10,
           "deviation_alert": null
         },
         {
@@ -626,6 +614,18 @@
           "deviation": -17.45,
           "above_streak": 0,
           "below_streak": 10,
+          "deviation_alert": null
+        },
+        {
+          "code": "920033",
+          "name": "康普化学",
+          "status": "excluded",
+          "ma20": 14.194,
+          "close": 13.09,
+          "change_pct": -3.04,
+          "deviation": -7.78,
+          "above_streak": 0,
+          "below_streak": 14,
           "deviation_alert": null
         }
       ],
@@ -2720,6 +2720,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688802",
+          "name": "沐曦股份",
+          "status": "tangle",
+          "ma20": 841.998,
+          "close": 821.61,
+          "change_pct": 0.96,
+          "deviation": -2.42,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002625",
           "name": "光启技术",
           "status": "tangle",
@@ -2775,18 +2787,6 @@
           "close": 8.29,
           "change_pct": -0.36,
           "deviation": 0.84,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688802",
-          "name": "沐曦股份",
-          "status": "tangle",
-          "ma20": 837.437,
-          "close": 813.78,
-          "change_pct": -3.69,
-          "deviation": -2.82,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -2873,6 +2873,18 @@
           "deviation": -11.35,
           "above_streak": 0,
           "below_streak": 11,
+          "deviation_alert": null
+        },
+        {
+          "code": "688173",
+          "name": "希荻微",
+          "status": "excluded",
+          "ma20": 16.217,
+          "close": 12.58,
+          "change_pct": 3.37,
+          "deviation": -22.42,
+          "above_streak": 0,
+          "below_streak": 10,
           "deviation_alert": null
         },
         {
@@ -3125,18 +3137,6 @@
           "deviation": -12.97,
           "above_streak": 0,
           "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "688173",
-          "name": "希荻微",
-          "status": "excluded",
-          "ma20": 16.454,
-          "close": 12.17,
-          "change_pct": -4.02,
-          "deviation": -26.04,
-          "above_streak": 0,
-          "below_streak": 9,
           "deviation_alert": null
         }
       ],
@@ -3790,8 +3790,7 @@
       "status_counts": {
         "breakout_up": 5,
         "above": 6,
-        "tangle": 5,
-        "below_d1": 1,
+        "tangle": 6,
         "below_d2": 1,
         "excluded": 31
       },
@@ -3893,6 +3892,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920267",
+          "name": "鑫汇科",
+          "status": "above",
+          "ma20": 16.285,
+          "close": 18.37,
+          "change_pct": 4.37,
+          "deviation": 12.81,
+          "above_streak": 11,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002414",
           "name": "高德红外",
           "status": "above",
@@ -3913,18 +3924,6 @@
           "change_pct": 3.64,
           "deviation": 9.63,
           "above_streak": 14,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920267",
-          "name": "鑫汇科",
-          "status": "above",
-          "ma20": 16.047,
-          "close": 17.6,
-          "change_pct": -7.37,
-          "deviation": 9.68,
-          "above_streak": 10,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -3965,6 +3964,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688220",
+          "name": "翱捷科技",
+          "status": "tangle",
+          "ma20": 113.041,
+          "close": 111.77,
+          "change_pct": 8.15,
+          "deviation": -1.12,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "688099",
           "name": "晶晨股份",
           "status": "tangle",
@@ -3986,18 +3997,6 @@
           "deviation": -2.51,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688220",
-          "name": "翱捷科技",
-          "status": "below_d1",
-          "ma20": 112.444,
-          "close": 103.35,
-          "change_pct": -7.56,
-          "deviation": -8.09,
-          "above_streak": 0,
-          "below_streak": 1,
           "deviation_alert": null
         },
         {
@@ -4034,6 +4033,18 @@
           "deviation": -14.31,
           "above_streak": 0,
           "below_streak": 11,
+          "deviation_alert": null
+        },
+        {
+          "code": "920139",
+          "name": "华岭股份",
+          "status": "excluded",
+          "ma20": 16.444,
+          "close": 15.5,
+          "change_pct": 12.65,
+          "deviation": -5.74,
+          "above_streak": 0,
+          "below_streak": 10,
           "deviation_alert": null
         },
         {
@@ -4325,6 +4336,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688173",
+          "name": "希荻微",
+          "status": "excluded",
+          "ma20": 16.217,
+          "close": 12.58,
+          "change_pct": 3.37,
+          "deviation": -22.42,
+          "above_streak": 0,
+          "below_streak": 10,
+          "deviation_alert": null
+        },
+        {
           "code": "688037",
           "name": "芯源微",
           "status": "excluded",
@@ -4358,30 +4381,6 @@
           "deviation": -15.28,
           "above_streak": 0,
           "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "920139",
-          "name": "华岭股份",
-          "status": "excluded",
-          "ma20": 16.591,
-          "close": 13.76,
-          "change_pct": -2.06,
-          "deviation": -17.06,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "688173",
-          "name": "希荻微",
-          "status": "excluded",
-          "ma20": 16.454,
-          "close": 12.17,
-          "change_pct": -4.02,
-          "deviation": -26.04,
-          "above_streak": 0,
-          "below_streak": 9,
           "deviation_alert": null
         }
       ],
@@ -5035,8 +5034,7 @@
       "status_counts": {
         "breakout_up": 5,
         "above": 8,
-        "tangle": 6,
-        "below_d1": 1,
+        "tangle": 7,
         "excluded": 30
       },
       "stocks": [
@@ -5209,6 +5207,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688220",
+          "name": "翱捷科技",
+          "status": "tangle",
+          "ma20": 113.041,
+          "close": 111.77,
+          "change_pct": 8.15,
+          "deviation": -1.12,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300722",
           "name": "新余国科",
           "status": "tangle",
@@ -5266,18 +5276,6 @@
           "deviation": 2.81,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688220",
-          "name": "翱捷科技",
-          "status": "below_d1",
-          "ma20": 112.444,
-          "close": 103.35,
-          "change_pct": -7.56,
-          "deviation": -8.09,
-          "above_streak": 0,
-          "below_streak": 1,
           "deviation_alert": null
         },
         {
@@ -5362,18 +5360,6 @@
           "deviation": -5.29,
           "above_streak": 0,
           "below_streak": 23,
-          "deviation_alert": null
-        },
-        {
-          "code": "920885",
-          "name": "星辰科技",
-          "status": "excluded",
-          "ma20": 12.152,
-          "close": 11.15,
-          "change_pct": 2.29,
-          "deviation": -8.25,
-          "above_streak": 0,
-          "below_streak": 9,
           "deviation_alert": null
         },
         {
@@ -5530,6 +5516,18 @@
           "deviation": -20.12,
           "above_streak": 0,
           "below_streak": 7,
+          "deviation_alert": null
+        },
+        {
+          "code": "920885",
+          "name": "星辰科技",
+          "status": "excluded",
+          "ma20": 12.067,
+          "close": 11.24,
+          "change_pct": 0.81,
+          "deviation": -6.86,
+          "above_streak": 0,
+          "below_streak": 10,
           "deviation_alert": null
         },
         {
