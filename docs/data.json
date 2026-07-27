@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-27 23:34",
-  "trade_date": "2026-07-27",
+  "updated_at": "2026-07-28 01:25",
+  "trade_date": "2026-07-28",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -3779,9 +3779,9 @@
       "index_symbol": "芯片概念",
       "member_source": "html:301085(50)",
       "status": "bearish",
-      "ma20": 5169.73,
-      "close": 4391.17,
-      "deviation": -15.06,
+      "ma20": 5112.93,
+      "close": 4533.67,
+      "deviation": -11.33,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 49,
@@ -4383,13 +4383,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-16",
-          "open": 4595.354,
-          "high": 4636.813,
-          "low": 4539.411,
-          "close": 4636.813
-        },
         {
           "date": "2026-03-17",
           "open": 4649.761,
@@ -5012,6 +5005,13 @@
           "high": 4488.368,
           "low": 4367.785,
           "close": 4391.173
+        },
+        {
+          "date": "2026-07-27",
+          "open": 4377.325,
+          "high": 4533.67,
+          "low": 4334.189,
+          "close": 4533.67
         }
       ]
     },
