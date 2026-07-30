@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30 20:20",
+  "updated_at": "2026-07-30 22:57",
   "trade_date": "2026-07-30",
   "config": {
     "sector_limit": null,
@@ -13,10 +13,10 @@
       "matched_code": "300809",
       "index_symbol": "小金属概念",
       "member_source": "html:300809(50)",
-      "status": "tangle",
-      "ma20": 3359.55,
-      "close": 3262.38,
-      "deviation": -2.89,
+      "status": "bearish",
+      "ma20": 3331.97,
+      "close": 3212.34,
+      "deviation": -3.59,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -630,13 +630,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-19",
-          "open": 3736.871,
-          "high": 3736.871,
-          "low": 3617.037,
-          "close": 3632.999
-        },
         {
           "date": "2026-03-20",
           "open": 3654.005,
@@ -1259,6 +1252,13 @@
           "high": 3282.686,
           "low": 3164.128,
           "close": 3262.384
+        },
+        {
+          "date": "2026-07-30",
+          "open": 3258.581,
+          "high": 3292.445,
+          "low": 3188.107,
+          "close": 3212.344
         }
       ]
     },
@@ -1269,9 +1269,9 @@
       "index_symbol": "AI应用",
       "member_source": "html:309264(50)",
       "status": "tangle",
-      "ma20": 781.57,
-      "close": 777.96,
-      "deviation": -0.46,
+      "ma20": 779.14,
+      "close": 770.4,
+      "deviation": -1.12,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1885,13 +1885,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-19",
-          "open": 972.262,
-          "high": 978.894,
-          "low": 963.995,
-          "close": 967.507
-        },
         {
           "date": "2026-03-20",
           "open": 970.209,
@@ -2514,6 +2507,13 @@
           "high": 781.148,
           "low": 762.651,
           "close": 777.956
+        },
+        {
+          "date": "2026-07-30",
+          "open": 774.15,
+          "high": 791.314,
+          "low": 767.965,
+          "close": 770.401
         }
       ]
     },
@@ -2524,9 +2524,9 @@
       "index_symbol": "东数西算(算力)",
       "member_source": "html:308828(50)",
       "status": "bearish",
-      "ma20": 2092.6,
-      "close": 1977.35,
-      "deviation": -5.51,
+      "ma20": 2073.69,
+      "close": 1911.68,
+      "deviation": -7.81,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -3140,13 +3140,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-19",
-          "open": 2362.356,
-          "high": 2401.356,
-          "low": 2359.795,
-          "close": 2370.032
-        },
         {
           "date": "2026-03-20",
           "open": 2380.692,
@@ -3769,6 +3762,13 @@
           "high": 1986.109,
           "low": 1928.56,
           "close": 1977.346
+        },
+        {
+          "date": "2026-07-30",
+          "open": 1964.875,
+          "high": 1986.64,
+          "low": 1905.106,
+          "close": 1911.684
         }
       ]
     },
@@ -3779,9 +3779,9 @@
       "index_symbol": "芯片概念",
       "member_source": "html:301085(50)",
       "status": "bearish",
-      "ma20": 4959.37,
-      "close": 4392.68,
-      "deviation": -11.43,
+      "ma20": 4880.75,
+      "close": 4177.89,
+      "deviation": -14.4,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -4396,13 +4396,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-19",
-          "open": 4518.825,
-          "high": 4534.844,
-          "low": 4450.647,
-          "close": 4469.167
-        },
         {
           "date": "2026-03-20",
           "open": 4499.283,
@@ -5025,6 +5018,13 @@
           "high": 4419.773,
           "low": 4257.752,
           "close": 4392.679
+        },
+        {
+          "date": "2026-07-30",
+          "open": 4358.106,
+          "high": 4384.615,
+          "low": 4155.025,
+          "close": 4177.887
         }
       ]
     },
@@ -5035,9 +5035,9 @@
       "index_symbol": "商业航天",
       "member_source": "html:309130(50)",
       "status": "bearish",
-      "ma20": 2110.59,
-      "close": 1942.41,
-      "deviation": -7.97,
+      "ma20": 2085.56,
+      "close": 1881.3,
+      "deviation": -9.79,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -5651,13 +5651,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-03-19",
-          "open": 2373.087,
-          "high": 2384.778,
-          "low": 2338.889,
-          "close": 2348.944
-        },
         {
           "date": "2026-03-20",
           "open": 2361.621,
@@ -6280,6 +6273,13 @@
           "high": 1950.242,
           "low": 1891.821,
           "close": 1942.41
+        },
+        {
+          "date": "2026-07-30",
+          "open": 1931.064,
+          "high": 1947.735,
+          "low": 1871.047,
+          "close": 1881.302
         }
       ]
     },
@@ -6290,9 +6290,9 @@
       "index_symbol": "机器人概念",
       "member_source": "none",
       "status": "bearish",
-      "ma20": 3737.79,
-      "close": 3538.56,
-      "deviation": -5.33,
+      "ma20": 3705.39,
+      "close": 3444.58,
+      "deviation": -7.04,
       "source_stock_count": 0,
       "processed_stock_count": 0,
       "classified_stock_count": 0,
@@ -6300,13 +6300,6 @@
       "status_counts": {},
       "stocks": [],
       "klines": [
-        {
-          "date": "2026-03-19",
-          "open": 4160.778,
-          "high": 4164.978,
-          "low": 4087.525,
-          "close": 4103.167
-        },
         {
           "date": "2026-03-20",
           "open": 4117.947,
@@ -6929,6 +6922,13 @@
           "high": 3552.98,
           "low": 3464.435,
           "close": 3538.557
+        },
+        {
+          "date": "2026-07-30",
+          "open": 3519.087,
+          "high": 3546.39,
+          "low": 3427.172,
+          "close": 3444.581
         }
       ]
     }
