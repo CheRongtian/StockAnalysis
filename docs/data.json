@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31 07:49",
+  "updated_at": "2026-07-31 09:21",
   "trade_date": "2026-07-31",
   "config": {
     "sector_limit": null,
@@ -161,6 +161,18 @@
           "deviation_alert": null
         },
         {
+          "code": "601390",
+          "name": "中国中铁",
+          "status": "above",
+          "ma20": 4.338,
+          "close": 4.604,
+          "change_pct": 1.99,
+          "deviation": 6.12,
+          "above_streak": 9,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "600655",
           "name": "豫园股份",
           "status": "above",
@@ -169,18 +181,6 @@
           "change_pct": 1.98,
           "deviation": 5.47,
           "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "status": "above",
-          "ma20": 4.424,
-          "close": 4.69,
-          "change_pct": 1.96,
-          "deviation": 6.0,
-          "above_streak": 9,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -4062,10 +4062,10 @@
           "code": "002594",
           "name": "比亚迪",
           "status": "above",
-          "ma20": 91.23,
-          "close": 96.2,
-          "change_pct": 1.42,
-          "deviation": 5.45,
+          "ma20": 90.872,
+          "close": 95.842,
+          "change_pct": 1.43,
+          "deviation": 5.47,
           "above_streak": 13,
           "below_streak": 0,
           "deviation_alert": null
