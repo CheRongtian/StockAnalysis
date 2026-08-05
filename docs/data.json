@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 15:28",
+  "updated_at": "2026-08-05 18:19",
   "trade_date": "2026-08-05",
   "config": {
     "sector_limit": null,
@@ -24,8 +24,8 @@
       "status_counts": {
         "breakout_up": 15,
         "above": 19,
-        "tangle": 7,
-        "excluded": 9
+        "tangle": 8,
+        "excluded": 8
       },
       "stocks": [
         {
@@ -485,6 +485,18 @@
           "deviation_alert": null
         },
         {
+          "code": "603407",
+          "name": "长裕集团",
+          "status": "tangle",
+          "ma20": 61.315,
+          "close": 62.63,
+          "change_pct": 7.63,
+          "deviation": 2.15,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002167",
           "name": "东方锆业",
           "status": "tangle",
@@ -614,18 +626,6 @@
           "deviation": -3.78,
           "above_streak": 0,
           "below_streak": 19,
-          "deviation_alert": null
-        },
-        {
-          "code": "603407",
-          "name": "长裕集团",
-          "status": "excluded",
-          "ma20": 61.832,
-          "close": 58.19,
-          "change_pct": 5.47,
-          "deviation": -5.89,
-          "above_streak": 0,
-          "below_streak": 20,
           "deviation_alert": null
         }
       ],
@@ -1277,24 +1277,12 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 19,
-        "above": 20,
-        "tangle": 6,
-        "excluded": 5
+        "breakout_up": 17,
+        "above": 22,
+        "tangle": 7,
+        "excluded": 4
       },
       "stocks": [
-        {
-          "code": "920092",
-          "name": "汉鑫科技",
-          "status": "breakout_up",
-          "ma20": 23.276,
-          "close": 30.43,
-          "change_pct": 29.99,
-          "deviation": 30.74,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
         {
           "code": "688607",
           "name": "康众医疗",
@@ -1351,18 +1339,6 @@
           "close": 42.79,
           "change_pct": 11.55,
           "deviation": 11.53,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688031",
-          "name": "星环科技",
-          "status": "breakout_up",
-          "ma20": 93.142,
-          "close": 104.28,
-          "change_pct": 11.41,
-          "deviation": 11.96,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -1512,6 +1488,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920092",
+          "name": "汉鑫科技",
+          "status": "above",
+          "ma20": 23.91,
+          "close": 37.44,
+          "change_pct": 23.04,
+          "deviation": 56.59,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": "strong"
+        },
+        {
           "code": "300248",
           "name": "新开普",
           "status": "above",
@@ -1520,6 +1508,18 @@
           "change_pct": 20.02,
           "deviation": 28.63,
           "above_streak": 6,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "688031",
+          "name": "星环科技",
+          "status": "above",
+          "ma20": 93.928,
+          "close": 118.07,
+          "change_pct": 13.22,
+          "deviation": 25.7,
+          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1824,6 +1824,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920790",
+          "name": "联迪信息",
+          "status": "tangle",
+          "ma20": 25.094,
+          "close": 24.9,
+          "change_pct": 6.0,
+          "deviation": -0.78,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "688090",
           "name": "瑞松科技",
           "status": "excluded",
@@ -1869,18 +1881,6 @@
           "deviation": -3.11,
           "above_streak": 0,
           "below_streak": 18,
-          "deviation_alert": null
-        },
-        {
-          "code": "920790",
-          "name": "联迪信息",
-          "status": "excluded",
-          "ma20": 25.13,
-          "close": 23.49,
-          "change_pct": 4.63,
-          "deviation": -6.52,
-          "above_streak": 0,
-          "below_streak": 8,
           "deviation_alert": null
         }
       ],
@@ -2532,24 +2532,12 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 12,
-        "above": 6,
+        "breakout_up": 10,
+        "above": 8,
         "tangle": 10,
         "excluded": 22
       },
       "stocks": [
-        {
-          "code": "920092",
-          "name": "汉鑫科技",
-          "status": "breakout_up",
-          "ma20": 23.276,
-          "close": 30.43,
-          "change_pct": 29.99,
-          "deviation": 30.74,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
         {
           "code": "301236",
           "name": "软通动力",
@@ -2558,18 +2546,6 @@
           "close": 42.79,
           "change_pct": 11.55,
           "deviation": 11.53,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688031",
-          "name": "星环科技",
-          "status": "breakout_up",
-          "ma20": 93.142,
-          "close": 104.28,
-          "change_pct": 11.41,
-          "deviation": 11.96,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -2679,6 +2655,30 @@
           "change_pct": 6.92,
           "deviation": 4.38,
           "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920092",
+          "name": "汉鑫科技",
+          "status": "above",
+          "ma20": 23.91,
+          "close": 37.44,
+          "change_pct": 23.04,
+          "deviation": 56.59,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": "strong"
+        },
+        {
+          "code": "688031",
+          "name": "星环科技",
+          "status": "above",
+          "ma20": 93.928,
+          "close": 118.07,
+          "change_pct": 13.22,
+          "deviation": 25.7,
+          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -3787,10 +3787,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 7,
+        "breakout_up": 8,
         "above": 4,
-        "tangle": 5,
-        "excluded": 34
+        "tangle": 6,
+        "excluded": 32
       },
       "stocks": [
         {
@@ -3813,6 +3813,18 @@
           "close": 115.01,
           "change_pct": 14.67,
           "deviation": 5.47,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920125",
+          "name": "鸿仕达",
+          "status": "breakout_up",
+          "ma20": 127.28,
+          "close": 138.95,
+          "change_pct": 13.99,
+          "deviation": 9.17,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3878,6 +3890,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920690",
+          "name": "捷众科技",
+          "status": "above",
+          "ma20": 15.584,
+          "close": 20.43,
+          "change_pct": 15.1,
+          "deviation": 31.1,
+          "above_streak": 7,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "300139",
           "name": "晓程科技",
           "status": "above",
@@ -3914,18 +3938,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920690",
-          "name": "捷众科技",
-          "status": "above",
-          "ma20": 15.312,
-          "close": 17.75,
-          "change_pct": 3.98,
-          "deviation": 15.92,
-          "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "300476",
           "name": "胜宏科技",
           "status": "tangle",
@@ -3957,6 +3969,18 @@
           "close": 50.58,
           "change_pct": 13.08,
           "deviation": -1.13,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "688141",
+          "name": "杰华特",
+          "status": "tangle",
+          "ma20": 128.591,
+          "close": 128.01,
+          "change_pct": 11.3,
+          "deviation": -0.45,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -4262,18 +4286,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920125",
-          "name": "鸿仕达",
-          "status": "excluded",
-          "ma20": 127.632,
-          "close": 121.9,
-          "change_pct": 11.02,
-          "deviation": -4.49,
-          "above_streak": 0,
-          "below_streak": 25,
-          "deviation_alert": null
-        },
-        {
           "code": "688416",
           "name": "恒烁股份",
           "status": "excluded",
@@ -4317,6 +4329,18 @@
           "close": 52.5,
           "change_pct": 10.55,
           "deviation": -14.08,
+          "above_streak": 0,
+          "below_streak": 19,
+          "deviation_alert": null
+        },
+        {
+          "code": "688515",
+          "name": "裕太微",
+          "status": "excluded",
+          "ma20": 155.543,
+          "close": 149.79,
+          "change_pct": 10.51,
+          "deviation": -3.7,
           "above_streak": 0,
           "below_streak": 19,
           "deviation_alert": null
@@ -4367,30 +4391,6 @@
           "deviation": -7.67,
           "above_streak": 0,
           "below_streak": 19,
-          "deviation_alert": null
-        },
-        {
-          "code": "688141",
-          "name": "杰华特",
-          "status": "excluded",
-          "ma20": 131.041,
-          "close": 115.01,
-          "change_pct": 8.64,
-          "deviation": -12.23,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "688515",
-          "name": "裕太微",
-          "status": "excluded",
-          "ma20": 158.522,
-          "close": 135.54,
-          "change_pct": 6.83,
-          "deviation": -14.5,
-          "above_streak": 0,
-          "below_streak": 18,
           "deviation_alert": null
         }
       ],
@@ -6934,6 +6934,15 @@
   ],
   "deviation_alerts": [
     {
+      "sector": "AI应用·算力",
+      "code": "920092",
+      "name": "汉鑫科技",
+      "deviation": 56.59,
+      "alert": "strong",
+      "close": 37.44,
+      "ma20": 23.91
+    },
+    {
       "sector": "AI应用",
       "code": "300996",
       "name": "普联软件",
@@ -6961,13 +6970,13 @@
       "ma20": 32.829
     },
     {
-      "sector": "AI应用·算力",
-      "code": "920092",
-      "name": "汉鑫科技",
-      "deviation": 30.74,
+      "sector": "芯片",
+      "code": "920690",
+      "name": "捷众科技",
+      "deviation": 31.1,
       "alert": "warn",
-      "close": 30.43,
-      "ma20": 23.276
+      "close": 20.43,
+      "ma20": 15.584
     },
     {
       "sector": "AI应用",
