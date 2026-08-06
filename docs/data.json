@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 15:29",
+  "updated_at": "2026-08-06 18:21",
   "trade_date": "2026-08-06",
   "config": {
     "sector_limit": null,
@@ -22,9 +22,9 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 9,
+        "breakout_up": 10,
         "above": 31,
-        "tangle": 7,
+        "tangle": 6,
         "excluded": 3
       },
       "stocks": [
@@ -84,6 +84,18 @@
           "close": 4.9,
           "change_pct": 6.06,
           "deviation": 4.72,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920033",
+          "name": "康普化学",
+          "status": "breakout_up",
+          "ma20": 13.762,
+          "close": 14.71,
+          "change_pct": 4.62,
+          "deviation": 6.89,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -576,18 +588,6 @@
           "close": 13.46,
           "change_pct": 1.82,
           "deviation": -0.55,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920033",
-          "name": "康普化学",
-          "status": "tangle",
-          "ma20": 13.736,
-          "close": 14.06,
-          "change_pct": 1.15,
-          "deviation": 2.36,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1332,6 +1332,18 @@
           "deviation_alert": "warn"
         },
         {
+          "code": "920924",
+          "name": "广脉科技",
+          "status": "above",
+          "ma20": 14.053,
+          "close": 17.38,
+          "change_pct": 15.1,
+          "deviation": 23.67,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300897",
           "name": "山科智能",
           "status": "above",
@@ -1800,18 +1812,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920924",
-          "name": "广脉科技",
-          "status": "above",
-          "ma20": 13.959,
-          "close": 15.1,
-          "change_pct": 2.03,
-          "deviation": 8.18,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "603236",
           "name": "移远通信",
           "status": "tangle",
@@ -1860,6 +1860,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920367",
+          "name": "新赣江",
+          "status": "excluded",
+          "ma20": 25.237,
+          "close": 23.27,
+          "change_pct": 7.24,
+          "deviation": -7.8,
+          "above_streak": 0,
+          "below_streak": 8,
+          "deviation_alert": null
+        },
+        {
           "code": "301042",
           "name": "安联锐视",
           "status": "excluded",
@@ -1869,18 +1881,6 @@
           "deviation": -15.92,
           "above_streak": 0,
           "below_streak": 19,
-          "deviation_alert": null
-        },
-        {
-          "code": "920367",
-          "name": "新赣江",
-          "status": "excluded",
-          "ma20": 25.189,
-          "close": 21.7,
-          "change_pct": 3.78,
-          "deviation": -13.85,
-          "above_streak": 0,
-          "below_streak": 7,
           "deviation_alert": null
         }
       ],
@@ -2534,8 +2534,8 @@
       "status_counts": {
         "breakout_up": 11,
         "above": 24,
-        "tangle": 8,
-        "excluded": 7
+        "tangle": 9,
+        "excluded": 6
       },
       "stocks": [
         {
@@ -2667,6 +2667,18 @@
           "change_pct": 3.49,
           "deviation": 5.69,
           "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920924",
+          "name": "广脉科技",
+          "status": "above",
+          "ma20": 14.053,
+          "close": 17.38,
+          "change_pct": 15.1,
+          "deviation": 23.67,
+          "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -2947,18 +2959,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920924",
-          "name": "广脉科技",
-          "status": "above",
-          "ma20": 13.959,
-          "close": 15.1,
-          "change_pct": 2.03,
-          "deviation": 8.18,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "002975",
           "name": "博杰股份",
           "status": "tangle",
@@ -2989,6 +2989,18 @@
           "ma20": 37.804,
           "close": 38.38,
           "change_pct": 5.01,
+          "deviation": 1.52,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920699",
+          "name": "海达尔",
+          "status": "tangle",
+          "ma20": 73.421,
+          "close": 74.54,
+          "change_pct": 4.71,
           "deviation": 1.52,
           "above_streak": 0,
           "below_streak": 0,
@@ -3052,18 +3064,6 @@
           "deviation": 2.66,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920699",
-          "name": "海达尔",
-          "status": "excluded",
-          "ma20": 76.644,
-          "close": 71.19,
-          "change_pct": 6.1,
-          "deviation": -7.12,
-          "above_streak": 0,
-          "below_streak": 15,
           "deviation_alert": null
         },
         {
@@ -3787,10 +3787,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 11,
+        "breakout_up": 13,
         "above": 17,
         "tangle": 11,
-        "excluded": 11
+        "excluded": 9
       },
       "stocks": [
         {
@@ -3830,6 +3830,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688702",
+          "name": "盛科通信",
+          "status": "breakout_up",
+          "ma20": 363.529,
+          "close": 390.02,
+          "change_pct": 11.29,
+          "deviation": 7.29,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300283",
           "name": "温州宏丰",
           "status": "breakout_up",
@@ -3837,6 +3849,18 @@
           "close": 16.05,
           "change_pct": 11.15,
           "deviation": 12.07,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920961",
+          "name": "创远信科",
+          "status": "breakout_up",
+          "ma20": 19.455,
+          "close": 20.54,
+          "change_pct": 10.91,
+          "deviation": 5.57,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -4367,30 +4391,6 @@
           "deviation": -11.82,
           "above_streak": 0,
           "below_streak": 16,
-          "deviation_alert": null
-        },
-        {
-          "code": "688702",
-          "name": "盛科通信",
-          "status": "excluded",
-          "ma20": 365.127,
-          "close": 350.44,
-          "change_pct": 3.68,
-          "deviation": -4.02,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "920961",
-          "name": "创远信科",
-          "status": "excluded",
-          "ma20": 19.586,
-          "close": 18.52,
-          "change_pct": 3.46,
-          "deviation": -5.44,
-          "above_streak": 0,
-          "below_streak": 17,
           "deviation_alert": null
         }
       ],
@@ -5042,10 +5042,10 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 12,
+        "breakout_up": 14,
         "above": 15,
-        "tangle": 13,
-        "excluded": 10
+        "tangle": 12,
+        "excluded": 9
       },
       "stocks": [
         {
@@ -5056,6 +5056,30 @@
           "close": 33.61,
           "change_pct": 19.99,
           "deviation": 6.17,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920943",
+          "name": "优机股份",
+          "status": "breakout_up",
+          "ma20": 15.122,
+          "close": 16.27,
+          "change_pct": 11.67,
+          "deviation": 7.59,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920961",
+          "name": "创远信科",
+          "status": "breakout_up",
+          "ma20": 19.455,
+          "close": 20.54,
+          "change_pct": 10.91,
+          "deviation": 5.57,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5517,18 +5541,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920943",
-          "name": "优机股份",
-          "status": "tangle",
-          "ma20": 14.917,
-          "close": 14.57,
-          "change_pct": 0.83,
-          "deviation": -2.33,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "688800",
           "name": "瑞可达",
           "status": "excluded",
@@ -5634,18 +5646,6 @@
           "deviation": -7.73,
           "above_streak": 0,
           "below_streak": 19,
-          "deviation_alert": null
-        },
-        {
-          "code": "920961",
-          "name": "创远信科",
-          "status": "excluded",
-          "ma20": 19.586,
-          "close": 18.52,
-          "change_pct": 3.46,
-          "deviation": -5.44,
-          "above_streak": 0,
-          "below_streak": 17,
           "deviation_alert": null
         }
       ],
