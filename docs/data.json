@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 07:44",
+  "updated_at": "2026-08-06 09:11",
   "trade_date": "2026-08-06",
   "config": {
     "sector_limit": null,
@@ -1623,10 +1623,10 @@
           "code": "002181",
           "name": "粤传媒",
           "status": "above",
-          "ma20": 8.357,
-          "close": 9.87,
-          "change_pct": 9.18,
-          "deviation": 18.1,
+          "ma20": 8.294,
+          "close": 9.807,
+          "change_pct": 9.25,
+          "deviation": 18.23,
           "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
