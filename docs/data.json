@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10 15:01",
+  "updated_at": "2026-08-10 17:03",
   "trade_date": "2026-08-10",
   "config": {
     "sector_limit": null,
@@ -532,6 +532,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920914",
+          "name": "远航精密",
+          "status": "above",
+          "ma20": 17.619,
+          "close": 19.48,
+          "change_pct": 3.34,
+          "deviation": 10.56,
+          "above_streak": 10,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "600549",
           "name": "厦门钨业",
           "status": "above",
@@ -568,6 +580,18 @@
           "deviation_alert": null
         },
         {
+          "code": "603407",
+          "name": "长裕集团",
+          "status": "above",
+          "ma20": 60.78,
+          "close": 66.33,
+          "change_pct": 3.24,
+          "deviation": 9.13,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "000546",
           "name": "金圆股份",
           "status": "above",
@@ -588,30 +612,6 @@
           "change_pct": 3.16,
           "deviation": 12.72,
           "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920914",
-          "name": "远航精密",
-          "status": "above",
-          "ma20": 17.443,
-          "close": 18.85,
-          "change_pct": 2.45,
-          "deviation": 8.07,
-          "above_streak": 9,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603407",
-          "name": "长裕集团",
-          "status": "above",
-          "ma20": 60.654,
-          "close": 64.25,
-          "change_pct": 1.17,
-          "deviation": 5.93,
-          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1594,6 +1594,18 @@
           "deviation_alert": null
         },
         {
+          "code": "001330",
+          "name": "博纳影业",
+          "status": "above",
+          "ma20": 4.84,
+          "close": 5.39,
+          "change_pct": 5.48,
+          "deviation": 11.36,
+          "above_streak": 6,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603108",
           "name": "润达医疗",
           "status": "above",
@@ -1842,18 +1854,6 @@
           "change_pct": 3.4,
           "deviation": 9.74,
           "above_streak": 10,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "001330",
-          "name": "博纳影业",
-          "status": "above",
-          "ma20": 4.81,
-          "close": 5.11,
-          "change_pct": -0.97,
-          "deviation": 6.23,
-          "above_streak": 5,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -2530,11 +2530,23 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 9,
+        "breakout_up": 10,
         "above": 39,
-        "tangle": 2
+        "tangle": 1
       },
       "stocks": [
+        {
+          "code": "920699",
+          "name": "海达尔",
+          "status": "breakout_up",
+          "ma20": 72.363,
+          "close": 82.4,
+          "change_pct": 15.58,
+          "deviation": 13.87,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
         {
           "code": "002647",
           "name": "仁东控股",
@@ -3119,18 +3131,6 @@
           "close": 89.42,
           "change_pct": 3.16,
           "deviation": 3.8,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920699",
-          "name": "海达尔",
-          "status": "tangle",
-          "ma20": 72.49,
-          "close": 71.29,
-          "change_pct": -4.36,
-          "deviation": -1.66,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -3781,12 +3781,12 @@
       "deviation": 6.05,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 49,
+      "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 16,
+        "breakout_up": 18,
         "above": 30,
-        "tangle": 3
+        "tangle": 2
       },
       "stocks": [
         {
@@ -3797,6 +3797,18 @@
           "close": 323.02,
           "change_pct": 12.16,
           "deviation": 8.64,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920179",
+          "name": "凯德石英",
+          "status": "breakout_up",
+          "ma20": 53.47,
+          "close": 61.49,
+          "change_pct": 10.51,
+          "deviation": 15.0,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3833,6 +3845,18 @@
           "close": 10.49,
           "change_pct": 9.96,
           "deviation": 11.88,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "301583",
+          "name": "托伦斯",
+          "status": "breakout_up",
+          "ma20": 154.795,
+          "close": 163.28,
+          "change_pct": 9.73,
+          "deviation": 5.48,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -4246,6 +4270,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688512",
+          "name": "慧智微",
+          "status": "above",
+          "ma20": 12.398,
+          "close": 14.83,
+          "change_pct": 5.1,
+          "deviation": 19.62,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "600141",
           "name": "兴发集团",
           "status": "above",
@@ -4282,6 +4318,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920706",
+          "name": "铁拓机械",
+          "status": "above",
+          "ma20": 14.024,
+          "close": 15.25,
+          "change_pct": 4.88,
+          "deviation": 8.74,
+          "above_streak": 4,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002218",
           "name": "拓日新能",
           "status": "above",
@@ -4306,18 +4354,6 @@
           "deviation_alert": null
         },
         {
-          "code": "688512",
-          "name": "慧智微",
-          "status": "above",
-          "ma20": 12.36,
-          "close": 14.11,
-          "change_pct": 4.52,
-          "deviation": 14.15,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "002870",
           "name": "香山股份",
           "status": "above",
@@ -4325,18 +4361,6 @@
           "close": 42.58,
           "change_pct": 4.49,
           "deviation": 8.74,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920706",
-          "name": "铁拓机械",
-          "status": "above",
-          "ma20": 13.965,
-          "close": 14.54,
-          "change_pct": -0.62,
-          "deviation": 4.12,
           "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
@@ -4361,18 +4385,6 @@
           "close": 728.0,
           "change_pct": 5.41,
           "deviation": 2.13,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920179",
-          "name": "凯德石英",
-          "status": "tangle",
-          "ma20": 53.556,
-          "close": 55.64,
-          "change_pct": 1.66,
-          "deviation": 3.89,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -5368,6 +5380,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920943",
+          "name": "优机股份",
+          "status": "above",
+          "ma20": 15.078,
+          "close": 17.29,
+          "change_pct": 5.23,
+          "deviation": 14.67,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002218",
           "name": "拓日新能",
           "status": "above",
@@ -5524,6 +5548,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920914",
+          "name": "远航精密",
+          "status": "above",
+          "ma20": 17.619,
+          "close": 19.48,
+          "change_pct": 3.34,
+          "deviation": 10.56,
+          "above_streak": 10,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "600549",
           "name": "厦门钨业",
           "status": "above",
@@ -5592,30 +5628,6 @@
           "change_pct": 2.97,
           "deviation": 18.69,
           "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920914",
-          "name": "远航精密",
-          "status": "above",
-          "ma20": 17.443,
-          "close": 18.85,
-          "change_pct": 2.45,
-          "deviation": 8.07,
-          "above_streak": 9,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920943",
-          "name": "优机股份",
-          "status": "above",
-          "ma20": 15.152,
-          "close": 16.43,
-          "change_pct": 0.98,
-          "deviation": 8.43,
-          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
