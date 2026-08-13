@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 15:05",
+  "updated_at": "2026-08-13 16:58",
   "trade_date": "2026-08-13",
   "config": {
     "sector_limit": null,
@@ -22,8 +22,8 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 2,
-        "above": 34,
+        "breakout_up": 1,
+        "above": 35,
         "tangle": 13,
         "below_d1": 1
       },
@@ -36,18 +36,6 @@
           "close": 2.74,
           "change_pct": 4.18,
           "deviation": 6.2,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920792",
-          "name": "东和新材",
-          "status": "breakout_up",
-          "ma20": 9.713,
-          "close": 10.08,
-          "change_pct": 1.72,
-          "deviation": 3.78,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -197,6 +185,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920792",
+          "name": "东和新材",
+          "status": "above",
+          "ma20": 9.723,
+          "close": 10.05,
+          "change_pct": -0.3,
+          "deviation": 3.36,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002203",
           "name": "海亮股份",
           "status": "above",
@@ -217,18 +217,6 @@
           "change_pct": -0.54,
           "deviation": 9.68,
           "above_streak": 11,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920068",
-          "name": "天工股份",
-          "status": "above",
-          "ma20": 14.694,
-          "close": 15.3,
-          "change_pct": -0.65,
-          "deviation": 4.13,
-          "above_streak": 4,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -301,6 +289,18 @@
           "change_pct": -0.94,
           "deviation": 2.81,
           "above_streak": 10,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920068",
+          "name": "天工股份",
+          "status": "above",
+          "ma20": 14.685,
+          "close": 15.15,
+          "change_pct": -0.98,
+          "deviation": 3.16,
+          "above_streak": 5,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1277,12 +1277,23 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 5,
+        "breakout_up": 6,
         "above": 42,
-        "tangle": 2,
-        "below_d2": 1
+        "tangle": 2
       },
       "stocks": [
+        {
+          "code": "920367",
+          "name": "新赣江",
+          "status": "breakout_up",
+          "ma20": 24.613,
+          "close": 31.13,
+          "change_pct": 29.6,
+          "deviation": 26.48,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
         {
           "code": "002396",
           "name": "星网锐捷",
@@ -1869,18 +1880,6 @@
           "deviation": -1.57,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920367",
-          "name": "新赣江",
-          "status": "below_d2",
-          "ma20": 24.818,
-          "close": 24.02,
-          "change_pct": -1.48,
-          "deviation": -3.22,
-          "above_streak": 0,
-          "below_streak": 2,
           "deviation_alert": null
         }
       ],
@@ -2532,24 +2531,11 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 8,
-        "above": 38,
-        "tangle": 3,
-        "excluded": 1
+        "breakout_up": 7,
+        "above": 39,
+        "tangle": 4
       },
       "stocks": [
-        {
-          "code": "688635",
-          "name": "长进光子",
-          "status": "breakout_up",
-          "ma20": 253.921,
-          "close": 300.02,
-          "change_pct": 20.0,
-          "deviation": 18.16,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
         {
           "code": "600821",
           "name": "金开新能",
@@ -2911,6 +2897,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688635",
+          "name": "长进光子",
+          "status": "above",
+          "ma20": 252.472,
+          "close": 311.9,
+          "change_pct": 3.96,
+          "deviation": 23.54,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "301366",
           "name": "一博科技",
           "status": "above",
@@ -3103,6 +3101,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688802",
+          "name": "沐曦股份",
+          "status": "tangle",
+          "ma20": 752.275,
+          "close": 747.0,
+          "change_pct": 4.43,
+          "deviation": -0.7,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603019",
           "name": "中科曙光",
           "status": "tangle",
@@ -3124,18 +3134,6 @@
           "deviation": 1.77,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688802",
-          "name": "沐曦股份",
-          "status": "excluded",
-          "ma20": 759.425,
-          "close": 715.29,
-          "change_pct": 1.77,
-          "deviation": -5.81,
-          "above_streak": 0,
-          "below_streak": 12,
           "deviation_alert": null
         }
       ],
@@ -3789,8 +3787,7 @@
       "status_counts": {
         "breakout_up": 6,
         "above": 41,
-        "tangle": 2,
-        "excluded": 1
+        "tangle": 3
       },
       "stocks": [
         {
@@ -4118,6 +4115,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688702",
+          "name": "盛科通信",
+          "status": "above",
+          "ma20": 369.087,
+          "close": 401.0,
+          "change_pct": 4.18,
+          "deviation": 8.65,
+          "above_streak": 6,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "301366",
           "name": "一博科技",
           "status": "above",
@@ -4346,14 +4355,14 @@
           "deviation_alert": null
         },
         {
-          "code": "688702",
-          "name": "盛科通信",
-          "status": "above",
-          "ma20": 367.712,
-          "close": 384.9,
-          "change_pct": -2.21,
-          "deviation": 4.67,
-          "above_streak": 5,
+          "code": "688802",
+          "name": "沐曦股份",
+          "status": "tangle",
+          "ma20": 752.275,
+          "close": 747.0,
+          "change_pct": 4.43,
+          "deviation": -0.7,
+          "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -4379,18 +4388,6 @@
           "deviation": 3.08,
           "above_streak": 0,
           "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688802",
-          "name": "沐曦股份",
-          "status": "excluded",
-          "ma20": 759.425,
-          "close": 715.29,
-          "change_pct": 1.77,
-          "deviation": -5.81,
-          "above_streak": 0,
-          "below_streak": 12,
           "deviation_alert": null
         }
       ],
@@ -5042,23 +5039,11 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 7,
-        "above": 37,
+        "breakout_up": 5,
+        "above": 39,
         "tangle": 6
       },
       "stocks": [
-        {
-          "code": "688635",
-          "name": "长进光子",
-          "status": "breakout_up",
-          "ma20": 253.921,
-          "close": 300.02,
-          "change_pct": 20.0,
-          "deviation": 18.16,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
         {
           "code": "688800",
           "name": "瑞可达",
@@ -5115,18 +5100,6 @@
           "close": 112.6,
           "change_pct": 1.08,
           "deviation": 5.06,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920493",
-          "name": "并行科技",
-          "status": "breakout_up",
-          "ma20": 116.858,
-          "close": 120.09,
-          "change_pct": 0.79,
-          "deviation": 2.77,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5226,6 +5199,18 @@
           "above_streak": 8,
           "below_streak": 0,
           "deviation_alert": "warn"
+        },
+        {
+          "code": "688635",
+          "name": "长进光子",
+          "status": "above",
+          "ma20": 252.472,
+          "close": 311.9,
+          "change_pct": 3.96,
+          "deviation": 23.54,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
         },
         {
           "code": "301366",
@@ -5456,6 +5441,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920493",
+          "name": "并行科技",
+          "status": "above",
+          "ma20": 117.558,
+          "close": 121.5,
+          "change_pct": 1.17,
+          "deviation": 3.35,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300735",
           "name": "光弘科技",
           "status": "above",
@@ -5600,6 +5597,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920299",
+          "name": "灿能电力",
+          "status": "tangle",
+          "ma20": 16.496,
+          "close": 16.45,
+          "change_pct": 0.73,
+          "deviation": -0.28,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002025",
           "name": "航天电器",
           "status": "tangle",
@@ -5631,18 +5640,6 @@
           "close": 94.75,
           "change_pct": 0.48,
           "deviation": -0.31,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920299",
-          "name": "灿能电力",
-          "status": "tangle",
-          "ma20": 16.409,
-          "close": 16.33,
-          "change_pct": 0.31,
-          "deviation": -0.48,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
