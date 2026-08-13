@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 07:27",
+  "updated_at": "2026-08-13 08:50",
   "trade_date": "2026-08-13",
   "config": {
     "sector_limit": null,
@@ -316,6 +316,18 @@
           "deviation_alert": null
         },
         {
+          "code": "600489",
+          "name": "中金黄金",
+          "status": "above",
+          "ma20": 22.152,
+          "close": 25.102,
+          "change_pct": 2.49,
+          "deviation": 13.32,
+          "above_streak": 17,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603838",
           "name": "*ST四通",
           "status": "above",
@@ -324,18 +336,6 @@
           "change_pct": 2.46,
           "deviation": 22.13,
           "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600489",
-          "name": "中金黄金",
-          "status": "above",
-          "ma20": 22.61,
-          "close": 25.56,
-          "change_pct": 2.44,
-          "deviation": 13.05,
-          "above_streak": 17,
           "below_streak": 0,
           "deviation_alert": null
         },
