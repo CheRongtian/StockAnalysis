@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 20:37",
+  "updated_at": "2026-08-13 22:11",
   "trade_date": "2026-08-13",
   "config": {
     "sector_limit": null,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "html:300809(50)",
       "status": "bullish",
-      "ma20": 3332.27,
-      "close": 3631.65,
-      "deviation": 8.98,
+      "ma20": 3345.25,
+      "close": 3543.3,
+      "deviation": 5.92,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -630,13 +630,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-02",
-          "open": 3608.314,
-          "high": 3621.379,
-          "low": 3540.878,
-          "close": 3567.643
-        },
         {
           "date": "2026-04-03",
           "open": 3573.239,
@@ -1259,6 +1252,13 @@
           "high": 3646.588,
           "low": 3587.265,
           "close": 3631.649
+        },
+        {
+          "date": "2026-08-13",
+          "open": 3638.784,
+          "high": 3638.784,
+          "low": 3543.227,
+          "close": 3543.298
         }
       ]
     },
@@ -1269,9 +1269,9 @@
       "index_symbol": "AI应用",
       "member_source": "html:309264(50)",
       "status": "bullish",
-      "ma20": 801.86,
-      "close": 867.15,
-      "deviation": 8.14,
+      "ma20": 804.95,
+      "close": 858.71,
+      "deviation": 6.68,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1884,13 +1884,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-02",
-          "open": 920.343,
-          "high": 920.343,
-          "low": 896.929,
-          "close": 902.006
-        },
         {
           "date": "2026-04-03",
           "open": 906.468,
@@ -2513,6 +2506,13 @@
           "high": 871.195,
           "low": 856.485,
           "close": 867.147
+        },
+        {
+          "date": "2026-08-13",
+          "open": 869.261,
+          "high": 880.516,
+          "low": 858.708,
+          "close": 858.709
         }
       ]
     },
@@ -2523,9 +2523,9 @@
       "index_symbol": "东数西算(算力)",
       "member_source": "html:308828(50)",
       "status": "bullish",
-      "ma20": 2043.49,
-      "close": 2205.25,
-      "deviation": 7.92,
+      "ma20": 2048.59,
+      "close": 2191.25,
+      "deviation": 6.96,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -3138,13 +3138,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-02",
-          "open": 2249.697,
-          "high": 2249.697,
-          "low": 2179.719,
-          "close": 2191.86
-        },
         {
           "date": "2026-04-03",
           "open": 2206.529,
@@ -3767,6 +3760,13 @@
           "high": 2206.563,
           "low": 2171.762,
           "close": 2205.249
+        },
+        {
+          "date": "2026-08-13",
+          "open": 2226.991,
+          "high": 2246.702,
+          "low": 2191.23,
+          "close": 2191.246
         }
       ]
     },
@@ -3777,9 +3777,9 @@
       "index_symbol": "芯片概念",
       "member_source": "html:301085(50)",
       "status": "bullish",
-      "ma20": 4563.82,
-      "close": 4948.73,
-      "deviation": 8.43,
+      "ma20": 4563.39,
+      "close": 4872.76,
+      "deviation": 6.78,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -4392,13 +4392,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-02",
-          "open": 4314.016,
-          "high": 4329.379,
-          "low": 4206.768,
-          "close": 4231.994
-        },
         {
           "date": "2026-04-03",
           "open": 4259.162,
@@ -5021,6 +5014,13 @@
           "high": 4959.009,
           "low": 4857.157,
           "close": 4948.726
+        },
+        {
+          "date": "2026-08-13",
+          "open": 4996.227,
+          "high": 5013.745,
+          "low": 4872.756,
+          "close": 4872.756
         }
       ]
     },
@@ -5031,9 +5031,9 @@
       "index_symbol": "商业航天",
       "member_source": "html:309130(50)",
       "status": "bullish",
-      "ma20": 2003.74,
-      "close": 2155.13,
-      "deviation": 7.55,
+      "ma20": 2005.66,
+      "close": 2125.21,
+      "deviation": 5.96,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -5646,13 +5646,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-02",
-          "open": 2269.093,
-          "high": 2282.817,
-          "low": 2216.383,
-          "close": 2228.229
-        },
         {
           "date": "2026-04-03",
           "open": 2239.589,
@@ -6275,6 +6268,13 @@
           "high": 2156.082,
           "low": 2117.848,
           "close": 2155.126
+        },
+        {
+          "date": "2026-08-13",
+          "open": 2170.614,
+          "high": 2176.017,
+          "low": 2125.197,
+          "close": 2125.209
         }
       ]
     },
@@ -6285,9 +6285,9 @@
       "index_symbol": "机器人概念",
       "member_source": "none",
       "status": "bullish",
-      "ma20": 3631.24,
-      "close": 3908.94,
-      "deviation": 7.65,
+      "ma20": 3636.43,
+      "close": 3856.76,
+      "deviation": 6.06,
       "source_stock_count": 0,
       "processed_stock_count": 0,
       "classified_stock_count": 0,
@@ -6295,13 +6295,6 @@
       "status_counts": {},
       "stocks": [],
       "klines": [
-        {
-          "date": "2026-04-02",
-          "open": 3984.879,
-          "high": 3994.539,
-          "low": 3895.426,
-          "close": 3918.004
-        },
         {
           "date": "2026-04-03",
           "open": 3930.175,
@@ -6924,6 +6917,13 @@
           "high": 3910.428,
           "low": 3855.742,
           "close": 3908.942
+        },
+        {
+          "date": "2026-08-13",
+          "open": 3925.791,
+          "high": 3933.437,
+          "low": 3856.758,
+          "close": 3856.758
         }
       ]
     }
