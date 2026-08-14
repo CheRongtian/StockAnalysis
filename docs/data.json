@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14 15:01",
+  "updated_at": "2026-08-14 16:54",
   "trade_date": "2026-08-14",
   "config": {
     "sector_limit": null,
@@ -1498,6 +1498,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688387",
+          "name": "信科移动",
+          "status": "above",
+          "ma20": 13.119,
+          "close": 14.44,
+          "change_pct": 5.4,
+          "deviation": 10.07,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603990",
           "name": "麦迪科技",
           "status": "above",
@@ -1854,18 +1866,6 @@
           "change_pct": 2.38,
           "deviation": 6.14,
           "above_streak": 9,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688387",
-          "name": "信科移动",
-          "status": "above",
-          "ma20": 13.055,
-          "close": 13.7,
-          "change_pct": -1.51,
-          "deviation": 4.94,
-          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -2655,6 +2655,30 @@
           "deviation_alert": null
         },
         {
+          "code": "688635",
+          "name": "长进光子",
+          "status": "above",
+          "ma20": 255.351,
+          "close": 355.55,
+          "change_pct": 13.99,
+          "deviation": 39.24,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
+          "code": "920699",
+          "name": "海达尔",
+          "status": "above",
+          "ma20": 73.152,
+          "close": 95.88,
+          "change_pct": 13.47,
+          "deviation": 31.07,
+          "above_streak": 5,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "301348",
           "name": "蓝箭电子",
           "status": "above",
@@ -2907,6 +2931,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688387",
+          "name": "信科移动",
+          "status": "above",
+          "ma20": 13.119,
+          "close": 14.44,
+          "change_pct": 5.4,
+          "deviation": 10.07,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300846",
           "name": "首都在线",
           "status": "above",
@@ -3095,42 +3131,6 @@
           "change_pct": 4.24,
           "deviation": 9.37,
           "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688635",
-          "name": "长进光子",
-          "status": "above",
-          "ma20": 252.472,
-          "close": 311.9,
-          "change_pct": 3.96,
-          "deviation": 23.54,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920699",
-          "name": "海达尔",
-          "status": "above",
-          "ma20": 71.708,
-          "close": 84.5,
-          "change_pct": 0.52,
-          "deviation": 17.84,
-          "above_streak": 4,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688387",
-          "name": "信科移动",
-          "status": "above",
-          "ma20": 13.055,
-          "close": 13.7,
-          "change_pct": -1.51,
-          "deviation": 4.94,
-          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         }
@@ -3783,9 +3783,8 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 8,
-        "above": 41,
-        "tangle": 1
+        "breakout_up": 9,
+        "above": 41
       },
       "stocks": [
         {
@@ -3832,6 +3831,18 @@
           "close": 7.84,
           "change_pct": 9.96,
           "deviation": 10.84,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "301599",
+          "name": "理奇智能",
+          "status": "breakout_up",
+          "ma20": 34.027,
+          "close": 38.0,
+          "change_pct": 9.38,
+          "deviation": 11.68,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -4293,6 +4304,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688790",
+          "name": "昂瑞微",
+          "status": "above",
+          "ma20": 93.444,
+          "close": 105.46,
+          "change_pct": 7.61,
+          "deviation": 12.86,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603800",
           "name": "洪田股份",
           "status": "above",
@@ -4361,30 +4384,6 @@
           "change_pct": 6.77,
           "deviation": 14.76,
           "above_streak": 8,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688790",
-          "name": "昂瑞微",
-          "status": "above",
-          "ma20": 93.114,
-          "close": 98.0,
-          "change_pct": -1.51,
-          "deviation": 5.25,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301599",
-          "name": "理奇智能",
-          "status": "tangle",
-          "ma20": 33.797,
-          "close": 34.74,
-          "change_pct": -2.31,
-          "deviation": 2.79,
-          "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
         }
@@ -5211,6 +5210,18 @@
           "deviation_alert": "warn"
         },
         {
+          "code": "688635",
+          "name": "长进光子",
+          "status": "above",
+          "ma20": 255.351,
+          "close": 355.55,
+          "change_pct": 13.99,
+          "deviation": 39.24,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": "warn"
+        },
+        {
           "code": "002658",
           "name": "雪迪龙",
           "status": "above",
@@ -5295,6 +5306,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688790",
+          "name": "昂瑞微",
+          "status": "above",
+          "ma20": 93.444,
+          "close": 105.46,
+          "change_pct": 7.61,
+          "deviation": 12.86,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002080",
           "name": "中材科技",
           "status": "above",
@@ -5351,6 +5374,18 @@
           "change_pct": 5.77,
           "deviation": 9.17,
           "above_streak": 7,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "688387",
+          "name": "信科移动",
+          "status": "above",
+          "ma20": 13.119,
+          "close": 14.44,
+          "change_pct": 5.4,
+          "deviation": 10.07,
+          "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5499,18 +5534,6 @@
           "deviation_alert": null
         },
         {
-          "code": "688635",
-          "name": "长进光子",
-          "status": "above",
-          "ma20": 252.472,
-          "close": 311.9,
-          "change_pct": 3.96,
-          "deviation": 23.54,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "301041",
           "name": "金百泽",
           "status": "above",
@@ -5603,30 +5626,6 @@
           "change_pct": 3.45,
           "deviation": 8.08,
           "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688790",
-          "name": "昂瑞微",
-          "status": "above",
-          "ma20": 93.114,
-          "close": 98.0,
-          "change_pct": -1.51,
-          "deviation": 5.25,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688387",
-          "name": "信科移动",
-          "status": "above",
-          "ma20": 13.055,
-          "close": 13.7,
-          "change_pct": -1.51,
-          "deviation": 4.94,
-          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -6955,6 +6954,15 @@
       "ma20": 66.569
     },
     {
+      "sector": "算力·商业航天",
+      "code": "688635",
+      "name": "长进光子",
+      "deviation": 39.24,
+      "alert": "warn",
+      "close": 355.55,
+      "ma20": 255.351
+    },
+    {
       "sector": "芯片",
       "code": "300120",
       "name": "经纬辉开",
@@ -6998,6 +7006,15 @@
       "alert": "warn",
       "close": 72.1,
       "ma20": 54.22
+    },
+    {
+      "sector": "算力",
+      "code": "920699",
+      "name": "海达尔",
+      "deviation": 31.07,
+      "alert": "warn",
+      "close": 95.88,
+      "ma20": 73.152
     }
   ],
   "errors": [
