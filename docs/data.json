@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18 16:19",
+  "updated_at": "2026-08-18 17:18",
   "trade_date": "2026-08-18",
   "config": {
     "sector_limit": null,
@@ -3782,11 +3782,11 @@
       "deviation": 10.56,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "classified_stock_count": 49,
       "truncated": false,
       "status_counts": {
         "breakout_up": 4,
-        "above": 46
+        "above": 45
       },
       "stocks": [
         {
@@ -4374,18 +4374,6 @@
           "change_pct": 5.1,
           "deviation": 23.76,
           "above_streak": 8,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002811",
-          "name": "郑中设计",
-          "status": "above",
-          "ma20": 10.22,
-          "close": 12.19,
-          "change_pct": 5.09,
-          "deviation": 19.28,
-          "above_streak": 7,
           "below_streak": 0,
           "deviation_alert": null
         }
