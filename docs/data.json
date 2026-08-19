@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19 21:34",
+  "updated_at": "2026-08-19 22:20",
   "trade_date": "2026-08-19",
   "config": {
     "sector_limit": null,
@@ -13,10 +13,10 @@
       "matched_code": "300809",
       "index_symbol": "小金属概念",
       "member_source": "html:300809(50)",
-      "status": "tangle",
-      "ma20": 3433.7,
-      "close": 3483.57,
-      "deviation": 1.45,
+      "status": "bullish",
+      "ma20": 3418.66,
+      "close": 3621.5,
+      "deviation": 5.93,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -632,6 +632,13 @@
         }
       ],
       "klines": [
+        {
+          "date": "2026-04-09",
+          "open": 3677.244,
+          "high": 3706.042,
+          "low": 3655.494,
+          "close": 3688.748
+        },
         {
           "date": "2026-04-10",
           "open": 3716.538,
@@ -1254,13 +1261,6 @@
           "high": 3662.121,
           "low": 3591.014,
           "close": 3621.501
-        },
-        {
-          "date": "2026-08-19",
-          "open": 3559.695,
-          "high": 3577.812,
-          "low": 3473.957,
-          "close": 3483.571
         }
       ]
     },
