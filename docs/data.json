@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20 15:22",
+  "updated_at": "2026-08-20 16:21",
   "trade_date": "2026-08-20",
   "config": {
     "sector_limit": null,
@@ -22,9 +22,9 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 12,
+        "breakout_up": 13,
         "above": 13,
-        "tangle": 21,
+        "tangle": 20,
         "below_d2": 2,
         "excluded": 2
       },
@@ -97,6 +97,18 @@
           "close": 4.19,
           "change_pct": 3.71,
           "deviation": 3.42,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920068",
+          "name": "天工股份",
+          "status": "breakout_up",
+          "ma20": 14.894,
+          "close": 15.58,
+          "change_pct": 3.45,
+          "deviation": 4.6,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -390,6 +402,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920033",
+          "name": "康普化学",
+          "status": "tangle",
+          "ma20": 14.109,
+          "close": 14.36,
+          "change_pct": 2.35,
+          "deviation": 1.78,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603843",
           "name": "*ST正平",
           "status": "tangle",
@@ -553,30 +577,6 @@
           "close": 8.46,
           "change_pct": 1.32,
           "deviation": 0.95,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920068",
-          "name": "天工股份",
-          "status": "tangle",
-          "ma20": 14.836,
-          "close": 15.06,
-          "change_pct": -1.5,
-          "deviation": 1.51,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920033",
-          "name": "康普化学",
-          "status": "tangle",
-          "ma20": 14.066,
-          "close": 14.03,
-          "change_pct": -3.64,
-          "deviation": -0.26,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -2805,6 +2805,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688635",
+          "name": "长进光子",
+          "status": "above",
+          "ma20": 270.645,
+          "close": 336.47,
+          "change_pct": 6.72,
+          "deviation": 24.32,
+          "above_streak": 7,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "301046",
           "name": "能辉科技",
           "status": "above",
@@ -3005,18 +3017,6 @@
           "change_pct": 2.99,
           "deviation": 25.15,
           "above_streak": 8,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688635",
-          "name": "长进光子",
-          "status": "above",
-          "ma20": 267.186,
-          "close": 315.27,
-          "change_pct": -9.95,
-          "deviation": 18.0,
-          "above_streak": 6,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -4119,6 +4119,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920026",
+          "name": "卓兆点胶",
+          "status": "above",
+          "ma20": 17.904,
+          "close": 20.44,
+          "change_pct": 8.67,
+          "deviation": 14.16,
+          "above_streak": 5,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300319",
           "name": "麦捷科技",
           "status": "above",
@@ -4355,18 +4367,6 @@
           "change_pct": 5.93,
           "deviation": 11.55,
           "above_streak": 15,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920026",
-          "name": "卓兆点胶",
-          "status": "above",
-          "ma20": 17.708,
-          "close": 18.81,
-          "change_pct": -1.72,
-          "deviation": 6.22,
-          "above_streak": 4,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -5043,9 +5043,9 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 16,
+        "breakout_up": 17,
         "above": 23,
-        "tangle": 9,
+        "tangle": 8,
         "below_d2": 2
       },
       "stocks": [
@@ -5201,6 +5201,18 @@
           "close": 10.03,
           "change_pct": 3.51,
           "deviation": 3.78,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920068",
+          "name": "天工股份",
+          "status": "breakout_up",
+          "ma20": 14.894,
+          "close": 15.58,
+          "change_pct": 3.45,
+          "deviation": 4.6,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5609,18 +5621,6 @@
           "close": 15.07,
           "change_pct": 3.01,
           "deviation": 0.42,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920068",
-          "name": "天工股份",
-          "status": "tangle",
-          "ma20": 14.836,
-          "close": 15.06,
-          "change_pct": -1.5,
-          "deviation": 1.51,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
