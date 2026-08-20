@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>科技主题强势股扫描</title>
+<title>主题强势股扫描</title>
 <style>
   :root {
     --bg:#101319;
@@ -157,7 +157,7 @@
   <div class="brand">
     <div class="brand-mark"></div>
     <div>
-      <div class="brand-title">科技主题强势股扫描</div>
+      <div class="brand-title">主题强势股扫描</div>
       <div class="brand-sub" id="source-line">loading data.json</div>
     </div>
   </div>
@@ -298,7 +298,7 @@ function metricsHtml(stocks){
   const above = stocks.filter(s => s.status === 'above').length;
   const bullish = sectors.filter(s => s.status === 'bullish').length;
   return `<div class="topline">
-    <div class="metric"><div class="metric-label">科技主题</div><div class="metric-value">${sectors.length}</div><div class="metric-sub">多头 ${bullish}</div></div>
+    <div class="metric"><div class="metric-label">扫描主题</div><div class="metric-value">${sectors.length}</div><div class="metric-sub">多头 ${bullish}</div></div>
     <div class="metric"><div class="metric-label">已分类个股</div><div class="metric-value">${stocks.length}</div><div class="metric-sub">去重后数量</div></div>
     <div class="metric"><div class="metric-label">突破上穿</div><div class="metric-value">${breakout}</div><div class="metric-sub">持续强势 ${above}</div></div>
     <div class="metric"><div class="metric-label">乖离预警</div><div class="metric-value">${alerts.length}</div><div class="metric-sub">按绝对乖离率排序</div></div>

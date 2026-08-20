@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-科技主题强势股扫描脚本。
+主题强势股扫描脚本。
 
 可选环境变量：
   STOCK_ANALYSIS_SECTOR_LIMIT=3              只跑前 N 个主题，便于试跑
@@ -24,7 +24,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-TECH_SECTORS = [
+THEME_SECTORS = [
     {
         "name": "小金属",
         "aliases": ["小金属概念", "稀有金属", "稀缺资源"],
@@ -48,6 +48,10 @@ TECH_SECTORS = [
     {
         "name": "机器人",
         "aliases": ["人形机器人", "机器人概念", "工业机器人"],
+    },
+    {
+        "name": "粮食概念",
+        "aliases": ["粮食概念", "粮食", "农业种植"],
     },
 ]
 
@@ -299,38 +303,52 @@ def dedupe_stocks(stocks: list[dict[str, str]]) -> list[dict[str, str]]:
 
 
 def fetch_sector_stocks_ak(ak: Any, sector: dict[str, Any], match: ConceptMatch) -> tuple[str, list[dict[str, str]]]:
-    if ak is None or not hasattr(ak, "stock_board_concept_cons_ths"):
+    if ak is None:
         return "", []
 
+    providers = [
+        ("ths", getattr(ak, "stock_board_concept_cons_ths", None)),
+        ("em", getattr(ak, "stock_board_concept_cons_em", None)),
+    ]
     candidates = [match.symbol, *sector.get("aliases", []), sector["name"]]
-    seen = set()
-    for symbol in candidates:
-        if not symbol or symbol in seen:
-            continue
-        seen.add(symbol)
-        try:
-            df = ak.stock_board_concept_cons_ths(symbol=symbol)
-        except Exception:
+    for provider_name, provider in providers:
+        if not callable(provider):
             continue
 
-        if df is None or len(df) == 0:
-            continue
+        seen = set()
+        for symbol in candidates:
+            if not symbol or symbol in seen:
+                continue
+            seen.add(symbol)
+            try:
+                df = provider(symbol=symbol)
+            except Exception:
+                continue
 
-        code_col = first_existing_column(df.columns, ["代码", "股票代码", "code", "Code"])
-        name_col = first_existing_column(df.columns, ["名称", "股票简称", "股票名称", "name", "Name"])
-        if code_col is None or name_col is None:
-            continue
+            if df is None or len(df) == 0:
+                continue
 
-        stocks = []
-        for _, row in df.iterrows():
-            code = clean_stock_code(row[code_col])
-            name = str(row[name_col]).strip()
-            if code:
-                stocks.append({"code": code, "name": name})
+            code_col = first_existing_column(
+                df.columns,
+                ["代码", "股票代码", "证券代码", "code", "Code", "symbol", "Symbol"],
+            )
+            name_col = first_existing_column(
+                df.columns,
+                ["名称", "股票简称", "股票名称", "证券简称", "name", "Name"],
+            )
+            if code_col is None or name_col is None:
+                continue
 
-        stocks = dedupe_stocks(stocks)
-        if stocks:
-            return symbol, stocks
+            stocks = []
+            for _, row in df.iterrows():
+                code = clean_stock_code(row[code_col])
+                name = str(row[name_col]).strip()
+                if code:
+                    stocks.append({"code": code, "name": name})
+
+            stocks = dedupe_stocks(stocks)
+            if stocks:
+                return f"{provider_name}:{symbol}", stocks
 
     return "", []
 
@@ -600,12 +618,12 @@ def output_path() -> Path:
 
 def main() -> None:
     started_at = now_beijing()
-    print(f"=== 科技主题强势股扫描 {started_at.strftime('%Y-%m-%d %H:%M')} 北京时间 ===")
+    print(f"=== 主题强势股扫描 {started_at.strftime('%Y-%m-%d %H:%M')} 北京时间 ===")
 
     ak = import_akshare()
     concepts = load_ths_concepts(ak)
 
-    sectors = TECH_SECTORS[:SECTOR_LIMIT] if SECTOR_LIMIT > 0 else TECH_SECTORS
+    sectors = THEME_SECTORS[:SECTOR_LIMIT] if SECTOR_LIMIT > 0 else THEME_SECTORS
     output = {
         "updated_at": started_at.strftime("%Y-%m-%d %H:%M"),
         "trade_date": started_at.date().strftime("%Y-%m-%d"),
