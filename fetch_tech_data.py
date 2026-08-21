@@ -64,8 +64,23 @@ THS_HEADERS = {
     ),
     "Referer": "https://q.10jqka.com.cn/",
 }
+EM_HEADERS = {
+    "User-Agent": THS_HEADERS["User-Agent"],
+    "Referer": "https://quote.eastmoney.com/",
+}
 SINA_HEADERS = {"Referer": "https://finance.sina.com.cn"}
 QQ_HEADERS = {"Referer": "https://finance.qq.com"}
+
+EM_CONCEPT_HOSTS = (
+    "https://29.push2.eastmoney.com",
+    "https://79.push2.eastmoney.com",
+    "https://17.push2.eastmoney.com",
+    "https://push2.eastmoney.com",
+)
+EM_CONCEPT_FIELDS = (
+    "f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f12,f13,f14,f15,f16,f17,f18,f20,f21,f23,"
+    "f24,f25,f22,f11,f62,f128,f136,f115,f152,f45"
+)
 
 REQUEST_TIMEOUT_SECONDS = float(os.getenv("STOCK_ANALYSIS_SOURCE_TIMEOUT", "12"))
 REQUEST_SLEEP_SECONDS = float(os.getenv("STOCK_ANALYSIS_REQUEST_SLEEP", "0.05"))
@@ -378,11 +393,8 @@ def fetch_sector_stocks_ak(
                     ),
                     "",
                 )
-            provider_candidates = [
-                *configured_codes,
-                *([em_code] if em_code else []),
-                *candidates,
-            ]
+            known_codes = [*configured_codes, *([em_code] if em_code else [])]
+            provider_candidates = known_codes or candidates
 
         seen = set()
         for symbol in provider_candidates:
@@ -422,7 +434,114 @@ def fetch_sector_stocks_ak(
             if stocks:
                 return f"{provider_name}:{symbol}", stocks
 
+        if provider_name == "em":
+            direct_symbol, direct_stocks = fetch_em_concept_stocks_direct(
+                provider_candidates,
+            )
+            if direct_stocks:
+                return direct_symbol, direct_stocks
+
     return "", []
+
+
+def em_concept_page_params(board_code: str, page: int) -> dict[str, str]:
+    return {
+        "pn": str(page),
+        "pz": "100",
+        "po": "1",
+        "np": "1",
+        "ut": "bd1d9ddb04089700cf9c27f6f7426281",
+        "fltt": "2",
+        "invt": "2",
+        "fid": "f12",
+        "fs": f"b:{board_code} f:!50",
+        "fields": EM_CONCEPT_FIELDS,
+    }
+
+
+def fetch_em_concept_page(
+    board_code: str,
+    page: int,
+) -> tuple[list[dict[str, Any]], int, str]:
+    last_error: Exception | None = None
+    for host in EM_CONCEPT_HOSTS:
+        try:
+            response = requests.get(
+                f"{host}/api/qt/clist/get",
+                params=em_concept_page_params(board_code, page),
+                headers=EM_HEADERS,
+                timeout=REQUEST_TIMEOUT_SECONDS,
+            )
+            response.raise_for_status()
+            payload = response.json()
+            data = payload.get("data") or {}
+            raw_rows = data.get("diff") or []
+            if isinstance(raw_rows, dict):
+                rows = list(raw_rows.values())
+            elif isinstance(raw_rows, list):
+                rows = raw_rows
+            else:
+                rows = []
+            rows = [row for row in rows if isinstance(row, dict)]
+            if not rows:
+                raise ValueError("东方财富成分股接口返回空页")
+
+            try:
+                total = int(data.get("total") or len(rows))
+            except (TypeError, ValueError):
+                total = len(rows)
+            return rows, total, host
+        except Exception as exc:
+            last_error = exc
+
+    print(
+        f"    EM mirror board={board_code} page={page} 抓取失败：{last_error}"
+    )
+    return [], 0, ""
+
+
+def fetch_em_concept_stocks_direct(
+    symbols: list[str],
+) -> tuple[str, list[dict[str, str]]]:
+    board_code = next(
+        (symbol for symbol in symbols if re.fullmatch(r"BK\d+", symbol)),
+        "",
+    )
+    if not board_code:
+        return "", []
+
+    first_page, total, _ = fetch_em_concept_page(board_code, 1)
+    if not first_page:
+        return "", []
+
+    page_size = len(first_page)
+    total_pages = max(1, (total + page_size - 1) // page_size)
+    all_rows = list(first_page)
+    failed_pages = []
+    for page in range(2, total_pages + 1):
+        rows, _, _ = fetch_em_concept_page(board_code, page)
+        if not rows:
+            failed_pages.append(page)
+            continue
+        all_rows.extend(rows)
+
+    if failed_pages:
+        print(
+            f"    EM mirror board={board_code} 分页不完整，失败页={failed_pages}"
+        )
+        return "", []
+
+    stocks = []
+    for row in all_rows:
+        code = clean_stock_code(row.get("f12", row.get("代码", "")))
+        name = str(row.get("f14", row.get("名称", ""))).strip()
+        if code:
+            stocks.append({"code": code, "name": name or code})
+
+    stocks = dedupe_stocks(stocks)
+    if not stocks:
+        return "", []
+    return f"em-direct:{board_code}", stocks
 
 
 def fetch_sector_stocks_html(ths_code: str | None) -> list[dict[str, str]]:
