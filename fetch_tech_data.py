@@ -193,6 +193,43 @@ def load_ths_concepts(ak: Any) -> list[dict[str, str]]:
     return rows
 
 
+def load_em_concept_codes(ak: Any) -> dict[str, str]:
+    if ak is None or not hasattr(ak, "stock_board_concept_name_em"):
+        return {}
+
+    try:
+        df = ak.stock_board_concept_name_em()
+    except Exception as exc:
+        print(f"  东方财富概念列表抓取失败：{exc}")
+        return {}
+
+    if df is None or len(df) == 0:
+        return {}
+
+    name_col = first_existing_column(
+        df.columns,
+        ["板块名称", "概念名称", "名称", "name", "Name"],
+    )
+    code_col = first_existing_column(
+        df.columns,
+        ["板块代码", "概念代码", "代码", "code", "Code"],
+    )
+    if name_col is None or code_col is None:
+        print("  东方财富概念列表缺少名称或代码字段")
+        return {}
+
+    codes: dict[str, str] = {}
+    for _, row in df.iterrows():
+        name = str(row[name_col]).strip()
+        code = str(row[code_col]).strip()
+        if not name or not code or code.lower() in {"nan", "none"}:
+            continue
+        codes.setdefault(normalize_concept_name(name), code)
+
+    print(f"  已加载东方财富概念列表：{len(codes)} 个")
+    return codes
+
+
 def resolve_concept(sector: dict[str, Any], concepts: list[dict[str, str]]) -> ConceptMatch:
     aliases = [sector["name"], *sector.get("aliases", [])]
     if not concepts:
@@ -302,7 +339,12 @@ def dedupe_stocks(stocks: list[dict[str, str]]) -> list[dict[str, str]]:
     return result
 
 
-def fetch_sector_stocks_ak(ak: Any, sector: dict[str, Any], match: ConceptMatch) -> tuple[str, list[dict[str, str]]]:
+def fetch_sector_stocks_ak(
+    ak: Any,
+    sector: dict[str, Any],
+    match: ConceptMatch,
+    em_concept_codes: dict[str, str] | None = None,
+) -> tuple[str, list[dict[str, str]]]:
     if ak is None:
         return "", []
 
@@ -315,17 +357,32 @@ def fetch_sector_stocks_ak(ak: Any, sector: dict[str, Any], match: ConceptMatch)
         if not callable(provider):
             continue
 
+        provider_candidates = candidates
+        if provider_name == "em" and em_concept_codes:
+            em_code = next(
+                (
+                    em_concept_codes[normalize_concept_name(candidate)]
+                    for candidate in candidates
+                    if normalize_concept_name(candidate) in em_concept_codes
+                ),
+                "",
+            )
+            if em_code:
+                provider_candidates = [em_code, *candidates]
+
         seen = set()
-        for symbol in candidates:
+        for symbol in provider_candidates:
             if not symbol or symbol in seen:
                 continue
             seen.add(symbol)
             try:
                 df = provider(symbol=symbol)
-            except Exception:
+            except Exception as exc:
+                print(f"    {provider_name}:{symbol} 成分股抓取失败：{exc}")
                 continue
 
             if df is None or len(df) == 0:
+                print(f"    {provider_name}:{symbol} 成分股返回空数据")
                 continue
 
             code_col = first_existing_column(
@@ -337,6 +394,7 @@ def fetch_sector_stocks_ak(ak: Any, sector: dict[str, Any], match: ConceptMatch)
                 ["名称", "股票简称", "股票名称", "证券简称", "name", "Name"],
             )
             if code_col is None or name_col is None:
+                print(f"    {provider_name}:{symbol} 返回字段缺少代码或名称")
                 continue
 
             stocks = []
@@ -399,9 +457,19 @@ def fetch_sector_stocks_html(ths_code: str | None) -> list[dict[str, str]]:
     return stocks
 
 
-def fetch_sector_stocks(ak: Any, sector: dict[str, Any], match: ConceptMatch) -> tuple[str, list[dict[str, str]]]:
+def fetch_sector_stocks(
+    ak: Any,
+    sector: dict[str, Any],
+    match: ConceptMatch,
+    em_concept_codes: dict[str, str] | None = None,
+) -> tuple[str, list[dict[str, str]]]:
     sources = []
-    source_symbol, ak_stocks = fetch_sector_stocks_ak(ak, sector, match)
+    source_symbol, ak_stocks = fetch_sector_stocks_ak(
+        ak,
+        sector,
+        match,
+        em_concept_codes,
+    )
     if ak_stocks:
         sources.append(f"akshare:{source_symbol}({len(ak_stocks)})")
 
@@ -622,6 +690,7 @@ def main() -> None:
 
     ak = import_akshare()
     concepts = load_ths_concepts(ak)
+    em_concept_codes = load_em_concept_codes(ak)
 
     sectors = THEME_SECTORS[:SECTOR_LIMIT] if SECTOR_LIMIT > 0 else THEME_SECTORS
     output = {
@@ -646,7 +715,12 @@ def main() -> None:
         sector_status, sector_ma20, sector_close, sector_dev = sector_status_from_index(sector_closes)
         print(f"  板块指数: {sector_status} close={sector_close} ma20={sector_ma20} source={index_symbol}")
 
-        source, stocks_raw = fetch_sector_stocks(ak, sector, match)
+        source, stocks_raw = fetch_sector_stocks(
+            ak,
+            sector,
+            match,
+            em_concept_codes,
+        )
         source_count = len(stocks_raw)
         if MAX_STOCKS_PER_SECTOR > 0 and len(stocks_raw) > MAX_STOCKS_PER_SECTOR:
             stocks_to_process = stocks_raw[:MAX_STOCKS_PER_SECTOR]
