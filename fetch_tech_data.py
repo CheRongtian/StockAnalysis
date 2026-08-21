@@ -48,6 +48,7 @@ THEME_SECTORS = [
     {
         "name": "机器人",
         "aliases": ["人形机器人", "机器人概念", "工业机器人"],
+        "em_board_codes": ["BK1090"],
     },
     {
         "name": "粮食概念",
@@ -194,16 +195,19 @@ def load_ths_concepts(ak: Any) -> list[dict[str, str]]:
 
 
 def load_em_concept_codes(ak: Any) -> dict[str, str]:
-    if ak is None or not hasattr(ak, "stock_board_concept_name_em"):
+    provider = getattr(ak, "stock_board_concept_name_em", None) if ak is not None else None
+    if not callable(provider):
+        print("  东方财富概念代码接口不可用")
         return {}
 
     try:
-        df = ak.stock_board_concept_name_em()
+        df = provider()
     except Exception as exc:
         print(f"  东方财富概念列表抓取失败：{exc}")
         return {}
 
     if df is None or len(df) == 0:
+        print("  东方财富概念列表返回空数据")
         return {}
 
     name_col = first_existing_column(
@@ -358,17 +362,27 @@ def fetch_sector_stocks_ak(
             continue
 
         provider_candidates = candidates
-        if provider_name == "em" and em_concept_codes:
-            em_code = next(
-                (
-                    em_concept_codes[normalize_concept_name(candidate)]
-                    for candidate in candidates
-                    if normalize_concept_name(candidate) in em_concept_codes
-                ),
-                "",
-            )
-            if em_code:
-                provider_candidates = [em_code, *candidates]
+        if provider_name == "em":
+            configured_codes = [
+                str(code).strip()
+                for code in sector.get("em_board_codes", [])
+                if str(code).strip()
+            ]
+            em_code = ""
+            if em_concept_codes:
+                em_code = next(
+                    (
+                        em_concept_codes[normalize_concept_name(candidate)]
+                        for candidate in candidates
+                        if normalize_concept_name(candidate) in em_concept_codes
+                    ),
+                    "",
+                )
+            provider_candidates = [
+                *configured_codes,
+                *([em_code] if em_code else []),
+                *candidates,
+            ]
 
         seen = set()
         for symbol in provider_candidates:
