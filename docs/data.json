@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 18:16",
+  "updated_at": "2026-08-21 19:13",
   "trade_date": "2026-08-21",
   "config": {
     "sector_limit": null,
@@ -7531,9 +7531,9 @@
       "index_symbol": "粮食概念",
       "member_source": "ths-html:308956(48)",
       "status": "bullish",
-      "ma20": 788.27,
-      "close": 824.32,
-      "deviation": 4.57,
+      "ma20": 782.55,
+      "close": 856.12,
+      "deviation": 9.4,
       "source_stock_count": 48,
       "processed_stock_count": 48,
       "classified_stock_count": 48,
@@ -8123,6 +8123,13 @@
         }
       ],
       "klines": [
+        {
+          "date": "2026-04-13",
+          "open": 943.705,
+          "high": 949.235,
+          "low": 938.834,
+          "close": 947.634
+        },
         {
           "date": "2026-04-14",
           "open": 950.459,
@@ -8745,13 +8752,6 @@
           "high": 865.263,
           "low": 824.59,
           "close": 856.115
-        },
-        {
-          "date": "2026-08-21",
-          "open": 847.962,
-          "high": 847.962,
-          "low": 821.953,
-          "close": 824.324
         }
       ]
     }
