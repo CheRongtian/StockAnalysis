@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-21 15:23",
+  "updated_at": "2026-08-21 16:22",
   "trade_date": "2026-08-21",
   "config": {
     "sector_limit": null,
-    "max_pages": 130,
+    "max_pages": 30,
     "max_stocks_per_sector": null
   },
   "sectors": [
@@ -1276,8 +1276,8 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 12,
-        "above": 20,
+        "breakout_up": 11,
+        "above": 21,
         "tangle": 13,
         "excluded": 5
       },
@@ -1403,18 +1403,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920748",
-          "name": "路桥信息",
-          "status": "breakout_up",
-          "ma20": 23.159,
-          "close": 23.99,
-          "change_pct": 2.74,
-          "deviation": 3.59,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "300419",
           "name": "ST浩丰",
           "status": "breakout_up",
@@ -1475,6 +1463,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920429",
+          "name": "康比特",
+          "status": "above",
+          "ma20": 9.405,
+          "close": 11.06,
+          "change_pct": 7.07,
+          "deviation": 17.6,
+          "above_streak": 11,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "301129",
           "name": "瑞纳智能",
           "status": "above",
@@ -1531,6 +1531,18 @@
           "change_pct": 3.92,
           "deviation": 8.12,
           "above_streak": 10,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920748",
+          "name": "路桥信息",
+          "status": "above",
+          "ma20": 23.409,
+          "close": 24.91,
+          "change_pct": 3.83,
+          "deviation": 6.41,
+          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1651,18 +1663,6 @@
           "change_pct": 2.13,
           "deviation": 10.02,
           "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920429",
-          "name": "康比特",
-          "status": "above",
-          "ma20": 9.26,
-          "close": 10.33,
-          "change_pct": -2.09,
-          "deviation": 11.56,
-          "above_streak": 10,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -2994,6 +2994,18 @@
           "deviation_alert": null
         },
         {
+          "code": "920010",
+          "name": "凯添燃气",
+          "status": "tangle",
+          "ma20": 8.473,
+          "close": 8.6,
+          "change_pct": 2.99,
+          "deviation": 1.5,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "000636",
           "name": "风华高科",
           "status": "tangle",
@@ -3061,18 +3073,6 @@
           "close": 14.8,
           "change_pct": 2.49,
           "deviation": 2.64,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920010",
-          "name": "凯添燃气",
-          "status": "tangle",
-          "ma20": 8.476,
-          "close": 8.35,
-          "change_pct": -1.65,
-          "deviation": -1.49,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -5028,13 +5028,25 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 11,
+        "breakout_up": 13,
         "above": 20,
-        "tangle": 14,
-        "below_d2": 2,
+        "tangle": 13,
+        "below_d2": 1,
         "excluded": 3
       },
       "stocks": [
+        {
+          "code": "920078",
+          "name": "族兴新材",
+          "status": "breakout_up",
+          "ma20": 19.191,
+          "close": 19.92,
+          "change_pct": 10.61,
+          "deviation": 3.8,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
         {
           "code": "002886",
           "name": "沃特股份",
@@ -5163,6 +5175,18 @@
           "close": 47.6,
           "change_pct": 3.48,
           "deviation": 5.33,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920961",
+          "name": "创远信科",
+          "status": "breakout_up",
+          "ma20": 19.006,
+          "close": 19.73,
+          "change_pct": 3.19,
+          "deviation": 3.81,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -5564,18 +5588,6 @@
           "deviation_alert": null
         },
         {
-          "code": "920961",
-          "name": "创远信科",
-          "status": "tangle",
-          "ma20": 18.93,
-          "close": 19.12,
-          "change_pct": -0.68,
-          "deviation": 1.0,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "001270",
           "name": "铖昌科技",
           "status": "below_d2",
@@ -5583,18 +5595,6 @@
           "close": 103.9,
           "change_pct": 3.73,
           "deviation": -3.75,
-          "above_streak": 0,
-          "below_streak": 2,
-          "deviation_alert": null
-        },
-        {
-          "code": "920078",
-          "name": "族兴新材",
-          "status": "below_d2",
-          "ma20": 19.155,
-          "close": 18.01,
-          "change_pct": 0.06,
-          "deviation": -5.98,
           "above_streak": 0,
           "below_streak": 2,
           "deviation_alert": null
@@ -7531,9 +7531,9 @@
       "index_symbol": "粮食概念",
       "member_source": "ths-html:308956(48)",
       "status": "bullish",
-      "ma20": 788.27,
-      "close": 824.32,
-      "deviation": 4.57,
+      "ma20": 782.55,
+      "close": 856.12,
+      "deviation": 9.4,
       "source_stock_count": 48,
       "processed_stock_count": 48,
       "classified_stock_count": 48,
@@ -8123,6 +8123,13 @@
         }
       ],
       "klines": [
+        {
+          "date": "2026-04-13",
+          "open": 943.705,
+          "high": 949.235,
+          "low": 938.834,
+          "close": 947.634
+        },
         {
           "date": "2026-04-14",
           "open": 950.459,
@@ -8745,13 +8752,6 @@
           "high": 865.263,
           "low": 824.59,
           "close": 856.115
-        },
-        {
-          "date": "2026-08-21",
-          "open": 847.962,
-          "high": 847.962,
-          "low": 821.953,
-          "close": 824.324
         }
       ]
     }
