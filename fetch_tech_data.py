@@ -64,6 +64,7 @@ THS_HEADERS = {
     ),
     "Referer": "https://q.10jqka.com.cn/",
 }
+THS_CONCEPT_AJAX_FIELDS = ("264648", "199112")
 EM_HEADERS = {
     "User-Agent": THS_HEADERS["User-Agent"],
     "Referer": "https://quote.eastmoney.com/",
@@ -548,37 +549,79 @@ def fetch_sector_stocks_html(ths_code: str | None) -> list[dict[str, str]]:
     if not ths_code:
         return []
 
+    def page_urls(page: int) -> list[str]:
+        urls = [
+            (
+                "https://q.10jqka.com.cn/gn/detail/field/"
+                f"{field}/order/desc/page/{page}/ajax/1/code/{ths_code}/"
+            )
+            for field in THS_CONCEPT_AJAX_FIELDS
+        ]
+        if page == 1:
+            urls.append(f"https://q.10jqka.com.cn/gn/detail/code/{ths_code}/")
+        else:
+            urls.append(
+                f"https://q.10jqka.com.cn/gn/detail/code/{ths_code}/page/{page}/"
+            )
+        return urls
+
+    def parse_page(content: bytes) -> list[dict[str, str]]:
+        soup = BeautifulSoup(content, "html.parser")
+        for table in soup.find_all("table"):
+            page_stocks = []
+            for row in table.find_all("tr"):
+                cols = row.find_all("td")
+                if len(cols) < 3:
+                    continue
+                code = clean_stock_code(cols[1].get_text(strip=True))
+                name = cols[2].get_text(strip=True)
+                if code:
+                    page_stocks.append({"code": code, "name": name or code})
+            page_stocks = dedupe_stocks(page_stocks)
+            if page_stocks:
+                return page_stocks
+        return []
+
+    def fetch_page(page: int) -> list[dict[str, str]]:
+        errors = []
+        for url in page_urls(page):
+            for attempt in range(2):
+                try:
+                    response = SESSION.get(
+                        url,
+                        headers=THS_HEADERS,
+                        timeout=REQUEST_TIMEOUT_SECONDS,
+                    )
+                    response.raise_for_status()
+                    page_stocks = parse_page(response.content)
+                    if page_stocks:
+                        return page_stocks
+                    errors.append(f"{url} 返回空表")
+                    break
+                except Exception as exc:
+                    errors.append(f"{url} 第{attempt + 1}次：{exc}")
+        if errors:
+            print(f"    同花顺 page={page} 抓取失败：{errors[-1]}")
+        return []
+
     stocks = []
     seen = set()
     empty_pages = 0
 
     for page in range(1, MAX_PAGES + 1):
-        url = f"https://q.10jqka.com.cn/gn/detail/code/{ths_code}/page/{page}/"
-        try:
-            response = SESSION.get(url, headers=THS_HEADERS, timeout=REQUEST_TIMEOUT_SECONDS)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.content, "html.parser", from_encoding="gbk")
-        except Exception as exc:
-            print(f"    HTML 分页抓取失败 page={page}: {exc}")
-            break
-
-        table = soup.find("table")
-        if not table:
+        page_stocks = fetch_page(page)
+        if not page_stocks:
             empty_pages += 1
-            if empty_pages >= 2:
+            if page == 1 or empty_pages >= 2:
                 break
             continue
 
         new_count = 0
-        for row in table.find_all("tr")[1:]:
-            cols = row.find_all("td")
-            if len(cols) < 3:
-                continue
-            code = clean_stock_code(cols[1].get_text(strip=True))
-            name = cols[2].get_text(strip=True)
-            if code and code not in seen:
+        for stock in page_stocks:
+            code = stock["code"]
+            if code not in seen:
                 seen.add(code)
-                stocks.append({"code": code, "name": name or code})
+                stocks.append(stock)
                 new_count += 1
 
         if new_count == 0:
@@ -597,6 +640,10 @@ def fetch_sector_stocks(
     em_concept_codes: dict[str, str] | None = None,
 ) -> tuple[str, list[dict[str, str]]]:
     sources = []
+    html_stocks = fetch_sector_stocks_html(match.code)
+    if html_stocks:
+        sources.append(f"ths-html:{match.code}({len(html_stocks)})")
+
     source_symbol, ak_stocks = fetch_sector_stocks_ak(
         ak,
         sector,
@@ -605,10 +652,6 @@ def fetch_sector_stocks(
     )
     if ak_stocks:
         sources.append(f"akshare:{source_symbol}({len(ak_stocks)})")
-
-    html_stocks = fetch_sector_stocks_html(match.code)
-    if html_stocks:
-        sources.append(f"html:{match.code}({len(html_stocks)})")
 
     stocks = dedupe_stocks(html_stocks + ak_stocks)
     if stocks:
@@ -654,8 +697,13 @@ def fetch_stock_kline_sina(code: str, n: int = 60) -> list[dict[str, Any]]:
     except Exception:
         return []
 
+    if not isinstance(data, list):
+        return []
+
     rows = []
     for item in data:
+        if not isinstance(item, dict):
+            continue
         close = safe_float(item.get("close"))
         if close is None:
             continue
