@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24 11:41",
+  "updated_at": "2026-08-24 12:32",
   "trade_date": "2026-08-24",
   "config": {
     "sector_limit": null,
@@ -6297,12 +6297,12 @@
       "deviation": 1.31,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 49,
+      "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
         "breakout_up": 15,
         "above": 22,
-        "tangle": 11,
+        "tangle": 12,
         "excluded": 1
       },
       "stocks": [
@@ -6878,6 +6878,18 @@
           "close": 16.61,
           "change_pct": 2.53,
           "deviation": 2.08,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920533",
+          "name": "骏创科技",
+          "status": "tangle",
+          "ma20": 18.021,
+          "close": 17.88,
+          "change_pct": 1.48,
+          "deviation": -0.78,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -7540,12 +7552,12 @@
       "deviation": 4.86,
       "source_stock_count": 48,
       "processed_stock_count": 48,
-      "classified_stock_count": 46,
+      "classified_stock_count": 48,
       "truncated": false,
       "status_counts": {
         "breakout_up": 2,
-        "above": 19,
-        "tangle": 24,
+        "above": 20,
+        "tangle": 25,
         "below_d2": 1
       },
       "stocks": [
@@ -7798,6 +7810,18 @@
           "change_pct": -3.7,
           "deviation": 8.15,
           "above_streak": 14,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920087",
+          "name": "秋乐种业",
+          "status": "above",
+          "ma20": 11.447,
+          "close": 14.27,
+          "change_pct": -15.21,
+          "deviation": 24.66,
+          "above_streak": 15,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -8085,6 +8109,18 @@
           "close": 6.05,
           "change_pct": -5.62,
           "deviation": 1.2,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920403",
+          "name": "康农种业",
+          "status": "tangle",
+          "ma20": 19.168,
+          "close": 19.31,
+          "change_pct": -9.39,
+          "deviation": 0.74,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
