@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24 15:46",
+  "updated_at": "2026-08-24 16:32",
   "trade_date": "2026-08-24",
   "config": {
     "sector_limit": null,
@@ -6280,6 +6280,18 @@
       },
       "stocks": [
         {
+          "code": "301598",
+          "name": "博科测试",
+          "status": "breakout_up",
+          "ma20": 48.051,
+          "close": 55.46,
+          "change_pct": 17.08,
+          "deviation": 15.42,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "301216",
           "name": "万凯新材",
           "status": "breakout_up",
@@ -6479,18 +6491,6 @@
           "close": 16.74,
           "change_pct": 3.33,
           "deviation": 2.84,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600805",
-          "name": "悦达投资",
-          "status": "breakout_up",
-          "ma20": 4.385,
-          "close": 4.61,
-          "change_pct": 3.13,
-          "deviation": 5.14,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
