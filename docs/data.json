@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-03 23:16",
-  "trade_date": "2026-09-03",
+  "updated_at": "2026-09-04 02:55",
+  "trade_date": "2026-09-04",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)",
       "status": "tangle",
-      "ma20": 3592.12,
-      "close": 3572.48,
-      "deviation": -0.55,
+      "ma20": 3591.59,
+      "close": 3561.86,
+      "deviation": -0.83,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1257,9 +1257,9 @@
         {
           "date": "2026-09-03",
           "open": 3571.011,
-          "high": 3580.378,
-          "low": 3558.132,
-          "close": 3572.477
+          "high": 3582.618,
+          "low": 3542.884,
+          "close": 3561.862
         }
       ]
     },
