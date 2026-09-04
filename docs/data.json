@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04 19:47",
+  "updated_at": "2026-09-04 23:12",
   "trade_date": "2026-09-04",
   "config": {
     "sector_limit": null,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)",
       "status": "tangle",
-      "ma20": 3591.59,
-      "close": 3561.86,
-      "deviation": -0.83,
+      "ma20": 3587.13,
+      "close": 3509.68,
+      "deviation": -2.16,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -631,13 +631,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-27",
-          "open": 3861.014,
-          "high": 3887.247,
-          "low": 3840.523,
-          "close": 3879.581
-        },
         {
           "date": "2026-04-28",
           "open": 3870.352,
@@ -1260,6 +1253,13 @@
           "high": 3582.618,
           "low": 3542.884,
           "close": 3561.862
+        },
+        {
+          "date": "2026-09-04",
+          "open": 3586.953,
+          "high": 3596.565,
+          "low": 3491.581,
+          "close": 3509.685
         }
       ]
     },
@@ -1270,9 +1270,9 @@
       "index_symbol": "AI应用",
       "member_source": "ths-html:309264(50)",
       "status": "tangle",
-      "ma20": 845.99,
-      "close": 852.27,
-      "deviation": 0.74,
+      "ma20": 846.26,
+      "close": 859.38,
+      "deviation": 1.55,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1886,13 +1886,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-27",
-          "open": 936.548,
-          "high": 945.883,
-          "low": 926.194,
-          "close": 945.172
-        },
         {
           "date": "2026-04-28",
           "open": 939.843,
@@ -2515,6 +2508,13 @@
           "high": 869.934,
           "low": 849.353,
           "close": 852.266
+        },
+        {
+          "date": "2026-09-04",
+          "open": 858.591,
+          "high": 879.088,
+          "low": 854.659,
+          "close": 859.377
         }
       ]
     },
@@ -2525,9 +2525,9 @@
       "index_symbol": "东数西算(算力)",
       "member_source": "ths-html:308828(50)",
       "status": "tangle",
-      "ma20": 2167.11,
-      "close": 2187.82,
-      "deviation": 0.96,
+      "ma20": 2167.01,
+      "close": 2169.63,
+      "deviation": 0.12,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -3142,13 +3142,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-27",
-          "open": 2398.519,
-          "high": 2424.865,
-          "low": 2371.132,
-          "close": 2419.941
-        },
         {
           "date": "2026-04-28",
           "open": 2407.407,
@@ -3771,6 +3764,13 @@
           "high": 2213.887,
           "low": 2171.446,
           "close": 2187.817
+        },
+        {
+          "date": "2026-09-04",
+          "open": 2204.065,
+          "high": 2222.657,
+          "low": 2156.816,
+          "close": 2169.629
         }
       ]
     },
@@ -3781,9 +3781,9 @@
       "index_symbol": "芯片概念",
       "member_source": "ths-html:301085(50)",
       "status": "tangle",
-      "ma20": 4899.87,
-      "close": 4878.79,
-      "deviation": -0.43,
+      "ma20": 4895.66,
+      "close": 4790.64,
+      "deviation": -2.15,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -4397,13 +4397,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-27",
-          "open": 4786.234,
-          "high": 4875.358,
-          "low": 4764.619,
-          "close": 4860.95
-        },
         {
           "date": "2026-04-28",
           "open": 4837.302,
@@ -5026,6 +5019,13 @@
           "high": 4940.882,
           "low": 4834.489,
           "close": 4878.792
+        },
+        {
+          "date": "2026-09-04",
+          "open": 4915.911,
+          "high": 4964.889,
+          "low": 4758.468,
+          "close": 4790.642
         }
       ]
     },
@@ -5036,9 +5036,9 @@
       "index_symbol": "商业航天",
       "member_source": "ths-html:309130(50)",
       "status": "tangle",
-      "ma20": 2117.89,
-      "close": 2121.7,
-      "deviation": 0.18,
+      "ma20": 2116.53,
+      "close": 2105.74,
+      "deviation": -0.51,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -5652,13 +5652,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-27",
-          "open": 2413.13,
-          "high": 2435.938,
-          "low": 2394.553,
-          "close": 2433.734
-        },
         {
           "date": "2026-04-28",
           "open": 2419.636,
@@ -6281,6 +6274,13 @@
           "high": 2144.249,
           "low": 2107.698,
           "close": 2121.7
+        },
+        {
+          "date": "2026-09-04",
+          "open": 2135.151,
+          "high": 2153.499,
+          "low": 2093.967,
+          "close": 2105.74
         }
       ]
     },
@@ -6291,9 +6291,9 @@
       "index_symbol": "机器人概念",
       "member_source": "ths-html:300816(50)",
       "status": "tangle",
-      "ma20": 3851.85,
-      "close": 3880.08,
-      "deviation": 0.73,
+      "ma20": 3852.1,
+      "close": 3843.13,
+      "deviation": -0.23,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -6907,13 +6907,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-27",
-          "open": 4170.039,
-          "high": 4218.256,
-          "low": 4141.123,
-          "close": 4215.576
-        },
         {
           "date": "2026-04-28",
           "open": 4194.647,
@@ -7536,6 +7529,13 @@
           "high": 3918.953,
           "low": 3855.177,
           "close": 3880.076
+        },
+        {
+          "date": "2026-09-04",
+          "open": 3905.76,
+          "high": 3931.796,
+          "low": 3822.168,
+          "close": 3843.127
         }
       ]
     },
@@ -7546,9 +7546,9 @@
       "index_symbol": "粮食概念",
       "member_source": "ths-html:308956(49)",
       "status": "bullish",
-      "ma20": 852.57,
-      "close": 913.98,
-      "deviation": 7.2,
+      "ma20": 860.03,
+      "close": 930.65,
+      "deviation": 8.21,
       "source_stock_count": 49,
       "processed_stock_count": 49,
       "classified_stock_count": 49,
@@ -8150,13 +8150,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-27",
-          "open": 929.427,
-          "high": 929.701,
-          "low": 914.329,
-          "close": 928.491
-        },
         {
           "date": "2026-04-28",
           "open": 922.996,
@@ -8779,6 +8772,13 @@
           "high": 923.762,
           "low": 905.671,
           "close": 913.975
+        },
+        {
+          "date": "2026-09-04",
+          "open": 904.701,
+          "high": 943.649,
+          "low": 896.128,
+          "close": 930.655
         }
       ]
     }
