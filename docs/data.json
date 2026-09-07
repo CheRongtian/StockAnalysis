@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-07 21:04",
-  "trade_date": "2026-09-07",
+  "updated_at": "2026-09-08 02:26",
+  "trade_date": "2026-09-08",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)",
       "status": "tangle",
-      "ma20": 3587.13,
-      "close": 3509.68,
-      "deviation": -2.16,
+      "ma20": 3578.59,
+      "close": 3511.39,
+      "deviation": -1.88,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -630,13 +630,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-28",
-          "open": 3870.352,
-          "high": 3870.352,
-          "low": 3816.602,
-          "close": 3834.998
-        },
         {
           "date": "2026-04-29",
           "open": 3820.023,
@@ -1259,6 +1252,13 @@
           "high": 3596.565,
           "low": 3491.581,
           "close": 3509.685
+        },
+        {
+          "date": "2026-09-07",
+          "open": 3500.855,
+          "high": 3525.624,
+          "low": 3487.615,
+          "close": 3511.387
         }
       ]
     },
@@ -2524,9 +2524,9 @@
       "index_symbol": "东数西算(算力)",
       "member_source": "ths-html:308828(50)",
       "status": "tangle",
-      "ma20": 2167.01,
-      "close": 2169.63,
-      "deviation": 0.12,
+      "ma20": 2168.16,
+      "close": 2198.46,
+      "deviation": 1.4,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -3140,13 +3140,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-04-28",
-          "open": 2407.407,
-          "high": 2413.977,
-          "low": 2377.031,
-          "close": 2386.578
-        },
         {
           "date": "2026-04-29",
           "open": 2366.598,
@@ -3769,6 +3762,13 @@
           "high": 2222.657,
           "low": 2156.816,
           "close": 2169.629
+        },
+        {
+          "date": "2026-09-07",
+          "open": 2176.37,
+          "high": 2203.196,
+          "low": 2169.634,
+          "close": 2198.463
         }
       ]
     },
