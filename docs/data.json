@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09 06:03",
+  "updated_at": "2026-09-09 08:45",
   "trade_date": "2026-09-09",
   "config": {
     "sector_limit": null,
@@ -297,9 +297,9 @@
           "code": "603993",
           "name": "洛阳钼业",
           "status": "tangle",
-          "ma20": 18.785,
-          "close": 18.94,
-          "change_pct": 3.1,
+          "ma20": 18.689,
+          "close": 18.845,
+          "change_pct": 3.12,
           "deviation": 0.83,
           "above_streak": 0,
           "below_streak": 0,
