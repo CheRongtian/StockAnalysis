@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16 01:20",
+  "updated_at": "2026-09-16 04:29",
   "trade_date": "2026-09-16",
   "config": {
     "sector_limit": null,
@@ -12,22 +12,22 @@
       "matched_symbol": "小金属概念",
       "matched_code": "300809",
       "index_symbol": "小金属概念",
-      "member_source": "ths-html:300809(50)",
+      "member_source": "ths-html:300809(48)",
       "status": "bearish",
       "ma20": 3542.59,
       "close": 3400.72,
       "deviation": -4.0,
-      "source_stock_count": 50,
-      "processed_stock_count": 50,
-      "classified_stock_count": 49,
+      "source_stock_count": 48,
+      "processed_stock_count": 48,
+      "classified_stock_count": 47,
       "truncated": false,
       "status_counts": {
         "breakout_up": 3,
         "above": 3,
-        "tangle": 15,
+        "tangle": 14,
         "below_d1": 1,
         "below_d2": 1,
-        "excluded": 26
+        "excluded": 25
       },
       "stocks": [
         {
@@ -223,20 +223,8 @@
           "deviation_alert": null
         },
         {
-          "code": "600295",
-          "name": "ЖѕЖћЖрЫЙ",
-          "status": "tangle",
-          "ma20": 13.607,
-          "close": 13.55,
-          "change_pct": 0.52,
-          "deviation": -0.42,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "600478",
-          "name": "ПЦСІдЖ",
+          "name": "їЖБ¦Ф¶",
           "status": "tangle",
           "ma20": 4.832,
           "close": 4.75,
@@ -284,7 +272,7 @@
         },
         {
           "code": "600301",
-          "name": "ЛЊЮ§гаЩЋ",
+          "name": "»ЄОэУРЙ«",
           "status": "below_d1",
           "ma20": 47.02,
           "close": 45.43,
@@ -403,18 +391,6 @@
           "deviation_alert": null
         },
         {
-          "code": "000983",
-          "name": "ЩНЮїНЙУК",
-          "status": "excluded",
-          "ma20": 7.061,
-          "close": 6.69,
-          "change_pct": 0.9,
-          "deviation": -5.25,
-          "above_streak": 0,
-          "below_streak": 3,
-          "deviation_alert": null
-        },
-        {
           "code": "600961",
           "name": "Öể±¼¯ÍÅ",
           "status": "excluded",
@@ -464,7 +440,7 @@
         },
         {
           "code": "603399",
-          "name": "гРЩМяЎвЕ",
+          "name": "УАЙјп®Тµ",
           "status": "excluded",
           "ma20": 14.336,
           "close": 13.65,
@@ -500,7 +476,7 @@
         },
         {
           "code": "601958",
-          "name": "Н№ютЙЩЗн",
+          "name": "Ѕров№Й·Э",
           "status": "excluded",
           "ma20": 21.736,
           "close": 20.24,
@@ -512,7 +488,7 @@
         },
         {
           "code": "600884",
-          "name": "ЩМЩМЙЩЗн",
+          "name": "ЙјЙј№Й·Э",
           "status": "excluded",
           "ma20": 11.71,
           "close": 11.19,
@@ -524,7 +500,7 @@
         },
         {
           "code": "688005",
-          "name": "ШнАйПЦММ",
+          "name": "ИЭ°ЩїЖјј",
           "status": "excluded",
           "ma20": 25.205,
           "close": 23.62,
@@ -536,7 +512,7 @@
         },
         {
           "code": "301219",
-          "name": "ЬкдЖюмвЕ",
+          "name": "МЪФ¶оЬТµ",
           "status": "excluded",
           "ma20": 44.454,
           "close": 40.72,
@@ -548,7 +524,7 @@
         },
         {
           "code": "002428",
-          "name": "дЦФЯервЕ",
+          "name": "ФЖДПХаТµ",
           "status": "excluded",
           "ma20": 94.611,
           "close": 90.27,
@@ -1257,25 +1233,25 @@
       "matched_symbol": "AI应用",
       "matched_code": "309264",
       "index_symbol": "AI应用",
-      "member_source": "ths-html:309264(41)",
+      "member_source": "ths-html:309264(40)",
       "status": "tangle",
       "ma20": 839.99,
       "close": 818.38,
       "deviation": -2.57,
-      "source_stock_count": 41,
-      "processed_stock_count": 41,
-      "classified_stock_count": 41,
+      "source_stock_count": 40,
+      "processed_stock_count": 40,
+      "classified_stock_count": 40,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 4,
+        "breakout_up": 5,
         "above": 13,
-        "tangle": 16,
-        "excluded": 8
+        "tangle": 17,
+        "excluded": 5
       },
       "stocks": [
         {
           "code": "002362",
-          "name": "şşÍőżĆĽĽ",
+          "name": "볶珙옰세",
           "status": "breakout_up",
           "ma20": 16.047,
           "close": 17.5,
@@ -1287,7 +1263,7 @@
         },
         {
           "code": "920207",
-          "name": "ÖÚłĎżĆĽĽ",
+          "name": "露넒옰세",
           "status": "breakout_up",
           "ma20": 21.7,
           "close": 22.86,
@@ -1298,8 +1274,32 @@
           "deviation_alert": null
         },
         {
+          "code": "603000",
+          "name": "ИЛГсНш",
+          "status": "breakout_up",
+          "ma20": 16.619,
+          "close": 17.23,
+          "change_pct": 3.98,
+          "deviation": 3.68,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "603232",
+          "name": "ёс¶ыИнјю",
+          "status": "breakout_up",
+          "ma20": 15.236,
+          "close": 15.78,
+          "change_pct": 3.88,
+          "deviation": 3.57,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "000409",
-          "name": "дЦЖІПЦММ",
+          "name": "ФЖ¶¦їЖјј",
           "status": "breakout_up",
           "ma20": 8.901,
           "close": 9.15,
@@ -1310,20 +1310,8 @@
           "deviation_alert": null
         },
         {
-          "code": "601900",
-          "name": "南方传媒",
-          "status": "breakout_up",
-          "ma20": 12.086,
-          "close": 12.5,
-          "change_pct": 2.63,
-          "deviation": 3.43,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "688004",
-          "name": "˛©»ăżĆĽĽ",
+          "name": "꺽삠옰세",
           "status": "above",
           "ma20": 21.92,
           "close": 27.38,
@@ -1335,7 +1323,7 @@
         },
         {
           "code": "002912",
-          "name": "ÖĐĐÂČüżË",
+          "name": "櫓劤힙옹",
           "status": "above",
           "ma20": 20.512,
           "close": 28.45,
@@ -1347,7 +1335,7 @@
         },
         {
           "code": "603236",
-          "name": "ŇĆÔ¶Í¨ĐĹ",
+          "name": "盧陶繫斤",
           "status": "above",
           "ma20": 60.163,
           "close": 66.85,
@@ -1359,7 +1347,7 @@
         },
         {
           "code": "300049",
-          "name": "¸ŁČđŇ˝żĆ",
+          "name": "르흩努옰",
           "status": "above",
           "ma20": 42.645,
           "close": 47.92,
@@ -1371,7 +1359,7 @@
         },
         {
           "code": "600228",
-          "name": "·µŔűżĆĽĽ",
+          "name": "·µАыїЖјј",
           "status": "above",
           "ma20": 9.269,
           "close": 11.11,
@@ -1383,7 +1371,7 @@
         },
         {
           "code": "688090",
-          "name": "ČđËÉżĆĽĽ",
+          "name": "흩漑옰세",
           "status": "above",
           "ma20": 70.712,
           "close": 77.55,
@@ -1395,7 +1383,7 @@
         },
         {
           "code": "300010",
-          "name": "ST¶ąÉń",
+          "name": "STЖЙЩё",
           "status": "above",
           "ma20": 3.663,
           "close": 4.73,
@@ -1406,32 +1394,44 @@
           "deviation_alert": null
         },
         {
-          "code": "002212",
-          "name": "ĚěČÚĐĹ",
+          "code": "688244",
+          "name": "УАРЕЦБіП",
           "status": "above",
-          "ma20": 6.597,
-          "close": 7.77,
-          "change_pct": 5.0,
-          "deviation": 17.79,
-          "above_streak": 3,
+          "ma20": 15.088,
+          "close": 16.97,
+          "change_pct": 3.22,
+          "deviation": 12.48,
+          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "300688",
-          "name": "ґґТµєЪВн",
+          "code": "601999",
+          "name": "іц°жґ«ГЅ",
           "status": "above",
-          "ma20": 30.678,
-          "close": 33.35,
-          "change_pct": 2.3,
-          "deviation": 8.71,
-          "above_streak": 4,
+          "ma20": 6.615,
+          "close": 6.96,
+          "change_pct": 2.81,
+          "deviation": 5.22,
+          "above_streak": 12,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "301376",
+          "name": "ЦВЕ·їЖјј",
+          "status": "above",
+          "ma20": 21.826,
+          "close": 23.04,
+          "change_pct": 2.72,
+          "deviation": 5.56,
+          "above_streak": 13,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
           "code": "300788",
-          "name": "÷––≈≥ˆ∞Ê",
+          "name": "ЦРРЕіц°ж",
           "status": "above",
           "ma20": 26.476,
           "close": 32.31,
@@ -1443,7 +1443,7 @@
         },
         {
           "code": "605168",
-          "name": "ИэИЛРР",
+          "name": "三人行",
           "status": "above",
           "ma20": 48.332,
           "close": 50.91,
@@ -1466,14 +1466,26 @@
           "deviation_alert": null
         },
         {
-          "code": "300454",
-          "name": "ЙоРЕ·ю",
-          "status": "above",
-          "ma20": 126.79,
-          "close": 134.99,
-          "change_pct": 0.54,
-          "deviation": 6.47,
-          "above_streak": 2,
+          "code": "600666",
+          "name": "°ВИрµВ",
+          "status": "tangle",
+          "ma20": 3.521,
+          "close": 3.63,
+          "change_pct": 4.01,
+          "deviation": 3.08,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "603160",
+          "name": "삠땅옰세",
+          "status": "tangle",
+          "ma20": 50.661,
+          "close": 52.01,
+          "change_pct": 3.19,
+          "deviation": 2.66,
+          "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -1490,20 +1502,8 @@
           "deviation_alert": null
         },
         {
-          "code": "603206",
-          "name": "嘉环科技",
-          "status": "tangle",
-          "ma20": 13.8,
-          "close": 13.75,
-          "change_pct": 2.46,
-          "deviation": -0.36,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "688292",
-          "name": "浩瀚深度",
+          "name": "єЖе«Йо¶И",
           "status": "tangle",
           "ma20": 17.87,
           "close": 18.31,
@@ -1514,20 +1514,8 @@
           "deviation_alert": null
         },
         {
-          "code": "002990",
-          "name": "КўКУїЖјј",
-          "status": "tangle",
-          "ma20": 48.011,
-          "close": 48.06,
-          "change_pct": 2.15,
-          "deviation": 0.1,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "300275",
-          "name": "√∑∞≤…≠",
+          "name": "梅安森",
           "status": "tangle",
           "ma20": 9.021,
           "close": 9.04,
@@ -1539,7 +1527,7 @@
         },
         {
           "code": "002517",
-          "name": "‚˝”¢Õ¯¬Á",
+          "name": "恺英网络",
           "status": "tangle",
           "ma20": 17.02,
           "close": 17.33,
@@ -1551,7 +1539,7 @@
         },
         {
           "code": "000032",
-          "name": "…Ó…£¥ÔA",
+          "name": "深桑达A",
           "status": "tangle",
           "ma20": 14.306,
           "close": 14.19,
@@ -1563,7 +1551,7 @@
         },
         {
           "code": "688420",
-          "name": "√¿Ã⁄ø∆ºº",
+          "name": "美腾科技",
           "status": "tangle",
           "ma20": 22.084,
           "close": 21.56,
@@ -1575,7 +1563,7 @@
         },
         {
           "code": "688202",
-          "name": "ГАµПОч",
+          "name": "美迪西",
           "status": "tangle",
           "ma20": 97.191,
           "close": 98.5,
@@ -1587,7 +1575,7 @@
         },
         {
           "code": "002811",
-          "name": "÷£÷–…Ëº∆",
+          "name": "郑中设计",
           "status": "tangle",
           "ma20": 13.841,
           "close": 14.03,
@@ -1599,7 +1587,7 @@
         },
         {
           "code": "002236",
-          "name": "¥Ûª™π…∑ð",
+          "name": "大华股份",
           "status": "tangle",
           "ma20": 16.211,
           "close": 16.2,
@@ -1611,7 +1599,7 @@
         },
         {
           "code": "300603",
-          "name": "¡¢∞∫ºº ı",
+          "name": "立昂技术",
           "status": "tangle",
           "ma20": 7.98,
           "close": 8.23,
@@ -1634,13 +1622,25 @@
           "deviation_alert": null
         },
         {
-          "code": "688686",
-          "name": "°ВЖХМШ",
+          "code": "301236",
+          "name": "ИнНЁ¶ЇБ¦",
           "status": "tangle",
-          "ma20": 137.532,
-          "close": 140.62,
-          "change_pct": 1.09,
-          "deviation": 2.25,
+          "ma20": 37.058,
+          "close": 36.63,
+          "change_pct": 1.38,
+          "deviation": -1.15,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "002396",
+          "name": "РЗНшИсЅЭ",
+          "status": "tangle",
+          "ma20": 35.233,
+          "close": 35.3,
+          "change_pct": 1.38,
+          "deviation": 0.19,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1670,44 +1670,20 @@
           "deviation_alert": null
         },
         {
-          "code": "688114",
-          "name": "»ЄґуЦЗФм",
+          "code": "688031",
+          "name": "槿뻔옰세",
           "status": "excluded",
-          "ma20": 62.197,
-          "close": 60.08,
-          "change_pct": 2.7,
-          "deviation": -3.4,
+          "ma20": 105.595,
+          "close": 101.93,
+          "change_pct": 3.73,
+          "deviation": -3.47,
           "above_streak": 0,
-          "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "603660",
-          "name": "苏州科达",
-          "status": "excluded",
-          "ma20": 10.4,
-          "close": 9.37,
-          "change_pct": 2.07,
-          "deviation": -9.9,
-          "above_streak": 0,
-          "below_streak": 15,
-          "deviation_alert": null
-        },
-        {
-          "code": "002841",
-          "name": "КУФґ№Й·Э",
-          "status": "excluded",
-          "ma20": 47.325,
-          "close": 46.13,
-          "change_pct": 2.06,
-          "deviation": -2.53,
-          "above_streak": 0,
-          "below_streak": 6,
+          "below_streak": 3,
           "deviation_alert": null
         },
         {
           "code": "688777",
-          "name": "中控技术",
+          "name": "櫓왠세減",
           "status": "excluded",
           "ma20": 89.491,
           "close": 85.01,
@@ -1715,30 +1691,6 @@
           "deviation": -5.01,
           "above_streak": 0,
           "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "300244",
-          "name": "迪安诊断",
-          "status": "excluded",
-          "ma20": 18.536,
-          "close": 18.0,
-          "change_pct": 1.98,
-          "deviation": -2.89,
-          "above_streak": 0,
-          "below_streak": 15,
-          "deviation_alert": null
-        },
-        {
-          "code": "688615",
-          "name": "єПєПРЕПў",
-          "status": "excluded",
-          "ma20": 94.238,
-          "close": 89.48,
-          "change_pct": 1.46,
-          "deviation": -5.05,
-          "above_streak": 0,
-          "below_streak": 19,
           "deviation_alert": null
         },
         {
@@ -1751,6 +1703,18 @@
           "deviation": -2.93,
           "above_streak": 0,
           "below_streak": 3,
+          "deviation_alert": null
+        },
+        {
+          "code": "301162",
+          "name": "№ъДЬИХРВ",
+          "status": "excluded",
+          "ma20": 36.425,
+          "close": 34.94,
+          "change_pct": 1.28,
+          "deviation": -4.08,
+          "above_streak": 0,
+          "below_streak": 7,
           "deviation_alert": null
         },
         {
@@ -2404,25 +2368,25 @@
       "matched_symbol": "东数西算(算力)",
       "matched_code": "308828",
       "index_symbol": "东数西算(算力)",
-      "member_source": "ths-html:308828(49)",
+      "member_source": "ths-html:308828(44)",
       "status": "tangle",
       "ma20": 2152.42,
       "close": 2122.0,
       "deviation": -1.41,
-      "source_stock_count": 49,
-      "processed_stock_count": 49,
-      "classified_stock_count": 49,
+      "source_stock_count": 44,
+      "processed_stock_count": 44,
+      "classified_stock_count": 44,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 7,
-        "above": 13,
-        "tangle": 15,
-        "excluded": 14
+        "breakout_up": 8,
+        "above": 15,
+        "tangle": 12,
+        "excluded": 9
       },
       "stocks": [
         {
           "code": "920207",
-          "name": "ÖÚłĎżĆĽĽ",
+          "name": "ÖÚ³Ï¿Æ¼¼",
           "status": "breakout_up",
           "ma20": 21.7,
           "close": 22.86,
@@ -2434,7 +2398,7 @@
         },
         {
           "code": "002025",
-          "name": "ş˝ĚěµçĆ÷",
+          "name": "º½̀́µçÆ÷",
           "status": "breakout_up",
           "ma20": 64.051,
           "close": 68.78,
@@ -2446,7 +2410,7 @@
         },
         {
           "code": "603011",
-          "name": "єП¶НЦЗДЬ",
+          "name": "ºÏ¶ÍÖÇÄÜ",
           "status": "breakout_up",
           "ma20": 25.184,
           "close": 27.08,
@@ -2505,8 +2469,20 @@
           "deviation_alert": null
         },
         {
+          "code": "300921",
+          "name": "ДПБиїЖјј",
+          "status": "breakout_up",
+          "ma20": 15.628,
+          "close": 16.1,
+          "change_pct": 2.55,
+          "deviation": 3.02,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002912",
-          "name": "ÖĐĐÂČüżË",
+          "name": "ÖĐĐÂÈü¿Ë",
           "status": "above",
           "ma20": 20.512,
           "close": 28.45,
@@ -2518,7 +2494,7 @@
         },
         {
           "code": "605058",
-          "name": "°Äşëµç×Ó",
+          "name": "°Äºëµç×Ó",
           "status": "above",
           "ma20": 29.079,
           "close": 40.3,
@@ -2530,7 +2506,7 @@
         },
         {
           "code": "603236",
-          "name": "ŇĆÔ¶Í¨ĐĹ",
+          "name": "̉ÆÔ¶Í¨ĐÅ",
           "status": "above",
           "ma20": 60.163,
           "close": 66.85,
@@ -2542,7 +2518,7 @@
         },
         {
           "code": "000823",
-          "name": "ł¬Éůµç×Ó",
+          "name": "³¬Éùµç×Ó",
           "status": "above",
           "ma20": 16.528,
           "close": 23.9,
@@ -2554,7 +2530,7 @@
         },
         {
           "code": "301366",
-          "name": "Ň»˛©żĆĽĽ",
+          "name": "̉»²©¿Æ¼¼",
           "status": "above",
           "ma20": 57.272,
           "close": 66.21,
@@ -2565,8 +2541,20 @@
           "deviation_alert": null
         },
         {
+          "code": "002212",
+          "name": "̀́ÈÚĐÅ",
+          "status": "above",
+          "ma20": 6.597,
+          "close": 7.77,
+          "change_pct": 5.0,
+          "deviation": 17.79,
+          "above_streak": 3,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "300319",
-          "name": "ВуЅЭїЖјј",
+          "name": "Âó½Ư¿Æ¼¼",
           "status": "above",
           "ma20": 19.441,
           "close": 22.4,
@@ -2587,6 +2575,18 @@
           "above_streak": 17,
           "below_streak": 0,
           "deviation_alert": null
+        },
+        {
+          "code": "002815",
+          "name": "ізґпјјКх",
+          "status": "above",
+          "ma20": 15.73,
+          "close": 21.66,
+          "change_pct": 2.56,
+          "deviation": 37.7,
+          "above_streak": 25,
+          "below_streak": 0,
+          "deviation_alert": "warn"
         },
         {
           "code": "300688",
@@ -2625,13 +2625,13 @@
           "deviation_alert": null
         },
         {
-          "code": "002015",
-          "name": "Đ­öÎÄÜżĆ",
+          "code": "301178",
+          "name": "МмТЪВн",
           "status": "above",
-          "ma20": 16.314,
-          "close": 17.15,
-          "change_pct": 1.48,
-          "deviation": 5.12,
+          "ma20": 34.975,
+          "close": 37.42,
+          "change_pct": 0.89,
+          "deviation": 6.99,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
@@ -2685,18 +2685,6 @@
           "deviation_alert": null
         },
         {
-          "code": "688256",
-          "name": "ş®ÎäĽÍ",
-          "status": "tangle",
-          "ma20": 1054.883,
-          "close": 1075.79,
-          "change_pct": 3.44,
-          "deviation": 1.98,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "603110",
           "name": "¶«·ЅІДБП",
           "status": "tangle",
@@ -2704,18 +2692,6 @@
           "close": 24.74,
           "change_pct": 3.3,
           "deviation": 0.85,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688521",
-          "name": "ĐľÔ­ąÉ·Ý",
-          "status": "tangle",
-          "ma20": 184.946,
-          "close": 185.0,
-          "change_pct": 3.21,
-          "deviation": 0.03,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -2745,6 +2721,18 @@
           "deviation_alert": null
         },
         {
+          "code": "688292",
+          "name": "єЖе«Йо¶И",
+          "status": "tangle",
+          "ma20": 17.87,
+          "close": 18.31,
+          "change_pct": 2.4,
+          "deviation": 2.46,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "002990",
           "name": "КўКУїЖјј",
           "status": "tangle",
@@ -2769,61 +2757,25 @@
           "deviation_alert": null
         },
         {
-          "code": "600094",
-          "name": "´óĂűłÇ",
-          "status": "tangle",
-          "ma20": 3.986,
-          "close": 4.02,
-          "change_pct": 1.52,
-          "deviation": 0.84,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002236",
-          "name": "´ó»ŞąÉ·Ý",
-          "status": "tangle",
-          "ma20": 16.211,
-          "close": 16.2,
-          "change_pct": 1.5,
-          "deviation": -0.07,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300603",
-          "name": "Á˘°şĽĽĘő",
-          "status": "tangle",
-          "ma20": 7.98,
-          "close": 8.23,
-          "change_pct": 1.48,
-          "deviation": 3.13,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "920924",
-          "name": "ąăÂöżĆĽĽ",
-          "status": "tangle",
-          "ma20": 14.689,
-          "close": 14.42,
-          "change_pct": 1.48,
-          "deviation": -1.83,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "002179",
-          "name": "ÖĐş˝ąâµç",
+          "name": "ЦРєЅ№вµз",
           "status": "tangle",
           "ma20": 34.421,
           "close": 34.68,
           "change_pct": 1.46,
           "deviation": 0.75,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "301236",
+          "name": "ИнНЁ¶ЇБ¦",
+          "status": "tangle",
+          "ma20": 37.058,
+          "close": 36.63,
+          "change_pct": 1.38,
+          "deviation": -1.15,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -2841,75 +2793,27 @@
           "deviation_alert": null
         },
         {
-          "code": "688031",
-          "name": "ĐÇ»·żĆĽĽ",
-          "status": "excluded",
-          "ma20": 105.595,
-          "close": 101.93,
-          "change_pct": 3.73,
-          "deviation": -3.47,
+          "code": "001393",
+          "name": "О¬НЁАы",
+          "status": "tangle",
+          "ma20": 41.688,
+          "close": 40.82,
+          "change_pct": 0.91,
+          "deviation": -2.08,
           "above_streak": 0,
-          "below_streak": 3,
+          "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "688802",
-          "name": "ăĺęŘąÉ·Ý",
+          "code": "002580",
+          "name": "КҐСф№Й·Э",
           "status": "excluded",
-          "ma20": 618.963,
-          "close": 475.02,
-          "change_pct": 3.02,
-          "deviation": -23.26,
+          "ma20": 20.804,
+          "close": 19.29,
+          "change_pct": 2.77,
+          "deviation": -7.28,
           "above_streak": 0,
-          "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "688627",
-          "name": "ľ«ÖÇ´ď",
-          "status": "excluded",
-          "ma20": 475.86,
-          "close": 454.5,
-          "change_pct": 2.35,
-          "deviation": -4.49,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "300409",
-          "name": "µŔĘĎĽĽĘő",
-          "status": "excluded",
-          "ma20": 17.75,
-          "close": 16.94,
-          "change_pct": 1.8,
-          "deviation": -4.56,
-          "above_streak": 0,
-          "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "300490",
-          "name": "»Ş×ÔżĆĽĽ",
-          "status": "excluded",
-          "ma20": 11.165,
-          "close": 10.75,
-          "change_pct": 1.42,
-          "deviation": -3.72,
-          "above_streak": 0,
-          "below_streak": 12,
-          "deviation_alert": null
-        },
-        {
-          "code": "300772",
-          "name": "ÔË´ďąÉ·Ý",
-          "status": "excluded",
-          "ma20": 9.983,
-          "close": 9.32,
-          "change_pct": 1.41,
-          "deviation": -6.65,
-          "above_streak": 0,
-          "below_streak": 20,
+          "below_streak": 5,
           "deviation_alert": null
         },
         {
@@ -2920,18 +2824,6 @@
           "close": 108.2,
           "change_pct": 1.35,
           "deviation": -6.82,
-          "above_streak": 0,
-          "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "688635",
-          "name": "ł¤˝řąâ×Ó",
-          "status": "excluded",
-          "ma20": 291.461,
-          "close": 271.09,
-          "change_pct": 1.19,
-          "deviation": -6.99,
           "above_streak": 0,
           "below_streak": 11,
           "deviation_alert": null
@@ -2970,6 +2862,18 @@
           "deviation": -2.76,
           "above_streak": 0,
           "below_streak": 3,
+          "deviation_alert": null
+        },
+        {
+          "code": "688343",
+          "name": "ФЖМмАш·Й",
+          "status": "excluded",
+          "ma20": 55.788,
+          "close": 52.59,
+          "change_pct": 0.71,
+          "deviation": -5.73,
+          "above_streak": 0,
+          "below_streak": 7,
           "deviation_alert": null
         },
         {
@@ -3647,20 +3551,20 @@
       "matched_symbol": "芯片概念",
       "matched_code": "301085",
       "index_symbol": "芯片概念",
-      "member_source": "ths-html:301085(50)",
+      "member_source": "ths-html:301085(48)",
       "status": "tangle",
       "ma20": 4845.56,
       "close": 4772.92,
       "deviation": -1.5,
-      "source_stock_count": 50,
-      "processed_stock_count": 50,
-      "classified_stock_count": 48,
+      "source_stock_count": 48,
+      "processed_stock_count": 48,
+      "classified_stock_count": 46,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 3,
-        "above": 7,
-        "tangle": 15,
-        "excluded": 23
+        "breakout_up": 5,
+        "above": 11,
+        "tangle": 13,
+        "excluded": 17
       },
       "stocks": [
         {
@@ -3683,6 +3587,30 @@
           "close": 59.86,
           "change_pct": 7.31,
           "deviation": 7.5,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "000859",
+          "name": "№ъ·зРВІД",
+          "status": "breakout_up",
+          "ma20": 8.909,
+          "close": 9.65,
+          "change_pct": 6.39,
+          "deviation": 8.32,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "600360",
+          "name": "»ЄОўµзЧУ",
+          "status": "breakout_up",
+          "ma20": 10.28,
+          "close": 10.81,
+          "change_pct": 5.98,
+          "deviation": 5.16,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3724,6 +3652,54 @@
           "deviation_alert": null
         },
         {
+          "code": "603938",
+          "name": "ИэжЪ№Й·Э",
+          "status": "above",
+          "ma20": 44.413,
+          "close": 53.17,
+          "change_pct": 6.43,
+          "deviation": 19.72,
+          "above_streak": 5,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "000981",
+          "name": "ЙЅЧУёЯїЖ",
+          "status": "above",
+          "ma20": 2.707,
+          "close": 3.02,
+          "change_pct": 5.96,
+          "deviation": 11.56,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "002886",
+          "name": "ОЦМШ№Й·Э",
+          "status": "above",
+          "ma20": 24.781,
+          "close": 26.85,
+          "change_pct": 5.96,
+          "deviation": 8.35,
+          "above_streak": 18,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920179",
+          "name": "ї­µВКЇУў",
+          "status": "above",
+          "ma20": 53.655,
+          "close": 59.88,
+          "change_pct": 5.94,
+          "deviation": 11.6,
+          "above_streak": 2,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "688485",
           "name": "ѕЕЦЭТ»№м",
           "status": "above",
@@ -3737,7 +3713,7 @@
         },
         {
           "code": "688090",
-          "name": "Ш№ЫЩПЦММ",
+          "name": "ИрЛЙїЖјј",
           "status": "above",
           "ma20": 70.712,
           "close": 77.55,
@@ -3796,18 +3772,6 @@
           "deviation_alert": null
         },
         {
-          "code": "688416",
-          "name": "єгЛё№Й·Э",
-          "status": "tangle",
-          "ma20": 74.731,
-          "close": 76.62,
-          "change_pct": 8.27,
-          "deviation": 2.53,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "688072",
           "name": "НШѕЈїЖјј",
           "status": "tangle",
@@ -3820,25 +3784,25 @@
           "deviation_alert": null
         },
         {
-          "code": "688545",
-          "name": "аЫИЃЕчзг",
+          "code": "300721",
+          "name": "вщґп№Й·Э",
           "status": "tangle",
-          "ma20": 76.546,
-          "close": 75.56,
-          "change_pct": 5.8,
-          "deviation": -1.29,
+          "ma20": 22.181,
+          "close": 22.1,
+          "change_pct": 6.51,
+          "deviation": -0.37,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "603256",
-          "name": "єкєНїЖјј",
+          "code": "688545",
+          "name": "РЛёЈµзЧУ",
           "status": "tangle",
-          "ma20": 134.205,
-          "close": 138.23,
-          "change_pct": 5.79,
-          "deviation": 3.0,
+          "ma20": 76.546,
+          "close": 75.56,
+          "change_pct": 5.8,
+          "deviation": -1.29,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -3911,18 +3875,6 @@
           "close": 1075.79,
           "change_pct": 3.44,
           "deviation": 1.98,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300666",
-          "name": "Ѕ­·бµзЧУ",
-          "status": "tangle",
-          "ma20": 237.751,
-          "close": 244.71,
-          "change_pct": 3.21,
-          "deviation": 2.93,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -4108,30 +4060,6 @@
           "deviation_alert": null
         },
         {
-          "code": "688082",
-          "name": "КўГАЙПєЈ",
-          "status": "excluded",
-          "ma20": 287.189,
-          "close": 277.17,
-          "change_pct": 2.48,
-          "deviation": -3.49,
-          "above_streak": 0,
-          "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "688200",
-          "name": "»Є·еІвїШ",
-          "status": "excluded",
-          "ma20": 379.43,
-          "close": 354.7,
-          "change_pct": 2.36,
-          "deviation": -6.52,
-          "above_streak": 0,
-          "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
           "code": "688627",
           "name": "ѕ«ЦЗґп",
           "status": "excluded",
@@ -4144,18 +4072,6 @@
           "deviation_alert": null
         },
         {
-          "code": "603061",
-          "name": "ЅрєЈНЁ",
-          "status": "excluded",
-          "ma20": 330.249,
-          "close": 310.0,
-          "change_pct": 2.34,
-          "deviation": -6.13,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
           "code": "002371",
           "name": "±±·Ѕ»Єґґ",
           "status": "excluded",
@@ -4165,30 +4081,6 @@
           "deviation": -5.35,
           "above_streak": 0,
           "below_streak": 13,
-          "deviation_alert": null
-        },
-        {
-          "code": "688361",
-          "name": "ЦРїЖ·ЙІв",
-          "status": "excluded",
-          "ma20": 333.668,
-          "close": 309.79,
-          "change_pct": 1.9,
-          "deviation": -7.16,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "688012",
-          "name": "ЦРОў№«Лѕ",
-          "status": "excluded",
-          "ma20": 349.578,
-          "close": 330.6,
-          "change_pct": 1.84,
-          "deviation": -5.43,
-          "above_streak": 0,
-          "below_streak": 11,
           "deviation_alert": null
         },
         {
@@ -4213,18 +4105,6 @@
           "deviation": -11.35,
           "above_streak": 0,
           "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "603986",
-          "name": "ХЧТЧґґРВ",
-          "status": "excluded",
-          "ma20": 388.106,
-          "close": 363.11,
-          "change_pct": 1.75,
-          "deviation": -6.44,
-          "above_streak": 0,
-          "below_streak": 10,
           "deviation_alert": null
         },
         {
@@ -6133,20 +6013,20 @@
       "matched_symbol": "机器人概念",
       "matched_code": "300816",
       "index_symbol": "机器人概念",
-      "member_source": "ths-html:300816(50)",
+      "member_source": "ths-html:300816(42)",
       "status": "tangle",
       "ma20": 3825.19,
       "close": 3733.62,
       "deviation": -2.39,
-      "source_stock_count": 50,
-      "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "source_stock_count": 42,
+      "processed_stock_count": 42,
+      "classified_stock_count": 42,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 6,
-        "above": 17,
-        "tangle": 17,
-        "excluded": 10
+        "breakout_up": 7,
+        "above": 13,
+        "tangle": 16,
+        "excluded": 6
       },
       "stocks": [
         {
@@ -6186,20 +6066,8 @@
           "deviation_alert": null
         },
         {
-          "code": "920207",
-          "name": "жкГЯПЦММ",
-          "status": "breakout_up",
-          "ma20": 21.7,
-          "close": 22.86,
-          "change_pct": 9.75,
-          "deviation": 5.34,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "300690",
-          "name": "╦л╥╗┐╞╝╝",
+          "name": "╦½╥╗┐╞╝╝",
           "status": "breakout_up",
           "ma20": 22.817,
           "close": 23.99,
@@ -6210,13 +6078,37 @@
           "deviation_alert": null
         },
         {
+          "code": "603686",
+          "name": "╕ú┴·┬φ",
+          "status": "breakout_up",
+          "ma20": 13.169,
+          "close": 14.02,
+          "change_pct": 5.65,
+          "deviation": 6.46,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "301458",
-          "name": "ОћсЫЕчзг",
+          "name": "ѕыбЛµзЧУ",
           "status": "breakout_up",
           "ma20": 37.084,
           "close": 38.52,
           "change_pct": 3.33,
           "deviation": 3.87,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "000409",
+          "name": "ФЖ¶¦їЖјј",
+          "status": "breakout_up",
+          "ma20": 8.901,
+          "close": 9.15,
+          "change_pct": 2.92,
+          "deviation": 2.8,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -6230,18 +6122,6 @@
           "change_pct": 10.0,
           "deviation": 13.75,
           "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603386",
-          "name": "ПЅбЧПЦММ",
-          "status": "above",
-          "ma20": 14.612,
-          "close": 18.65,
-          "change_pct": 8.12,
-          "deviation": 27.63,
-          "above_streak": 7,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -6306,8 +6186,20 @@
           "deviation_alert": null
         },
         {
+          "code": "300010",
+          "name": "ST╢╣╔±",
+          "status": "above",
+          "ma20": 3.663,
+          "close": 4.73,
+          "change_pct": 5.35,
+          "deviation": 29.13,
+          "above_streak": 16,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "301366",
-          "name": "вЛВЉПЦММ",
+          "name": "╥╗▓⌐┐╞╝╝",
           "status": "above",
           "ma20": 57.272,
           "close": 66.21,
@@ -6342,42 +6234,6 @@
           "deviation_alert": null
         },
         {
-          "code": "301323",
-          "name": "аТРГИЃ",
-          "status": "above",
-          "ma20": 69.456,
-          "close": 75.63,
-          "change_pct": 3.84,
-          "deviation": 8.89,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603657",
-          "name": "ДКЙтПЦММ",
-          "status": "above",
-          "ma20": 26.55,
-          "close": 32.59,
-          "change_pct": 3.82,
-          "deviation": 22.75,
-          "above_streak": 5,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301251",
-          "name": "ЭўЖћИп",
-          "status": "above",
-          "ma20": 54.069,
-          "close": 68.15,
-          "change_pct": 3.79,
-          "deviation": 26.04,
-          "above_streak": 29,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "603375",
           "name": "ЪЂОАЮЂ",
           "status": "above",
@@ -6390,6 +6246,18 @@
           "deviation_alert": null
         },
         {
+          "code": "603955",
+          "name": "ґуЗ§ЙъМ¬",
+          "status": "above",
+          "ma20": 20.796,
+          "close": 22.16,
+          "change_pct": 2.93,
+          "deviation": 6.56,
+          "above_streak": 10,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "688581",
           "name": "░▓╜▄╦╝",
           "status": "above",
@@ -6398,42 +6266,6 @@
           "change_pct": 2.79,
           "deviation": 9.19,
           "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300903",
-          "name": "ПЦЯшЙЩЗн",
-          "status": "above",
-          "ma20": 87.889,
-          "close": 109.42,
-          "change_pct": 1.03,
-          "deviation": 24.5,
-          "above_streak": 28,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "601869",
-          "name": "ГЄЗЩЙтЯЫ",
-          "status": "above",
-          "ma20": 408.329,
-          "close": 462.0,
-          "change_pct": 0.51,
-          "deviation": 13.14,
-          "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301325",
-          "name": "ТќЖїЫЙЬи",
-          "status": "tangle",
-          "ma20": 29.782,
-          "close": 29.91,
-          "change_pct": 7.98,
-          "deviation": 0.43,
-          "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -6463,7 +6295,7 @@
         },
         {
           "code": "688499",
-          "name": "РћдЊКр",
+          "name": "└√╘¬║α",
           "status": "tangle",
           "ma20": 33.669,
           "close": 33.38,
@@ -6534,25 +6366,49 @@
           "deviation_alert": null
         },
         {
-          "code": "688169",
-          "name": "ЪЏЭЗПЦММ",
+          "code": "688558",
+          "name": "№ъКўЦЗїЖ",
           "status": "tangle",
-          "ma20": 125.726,
-          "close": 123.67,
-          "change_pct": 2.72,
-          "deviation": -1.64,
+          "ma20": 31.764,
+          "close": 31.67,
+          "change_pct": 3.13,
+          "deviation": -0.3,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
         },
         {
-          "code": "688508",
-          "name": "аОХѓЮЂ",
+          "code": "603277",
+          "name": "Тш¶ј№Й·Э",
           "status": "tangle",
-          "ma20": 84.944,
-          "close": 84.08,
-          "change_pct": 2.52,
-          "deviation": -1.02,
+          "ma20": 11.728,
+          "close": 11.5,
+          "change_pct": 3.05,
+          "deviation": -1.94,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "603496",
+          "name": "єгОЄїЖјј",
+          "status": "tangle",
+          "ma20": 23.202,
+          "close": 22.99,
+          "change_pct": 3.0,
+          "deviation": -0.91,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "600506",
+          "name": "НіТ»№Й·Э",
+          "status": "tangle",
+          "ma20": 16.317,
+          "close": 16.52,
+          "change_pct": 2.99,
+          "deviation": 1.24,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -6594,30 +6450,6 @@
           "deviation_alert": null
         },
         {
-          "code": "002008",
-          "name": "ДѓзхМЄЙт",
-          "status": "tangle",
-          "ma20": 91.4,
-          "close": 93.6,
-          "change_pct": 1.43,
-          "deviation": 2.41,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300548",
-          "name": "ГЄаОВЉДД",
-          "status": "tangle",
-          "ma20": 204.866,
-          "close": 206.7,
-          "change_pct": 1.28,
-          "deviation": 0.9,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "688686",
           "name": "░┬╞╒╠╪",
           "status": "tangle",
@@ -6630,8 +6462,20 @@
           "deviation_alert": null
         },
         {
+          "code": "301216",
+          "name": "Нтї­РВІД",
+          "status": "excluded",
+          "ma20": 18.61,
+          "close": 17.7,
+          "change_pct": 3.39,
+          "deviation": -4.89,
+          "above_streak": 0,
+          "below_streak": 4,
+          "deviation_alert": null
+        },
+        {
           "code": "688286",
-          "name": "УєаОЙЩЗн",
+          "name": "ГфРѕ№Й·Э",
           "status": "excluded",
           "ma20": 47.133,
           "close": 44.89,
@@ -6675,66 +6519,6 @@
           "deviation": -5.01,
           "above_streak": 0,
           "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "301603",
-          "name": "ЧЧЗцжЧФм",
-          "status": "excluded",
-          "ma20": 123.606,
-          "close": 119.31,
-          "change_pct": 1.76,
-          "deviation": -3.48,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "688615",
-          "name": "КЯКЯаХЯЂ",
-          "status": "excluded",
-          "ma20": 94.238,
-          "close": 89.48,
-          "change_pct": 1.46,
-          "deviation": -5.05,
-          "above_streak": 0,
-          "below_streak": 19,
-          "deviation_alert": null
-        },
-        {
-          "code": "688308",
-          "name": "ХЗПЦвк",
-          "status": "excluded",
-          "ma20": 90.718,
-          "close": 85.25,
-          "change_pct": 1.38,
-          "deviation": -6.03,
-          "above_streak": 0,
-          "below_streak": 11,
-          "deviation_alert": null
-        },
-        {
-          "code": "300223",
-          "name": "О§е§ЙЩЗн",
-          "status": "excluded",
-          "ma20": 133.55,
-          "close": 127.58,
-          "change_pct": 1.0,
-          "deviation": -4.47,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "688629",
-          "name": "ЛЊЗсПЦММ",
-          "status": "excluded",
-          "ma20": 129.83,
-          "close": 126.9,
-          "change_pct": 0.98,
-          "deviation": -2.26,
-          "above_streak": 0,
-          "below_streak": 13,
           "deviation_alert": null
         },
         {
@@ -7407,7 +7191,7 @@
       "stocks": [
         {
           "code": "600371",
-          "name": "万向德农",
+          "name": "═≥╧≥╡┬┼⌐",
           "status": "above",
           "ma20": 12.182,
           "close": 12.93,
@@ -7419,7 +7203,7 @@
         },
         {
           "code": "600359",
-          "name": "新农开发",
+          "name": "╨┬┼⌐┐¬╖ó",
           "status": "above",
           "ma20": 7.621,
           "close": 7.88,
@@ -7431,7 +7215,7 @@
         },
         {
           "code": "600127",
-          "name": "金健米业",
+          "name": "╜≡╜í├╫╥╡",
           "status": "above",
           "ma20": 11.726,
           "close": 12.75,
@@ -7443,7 +7227,7 @@
         },
         {
           "code": "600354",
-          "name": "敦煌种业",
+          "name": "╢╪╗═╓╓╥╡",
           "status": "above",
           "ma20": 8.543,
           "close": 8.88,
@@ -7503,7 +7287,7 @@
         },
         {
           "code": "000713",
-          "name": "国投丰乐",
+          "name": "╣·═╢╖ß└╓",
           "status": "tangle",
           "ma20": 6.554,
           "close": 6.4,
@@ -7947,7 +7731,7 @@
         },
         {
           "code": "920087",
-          "name": "秋乐种业",
+          "name": "╟∩└╓╓╓╥╡",
           "status": "excluded",
           "ma20": 17.532,
           "close": 14.32,
@@ -8605,7 +8389,7 @@
     {
       "sector": "算力·商业航天",
       "code": "000823",
-      "name": "ł¬Éůµç×Ó",
+      "name": "³¬Éùµç×Ó",
       "deviation": 44.6,
       "alert": "warn",
       "close": 23.9,
@@ -8614,7 +8398,7 @@
     {
       "sector": "AI应用·算力",
       "code": "002912",
-      "name": "ÖĐĐÂČüżË",
+      "name": "櫓劤힙옹",
       "deviation": 38.7,
       "alert": "warn",
       "close": 28.45,
@@ -8623,16 +8407,16 @@
     {
       "sector": "算力·商业航天",
       "code": "605058",
-      "name": "°Äşëµç×Ó",
+      "name": "°Äºëµç×Ó",
       "deviation": 38.59,
       "alert": "warn",
       "close": 40.3,
       "ma20": 29.079
     },
     {
-      "sector": "商业航天",
+      "sector": "算力·商业航天",
       "code": "002815",
-      "name": "ГчДяММЪѕ",
+      "name": "ізґпјјКх",
       "deviation": 37.7,
       "alert": "warn",
       "close": 21.66,
