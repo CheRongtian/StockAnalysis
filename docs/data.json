@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 01:31",
+  "updated_at": "2026-09-24 04:44",
   "trade_date": "2026-09-24",
   "config": {
     "sector_limit": null,
@@ -7524,8 +7524,8 @@
       "truncated": false,
       "status_counts": {
         "breakout_up": 1,
-        "above": 6,
-        "tangle": 14,
+        "above": 5,
+        "tangle": 15,
         "below_d1": 13,
         "below_d2": 9,
         "excluded": 6
@@ -7592,18 +7592,6 @@
           "deviation_alert": null
         },
         {
-          "code": "000626",
-          "name": "远大控股",
-          "status": "above",
-          "ma20": 9.068,
-          "close": 9.37,
-          "change_pct": 1.52,
-          "deviation": 3.33,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "600354",
           "name": "敦煌种业",
           "status": "above",
@@ -7612,6 +7600,18 @@
           "change_pct": -0.4,
           "deviation": 6.4,
           "above_streak": 28,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "000626",
+          "name": "远大控股",
+          "status": "tangle",
+          "ma20": 9.233,
+          "close": 9.37,
+          "change_pct": 1.52,
+          "deviation": 1.48,
+          "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -7655,10 +7655,10 @@
           "code": "603182",
           "name": "嘉华股份",
           "status": "tangle",
-          "ma20": 13.572,
+          "ma20": 13.632,
           "close": 13.61,
           "change_pct": -0.15,
-          "deviation": 0.28,
+          "deviation": -0.16,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
