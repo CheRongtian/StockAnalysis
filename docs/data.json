@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 01:22",
+  "updated_at": "2026-09-29 06:39",
   "trade_date": "2026-09-29",
   "config": {
     "sector_limit": null,
@@ -7673,10 +7673,10 @@
           "code": "000626",
           "name": "远大控股",
           "status": "below_d1",
-          "ma20": 9.075,
+          "ma20": 9.218,
           "close": 8.7,
           "change_pct": -2.9,
-          "deviation": -4.13,
+          "deviation": -5.62,
           "above_streak": 0,
           "below_streak": 1,
           "deviation_alert": null
