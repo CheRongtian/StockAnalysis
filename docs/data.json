@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 05:06",
+  "updated_at": "2026-09-30 08:48",
   "trade_date": "2026-09-30",
   "config": {
     "sector_limit": null,
@@ -7627,10 +7627,10 @@
           "code": "603182",
           "name": "嘉华股份",
           "status": "tangle",
-          "ma20": 13.618,
+          "ma20": 13.588,
           "close": 13.64,
           "change_pct": 0.52,
-          "deviation": 0.16,
+          "deviation": 0.38,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -7771,10 +7771,10 @@
           "code": "000626",
           "name": "远大控股",
           "status": "below_d2",
-          "ma20": 9.207,
+          "ma20": 9.074,
           "close": 8.58,
           "change_pct": -1.38,
-          "deviation": -6.8,
+          "deviation": -5.45,
           "above_streak": 0,
           "below_streak": 2,
           "deviation_alert": null
