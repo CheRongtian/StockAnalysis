@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-30 21:05",
-  "trade_date": "2026-09-30",
+  "updated_at": "2026-10-01 02:38",
+  "trade_date": "2026-10-01",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)",
       "status": "bearish",
-      "ma20": 3471.7,
-      "close": 3319.83,
-      "deviation": -4.37,
+      "ma20": 3457.26,
+      "close": 3320.55,
+      "deviation": -3.95,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -630,13 +630,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-05-25",
-          "open": 3882.089,
-          "high": 3898.412,
-          "low": 3814.428,
-          "close": 3842.045
-        },
         {
           "date": "2026-05-26",
           "open": 3821.779,
@@ -1259,6 +1252,13 @@
           "high": 3334.068,
           "low": 3282.219,
           "close": 3319.827
+        },
+        {
+          "date": "2026-09-30",
+          "open": 3329.749,
+          "high": 3343.818,
+          "low": 3310.764,
+          "close": 3320.551
         }
       ]
     },
@@ -3780,9 +3780,9 @@
       "index_symbol": "芯片概念",
       "member_source": "ths-html:301085(50)",
       "status": "tangle",
-      "ma20": 4904.01,
-      "close": 4844.43,
-      "deviation": -1.21,
+      "ma20": 4896.16,
+      "close": 4766.82,
+      "deviation": -2.64,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -4397,13 +4397,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-05-25",
-          "open": 5493.353,
-          "high": 5575.98,
-          "low": 5446.997,
-          "close": 5575.98
-        },
         {
           "date": "2026-05-26",
           "open": 5553.648,
@@ -5026,6 +5019,13 @@
           "high": 4872.17,
           "low": 4797.776,
           "close": 4844.433
+        },
+        {
+          "date": "2026-09-30",
+          "open": 4874.976,
+          "high": 4876.229,
+          "low": 4761.88,
+          "close": 4766.818
         }
       ]
     },
@@ -7734,10 +7734,10 @@
           "code": "603182",
           "name": "嘉华股份",
           "status": "tangle",
-          "ma20": 13.577,
+          "ma20": 13.597,
           "close": 13.69,
           "change_pct": 0.37,
-          "deviation": 0.83,
+          "deviation": 0.68,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -7950,10 +7950,10 @@
           "code": "000626",
           "name": "远大控股",
           "status": "excluded",
-          "ma20": 9.056,
+          "ma20": 9.177,
           "close": 8.74,
           "change_pct": 1.86,
-          "deviation": -3.49,
+          "deviation": -4.77,
           "above_streak": 0,
           "below_streak": 3,
           "deviation_alert": null
