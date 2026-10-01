@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-01 22:51",
-  "trade_date": "2026-10-01",
+  "updated_at": "2026-10-02 03:56",
+  "trade_date": "2026-10-02",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -19,12 +19,12 @@
       "deviation": -3.95,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 49,
+      "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
         "breakout_up": 2,
         "above": 3,
-        "tangle": 21,
+        "tangle": 22,
         "excluded": 23
       },
       "stocks": [
@@ -96,6 +96,18 @@
           "close": 8.61,
           "change_pct": 5.0,
           "deviation": -0.3,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "920914",
+          "name": "远航精密",
+          "status": "tangle",
+          "ma20": 16.794,
+          "close": 16.97,
+          "change_pct": 3.41,
+          "deviation": 1.05,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -7722,10 +7734,10 @@
           "code": "603182",
           "name": "嘉华股份",
           "status": "tangle",
-          "ma20": 13.577,
+          "ma20": 13.597,
           "close": 13.69,
           "change_pct": 0.37,
-          "deviation": 0.83,
+          "deviation": 0.68,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -7938,10 +7950,10 @@
           "code": "000626",
           "name": "远大控股",
           "status": "excluded",
-          "ma20": 9.056,
+          "ma20": 9.177,
           "close": 8.74,
           "change_pct": 1.86,
-          "deviation": -3.49,
+          "deviation": -4.77,
           "above_streak": 0,
           "below_streak": 3,
           "deviation_alert": null
