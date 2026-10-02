@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 07:31",
+  "updated_at": "2026-10-02 10:40",
   "trade_date": "2026-10-02",
   "config": {
     "sector_limit": null,
@@ -7734,10 +7734,10 @@
           "code": "603182",
           "name": "嘉华股份",
           "status": "tangle",
-          "ma20": 13.597,
+          "ma20": 13.577,
           "close": 13.69,
           "change_pct": 0.37,
-          "deviation": 0.68,
+          "deviation": 0.83,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
