@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15 18:24",
+  "updated_at": "2026-10-15 23:21",
   "trade_date": "2026-10-15",
   "config": {
     "sector_limit": null,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)",
       "status": "bearish",
-      "ma20": 3392.73,
-      "close": 3196.31,
-      "deviation": -5.79,
+      "ma20": 3368.64,
+      "close": 3084.19,
+      "deviation": -8.44,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -631,13 +631,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-02",
-          "open": 3730.756,
-          "high": 3768.588,
-          "low": 3649.39,
-          "close": 3755.606
-        },
         {
           "date": "2026-06-03",
           "open": 3739.79,
@@ -1260,6 +1253,13 @@
           "high": 3258.986,
           "low": 3193.279,
           "close": 3196.306
+        },
+        {
+          "date": "2026-10-15",
+          "open": 3125.322,
+          "high": 3139.761,
+          "low": 3077.117,
+          "close": 3084.188
         }
       ]
     },
@@ -1270,9 +1270,9 @@
       "index_symbol": "AI应用",
       "member_source": "ths-html:309264(50)",
       "status": "tangle",
-      "ma20": 841.27,
-      "close": 838.53,
-      "deviation": -0.32,
+      "ma20": 839.48,
+      "close": 815.87,
+      "deviation": -2.81,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1886,13 +1886,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-02",
-          "open": 906.094,
-          "high": 906.467,
-          "low": 880.518,
-          "close": 891.807
-        },
         {
           "date": "2026-06-03",
           "open": 887.28,
@@ -2515,6 +2508,13 @@
           "high": 850.904,
           "low": 836.767,
           "close": 838.533
+        },
+        {
+          "date": "2026-10-15",
+          "open": 819.853,
+          "high": 836.713,
+          "low": 814.468,
+          "close": 815.874
         }
       ]
     },
@@ -2525,9 +2525,9 @@
       "index_symbol": "东数西算(算力)",
       "member_source": "ths-html:308828(50)",
       "status": "bearish",
-      "ma20": 2140.12,
-      "close": 2027.54,
-      "deviation": -5.26,
+      "ma20": 2128.96,
+      "close": 1959.61,
+      "deviation": -7.95,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -3143,13 +3143,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-02",
-          "open": 2407.926,
-          "high": 2413.56,
-          "low": 2338.766,
-          "close": 2397.9
-        },
         {
           "date": "2026-06-03",
           "open": 2392.768,
@@ -3772,6 +3765,13 @@
           "high": 2065.554,
           "low": 2026.853,
           "close": 2027.543
+        },
+        {
+          "date": "2026-10-15",
+          "open": 1972.001,
+          "high": 2002.363,
+          "low": 1954.462,
+          "close": 1959.611
         }
       ]
     },
@@ -3782,9 +3782,9 @@
       "index_symbol": "芯片概念",
       "member_source": "ths-html:301085(50)",
       "status": "bearish",
-      "ma20": 4816.03,
-      "close": 4425.32,
-      "deviation": -8.11,
+      "ma20": 4786.02,
+      "close": 4265.22,
+      "deviation": -10.88,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 48,
@@ -4375,13 +4375,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-02",
-          "open": 5153.729,
-          "high": 5229.366,
-          "low": 5044.868,
-          "close": 5188.01
-        },
         {
           "date": "2026-06-03",
           "open": 5199.359,
@@ -5004,6 +4997,13 @@
           "high": 4544.324,
           "low": 4423.595,
           "close": 4425.319
+        },
+        {
+          "date": "2026-10-15",
+          "open": 4286.069,
+          "high": 4343.227,
+          "low": 4244.092,
+          "close": 4265.223
         }
       ]
     },
@@ -5014,9 +5014,9 @@
       "index_symbol": "商业航天",
       "member_source": "ths-html:309130(50)",
       "status": "bearish",
-      "ma20": 2096.97,
-      "close": 1971.55,
-      "deviation": -5.98,
+      "ma20": 2085.02,
+      "close": 1902.34,
+      "deviation": -8.76,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -5632,13 +5632,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-02",
-          "open": 2386.539,
-          "high": 2402.492,
-          "low": 2326.166,
-          "close": 2388.723
-        },
         {
           "date": "2026-06-03",
           "open": 2388.114,
@@ -6261,6 +6254,13 @@
           "high": 2010.336,
           "low": 1970.225,
           "close": 1971.546
+        },
+        {
+          "date": "2026-10-15",
+          "open": 1920.177,
+          "high": 1940.689,
+          "low": 1896.64,
+          "close": 1902.344
         }
       ]
     },
@@ -6271,9 +6271,9 @@
       "index_symbol": "机器人概念",
       "member_source": "ths-html:300816(50)",
       "status": "bearish",
-      "ma20": 3793.45,
-      "close": 3605.72,
-      "deviation": -4.95,
+      "ma20": 3774.24,
+      "close": 3487.93,
+      "deviation": -7.59,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -6887,13 +6887,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-02",
-          "open": 4209.48,
-          "high": 4219.339,
-          "low": 4118.655,
-          "close": 4195.473
-        },
         {
           "date": "2026-06-03",
           "open": 4190.03,
@@ -7516,6 +7509,13 @@
           "high": 3677.161,
           "low": 3603.521,
           "close": 3605.725
+        },
+        {
+          "date": "2026-10-15",
+          "open": 3519.136,
+          "high": 3552.059,
+          "low": 3477.886,
+          "close": 3487.926
         }
       ]
     },
