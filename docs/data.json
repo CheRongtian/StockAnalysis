@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20 21:53",
-  "trade_date": "2026-10-20",
+  "updated_at": "2026-10-21 02:08",
+  "trade_date": "2026-10-21",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -7543,9 +7543,9 @@
       "index_symbol": "粮食概念",
       "member_source": "ths-html:308956(48)",
       "status": "bearish",
-      "ma20": 889.03,
-      "close": 841.81,
-      "deviation": -5.31,
+      "ma20": 888.95,
+      "close": 840.25,
+      "deviation": -5.48,
       "source_stock_count": 48,
       "processed_stock_count": 48,
       "classified_stock_count": 48,
@@ -8762,8 +8762,8 @@
           "date": "2026-10-20",
           "open": 835.478,
           "high": 844.657,
-          "low": 832.782,
-          "close": 841.811
+          "low": 832.623,
+          "close": 840.253
         }
       ]
     }
