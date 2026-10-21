@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21 18:40",
+  "updated_at": "2026-10-21 23:40",
   "trade_date": "2026-10-21",
   "config": {
     "sector_limit": null,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)",
       "status": "bearish",
-      "ma20": 3299.38,
-      "close": 3117.43,
-      "deviation": -5.51,
+      "ma20": 3297.59,
+      "close": 3081.64,
+      "deviation": -6.55,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1256,8 +1256,8 @@
           "date": "2026-10-21",
           "open": 3104.277,
           "high": 3126.624,
-          "low": 3097.13,
-          "close": 3117.431
+          "low": 3074.712,
+          "close": 3081.635
         }
       ]
     },
@@ -1268,9 +1268,9 @@
       "index_symbol": "AI应用",
       "member_source": "ths-html:309264(50)",
       "status": "tangle",
-      "ma20": 837.4,
-      "close": 830.45,
-      "deviation": -0.83,
+      "ma20": 838.27,
+      "close": 835.8,
+      "deviation": -0.3,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1538,10 +1538,10 @@
           "code": "002811",
           "name": "郑中设计",
           "status": "above",
-          "ma20": 18.144,
+          "ma20": 18.203,
           "close": 24.16,
           "change_pct": 10.02,
-          "deviation": 33.16,
+          "deviation": 32.73,
           "above_streak": 20,
           "below_streak": 0,
           "deviation_alert": "warn"
@@ -1754,10 +1754,10 @@
           "code": "002803",
           "name": "吉宏股份",
           "status": "tangle",
-          "ma20": 19.418,
+          "ma20": 19.534,
           "close": 19.7,
           "change_pct": 4.84,
-          "deviation": 1.45,
+          "deviation": 0.85,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1802,10 +1802,10 @@
           "code": "002264",
           "name": "新华都",
           "status": "tangle",
-          "ma20": 7.549,
+          "ma20": 7.564,
           "close": 7.41,
           "change_pct": 4.22,
-          "deviation": -1.83,
+          "deviation": -2.03,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -1862,10 +1862,10 @@
           "code": "301396",
           "name": "宏景科技",
           "status": "excluded",
-          "ma20": 153.939,
+          "ma20": 153.969,
           "close": 132.35,
           "change_pct": 4.81,
-          "deviation": -14.02,
+          "deviation": -14.04,
           "above_streak": 0,
           "below_streak": 13,
           "deviation_alert": null
@@ -1884,13 +1884,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-08",
-          "open": 847.392,
-          "high": 870.827,
-          "low": 841.285,
-          "close": 851.952
-        },
         {
           "date": "2026-06-09",
           "open": 858.566,
@@ -2513,6 +2506,13 @@
           "high": 833.011,
           "low": 808.675,
           "close": 830.451
+        },
+        {
+          "date": "2026-10-21",
+          "open": 833.495,
+          "high": 842.843,
+          "low": 832.853,
+          "close": 835.797
         }
       ]
     },
@@ -2523,9 +2523,9 @@
       "index_symbol": "东数西算(算力)",
       "member_source": "ths-html:308828(50)",
       "status": "bearish",
-      "ma20": 2103.71,
-      "close": 2004.29,
-      "deviation": -4.73,
+      "ma20": 2098.63,
+      "close": 2020.51,
+      "deviation": -3.72,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -3139,13 +3139,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-08",
-          "open": 2293.107,
-          "high": 2355.061,
-          "low": 2265.318,
-          "close": 2292.841
-        },
         {
           "date": "2026-06-09",
           "open": 2321.924,
@@ -3768,6 +3761,13 @@
           "high": 2016.015,
           "low": 1954.924,
           "close": 2004.291
+        },
+        {
+          "date": "2026-10-21",
+          "open": 2015.447,
+          "high": 2040.74,
+          "low": 2013.903,
+          "close": 2020.507
         }
       ]
     },
@@ -3778,9 +3778,9 @@
       "index_symbol": "芯片概念",
       "member_source": "ths-html:301085(50)",
       "status": "bearish",
-      "ma20": 4713.63,
-      "close": 4349.53,
-      "deviation": -7.72,
+      "ma20": 4692.91,
+      "close": 4358.44,
+      "deviation": -7.13,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 49,
@@ -4382,13 +4382,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-08",
-          "open": 5063.919,
-          "high": 5237.325,
-          "low": 5021.177,
-          "close": 5083.822
-        },
         {
           "date": "2026-06-09",
           "open": 5162.249,
@@ -5011,6 +5004,13 @@
           "high": 4396.16,
           "low": 4233.635,
           "close": 4349.535
+        },
+        {
+          "date": "2026-10-21",
+          "open": 4378.395,
+          "high": 4431.648,
+          "low": 4342.096,
+          "close": 4358.444
         }
       ]
     },
@@ -5021,9 +5021,9 @@
       "index_symbol": "商业航天",
       "member_source": "ths-html:309130(50)",
       "status": "bearish",
-      "ma20": 2061.24,
-      "close": 1973.11,
-      "deviation": -4.28,
+      "ma20": 2055.61,
+      "close": 1974.56,
+      "deviation": -3.94,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -5637,13 +5637,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-08",
-          "open": 2345.718,
-          "high": 2413.616,
-          "low": 2321.788,
-          "close": 2348.411
-        },
         {
           "date": "2026-06-09",
           "open": 2373.82,
@@ -6266,6 +6259,13 @@
           "high": 1987.826,
           "low": 1931.238,
           "close": 1973.105
+        },
+        {
+          "date": "2026-10-21",
+          "open": 1983.004,
+          "high": 2004.045,
+          "low": 1968.332,
+          "close": 1974.557
         }
       ]
     },
@@ -6276,9 +6276,9 @@
       "index_symbol": "机器人概念",
       "member_source": "ths-html:300816(50)",
       "status": "bearish",
-      "ma20": 3740.35,
-      "close": 3619.57,
-      "deviation": -3.23,
+      "ma20": 3733.97,
+      "close": 3606.01,
+      "deviation": -3.43,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -6892,13 +6892,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-08",
-          "open": 4082.443,
-          "high": 4210.296,
-          "low": 4058.064,
-          "close": 4111.513
-        },
         {
           "date": "2026-06-09",
           "open": 4149.737,
@@ -7521,6 +7514,13 @@
           "high": 3642.826,
           "low": 3525.559,
           "close": 3619.573
+        },
+        {
+          "date": "2026-10-21",
+          "open": 3630.749,
+          "high": 3654.928,
+          "low": 3595.009,
+          "close": 3606.006
         }
       ]
     },
@@ -7531,9 +7531,9 @@
       "index_symbol": "粮食概念",
       "member_source": "ths-html:308956(48)",
       "status": "bearish",
-      "ma20": 888.95,
-      "close": 840.25,
-      "deviation": -5.48,
+      "ma20": 887.15,
+      "close": 842.95,
+      "deviation": -4.98,
       "source_stock_count": 48,
       "processed_stock_count": 48,
       "classified_stock_count": 48,
@@ -8124,13 +8124,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-08",
-          "open": 806.618,
-          "high": 822.091,
-          "low": 791.021,
-          "close": 800.381
-        },
         {
           "date": "2026-06-09",
           "open": 802.197,
@@ -8753,6 +8746,13 @@
           "high": 844.657,
           "low": 832.623,
           "close": 840.253
+        },
+        {
+          "date": "2026-10-21",
+          "open": 840.229,
+          "high": 857.007,
+          "low": 839.92,
+          "close": 842.953
         }
       ]
     }
@@ -8780,10 +8780,10 @@
       "sector": "AI应用·芯片",
       "code": "002811",
       "name": "郑中设计",
-      "deviation": 33.16,
+      "deviation": 32.73,
       "alert": "warn",
       "close": 24.16,
-      "ma20": 18.144
+      "ma20": 18.203
     },
     {
       "sector": "商业航天",
