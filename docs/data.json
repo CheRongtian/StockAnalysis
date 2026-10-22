@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22 06:49",
+  "updated_at": "2026-10-22 09:00",
   "trade_date": "2026-10-22",
   "config": {
     "sector_limit": null,
@@ -1574,10 +1574,10 @@
           "code": "002929",
           "name": "润建股份",
           "status": "above",
-          "ma20": 47.782,
-          "close": 56.14,
-          "change_pct": 9.99,
-          "deviation": 17.49,
+          "ma20": 47.764,
+          "close": 56.122,
+          "change_pct": 10.0,
+          "deviation": 17.5,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
