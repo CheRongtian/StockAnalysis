@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 21:02",
-  "trade_date": "2026-10-23",
+  "updated_at": "2026-10-24 01:59",
+  "trade_date": "2026-10-24",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)",
       "status": "bearish",
-      "ma20": 3274.74,
-      "close": 2999.34,
-      "deviation": -8.41,
+      "ma20": 3256.33,
+      "close": 3042.49,
+      "deviation": -6.57,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -631,13 +631,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-10",
-          "open": 3577.408,
-          "high": 3613.204,
-          "low": 3534.402,
-          "close": 3579.091
-        },
         {
           "date": "2026-06-11",
           "open": 3563.615,
@@ -1260,6 +1253,13 @@
           "high": 3086.403,
           "low": 2999.342,
           "close": 2999.342
+        },
+        {
+          "date": "2026-10-23",
+          "open": 2949.661,
+          "high": 3048.241,
+          "low": 2874.682,
+          "close": 3042.488
         }
       ]
     },
@@ -1269,10 +1269,10 @@
       "matched_code": "309264",
       "index_symbol": "AI应用",
       "member_source": "ths-html:309264(50)",
-      "status": "bearish",
-      "ma20": 837.23,
-      "close": 805.58,
-      "deviation": -3.78,
+      "status": "tangle",
+      "ma20": 837.5,
+      "close": 833.58,
+      "deviation": -0.47,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1885,13 +1885,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-10",
-          "open": 857.174,
-          "high": 866.094,
-          "low": 841.304,
-          "close": 849.332
-        },
         {
           "date": "2026-06-11",
           "open": 841.454,
@@ -2514,6 +2507,13 @@
           "high": 836.221,
           "low": 805.584,
           "close": 805.584
+        },
+        {
+          "date": "2026-10-23",
+          "open": 793.253,
+          "high": 835.943,
+          "low": 772.387,
+          "close": 833.575
         }
       ]
     },
