@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28 21:37",
-  "trade_date": "2026-10-28",
+  "updated_at": "2026-10-29 03:09",
+  "trade_date": "2026-10-29",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -7534,8 +7534,8 @@
       "member_source": "ths-html:308956(48)",
       "status": "bearish",
       "ma20": 861.0,
-      "close": 794.9,
-      "deviation": -7.68,
+      "close": 794.73,
+      "deviation": -7.7,
       "source_stock_count": 48,
       "processed_stock_count": 48,
       "classified_stock_count": 48,
@@ -8755,7 +8755,7 @@
           "open": 797.769,
           "high": 799.619,
           "low": 787.268,
-          "close": 794.902
+          "close": 794.726
         }
       ]
     }
