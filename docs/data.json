@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30 00:28",
+  "updated_at": "2026-10-30 05:28",
   "trade_date": "2026-10-30",
   "config": {
     "sector_limit": null,
@@ -5041,27 +5041,15 @@
       "deviation": -5.67,
       "source_stock_count": 50,
       "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "classified_stock_count": 48,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 19,
-        "above": 10,
+        "breakout_up": 18,
+        "above": 9,
         "tangle": 15,
         "excluded": 6
       },
       "stocks": [
-        {
-          "code": "301232",
-          "name": "飞沃科技",
-          "status": "breakout_up",
-          "ma20": 72.268,
-          "close": 80.3,
-          "change_pct": 17.09,
-          "deviation": 11.11,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
         {
           "code": "920576",
           "name": "天力复合",
@@ -5275,18 +5263,6 @@
           "change_pct": 3.12,
           "deviation": 3.94,
           "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301079",
-          "name": "邵阳液压",
-          "status": "above",
-          "ma20": 27.113,
-          "close": 34.0,
-          "change_pct": 20.01,
-          "deviation": 25.4,
-          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
