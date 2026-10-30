@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31 03:45",
+  "updated_at": "2026-10-31 07:19",
   "trade_date": "2026-10-31",
   "config": {
     "sector_limit": null,
@@ -2534,13 +2534,26 @@
       "classified_stock_count": 50,
       "truncated": false,
       "status_counts": {
+        "breakout_up": 1,
         "above": 4,
-        "tangle": 15,
+        "tangle": 14,
         "below_d1": 1,
         "below_d2": 4,
         "excluded": 26
       },
       "stocks": [
+        {
+          "code": "600941",
+          "name": "中国移动",
+          "status": "breakout_up",
+          "ma20": 99.388,
+          "close": 102.13,
+          "change_pct": 0.65,
+          "deviation": 2.76,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
         {
           "code": "600289",
           "name": "ST信通",
@@ -2621,18 +2634,6 @@
           "close": 8.81,
           "change_pct": 1.15,
           "deviation": 1.52,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600941",
-          "name": "中国移动",
-          "status": "tangle",
-          "ma20": 99.639,
-          "close": 102.13,
-          "change_pct": 0.65,
-          "deviation": 2.5,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -2725,10 +2726,10 @@
           "code": "600406",
           "name": "国电南瑞",
           "status": "tangle",
-          "ma20": 22.899,
+          "ma20": 22.891,
           "close": 23.16,
           "change_pct": -0.6,
-          "deviation": 1.14,
+          "deviation": 1.17,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -3085,10 +3086,10 @@
           "code": "002733",
           "name": "雄韬股份",
           "status": "excluded",
-          "ma20": 16.973,
+          "ma20": 16.968,
           "close": 14.77,
           "change_pct": -1.4,
-          "deviation": -12.98,
+          "deviation": -12.95,
           "above_streak": 0,
           "below_streak": 12,
           "deviation_alert": null
@@ -3790,8 +3791,8 @@
       "classified_stock_count": 49,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 5,
-        "above": 6,
+        "breakout_up": 4,
+        "above": 7,
         "tangle": 22,
         "below_d2": 1,
         "excluded": 15
@@ -3825,10 +3826,10 @@
           "code": "002430",
           "name": "杭氧股份",
           "status": "breakout_up",
-          "ma20": 24.83,
+          "ma20": 24.81,
           "close": 25.95,
           "change_pct": 2.45,
-          "deviation": 4.51,
+          "deviation": 4.6,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3837,22 +3838,10 @@
           "code": "300629",
           "name": "新劲刚",
           "status": "breakout_up",
-          "ma20": 17.529,
+          "ma20": 17.527,
           "close": 18.18,
           "change_pct": 1.62,
-          "deviation": 3.71,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "601766",
-          "name": "中国中车",
-          "status": "breakout_up",
-          "ma20": 6.353,
-          "close": 6.55,
-          "change_pct": 1.08,
-          "deviation": 3.11,
+          "deviation": 3.73,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3914,6 +3903,18 @@
           "change_pct": 1.35,
           "deviation": 5.13,
           "above_streak": 6,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "601766",
+          "name": "中国中车",
+          "status": "above",
+          "ma20": 6.309,
+          "close": 6.55,
+          "change_pct": 1.08,
+          "deviation": 3.83,
+          "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -4005,10 +4006,10 @@
           "code": "003017",
           "name": "大洋生物",
           "status": "tangle",
-          "ma20": 22.352,
+          "ma20": 22.322,
           "close": 21.89,
           "change_pct": 3.35,
-          "deviation": -2.07,
+          "deviation": -1.94,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -4113,10 +4114,10 @@
           "code": "301031",
           "name": "中熔电气",
           "status": "tangle",
-          "ma20": 85.479,
+          "ma20": 85.465,
           "close": 88.1,
           "change_pct": 1.03,
-          "deviation": 3.07,
+          "deviation": 3.08,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -4293,10 +4294,10 @@
           "code": "688699",
           "name": "明微电子",
           "status": "excluded",
-          "ma20": 53.729,
+          "ma20": 53.68,
           "close": 48.44,
           "change_pct": 2.19,
-          "deviation": -9.84,
+          "deviation": -9.76,
           "above_streak": 0,
           "below_streak": 17,
           "deviation_alert": null
