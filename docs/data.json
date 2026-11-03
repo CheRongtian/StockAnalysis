@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 02:06",
+  "updated_at": "2026-11-04 07:44",
   "trade_date": "2026-11-04",
   "config": {
     "sector_limit": null,
@@ -2651,10 +2651,10 @@
           "code": "301262",
           "name": "海看股份",
           "status": "above",
-          "ma20": 21.431,
+          "ma20": 21.413,
           "close": 23.76,
           "change_pct": 2.59,
-          "deviation": 10.87,
+          "deviation": 10.96,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
@@ -2675,10 +2675,10 @@
           "code": "601928",
           "name": "凤凰传媒",
           "status": "above",
-          "ma20": 8.861,
+          "ma20": 8.8,
           "close": 9.42,
           "change_pct": 1.84,
-          "deviation": 6.31,
+          "deviation": 7.04,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
@@ -2715,7 +2715,7 @@
           "close": 103.71,
           "change_pct": 0.85,
           "deviation": 3.49,
-          "above_streak": 2,
+          "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
         },
@@ -2939,12 +2939,12 @@
           "code": "601222",
           "name": "林洋能源",
           "status": "excluded",
-          "ma20": 5.742,
+          "ma20": 5.685,
           "close": 5.46,
           "change_pct": 4.0,
-          "deviation": -4.92,
+          "deviation": -3.96,
           "above_streak": 0,
-          "below_streak": 9,
+          "below_streak": 7,
           "deviation_alert": null
         },
         {
