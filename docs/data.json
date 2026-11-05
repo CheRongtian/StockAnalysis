@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 02:55",
+  "updated_at": "2026-11-05 07:59",
   "trade_date": "2026-11-05",
   "config": {
     "sector_limit": null,
@@ -2602,10 +2602,10 @@
           "code": "002475",
           "name": "立讯精密",
           "status": "breakout_up",
-          "ma20": 47.159,
+          "ma20": 47.214,
           "close": 49.51,
           "change_pct": 8.93,
-          "deviation": 4.99,
+          "deviation": 4.86,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -3118,10 +3118,10 @@
           "code": "603629",
           "name": "利通电子",
           "status": "excluded",
-          "ma20": 79.908,
+          "ma20": 80.001,
           "close": 63.48,
           "change_pct": 8.51,
-          "deviation": -20.56,
+          "deviation": -20.65,
           "above_streak": 0,
           "below_streak": 24,
           "deviation_alert": null
