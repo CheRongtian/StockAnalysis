@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10 21:05",
-  "trade_date": "2026-11-10",
+  "updated_at": "2026-11-11 04:38",
+  "trade_date": "2026-11-11",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)+akshare:em:BK0695(122)",
       "status": "tangle",
-      "ma20": 3004.67,
-      "close": 2956.5,
-      "deviation": -1.6,
+      "ma20": 2990.79,
+      "close": 2982.51,
+      "deviation": -0.28,
       "source_stock_count": 138,
       "processed_stock_count": 138,
       "classified_stock_count": 138,
@@ -1689,13 +1689,6 @@
       ],
       "klines": [
         {
-          "date": "2026-06-29",
-          "open": 3666.143,
-          "high": 3697.04,
-          "low": 3618.97,
-          "close": 3678.714
-        },
-        {
           "date": "2026-06-30",
           "open": 3649.811,
           "high": 3723.647,
@@ -2317,6 +2310,13 @@
           "high": 3002.658,
           "low": 2956.471,
           "close": 2956.501
+        },
+        {
+          "date": "2026-11-10",
+          "open": 2991.507,
+          "high": 2993.57,
+          "low": 2966.212,
+          "close": 2982.509
         }
       ]
     },
@@ -2327,9 +2327,9 @@
       "index_symbol": "AI应用",
       "member_source": "ths-html:309264(50)+akshare:em:BK1629(308)",
       "status": "tangle",
-      "ma20": 813.28,
-      "close": 808.93,
-      "deviation": -0.53,
+      "ma20": 812.38,
+      "close": 830.21,
+      "deviation": 2.19,
       "source_stock_count": 330,
       "processed_stock_count": 330,
       "classified_stock_count": 330,
@@ -5117,10 +5117,10 @@
           "code": "002555",
           "name": "三七互娱",
           "status": "tangle",
-          "ma20": 16.27,
+          "ma20": 16.359,
           "close": 16.23,
           "change_pct": 1.5,
-          "deviation": -0.25,
+          "deviation": -0.79,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -5333,10 +5333,10 @@
           "code": "600479",
           "name": "千金药业",
           "status": "tangle",
-          "ma20": 10.753,
+          "ma20": 10.834,
           "close": 10.7,
           "change_pct": 0.94,
-          "deviation": -0.49,
+          "deviation": -1.24,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -5609,10 +5609,10 @@
           "code": "000528",
           "name": "柳    工",
           "status": "tangle",
-          "ma20": 8.005,
+          "ma20": 8.021,
           "close": 8.19,
           "change_pct": -0.61,
-          "deviation": 2.31,
+          "deviation": 2.11,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -6125,10 +6125,10 @@
           "code": "002803",
           "name": "吉宏股份",
           "status": "excluded",
-          "ma20": 17.735,
+          "ma20": 17.756,
           "close": 16.66,
           "change_pct": 0.97,
-          "deviation": -6.06,
+          "deviation": -6.17,
           "above_streak": 0,
           "below_streak": 9,
           "deviation_alert": null
@@ -6303,13 +6303,6 @@
         }
       ],
       "klines": [
-        {
-          "date": "2026-06-29",
-          "open": 793.778,
-          "high": 799.223,
-          "low": 782.206,
-          "close": 794.743
-        },
         {
           "date": "2026-06-30",
           "open": 794.572,
@@ -6932,6 +6925,13 @@
           "high": 829.324,
           "low": 808.588,
           "close": 808.928
+        },
+        {
+          "date": "2026-11-10",
+          "open": 818.604,
+          "high": 830.552,
+          "low": 818.604,
+          "close": 830.206
         }
       ]
     },
@@ -7464,10 +7464,10 @@
           "code": "300113",
           "name": "顺网科技",
           "status": "above",
-          "ma20": 16.372,
+          "ma20": 16.378,
           "close": 17.52,
           "change_pct": 4.6,
-          "deviation": 7.02,
+          "deviation": 6.98,
           "above_streak": 7,
           "below_streak": 0,
           "deviation_alert": null
@@ -7776,10 +7776,10 @@
           "code": "301536",
           "name": "星宸科技",
           "status": "tangle",
-          "ma20": 96.935,
+          "ma20": 97.324,
           "close": 99.5,
           "change_pct": 14.74,
-          "deviation": 2.65,
+          "deviation": 2.24,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -9600,10 +9600,10 @@
           "code": "688008",
           "name": "澜起科技",
           "status": "excluded",
-          "ma20": 165.267,
+          "ma20": 165.337,
           "close": 154.8,
           "change_pct": 3.43,
-          "deviation": -6.33,
+          "deviation": -6.37,
           "above_streak": 0,
           "below_streak": 22,
           "deviation_alert": null
