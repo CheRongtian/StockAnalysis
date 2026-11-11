@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11 23:39",
-  "trade_date": "2026-11-11",
+  "updated_at": "2026-11-12 06:19",
+  "trade_date": "2026-11-12",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -14,9 +14,9 @@
       "index_symbol": "小金属概念",
       "member_source": "ths-html:300809(50)",
       "status": "tangle",
-      "ma20": 2978.46,
-      "close": 2949.69,
-      "deviation": -0.97,
+      "ma20": 2981.22,
+      "close": 3004.92,
+      "deviation": 0.79,
       "source_stock_count": 50,
       "processed_stock_count": 50,
       "classified_stock_count": 50,
@@ -1256,9 +1256,9 @@
         {
           "date": "2026-11-11",
           "open": 2964.299,
-          "high": 2980.301,
+          "high": 3009.764,
           "low": 2948.223,
-          "close": 2949.691
+          "close": 3004.918
         }
       ]
     },
@@ -7544,17 +7544,17 @@
       "index_symbol": "粮食概念",
       "member_source": "ths-html:308956(49)",
       "status": "tangle",
-      "ma20": 809.94,
-      "close": 804.38,
-      "deviation": -0.69,
+      "ma20": 810.15,
+      "close": 808.56,
+      "deviation": -0.2,
       "source_stock_count": 49,
       "processed_stock_count": 49,
-      "classified_stock_count": 48,
+      "classified_stock_count": 49,
       "truncated": false,
       "status_counts": {
         "breakout_up": 1,
         "above": 4,
-        "tangle": 34,
+        "tangle": 35,
         "excluded": 9
       },
       "stocks": [
@@ -7794,6 +7794,18 @@
           "close": 6.18,
           "change_pct": 0.0,
           "deviation": -1.68,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "600359",
+          "name": "新农开发",
+          "status": "tangle",
+          "ma20": 6.127,
+          "close": 6.15,
+          "change_pct": -0.16,
+          "deviation": 0.38,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -8764,7 +8776,7 @@
           "open": 809.876,
           "high": 815.773,
           "low": 800.56,
-          "close": 804.378
+          "close": 808.557
         }
       ]
     }
