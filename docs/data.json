@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 03:15",
+  "updated_at": "2026-11-13 08:44",
   "trade_date": "2026-11-13",
   "config": {
     "sector_limit": null,
@@ -477,8 +477,8 @@
           "code": "600392",
           "name": "盛和资源",
           "status": "tangle",
-          "ma20": 15.899,
-          "close": 16.19,
+          "ma20": 15.85,
+          "close": 16.14,
           "change_pct": -1.28,
           "deviation": 1.83,
           "above_streak": 0,
