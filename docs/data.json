@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14 05:41",
+  "updated_at": "2026-11-14 09:52",
   "trade_date": "2026-11-14",
   "config": {
     "sector_limit": null,
@@ -1624,11 +1624,11 @@
           "code": "600415",
           "name": "小商品城",
           "status": "above",
-          "ma20": 11.587,
+          "ma20": 11.572,
           "close": 12.18,
           "change_pct": 2.1,
-          "deviation": 5.12,
-          "above_streak": 9,
+          "deviation": 5.25,
+          "above_streak": 11,
           "below_streak": 0,
           "deviation_alert": null
         },
