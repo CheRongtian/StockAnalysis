@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25 13:05",
-  "trade_date": "2026-11-25",
+  "updated_at": "2026-11-26 00:13",
+  "trade_date": "2026-11-26",
   "config": {
     "sector_limit": null,
     "max_pages": 30,
@@ -10,633 +10,20 @@
     {
       "name": "小金属",
       "matched_symbol": "小金属概念",
-      "matched_code": "300809",
+      "matched_code": null,
       "index_symbol": "小金属概念",
-      "member_source": "ths-html:300809(50)",
+      "member_source": "none",
       "status": "bearish",
-      "ma20": 2839.13,
-      "close": 2596.58,
-      "deviation": -8.54,
-      "source_stock_count": 50,
-      "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "ma20": 2816.13,
+      "close": 2497.37,
+      "deviation": -11.32,
+      "source_stock_count": 0,
+      "processed_stock_count": 0,
+      "classified_stock_count": 0,
       "truncated": false,
-      "status_counts": {
-        "above": 1,
-        "tangle": 5,
-        "below_d2": 3,
-        "excluded": 41
-      },
-      "stocks": [
-        {
-          "code": "000711",
-          "name": "京蓝科技",
-          "status": "above",
-          "ma20": 3.578,
-          "close": 4.39,
-          "change_pct": 3.54,
-          "deviation": 22.68,
-          "above_streak": 5,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603389",
-          "name": "亚振家居",
-          "status": "tangle",
-          "ma20": 50.937,
-          "close": 49.67,
-          "change_pct": 2.73,
-          "deviation": -2.49,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "000816",
-          "name": "智慧农业",
-          "status": "tangle",
-          "ma20": 2.691,
-          "close": 2.68,
-          "change_pct": 1.52,
-          "deviation": -0.41,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600655",
-          "name": "豫园股份",
-          "status": "tangle",
-          "ma20": 4.478,
-          "close": 4.43,
-          "change_pct": 1.14,
-          "deviation": -1.07,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002601",
-          "name": "龙佰集团",
-          "status": "tangle",
-          "ma20": 15.019,
-          "close": 14.74,
-          "change_pct": 0.68,
-          "deviation": -1.86,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600704",
-          "name": "物产中大",
-          "status": "tangle",
-          "ma20": 5.016,
-          "close": 4.89,
-          "change_pct": 0.2,
-          "deviation": -2.51,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600157",
-          "name": "永泰能源",
-          "status": "below_d2",
-          "ma20": 1.358,
-          "close": 1.32,
-          "change_pct": 1.54,
-          "deviation": -2.8,
-          "above_streak": 0,
-          "below_streak": 2,
-          "deviation_alert": null
-        },
-        {
-          "code": "000983",
-          "name": "山西焦煤",
-          "status": "below_d2",
-          "ma20": 6.338,
-          "close": 6.1,
-          "change_pct": 0.83,
-          "deviation": -3.76,
-          "above_streak": 0,
-          "below_streak": 2,
-          "deviation_alert": null
-        },
-        {
-          "code": "000975",
-          "name": "山金国际",
-          "status": "below_d2",
-          "ma20": 22.345,
-          "close": 21.3,
-          "change_pct": -0.23,
-          "deviation": -4.68,
-          "above_streak": 0,
-          "below_streak": 2,
-          "deviation_alert": null
-        },
-        {
-          "code": "603843",
-          "name": "*ST正平",
-          "status": "excluded",
-          "ma20": 4.618,
-          "close": 4.01,
-          "change_pct": 3.62,
-          "deviation": -13.17,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600382",
-          "name": "广东明珠",
-          "status": "excluded",
-          "ma20": 5.061,
-          "close": 4.54,
-          "change_pct": 2.48,
-          "deviation": -10.29,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "603067",
-          "name": "振华股份",
-          "status": "excluded",
-          "ma20": 21.037,
-          "close": 18.02,
-          "change_pct": 2.33,
-          "deviation": -14.34,
-          "above_streak": 0,
-          "below_streak": 28,
-          "deviation_alert": null
-        },
-        {
-          "code": "600868",
-          "name": "梅雁吉祥",
-          "status": "excluded",
-          "ma20": 2.548,
-          "close": 2.38,
-          "change_pct": 1.71,
-          "deviation": -6.59,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "000697",
-          "name": "炼石航空",
-          "status": "excluded",
-          "ma20": 8.971,
-          "close": 8.56,
-          "change_pct": 1.54,
-          "deviation": -4.59,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "000701",
-          "name": "厦门信达",
-          "status": "excluded",
-          "ma20": 5.512,
-          "close": 4.54,
-          "change_pct": 1.34,
-          "deviation": -17.63,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "000850",
-          "name": "华茂股份",
-          "status": "excluded",
-          "ma20": 3.46,
-          "close": 3.24,
-          "change_pct": 1.25,
-          "deviation": -6.37,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600326",
-          "name": "西藏天路",
-          "status": "excluded",
-          "ma20": 5.638,
-          "close": 5.05,
-          "change_pct": 1.2,
-          "deviation": -10.42,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300267",
-          "name": "尔康制药",
-          "status": "excluded",
-          "ma20": 2.804,
-          "close": 2.55,
-          "change_pct": 1.19,
-          "deviation": -9.06,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300774",
-          "name": "倍杰特",
-          "status": "excluded",
-          "ma20": 7.256,
-          "close": 6.5,
-          "change_pct": 1.09,
-          "deviation": -10.41,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "000778",
-          "name": "新兴铸管",
-          "status": "excluded",
-          "ma20": 3.389,
-          "close": 3.26,
-          "change_pct": 0.93,
-          "deviation": -3.79,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "002721",
-          "name": "金一文化",
-          "status": "excluded",
-          "ma20": 2.349,
-          "close": 2.26,
-          "change_pct": 0.89,
-          "deviation": -3.79,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002182",
-          "name": "宝武镁业",
-          "status": "excluded",
-          "ma20": 9.877,
-          "close": 9.18,
-          "change_pct": 0.88,
-          "deviation": -7.05,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "601969",
-          "name": "海南矿业",
-          "status": "excluded",
-          "ma20": 7.747,
-          "close": 6.99,
-          "change_pct": 0.87,
-          "deviation": -9.78,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "300068",
-          "name": "ST南都",
-          "status": "excluded",
-          "ma20": 2.663,
-          "close": 2.48,
-          "change_pct": 0.81,
-          "deviation": -6.87,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "002562",
-          "name": "兄弟科技",
-          "status": "excluded",
-          "ma20": 4.042,
-          "close": 3.75,
-          "change_pct": 0.81,
-          "deviation": -7.22,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "002114",
-          "name": "罗平锌电",
-          "status": "excluded",
-          "ma20": 5.678,
-          "close": 5.07,
-          "change_pct": 0.8,
-          "deviation": -10.7,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "002312",
-          "name": "川发龙蟒",
-          "status": "excluded",
-          "ma20": 6.746,
-          "close": 6.46,
-          "change_pct": 0.78,
-          "deviation": -4.24,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "002574",
-          "name": "明牌珠宝",
-          "status": "excluded",
-          "ma20": 4.306,
-          "close": 3.94,
-          "change_pct": 0.77,
-          "deviation": -8.51,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "000831",
-          "name": "中国稀土",
-          "status": "excluded",
-          "ma20": 45.441,
-          "close": 37.34,
-          "change_pct": 0.62,
-          "deviation": -17.83,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300340",
-          "name": "科恒股份",
-          "status": "excluded",
-          "ma20": 7.3,
-          "close": 6.54,
-          "change_pct": 0.62,
-          "deviation": -10.41,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "603077",
-          "name": "和邦生物",
-          "status": "excluded",
-          "ma20": 1.984,
-          "close": 1.85,
-          "change_pct": 0.54,
-          "deviation": -6.73,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600116",
-          "name": "三峡水利",
-          "status": "excluded",
-          "ma20": 5.813,
-          "close": 5.56,
-          "change_pct": 0.54,
-          "deviation": -4.34,
-          "above_streak": 0,
-          "below_streak": 3,
-          "deviation_alert": null
-        },
-        {
-          "code": "000655",
-          "name": "金岭矿业",
-          "status": "excluded",
-          "ma20": 6.219,
-          "close": 5.73,
-          "change_pct": 0.53,
-          "deviation": -7.86,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "300187",
-          "name": "永清环保",
-          "status": "excluded",
-          "ma20": 4.193,
-          "close": 3.85,
-          "change_pct": 0.52,
-          "deviation": -8.18,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "600111",
-          "name": "北方稀土",
-          "status": "excluded",
-          "ma20": 34.581,
-          "close": 31.71,
-          "change_pct": 0.51,
-          "deviation": -8.3,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "601020",
-          "name": "华钰矿业",
-          "status": "excluded",
-          "ma20": 13.302,
-          "close": 11.14,
-          "change_pct": 0.45,
-          "deviation": -16.25,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "601106",
-          "name": "中国一重",
-          "status": "excluded",
-          "ma20": 2.79,
-          "close": 2.64,
-          "change_pct": 0.38,
-          "deviation": -5.39,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "002225",
-          "name": "濮耐股份",
-          "status": "excluded",
-          "ma20": 3.063,
-          "close": 2.8,
-          "change_pct": 0.36,
-          "deviation": -8.59,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300402",
-          "name": "宝色股份",
-          "status": "excluded",
-          "ma20": 12.604,
-          "close": 11.28,
-          "change_pct": 0.36,
-          "deviation": -10.51,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600478",
-          "name": "科力远",
-          "status": "excluded",
-          "ma20": 3.455,
-          "close": 3.08,
-          "change_pct": 0.33,
-          "deviation": -10.87,
-          "above_streak": 0,
-          "below_streak": 26,
-          "deviation_alert": null
-        },
-        {
-          "code": "301118",
-          "name": "恒光股份",
-          "status": "excluded",
-          "ma20": 18.337,
-          "close": 16.46,
-          "change_pct": 0.3,
-          "deviation": -10.24,
-          "above_streak": 0,
-          "below_streak": 25,
-          "deviation_alert": null
-        },
-        {
-          "code": "000546",
-          "name": "金圆股份",
-          "status": "excluded",
-          "ma20": 3.776,
-          "close": 3.49,
-          "change_pct": 0.29,
-          "deviation": -7.57,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "600328",
-          "name": "中盐化工",
-          "status": "excluded",
-          "ma20": 5.246,
-          "close": 4.87,
-          "change_pct": 0.21,
-          "deviation": -7.17,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "600755",
-          "name": "厦门国贸",
-          "status": "excluded",
-          "ma20": 5.479,
-          "close": 5.14,
-          "change_pct": 0.19,
-          "deviation": -6.18,
-          "above_streak": 0,
-          "below_streak": 3,
-          "deviation_alert": null
-        },
-        {
-          "code": "300789",
-          "name": "唐源电气",
-          "status": "excluded",
-          "ma20": 13.878,
-          "close": 12.1,
-          "change_pct": 0.17,
-          "deviation": -12.81,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "002237",
-          "name": "恒邦股份",
-          "status": "excluded",
-          "ma20": 10.877,
-          "close": 9.84,
-          "change_pct": 0.0,
-          "deviation": -9.53,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "000751",
-          "name": "锌业股份",
-          "status": "excluded",
-          "ma20": 3.716,
-          "close": 3.37,
-          "change_pct": 0.0,
-          "deviation": -9.3,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "002628",
-          "name": "成都路桥",
-          "status": "excluded",
-          "ma20": 4.209,
-          "close": 3.87,
-          "change_pct": 0.0,
-          "deviation": -8.04,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "000629",
-          "name": "钒钛股份",
-          "status": "excluded",
-          "ma20": 2.627,
-          "close": 2.47,
-          "change_pct": 0.0,
-          "deviation": -5.99,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "002978",
-          "name": "安宁股份",
-          "status": "excluded",
-          "ma20": 23.348,
-          "close": 21.33,
-          "change_pct": -0.05,
-          "deviation": -8.65,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        }
-      ],
+      "status_counts": {},
+      "stocks": [],
       "klines": [
-        {
-          "date": "2026-07-14",
-          "open": 3282.689,
-          "high": 3390.745,
-          "low": 3253.531,
-          "close": 3390.745
-        },
         {
           "date": "2026-07-15",
           "open": 3396.709,
@@ -1259,1894 +646,51 @@
           "high": 2697.628,
           "low": 2586.412,
           "close": 2596.579
+        },
+        {
+          "date": "2026-11-25",
+          "open": 2555.303,
+          "high": 2608.051,
+          "low": 2497.366,
+          "close": 2497.366
         }
       ]
     },
     {
       "name": "AI应用",
       "matched_symbol": "AI应用",
-      "matched_code": "309264",
+      "matched_code": null,
       "index_symbol": "AI应用",
-      "member_source": "ths-html:309264(50)",
-      "status": "bearish",
-      "ma20": 784.96,
-      "close": 724.62,
-      "deviation": -7.69,
-      "source_stock_count": 50,
-      "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "member_source": "none",
+      "status": "unknown",
+      "ma20": null,
+      "close": null,
+      "deviation": null,
+      "source_stock_count": 0,
+      "processed_stock_count": 0,
+      "classified_stock_count": 0,
       "truncated": false,
-      "status_counts": {
-        "above": 6,
-        "tangle": 5,
-        "excluded": 39
-      },
-      "stocks": [
-        {
-          "code": "603960",
-          "name": "克来机电",
-          "status": "above",
-          "ma20": 14.45,
-          "close": 18.6,
-          "change_pct": 9.99,
-          "deviation": 28.72,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002197",
-          "name": "证通电子",
-          "status": "above",
-          "ma20": 5.698,
-          "close": 6.41,
-          "change_pct": 9.95,
-          "deviation": 12.5,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002642",
-          "name": "荣联科技",
-          "status": "above",
-          "ma20": 6.958,
-          "close": 8.32,
-          "change_pct": 7.22,
-          "deviation": 19.57,
-          "above_streak": 4,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002771",
-          "name": "真视通",
-          "status": "above",
-          "ma20": 12.327,
-          "close": 18.12,
-          "change_pct": 4.56,
-          "deviation": 47.0,
-          "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "603206",
-          "name": "嘉环科技",
-          "status": "above",
-          "ma20": 13.48,
-          "close": 14.91,
-          "change_pct": 3.4,
-          "deviation": 10.61,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600410",
-          "name": "华胜天成",
-          "status": "above",
-          "ma20": 13.855,
-          "close": 17.66,
-          "change_pct": 2.85,
-          "deviation": 27.46,
-          "above_streak": 10,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300290",
-          "name": "ST荣科",
-          "status": "tangle",
-          "ma20": 4.981,
-          "close": 5.07,
-          "change_pct": 19.29,
-          "deviation": 1.8,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002713",
-          "name": "东易日盛",
-          "status": "tangle",
-          "ma20": 7.398,
-          "close": 7.24,
-          "change_pct": 10.03,
-          "deviation": -2.13,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300430",
-          "name": "*ST益通",
-          "status": "tangle",
-          "ma20": 3.5,
-          "close": 3.55,
-          "change_pct": 7.58,
-          "deviation": 1.41,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300785",
-          "name": "值得买",
-          "status": "tangle",
-          "ma20": 30.097,
-          "close": 29.95,
-          "change_pct": 5.57,
-          "deviation": -0.49,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600572",
-          "name": "康恩贝",
-          "status": "tangle",
-          "ma20": 4.187,
-          "close": 4.08,
-          "change_pct": 1.75,
-          "deviation": -2.57,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688066",
-          "name": "*ST航图",
-          "status": "excluded",
-          "ma20": 5.619,
-          "close": 4.14,
-          "change_pct": 20.0,
-          "deviation": -26.32,
-          "above_streak": 0,
-          "below_streak": 14,
-          "deviation_alert": null
-        },
-        {
-          "code": "605136",
-          "name": "丽人丽妆",
-          "status": "excluded",
-          "ma20": 8.201,
-          "close": 7.85,
-          "change_pct": 9.94,
-          "deviation": -4.29,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002607",
-          "name": "中公教育",
-          "status": "excluded",
-          "ma20": 1.615,
-          "close": 1.57,
-          "change_pct": 9.79,
-          "deviation": -2.76,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "301408",
-          "name": "华人健康",
-          "status": "excluded",
-          "ma20": 13.239,
-          "close": 12.53,
-          "change_pct": 6.55,
-          "deviation": -5.36,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300235",
-          "name": "方直科技",
-          "status": "excluded",
-          "ma20": 9.194,
-          "close": 8.78,
-          "change_pct": 5.15,
-          "deviation": -4.5,
-          "above_streak": 0,
-          "below_streak": 28,
-          "deviation_alert": null
-        },
-        {
-          "code": "300081",
-          "name": "ST恒信",
-          "status": "excluded",
-          "ma20": 3.132,
-          "close": 3.01,
-          "change_pct": 3.79,
-          "deviation": -3.9,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "002419",
-          "name": "天虹股份",
-          "status": "excluded",
-          "ma20": 4.688,
-          "close": 4.19,
-          "change_pct": 3.71,
-          "deviation": -10.63,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "300612",
-          "name": "宣亚国际",
-          "status": "excluded",
-          "ma20": 11.686,
-          "close": 10.42,
-          "change_pct": 3.68,
-          "deviation": -10.84,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "002625",
-          "name": "光启技术",
-          "status": "excluded",
-          "ma20": 18.265,
-          "close": 17.11,
-          "change_pct": 3.63,
-          "deviation": -6.32,
-          "above_streak": 0,
-          "below_streak": 22,
-          "deviation_alert": null
-        },
-        {
-          "code": "600479",
-          "name": "千金药业",
-          "status": "excluded",
-          "ma20": 10.378,
-          "close": 10.02,
-          "change_pct": 3.3,
-          "deviation": -3.45,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "688244",
-          "name": "永信至诚",
-          "status": "excluded",
-          "ma20": 14.447,
-          "close": 12.64,
-          "change_pct": 3.18,
-          "deviation": -12.5,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "603825",
-          "name": "ST华扬",
-          "status": "excluded",
-          "ma20": 6.301,
-          "close": 5.55,
-          "change_pct": 3.16,
-          "deviation": -11.93,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "688076",
-          "name": "ST诺泰",
-          "status": "excluded",
-          "ma20": 26.772,
-          "close": 25.74,
-          "change_pct": 2.96,
-          "deviation": -3.85,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "688015",
-          "name": "交控科技",
-          "status": "excluded",
-          "ma20": 13.313,
-          "close": 12.78,
-          "change_pct": 2.82,
-          "deviation": -4.01,
-          "above_streak": 0,
-          "below_streak": 20,
-          "deviation_alert": null
-        },
-        {
-          "code": "600661",
-          "name": "昂立教育",
-          "status": "excluded",
-          "ma20": 7.694,
-          "close": 7.16,
-          "change_pct": 2.73,
-          "deviation": -6.93,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "002474",
-          "name": "榕基软件",
-          "status": "excluded",
-          "ma20": 5.366,
-          "close": 4.98,
-          "change_pct": 2.68,
-          "deviation": -7.19,
-          "above_streak": 0,
-          "below_streak": 21,
-          "deviation_alert": null
-        },
-        {
-          "code": "000524",
-          "name": "岭南控股",
-          "status": "excluded",
-          "ma20": 8.402,
-          "close": 8.07,
-          "change_pct": 2.67,
-          "deviation": -3.95,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "300359",
-          "name": "全通教育",
-          "status": "excluded",
-          "ma20": 3.676,
-          "close": 3.5,
-          "change_pct": 2.64,
-          "deviation": -4.8,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300295",
-          "name": "*ST三六五",
-          "status": "excluded",
-          "ma20": 9.516,
-          "close": 8.59,
-          "change_pct": 2.63,
-          "deviation": -9.73,
-          "above_streak": 0,
-          "below_streak": 24,
-          "deviation_alert": null
-        },
-        {
-          "code": "000417",
-          "name": "合百集团",
-          "status": "excluded",
-          "ma20": 5.801,
-          "close": 5.46,
-          "change_pct": 2.63,
-          "deviation": -5.88,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "002995",
-          "name": "天地在线",
-          "status": "excluded",
-          "ma20": 17.652,
-          "close": 15.39,
-          "change_pct": 2.6,
-          "deviation": -12.81,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300605",
-          "name": "恒锋信息",
-          "status": "excluded",
-          "ma20": 8.773,
-          "close": 8.37,
-          "change_pct": 2.57,
-          "deviation": -4.6,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "601999",
-          "name": "出版传媒",
-          "status": "excluded",
-          "ma20": 6.796,
-          "close": 6.4,
-          "change_pct": 2.56,
-          "deviation": -5.83,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300592",
-          "name": "华凯易佰",
-          "status": "excluded",
-          "ma20": 15.459,
-          "close": 12.72,
-          "change_pct": 2.5,
-          "deviation": -17.72,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002777",
-          "name": "久远银海",
-          "status": "excluded",
-          "ma20": 11.665,
-          "close": 10.85,
-          "change_pct": 2.46,
-          "deviation": -6.99,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "002589",
-          "name": "瑞康医药",
-          "status": "excluded",
-          "ma20": 2.715,
-          "close": 2.52,
-          "change_pct": 2.44,
-          "deviation": -7.18,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "301078",
-          "name": "孩子王",
-          "status": "excluded",
-          "ma20": 6.29,
-          "close": 5.95,
-          "change_pct": 2.41,
-          "deviation": -5.41,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "301136",
-          "name": "招标股份",
-          "status": "excluded",
-          "ma20": 9.444,
-          "close": 8.39,
-          "change_pct": 2.32,
-          "deviation": -11.17,
-          "above_streak": 0,
-          "below_streak": 25,
-          "deviation_alert": null
-        },
-        {
-          "code": "301110",
-          "name": "青木科技",
-          "status": "excluded",
-          "ma20": 31.053,
-          "close": 29.61,
-          "change_pct": 2.28,
-          "deviation": -4.65,
-          "above_streak": 0,
-          "below_streak": 20,
-          "deviation_alert": null
-        },
-        {
-          "code": "300559",
-          "name": "佳发教育",
-          "status": "excluded",
-          "ma20": 10.098,
-          "close": 9.67,
-          "change_pct": 2.22,
-          "deviation": -4.24,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600138",
-          "name": "中青旅",
-          "status": "excluded",
-          "ma20": 6.486,
-          "close": 6.05,
-          "change_pct": 2.2,
-          "deviation": -6.72,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "002264",
-          "name": "新华都",
-          "status": "excluded",
-          "ma20": 6.139,
-          "close": 5.65,
-          "change_pct": 2.17,
-          "deviation": -7.96,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300155",
-          "name": "安居宝",
-          "status": "excluded",
-          "ma20": 3.668,
-          "close": 3.36,
-          "change_pct": 2.13,
-          "deviation": -8.4,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300016",
-          "name": "北陆药业",
-          "status": "excluded",
-          "ma20": 7.615,
-          "close": 6.8,
-          "change_pct": 2.1,
-          "deviation": -10.71,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300645",
-          "name": "正元智慧",
-          "status": "excluded",
-          "ma20": 11.973,
-          "close": 10.86,
-          "change_pct": 2.07,
-          "deviation": -9.3,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "688659",
-          "name": "元琛科技",
-          "status": "excluded",
-          "ma20": 7.241,
-          "close": 6.39,
-          "change_pct": 1.91,
-          "deviation": -11.76,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300355",
-          "name": "蒙草生态",
-          "status": "excluded",
-          "ma20": 2.431,
-          "close": 2.26,
-          "change_pct": 1.8,
-          "deviation": -7.03,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "002398",
-          "name": "垒知集团",
-          "status": "excluded",
-          "ma20": 3.684,
-          "close": 3.36,
-          "change_pct": 1.51,
-          "deviation": -8.79,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "920367",
-          "name": "新赣江",
-          "status": "excluded",
-          "ma20": 19.448,
-          "close": 17.22,
-          "change_pct": -0.29,
-          "deviation": -11.46,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        }
-      ],
-      "klines": [
-        {
-          "date": "2026-07-14",
-          "open": 777.619,
-          "high": 779.299,
-          "low": 758.408,
-          "close": 778.734
-        },
-        {
-          "date": "2026-07-15",
-          "open": 776.552,
-          "high": 796.045,
-          "low": 775.747,
-          "close": 788.734
-        },
-        {
-          "date": "2026-07-16",
-          "open": 782.698,
-          "high": 804.826,
-          "low": 780.321,
-          "close": 796.977
-        },
-        {
-          "date": "2026-07-17",
-          "open": 794.993,
-          "high": 802.039,
-          "low": 757.724,
-          "close": 760.98
-        },
-        {
-          "date": "2026-07-20",
-          "open": 765.436,
-          "high": 779.091,
-          "low": 740.978,
-          "close": 754.847
-        },
-        {
-          "date": "2026-07-21",
-          "open": 752.198,
-          "high": 765.079,
-          "low": 726.157,
-          "close": 765.079
-        },
-        {
-          "date": "2026-07-22",
-          "open": 758.169,
-          "high": 767.179,
-          "low": 752.588,
-          "close": 756.562
-        },
-        {
-          "date": "2026-07-23",
-          "open": 753.58,
-          "high": 763.04,
-          "low": 749.122,
-          "close": 762.912
-        },
-        {
-          "date": "2026-07-24",
-          "open": 753.946,
-          "high": 755.529,
-          "low": 737.333,
-          "close": 737.333
-        },
-        {
-          "date": "2026-07-27",
-          "open": 735.623,
-          "high": 763.19,
-          "low": 733.817,
-          "close": 763.19
-        },
-        {
-          "date": "2026-07-28",
-          "open": 756.38,
-          "high": 776.252,
-          "low": 756.219,
-          "close": 767.753
-        },
-        {
-          "date": "2026-07-29",
-          "open": 769.459,
-          "high": 781.148,
-          "low": 762.651,
-          "close": 777.956
-        },
-        {
-          "date": "2026-07-30",
-          "open": 774.15,
-          "high": 791.314,
-          "low": 767.965,
-          "close": 770.401
-        },
-        {
-          "date": "2026-07-31",
-          "open": 775.989,
-          "high": 816.796,
-          "low": 775.989,
-          "close": 809.778
-        },
-        {
-          "date": "2026-08-03",
-          "open": 810.289,
-          "high": 821.938,
-          "low": 808.709,
-          "close": 817.923
-        },
-        {
-          "date": "2026-08-04",
-          "open": 823.523,
-          "high": 843.524,
-          "low": 823.523,
-          "close": 842.025
-        },
-        {
-          "date": "2026-08-05",
-          "open": 840.299,
-          "high": 860.709,
-          "low": 840.215,
-          "close": 856.253
-        },
-        {
-          "date": "2026-08-06",
-          "open": 849.47,
-          "high": 863.569,
-          "low": 844.634,
-          "close": 855.958
-        },
-        {
-          "date": "2026-08-07",
-          "open": 853.701,
-          "high": 854.141,
-          "low": 833.348,
-          "close": 854.061
-        },
-        {
-          "date": "2026-08-10",
-          "open": 855.359,
-          "high": 862.452,
-          "low": 845.86,
-          "close": 861.54
-        },
-        {
-          "date": "2026-08-11",
-          "open": 860.105,
-          "high": 865.967,
-          "low": 850.58,
-          "close": 858.494
-        },
-        {
-          "date": "2026-08-12",
-          "open": 859.883,
-          "high": 871.195,
-          "low": 856.485,
-          "close": 867.147
-        },
-        {
-          "date": "2026-08-13",
-          "open": 869.261,
-          "high": 880.516,
-          "low": 858.708,
-          "close": 858.709
-        },
-        {
-          "date": "2026-08-14",
-          "open": 858.166,
-          "high": 863.961,
-          "low": 843.352,
-          "close": 856.086
-        },
-        {
-          "date": "2026-08-17",
-          "open": 856.04,
-          "high": 861.76,
-          "low": 843.749,
-          "close": 861.76
-        },
-        {
-          "date": "2026-08-18",
-          "open": 859.801,
-          "high": 859.801,
-          "low": 844.261,
-          "close": 854.992
-        },
-        {
-          "date": "2026-08-19",
-          "open": 845.44,
-          "high": 845.44,
-          "low": 815.114,
-          "close": 816.616
-        },
-        {
-          "date": "2026-08-20",
-          "open": 824.729,
-          "high": 835.455,
-          "low": 820.987,
-          "close": 828.605
-        },
-        {
-          "date": "2026-08-21",
-          "open": 823.565,
-          "high": 827.85,
-          "low": 813.153,
-          "close": 826.285
-        },
-        {
-          "date": "2026-08-24",
-          "open": 825.93,
-          "high": 827.716,
-          "low": 804.284,
-          "close": 811.686
-        },
-        {
-          "date": "2026-08-25",
-          "open": 807.851,
-          "high": 829.834,
-          "low": 806.242,
-          "close": 827.933
-        },
-        {
-          "date": "2026-08-26",
-          "open": 826.256,
-          "high": 832.128,
-          "low": 820.004,
-          "close": 827.0
-        },
-        {
-          "date": "2026-08-27",
-          "open": 825.483,
-          "high": 834.605,
-          "low": 823.539,
-          "close": 834.605
-        },
-        {
-          "date": "2026-08-28",
-          "open": 838.213,
-          "high": 848.416,
-          "low": 836.862,
-          "close": 837.733
-        },
-        {
-          "date": "2026-08-31",
-          "open": 829.288,
-          "high": 855.139,
-          "low": 829.204,
-          "close": 854.625
-        },
-        {
-          "date": "2026-09-01",
-          "open": 855.69,
-          "high": 872.379,
-          "low": 855.69,
-          "close": 870.018
-        },
-        {
-          "date": "2026-09-02",
-          "open": 862.749,
-          "high": 864.591,
-          "low": 855.285,
-          "close": 859.718
-        },
-        {
-          "date": "2026-09-03",
-          "open": 863.476,
-          "high": 869.934,
-          "low": 849.353,
-          "close": 852.266
-        },
-        {
-          "date": "2026-09-04",
-          "open": 858.591,
-          "high": 879.088,
-          "low": 854.659,
-          "close": 859.377
-        },
-        {
-          "date": "2026-09-07",
-          "open": 859.487,
-          "high": 862.643,
-          "low": 855.538,
-          "close": 861.62
-        },
-        {
-          "date": "2026-09-08",
-          "open": 862.415,
-          "high": 870.975,
-          "low": 858.4,
-          "close": 866.349
-        },
-        {
-          "date": "2026-09-09",
-          "open": 862.579,
-          "high": 862.747,
-          "low": 846.573,
-          "close": 851.554
-        },
-        {
-          "date": "2026-09-10",
-          "open": 848.095,
-          "high": 848.095,
-          "low": 839.657,
-          "close": 841.123
-        },
-        {
-          "date": "2026-09-11",
-          "open": 835.207,
-          "high": 835.207,
-          "low": 815.1,
-          "close": 824.395
-        },
-        {
-          "date": "2026-09-14",
-          "open": 824.629,
-          "high": 833.278,
-          "low": 821.817,
-          "close": 829.961
-        },
-        {
-          "date": "2026-09-15",
-          "open": 832.459,
-          "high": 833.426,
-          "low": 818.021,
-          "close": 818.384
-        },
-        {
-          "date": "2026-09-16",
-          "open": 815.056,
-          "high": 827.832,
-          "low": 809.249,
-          "close": 826.414
-        },
-        {
-          "date": "2026-09-17",
-          "open": 823.324,
-          "high": 829.947,
-          "low": 822.132,
-          "close": 828.155
-        },
-        {
-          "date": "2026-09-18",
-          "open": 832.988,
-          "high": 842.575,
-          "low": 832.463,
-          "close": 841.159
-        },
-        {
-          "date": "2026-09-21",
-          "open": 845.43,
-          "high": 860.633,
-          "low": 844.938,
-          "close": 860.515
-        },
-        {
-          "date": "2026-09-22",
-          "open": 865.664,
-          "high": 879.351,
-          "low": 864.698,
-          "close": 873.138
-        },
-        {
-          "date": "2026-09-23",
-          "open": 871.314,
-          "high": 871.314,
-          "low": 860.261,
-          "close": 861.663
-        },
-        {
-          "date": "2026-09-24",
-          "open": 859.393,
-          "high": 863.655,
-          "low": 849.913,
-          "close": 850.892
-        },
-        {
-          "date": "2026-09-28",
-          "open": 851.913,
-          "high": 851.938,
-          "low": 827.883,
-          "close": 832.774
-        },
-        {
-          "date": "2026-09-29",
-          "open": 831.624,
-          "high": 849.871,
-          "low": 831.159,
-          "close": 845.001
-        },
-        {
-          "date": "2026-09-30",
-          "open": 847.819,
-          "high": 848.043,
-          "low": 838.07,
-          "close": 840.433
-        },
-        {
-          "date": "2026-10-08",
-          "open": 841.003,
-          "high": 844.744,
-          "low": 818.637,
-          "close": 823.185
-        },
-        {
-          "date": "2026-10-09",
-          "open": 821.756,
-          "high": 847.991,
-          "low": 800.206,
-          "close": 846.624
-        },
-        {
-          "date": "2026-10-12",
-          "open": 846.216,
-          "high": 850.084,
-          "low": 835.777,
-          "close": 843.4
-        },
-        {
-          "date": "2026-10-13",
-          "open": 833.139,
-          "high": 854.754,
-          "low": 823.954,
-          "close": 848.026
-        },
-        {
-          "date": "2026-10-14",
-          "open": 844.819,
-          "high": 850.904,
-          "low": 836.767,
-          "close": 838.533
-        },
-        {
-          "date": "2026-10-15",
-          "open": 819.853,
-          "high": 836.713,
-          "low": 814.468,
-          "close": 815.874
-        },
-        {
-          "date": "2026-10-16",
-          "open": 827.128,
-          "high": 832.351,
-          "low": 805.184,
-          "close": 811.585
-        },
-        {
-          "date": "2026-10-19",
-          "open": 805.874,
-          "high": 816.513,
-          "low": 797.955,
-          "close": 811.798
-        },
-        {
-          "date": "2026-10-20",
-          "open": 809.859,
-          "high": 833.011,
-          "low": 808.675,
-          "close": 830.451
-        },
-        {
-          "date": "2026-10-21",
-          "open": 833.495,
-          "high": 842.843,
-          "low": 832.853,
-          "close": 835.797
-        },
-        {
-          "date": "2026-10-22",
-          "open": 835.474,
-          "high": 836.221,
-          "low": 805.584,
-          "close": 805.584
-        },
-        {
-          "date": "2026-10-23",
-          "open": 793.253,
-          "high": 835.943,
-          "low": 772.387,
-          "close": 833.575
-        },
-        {
-          "date": "2026-10-26",
-          "open": 828.727,
-          "high": 845.145,
-          "low": 824.615,
-          "close": 835.279
-        },
-        {
-          "date": "2026-10-27",
-          "open": 834.838,
-          "high": 840.464,
-          "low": 804.112,
-          "close": 804.112
-        },
-        {
-          "date": "2026-10-28",
-          "open": 807.641,
-          "high": 824.09,
-          "low": 797.359,
-          "close": 816.223
-        },
-        {
-          "date": "2026-10-29",
-          "open": 809.843,
-          "high": 810.127,
-          "low": 791.237,
-          "close": 791.237
-        },
-        {
-          "date": "2026-10-30",
-          "open": 777.206,
-          "high": 792.039,
-          "low": 753.231,
-          "close": 753.231
-        },
-        {
-          "date": "2026-11-02",
-          "open": 756.583,
-          "high": 799.211,
-          "low": 745.21,
-          "close": 794.329
-        },
-        {
-          "date": "2026-11-03",
-          "open": 789.7,
-          "high": 803.583,
-          "low": 778.441,
-          "close": 783.684
-        },
-        {
-          "date": "2026-11-04",
-          "open": 784.19,
-          "high": 807.032,
-          "low": 777.423,
-          "close": 804.033
-        },
-        {
-          "date": "2026-11-05",
-          "open": 800.723,
-          "high": 830.77,
-          "low": 800.723,
-          "close": 830.77
-        },
-        {
-          "date": "2026-11-06",
-          "open": 804.659,
-          "high": 823.641,
-          "low": 804.659,
-          "close": 812.464
-        },
-        {
-          "date": "2026-11-09",
-          "open": 820.844,
-          "high": 829.324,
-          "low": 808.588,
-          "close": 808.928
-        },
-        {
-          "date": "2026-11-10",
-          "open": 818.604,
-          "high": 830.552,
-          "low": 818.604,
-          "close": 830.206
-        },
-        {
-          "date": "2026-11-11",
-          "open": 827.922,
-          "high": 841.626,
-          "low": 825.825,
-          "close": 838.324
-        },
-        {
-          "date": "2026-11-12",
-          "open": 837.449,
-          "high": 842.18,
-          "low": 817.301,
-          "close": 817.851
-        },
-        {
-          "date": "2026-11-13",
-          "open": 818.756,
-          "high": 823.314,
-          "low": 804.694,
-          "close": 806.479
-        },
-        {
-          "date": "2026-11-16",
-          "open": 804.307,
-          "high": 804.385,
-          "low": 784.913,
-          "close": 788.836
-        },
-        {
-          "date": "2026-11-17",
-          "open": 782.176,
-          "high": 790.547,
-          "low": 766.61,
-          "close": 770.678
-        },
-        {
-          "date": "2026-11-18",
-          "open": 772.874,
-          "high": 776.791,
-          "low": 755.978,
-          "close": 764.75
-        },
-        {
-          "date": "2026-11-19",
-          "open": 762.953,
-          "high": 762.953,
-          "low": 733.305,
-          "close": 736.53
-        },
-        {
-          "date": "2026-11-20",
-          "open": 719.898,
-          "high": 730.705,
-          "low": 700.703,
-          "close": 700.703
-        },
-        {
-          "date": "2026-11-23",
-          "open": 690.002,
-          "high": 728.126,
-          "low": 684.552,
-          "close": 725.297
-        },
-        {
-          "date": "2026-11-24",
-          "open": 738.945,
-          "high": 748.681,
-          "low": 721.734,
-          "close": 724.618
-        }
-      ]
+      "status_counts": {},
+      "stocks": [],
+      "klines": []
     },
     {
       "name": "算力",
       "matched_symbol": "东数西算(算力)",
-      "matched_code": "308828",
+      "matched_code": null,
       "index_symbol": "东数西算(算力)",
-      "member_source": "ths-html:308828(50)",
+      "member_source": "none",
       "status": "bearish",
-      "ma20": 1838.7,
-      "close": 1710.02,
-      "deviation": -7.0,
-      "source_stock_count": 50,
-      "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "ma20": 1823.08,
+      "close": 1633.26,
+      "deviation": -10.41,
+      "source_stock_count": 0,
+      "processed_stock_count": 0,
+      "classified_stock_count": 0,
       "truncated": false,
-      "status_counts": {
-        "breakout_up": 1,
-        "above": 10,
-        "tangle": 4,
-        "below_d2": 1,
-        "excluded": 34
-      },
-      "stocks": [
-        {
-          "code": "603206",
-          "name": "嘉环科技",
-          "status": "breakout_up",
-          "ma20": 13.381,
-          "close": 14.42,
-          "change_pct": 9.99,
-          "deviation": 7.76,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603030",
-          "name": "全筑股份",
-          "status": "above",
-          "ma20": 1.888,
-          "close": 2.37,
-          "change_pct": 10.23,
-          "deviation": 25.5,
-          "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002122",
-          "name": "汇洲智能",
-          "status": "above",
-          "ma20": 2.715,
-          "close": 3.26,
-          "change_pct": 10.14,
-          "deviation": 20.07,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002579",
-          "name": "中京电子",
-          "status": "above",
-          "ma20": 12.345,
-          "close": 16.2,
-          "change_pct": 9.98,
-          "deviation": 31.22,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "300366",
-          "name": "ST创意",
-          "status": "above",
-          "ma20": 4.726,
-          "close": 5.4,
-          "change_pct": 5.68,
-          "deviation": 14.25,
-          "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600410",
-          "name": "华胜天成",
-          "status": "above",
-          "ma20": 13.552,
-          "close": 17.17,
-          "change_pct": 3.12,
-          "deviation": 26.69,
-          "above_streak": 9,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002771",
-          "name": "真视通",
-          "status": "above",
-          "ma20": 11.979,
-          "close": 17.33,
-          "change_pct": -0.4,
-          "deviation": 44.67,
-          "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "002197",
-          "name": "证通电子",
-          "status": "above",
-          "ma20": 5.664,
-          "close": 5.83,
-          "change_pct": -2.18,
-          "deviation": 2.92,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002042",
-          "name": "华孚时尚",
-          "status": "above",
-          "ma20": 3.47,
-          "close": 3.84,
-          "change_pct": -2.29,
-          "deviation": 10.68,
-          "above_streak": 8,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002642",
-          "name": "荣联科技",
-          "status": "above",
-          "ma20": 6.888,
-          "close": 7.76,
-          "change_pct": -2.88,
-          "deviation": 12.66,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600156",
-          "name": "华升股份",
-          "status": "above",
-          "ma20": 7.166,
-          "close": 8.56,
-          "change_pct": -2.95,
-          "deviation": 19.45,
-          "above_streak": 13,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300556",
-          "name": "丝路视觉",
-          "status": "tangle",
-          "ma20": 18.815,
-          "close": 18.85,
-          "change_pct": 2.89,
-          "deviation": 0.18,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603887",
-          "name": "城地香江",
-          "status": "tangle",
-          "ma20": 7.636,
-          "close": 7.71,
-          "change_pct": 0.39,
-          "deviation": 0.97,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688316",
-          "name": "青云科技",
-          "status": "tangle",
-          "ma20": 44.802,
-          "close": 46.0,
-          "change_pct": -1.6,
-          "deviation": 2.67,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "000815",
-          "name": "美利云",
-          "status": "tangle",
-          "ma20": 13.426,
-          "close": 13.71,
-          "change_pct": -1.93,
-          "deviation": 2.12,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002418",
-          "name": "康盛股份",
-          "status": "below_d2",
-          "ma20": 3.678,
-          "close": 3.52,
-          "change_pct": -0.85,
-          "deviation": -4.3,
-          "above_streak": 0,
-          "below_streak": 2,
-          "deviation_alert": null
-        },
-        {
-          "code": "603843",
-          "name": "*ST正平",
-          "status": "excluded",
-          "ma20": 4.676,
-          "close": 3.87,
-          "change_pct": 7.8,
-          "deviation": -17.24,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "600289",
-          "name": "ST信通",
-          "status": "excluded",
-          "ma20": 5.242,
-          "close": 5.08,
-          "change_pct": 6.95,
-          "deviation": -3.08,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300476",
-          "name": "胜宏科技",
-          "status": "excluded",
-          "ma20": 129.574,
-          "close": 122.32,
-          "change_pct": 6.27,
-          "deviation": -5.6,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "300167",
-          "name": "ST迪威迅",
-          "status": "excluded",
-          "ma20": 3.026,
-          "close": 2.79,
-          "change_pct": 4.49,
-          "deviation": -7.78,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "300020",
-          "name": "ST银江",
-          "status": "excluded",
-          "ma20": 2.935,
-          "close": 2.63,
-          "change_pct": 4.37,
-          "deviation": -10.39,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "301486",
-          "name": "致尚科技",
-          "status": "excluded",
-          "ma20": 138.032,
-          "close": 128.2,
-          "change_pct": 3.39,
-          "deviation": -7.12,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300605",
-          "name": "恒锋信息",
-          "status": "excluded",
-          "ma20": 8.839,
-          "close": 8.16,
-          "change_pct": 3.16,
-          "deviation": -7.69,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "301213",
-          "name": "观想科技",
-          "status": "excluded",
-          "ma20": 36.197,
-          "close": 31.63,
-          "change_pct": 2.26,
-          "deviation": -12.62,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002848",
-          "name": "高斯贝尔",
-          "status": "excluded",
-          "ma20": 12.666,
-          "close": 11.33,
-          "change_pct": 1.89,
-          "deviation": -10.54,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "002528",
-          "name": "*ST英飞",
-          "status": "excluded",
-          "ma20": 5.583,
-          "close": 5.28,
-          "change_pct": 1.73,
-          "deviation": -5.44,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300245",
-          "name": "ST天玑",
-          "status": "excluded",
-          "ma20": 4.854,
-          "close": 4.42,
-          "change_pct": 1.61,
-          "deviation": -8.94,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "002625",
-          "name": "光启技术",
-          "status": "excluded",
-          "ma20": 18.564,
-          "close": 16.51,
-          "change_pct": 1.16,
-          "deviation": -11.06,
-          "above_streak": 0,
-          "below_streak": 21,
-          "deviation_alert": null
-        },
-        {
-          "code": "300300",
-          "name": "海峡创新",
-          "status": "excluded",
-          "ma20": 9.199,
-          "close": 8.12,
-          "change_pct": 0.74,
-          "deviation": -11.72,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "301117",
-          "name": "ST佳缘",
-          "status": "excluded",
-          "ma20": 12.18,
-          "close": 9.45,
-          "change_pct": 0.43,
-          "deviation": -22.41,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "001298",
-          "name": "好上好",
-          "status": "excluded",
-          "ma20": 14.747,
-          "close": 14.03,
-          "change_pct": 0.36,
-          "deviation": -4.86,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "002534",
-          "name": "西子洁能",
-          "status": "excluded",
-          "ma20": 13.456,
-          "close": 11.92,
-          "change_pct": 0.34,
-          "deviation": -11.41,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "003005",
-          "name": "竞业达",
-          "status": "excluded",
-          "ma20": 12.788,
-          "close": 11.28,
-          "change_pct": 0.09,
-          "deviation": -11.79,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "603559",
-          "name": "中通国脉",
-          "status": "excluded",
-          "ma20": 7.156,
-          "close": 6.33,
-          "change_pct": -0.16,
-          "deviation": -11.54,
-          "above_streak": 0,
-          "below_streak": 22,
-          "deviation_alert": null
-        },
-        {
-          "code": "300597",
-          "name": "吉大通信",
-          "status": "excluded",
-          "ma20": 6.751,
-          "close": 6.06,
-          "change_pct": -0.66,
-          "deviation": -10.24,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300635",
-          "name": "中达安",
-          "status": "excluded",
-          "ma20": 9.049,
-          "close": 7.9,
-          "change_pct": -0.75,
-          "deviation": -12.7,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002713",
-          "name": "东易日盛",
-          "status": "excluded",
-          "ma20": 7.415,
-          "close": 6.58,
-          "change_pct": -0.9,
-          "deviation": -11.26,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300052",
-          "name": "中青宝",
-          "status": "excluded",
-          "ma20": 10.197,
-          "close": 9.21,
-          "change_pct": -1.07,
-          "deviation": -9.67,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "000886",
-          "name": "海南高速",
-          "status": "excluded",
-          "ma20": 3.945,
-          "close": 3.68,
-          "change_pct": -1.08,
-          "deviation": -6.71,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300250",
-          "name": "初灵信息",
-          "status": "excluded",
-          "ma20": 13.52,
-          "close": 12.1,
-          "change_pct": -1.22,
-          "deviation": -10.5,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "300081",
-          "name": "ST恒信",
-          "status": "excluded",
-          "ma20": 3.136,
-          "close": 2.9,
-          "change_pct": -1.36,
-          "deviation": -7.54,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "300157",
-          "name": "新锦动力",
-          "status": "excluded",
-          "ma20": 3.092,
-          "close": 2.73,
-          "change_pct": -1.44,
-          "deviation": -11.69,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600121",
-          "name": "郑州煤电",
-          "status": "excluded",
-          "ma20": 4.379,
-          "close": 4.09,
-          "change_pct": -1.45,
-          "deviation": -6.59,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "300513",
-          "name": "恒实科技",
-          "status": "excluded",
-          "ma20": 6.159,
-          "close": 5.42,
-          "change_pct": -1.45,
-          "deviation": -12.0,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300266",
-          "name": "兴源环境",
-          "status": "excluded",
-          "ma20": 1.564,
-          "close": 1.36,
-          "change_pct": -2.16,
-          "deviation": -13.07,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600831",
-          "name": "广电网络",
-          "status": "excluded",
-          "ma20": 3.174,
-          "close": 2.64,
-          "change_pct": -2.94,
-          "deviation": -16.82,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "300210",
-          "name": "森远股份",
-          "status": "excluded",
-          "ma20": 6.262,
-          "close": 5.28,
-          "change_pct": -3.3,
-          "deviation": -15.69,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "600094",
-          "name": "大名城",
-          "status": "excluded",
-          "ma20": 4.409,
-          "close": 4.08,
-          "change_pct": -3.55,
-          "deviation": -7.47,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "000010",
-          "name": "*ST美丽",
-          "status": "excluded",
-          "ma20": 1.063,
-          "close": 0.9,
-          "change_pct": -10.0,
-          "deviation": -15.37,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "300500",
-          "name": "ST启设",
-          "status": "excluded",
-          "ma20": 7.932,
-          "close": 6.11,
-          "change_pct": -11.06,
-          "deviation": -22.97,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        }
-      ],
+      "status_counts": {},
+      "stocks": [],
       "klines": [
-        {
-          "date": "2026-07-14",
-          "open": 2121.356,
-          "high": 2132.281,
-          "low": 2052.044,
-          "close": 2132.253
-        },
         {
           "date": "2026-07-15",
           "open": 2128.787,
@@ -3769,639 +1313,33 @@
           "high": 1773.345,
           "low": 1704.038,
           "close": 1710.015
+        },
+        {
+          "date": "2026-11-25",
+          "open": 1685.223,
+          "high": 1720.688,
+          "low": 1633.257,
+          "close": 1633.257
         }
       ]
     },
     {
       "name": "芯片",
       "matched_symbol": "芯片概念",
-      "matched_code": "301085",
+      "matched_code": null,
       "index_symbol": "芯片概念",
-      "member_source": "ths-html:301085(50)",
+      "member_source": "none",
       "status": "bearish",
-      "ma20": 3971.19,
-      "close": 3716.54,
-      "deviation": -6.41,
-      "source_stock_count": 50,
-      "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "ma20": 3935.01,
+      "close": 3498.42,
+      "deviation": -11.1,
+      "source_stock_count": 0,
+      "processed_stock_count": 0,
+      "classified_stock_count": 0,
       "truncated": false,
-      "status_counts": {
-        "breakout_up": 1,
-        "above": 8,
-        "tangle": 2,
-        "excluded": 39
-      },
-      "stocks": [
-        {
-          "code": "002387",
-          "name": "维信诺",
-          "status": "breakout_up",
-          "ma20": 6.072,
-          "close": 6.37,
-          "change_pct": 10.02,
-          "deviation": 4.92,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603960",
-          "name": "克来机电",
-          "status": "above",
-          "ma20": 14.271,
-          "close": 16.91,
-          "change_pct": 10.02,
-          "deviation": 18.49,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002579",
-          "name": "中京电子",
-          "status": "above",
-          "ma20": 12.345,
-          "close": 16.2,
-          "change_pct": 9.98,
-          "deviation": 31.22,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "600410",
-          "name": "华胜天成",
-          "status": "above",
-          "ma20": 13.552,
-          "close": 17.17,
-          "change_pct": 3.12,
-          "deviation": 26.69,
-          "above_streak": 9,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300824",
-          "name": "北鼎股份",
-          "status": "above",
-          "ma20": 7.869,
-          "close": 8.7,
-          "change_pct": 1.87,
-          "deviation": 10.56,
-          "above_streak": 7,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002584",
-          "name": "西陇科学",
-          "status": "above",
-          "ma20": 7.497,
-          "close": 8.62,
-          "change_pct": 1.41,
-          "deviation": 14.98,
-          "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301322",
-          "name": "绿通科技",
-          "status": "above",
-          "ma20": 39.404,
-          "close": 45.77,
-          "change_pct": 1.37,
-          "deviation": 16.15,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002197",
-          "name": "证通电子",
-          "status": "above",
-          "ma20": 5.664,
-          "close": 5.83,
-          "change_pct": -2.18,
-          "deviation": 2.92,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603324",
-          "name": "盛剑科技",
-          "status": "above",
-          "ma20": 21.739,
-          "close": 29.34,
-          "change_pct": -3.74,
-          "deviation": 34.96,
-          "above_streak": 6,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "603360",
-          "name": "百傲化学",
-          "status": "tangle",
-          "ma20": 9.844,
-          "close": 9.6,
-          "change_pct": 9.97,
-          "deviation": -2.48,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "688009",
-          "name": "中国通号",
-          "status": "tangle",
-          "ma20": 5.042,
-          "close": 5.07,
-          "change_pct": 0.2,
-          "deviation": 0.57,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002194",
-          "name": "武汉凡谷",
-          "status": "excluded",
-          "ma20": 8.901,
-          "close": 8.65,
-          "change_pct": 4.34,
-          "deviation": -2.81,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "300757",
-          "name": "罗博特科",
-          "status": "excluded",
-          "ma20": 274.163,
-          "close": 224.57,
-          "change_pct": 4.22,
-          "deviation": -18.09,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "688025",
-          "name": "杰普特",
-          "status": "excluded",
-          "ma20": 286.545,
-          "close": 236.83,
-          "change_pct": 3.38,
-          "deviation": -17.35,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "301092",
-          "name": "争光股份",
-          "status": "excluded",
-          "ma20": 39.699,
-          "close": 35.53,
-          "change_pct": 2.75,
-          "deviation": -10.5,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002189",
-          "name": "中光学",
-          "status": "excluded",
-          "ma20": 16.202,
-          "close": 15.0,
-          "change_pct": 2.74,
-          "deviation": -7.42,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "688167",
-          "name": "炬光科技",
-          "status": "excluded",
-          "ma20": 137.229,
-          "close": 111.43,
-          "change_pct": 2.73,
-          "deviation": -18.8,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "600745",
-          "name": "*ST闻泰",
-          "status": "excluded",
-          "ma20": 10.939,
-          "close": 9.28,
-          "change_pct": 2.43,
-          "deviation": -15.16,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "688115",
-          "name": "思林杰",
-          "status": "excluded",
-          "ma20": 47.755,
-          "close": 41.9,
-          "change_pct": 2.32,
-          "deviation": -12.26,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300620",
-          "name": "光库科技",
-          "status": "excluded",
-          "ma20": 186.409,
-          "close": 165.25,
-          "change_pct": 2.01,
-          "deviation": -11.35,
-          "above_streak": 0,
-          "below_streak": 19,
-          "deviation_alert": null
-        },
-        {
-          "code": "300352",
-          "name": "ST信源",
-          "status": "excluded",
-          "ma20": 2.246,
-          "close": 2.03,
-          "change_pct": 2.01,
-          "deviation": -9.62,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "002161",
-          "name": "远望谷",
-          "status": "excluded",
-          "ma20": 4.887,
-          "close": 4.37,
-          "change_pct": 1.86,
-          "deviation": -10.57,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300810",
-          "name": "中科海讯",
-          "status": "excluded",
-          "ma20": 19.655,
-          "close": 17.22,
-          "change_pct": 1.59,
-          "deviation": -12.39,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "600764",
-          "name": "中国海防",
-          "status": "excluded",
-          "ma20": 16.611,
-          "close": 15.0,
-          "change_pct": 1.21,
-          "deviation": -9.7,
-          "above_streak": 0,
-          "below_streak": 18,
-          "deviation_alert": null
-        },
-        {
-          "code": "300177",
-          "name": "中海达",
-          "status": "excluded",
-          "ma20": 5.875,
-          "close": 5.1,
-          "change_pct": 1.19,
-          "deviation": -13.18,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300123",
-          "name": "ST亚光",
-          "status": "excluded",
-          "ma20": 3.648,
-          "close": 3.51,
-          "change_pct": 0.86,
-          "deviation": -3.78,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "600076",
-          "name": "康欣新材",
-          "status": "excluded",
-          "ma20": 1.977,
-          "close": 1.77,
-          "change_pct": 0.57,
-          "deviation": -10.47,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "301117",
-          "name": "ST佳缘",
-          "status": "excluded",
-          "ma20": 12.18,
-          "close": 9.45,
-          "change_pct": 0.43,
-          "deviation": -22.41,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300643",
-          "name": "万通智控",
-          "status": "excluded",
-          "ma20": 15.928,
-          "close": 13.87,
-          "change_pct": 0.29,
-          "deviation": -12.92,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "000050",
-          "name": "深天马A",
-          "status": "excluded",
-          "ma20": 5.48,
-          "close": 5.24,
-          "change_pct": 0.19,
-          "deviation": -4.38,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300460",
-          "name": "ST惠伦",
-          "status": "excluded",
-          "ma20": 7.884,
-          "close": 7.53,
-          "change_pct": 0.13,
-          "deviation": -4.49,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300697",
-          "name": "电工合金",
-          "status": "excluded",
-          "ma20": 11.995,
-          "close": 11.09,
-          "change_pct": 0.09,
-          "deviation": -7.55,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "920125",
-          "name": "鸿仕达",
-          "status": "excluded",
-          "ma20": 92.813,
-          "close": 74.45,
-          "change_pct": -0.05,
-          "deviation": -19.78,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "688592",
-          "name": "司南导航",
-          "status": "excluded",
-          "ma20": 18.804,
-          "close": 16.52,
-          "change_pct": -0.42,
-          "deviation": -12.15,
-          "above_streak": 0,
-          "below_streak": 22,
-          "deviation_alert": null
-        },
-        {
-          "code": "300516",
-          "name": "久之洋",
-          "status": "excluded",
-          "ma20": 30.061,
-          "close": 24.77,
-          "change_pct": -0.44,
-          "deviation": -17.6,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "688808",
-          "name": "联讯仪器",
-          "status": "excluded",
-          "ma20": 765.126,
-          "close": 601.37,
-          "change_pct": -0.57,
-          "deviation": -21.4,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "300621",
-          "name": "维业股份",
-          "status": "excluded",
-          "ma20": 5.753,
-          "close": 5.02,
-          "change_pct": -0.79,
-          "deviation": -12.74,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "002081",
-          "name": "金螳螂",
-          "status": "excluded",
-          "ma20": 4.207,
-          "close": 3.95,
-          "change_pct": -1.0,
-          "deviation": -6.11,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "300125",
-          "name": "聆达股份",
-          "status": "excluded",
-          "ma20": 6.695,
-          "close": 5.86,
-          "change_pct": -1.01,
-          "deviation": -12.47,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "603396",
-          "name": "金辰股份",
-          "status": "excluded",
-          "ma20": 26.641,
-          "close": 23.46,
-          "change_pct": -1.01,
-          "deviation": -11.94,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "603335",
-          "name": "迪生力",
-          "status": "excluded",
-          "ma20": 4.802,
-          "close": 4.25,
-          "change_pct": -1.16,
-          "deviation": -11.5,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "603165",
-          "name": "荣晟环保",
-          "status": "excluded",
-          "ma20": 11.543,
-          "close": 10.58,
-          "change_pct": -1.31,
-          "deviation": -8.34,
-          "above_streak": 0,
-          "below_streak": 25,
-          "deviation_alert": null
-        },
-        {
-          "code": "002175",
-          "name": "*ST东智",
-          "status": "excluded",
-          "ma20": 2.253,
-          "close": 2.11,
-          "change_pct": -1.4,
-          "deviation": -6.37,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300434",
-          "name": "金石亚药",
-          "status": "excluded",
-          "ma20": 11.87,
-          "close": 10.24,
-          "change_pct": -1.44,
-          "deviation": -13.73,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300514",
-          "name": "友讯达",
-          "status": "excluded",
-          "ma20": 8.681,
-          "close": 7.76,
-          "change_pct": -1.52,
-          "deviation": -10.61,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "002542",
-          "name": "*ST中岩",
-          "status": "excluded",
-          "ma20": 1.283,
-          "close": 1.13,
-          "change_pct": -1.74,
-          "deviation": -11.93,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "002191",
-          "name": "劲嘉股份",
-          "status": "excluded",
-          "ma20": 3.099,
-          "close": 2.86,
-          "change_pct": -2.05,
-          "deviation": -7.73,
-          "above_streak": 0,
-          "below_streak": 3,
-          "deviation_alert": null
-        },
-        {
-          "code": "600796",
-          "name": "钱江生化",
-          "status": "excluded",
-          "ma20": 4.665,
-          "close": 4.22,
-          "change_pct": -2.31,
-          "deviation": -9.54,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "000056",
-          "name": "*ST皇庭",
-          "status": "excluded",
-          "ma20": 1.788,
-          "close": 1.62,
-          "change_pct": -2.41,
-          "deviation": -9.4,
-          "above_streak": 0,
-          "below_streak": 19,
-          "deviation_alert": null
-        },
-        {
-          "code": "600094",
-          "name": "大名城",
-          "status": "excluded",
-          "ma20": 4.409,
-          "close": 4.08,
-          "change_pct": -3.55,
-          "deviation": -7.47,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        }
-      ],
+      "status_counts": {},
+      "stocks": [],
       "klines": [
-        {
-          "date": "2026-07-14",
-          "open": 5139.225,
-          "high": 5200.262,
-          "low": 4960.906,
-          "close": 5180.036
-        },
         {
           "date": "2026-07-15",
           "open": 5205.41,
@@ -5024,640 +1962,33 @@
           "high": 3861.228,
           "low": 3704.151,
           "close": 3716.544
+        },
+        {
+          "date": "2026-11-25",
+          "open": 3650.936,
+          "high": 3717.916,
+          "low": 3498.417,
+          "close": 3498.417
         }
       ]
     },
     {
       "name": "商业航天",
       "matched_symbol": "商业航天",
-      "matched_code": "309130",
+      "matched_code": null,
       "index_symbol": "商业航天",
-      "member_source": "ths-html:309130(50)",
+      "member_source": "none",
       "status": "bearish",
-      "ma20": 1815.28,
-      "close": 1661.24,
-      "deviation": -8.49,
-      "source_stock_count": 50,
-      "processed_stock_count": 50,
-      "classified_stock_count": 50,
+      "ma20": 1798.85,
+      "close": 1582.22,
+      "deviation": -12.04,
+      "source_stock_count": 0,
+      "processed_stock_count": 0,
+      "classified_stock_count": 0,
       "truncated": false,
-      "status_counts": {
-        "breakout_up": 1,
-        "above": 1,
-        "tangle": 4,
-        "below_d1": 1,
-        "excluded": 43
-      },
-      "stocks": [
-        {
-          "code": "603206",
-          "name": "嘉环科技",
-          "status": "breakout_up",
-          "ma20": 13.381,
-          "close": 14.42,
-          "change_pct": 9.99,
-          "deviation": 7.76,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002579",
-          "name": "中京电子",
-          "status": "above",
-          "ma20": 12.345,
-          "close": 16.2,
-          "change_pct": 9.98,
-          "deviation": 31.22,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "300504",
-          "name": "天邑股份",
-          "status": "tangle",
-          "ma20": 16.96,
-          "close": 17.11,
-          "change_pct": 9.12,
-          "deviation": 0.88,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002988",
-          "name": "豪美新材",
-          "status": "tangle",
-          "ma20": 27.383,
-          "close": 27.15,
-          "change_pct": 6.55,
-          "deviation": -0.85,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300556",
-          "name": "丝路视觉",
-          "status": "tangle",
-          "ma20": 18.815,
-          "close": 18.85,
-          "change_pct": 2.89,
-          "deviation": 0.18,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600169",
-          "name": "ST太重",
-          "status": "tangle",
-          "ma20": 2.21,
-          "close": 2.26,
-          "change_pct": 1.8,
-          "deviation": 2.26,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600057",
-          "name": "厦门象屿",
-          "status": "below_d1",
-          "ma20": 6.06,
-          "close": 5.76,
-          "change_pct": -2.37,
-          "deviation": -4.94,
-          "above_streak": 0,
-          "below_streak": 1,
-          "deviation_alert": null
-        },
-        {
-          "code": "002651",
-          "name": "利君股份",
-          "status": "excluded",
-          "ma20": 7.387,
-          "close": 7.18,
-          "change_pct": 9.95,
-          "deviation": -2.8,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002194",
-          "name": "武汉凡谷",
-          "status": "excluded",
-          "ma20": 8.901,
-          "close": 8.65,
-          "change_pct": 4.34,
-          "deviation": -2.81,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "300757",
-          "name": "罗博特科",
-          "status": "excluded",
-          "ma20": 274.163,
-          "close": 224.57,
-          "change_pct": 4.22,
-          "deviation": -18.09,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "301079",
-          "name": "邵阳液压",
-          "status": "excluded",
-          "ma20": 31.313,
-          "close": 26.18,
-          "change_pct": 3.56,
-          "deviation": -16.39,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "688033",
-          "name": "*ST天宜",
-          "status": "excluded",
-          "ma20": 4.895,
-          "close": 3.67,
-          "change_pct": 3.38,
-          "deviation": -25.03,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "001400",
-          "name": "江顺科技",
-          "status": "excluded",
-          "ma20": 86.691,
-          "close": 68.83,
-          "change_pct": 3.26,
-          "deviation": -20.6,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "603131",
-          "name": "上海沪工",
-          "status": "excluded",
-          "ma20": 15.342,
-          "close": 13.41,
-          "change_pct": 3.07,
-          "deviation": -12.59,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "002938",
-          "name": "鹏鼎控股",
-          "status": "excluded",
-          "ma20": 49.961,
-          "close": 46.0,
-          "change_pct": 2.56,
-          "deviation": -7.93,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "300722",
-          "name": "新余国科",
-          "status": "excluded",
-          "ma20": 20.114,
-          "close": 17.98,
-          "change_pct": 2.51,
-          "deviation": -10.61,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300620",
-          "name": "光库科技",
-          "status": "excluded",
-          "ma20": 186.409,
-          "close": 165.25,
-          "change_pct": 2.01,
-          "deviation": -11.35,
-          "above_streak": 0,
-          "below_streak": 19,
-          "deviation_alert": null
-        },
-        {
-          "code": "300352",
-          "name": "ST信源",
-          "status": "excluded",
-          "ma20": 2.246,
-          "close": 2.03,
-          "change_pct": 2.01,
-          "deviation": -9.62,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "002190",
-          "name": "成飞集成",
-          "status": "excluded",
-          "ma20": 21.256,
-          "close": 19.12,
-          "change_pct": 1.76,
-          "deviation": -10.05,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "600764",
-          "name": "中国海防",
-          "status": "excluded",
-          "ma20": 16.611,
-          "close": 15.0,
-          "change_pct": 1.21,
-          "deviation": -9.7,
-          "above_streak": 0,
-          "below_streak": 18,
-          "deviation_alert": null
-        },
-        {
-          "code": "002625",
-          "name": "光启技术",
-          "status": "excluded",
-          "ma20": 18.564,
-          "close": 16.51,
-          "change_pct": 1.16,
-          "deviation": -11.06,
-          "above_streak": 0,
-          "below_streak": 21,
-          "deviation_alert": null
-        },
-        {
-          "code": "688586",
-          "name": "江航装备",
-          "status": "excluded",
-          "ma20": 10.992,
-          "close": 10.11,
-          "change_pct": 1.1,
-          "deviation": -8.02,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "301040",
-          "name": "中环海陆",
-          "status": "excluded",
-          "ma20": 20.094,
-          "close": 17.23,
-          "change_pct": 0.94,
-          "deviation": -14.25,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300123",
-          "name": "ST亚光",
-          "status": "excluded",
-          "ma20": 3.648,
-          "close": 3.51,
-          "change_pct": 0.86,
-          "deviation": -3.78,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "300600",
-          "name": "国瑞科技",
-          "status": "excluded",
-          "ma20": 8.349,
-          "close": 7.47,
-          "change_pct": 0.54,
-          "deviation": -10.53,
-          "above_streak": 0,
-          "below_streak": 26,
-          "deviation_alert": null
-        },
-        {
-          "code": "300095",
-          "name": "华伍股份",
-          "status": "excluded",
-          "ma20": 7.641,
-          "close": 6.86,
-          "change_pct": 0.44,
-          "deviation": -10.22,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "301117",
-          "name": "ST佳缘",
-          "status": "excluded",
-          "ma20": 12.18,
-          "close": 9.45,
-          "change_pct": 0.43,
-          "deviation": -22.41,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "002534",
-          "name": "西子洁能",
-          "status": "excluded",
-          "ma20": 13.456,
-          "close": 11.92,
-          "change_pct": 0.34,
-          "deviation": -11.41,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300414",
-          "name": "中光防雷",
-          "status": "excluded",
-          "ma20": 9.279,
-          "close": 8.08,
-          "change_pct": 0.25,
-          "deviation": -12.92,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300719",
-          "name": "安达维尔",
-          "status": "excluded",
-          "ma20": 10.103,
-          "close": 8.85,
-          "change_pct": 0.23,
-          "deviation": -12.41,
-          "above_streak": 0,
-          "below_streak": 21,
-          "deviation_alert": null
-        },
-        {
-          "code": "600990",
-          "name": "四创电子",
-          "status": "excluded",
-          "ma20": 15.814,
-          "close": 13.95,
-          "change_pct": 0.14,
-          "deviation": -11.79,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300460",
-          "name": "ST惠伦",
-          "status": "excluded",
-          "ma20": 7.884,
-          "close": 7.53,
-          "change_pct": 0.13,
-          "deviation": -4.49,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300697",
-          "name": "电工合金",
-          "status": "excluded",
-          "ma20": 11.995,
-          "close": 11.09,
-          "change_pct": 0.09,
-          "deviation": -7.55,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "688592",
-          "name": "司南导航",
-          "status": "excluded",
-          "ma20": 18.804,
-          "close": 16.52,
-          "change_pct": -0.42,
-          "deviation": -12.15,
-          "above_streak": 0,
-          "below_streak": 22,
-          "deviation_alert": null
-        },
-        {
-          "code": "300516",
-          "name": "久之洋",
-          "status": "excluded",
-          "ma20": 30.061,
-          "close": 24.77,
-          "change_pct": -0.44,
-          "deviation": -17.6,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "001316",
-          "name": "润贝航科",
-          "status": "excluded",
-          "ma20": 25.725,
-          "close": 23.8,
-          "change_pct": -0.5,
-          "deviation": -7.48,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "601992",
-          "name": "金隅集团",
-          "status": "excluded",
-          "ma20": 1.291,
-          "close": 1.21,
-          "change_pct": -0.82,
-          "deviation": -6.27,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600992",
-          "name": "贵绳股份",
-          "status": "excluded",
-          "ma20": 8.617,
-          "close": 7.51,
-          "change_pct": -0.92,
-          "deviation": -12.84,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300159",
-          "name": "新研股份",
-          "status": "excluded",
-          "ma20": 2.392,
-          "close": 2.13,
-          "change_pct": -0.93,
-          "deviation": -10.97,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "688282",
-          "name": "理工导航",
-          "status": "excluded",
-          "ma20": 44.988,
-          "close": 39.32,
-          "change_pct": -1.01,
-          "deviation": -12.6,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "600307",
-          "name": "酒钢宏兴",
-          "status": "excluded",
-          "ma20": 1.296,
-          "close": 1.2,
-          "change_pct": -1.64,
-          "deviation": -7.41,
-          "above_streak": 0,
-          "below_streak": 13,
-          "deviation_alert": null
-        },
-        {
-          "code": "300737",
-          "name": "科顺股份",
-          "status": "excluded",
-          "ma20": 3.808,
-          "close": 3.41,
-          "change_pct": -1.73,
-          "deviation": -10.44,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "603017",
-          "name": "中衡设计",
-          "status": "excluded",
-          "ma20": 8.195,
-          "close": 7.3,
-          "change_pct": -1.75,
-          "deviation": -10.92,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "301136",
-          "name": "招标股份",
-          "status": "excluded",
-          "ma20": 9.543,
-          "close": 8.2,
-          "change_pct": -1.91,
-          "deviation": -14.07,
-          "above_streak": 0,
-          "below_streak": 24,
-          "deviation_alert": null
-        },
-        {
-          "code": "600363",
-          "name": "ST联光",
-          "status": "excluded",
-          "ma20": 8.669,
-          "close": 7.56,
-          "change_pct": -2.07,
-          "deviation": -12.8,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "688244",
-          "name": "永信至诚",
-          "status": "excluded",
-          "ma20": 14.653,
-          "close": 12.25,
-          "change_pct": -2.08,
-          "deviation": -16.4,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "000825",
-          "name": "太钢不锈",
-          "status": "excluded",
-          "ma20": 3.164,
-          "close": 3.01,
-          "change_pct": -2.27,
-          "deviation": -4.87,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "300069",
-          "name": "金利华电",
-          "status": "excluded",
-          "ma20": 21.868,
-          "close": 14.97,
-          "change_pct": -3.11,
-          "deviation": -31.54,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "600094",
-          "name": "大名城",
-          "status": "excluded",
-          "ma20": 4.409,
-          "close": 4.08,
-          "change_pct": -3.55,
-          "deviation": -7.47,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "688066",
-          "name": "*ST航图",
-          "status": "excluded",
-          "ma20": 5.683,
-          "close": 3.45,
-          "change_pct": -7.75,
-          "deviation": -39.3,
-          "above_streak": 0,
-          "below_streak": 13,
-          "deviation_alert": "warn"
-        }
-      ],
+      "status_counts": {},
+      "stocks": [],
       "klines": [
-        {
-          "date": "2026-07-14",
-          "open": 2155.773,
-          "high": 2158.711,
-          "low": 2079.293,
-          "close": 2154.197
-        },
         {
           "date": "2026-07-15",
           "open": 2153.441,
@@ -6280,2561 +2611,1344 @@
           "high": 1716.632,
           "low": 1653.912,
           "close": 1661.236
+        },
+        {
+          "date": "2026-11-25",
+          "open": 1638.673,
+          "high": 1671.68,
+          "low": 1582.223,
+          "close": 1582.223
         }
       ]
     },
     {
       "name": "机器人",
-      "matched_symbol": "机器人概念",
-      "matched_code": "300816",
-      "index_symbol": "机器人概念",
-      "member_source": "ths-html:300816(49)",
+      "matched_symbol": "人形机器人",
+      "matched_code": null,
+      "index_symbol": "人形机器人",
+      "member_source": "none",
       "status": "bearish",
-      "ma20": 3429.04,
-      "close": 3194.51,
-      "deviation": -6.84,
-      "source_stock_count": 49,
-      "processed_stock_count": 49,
-      "classified_stock_count": 49,
+      "ma20": 2098.95,
+      "close": 1866.74,
+      "deviation": -11.06,
+      "source_stock_count": 0,
+      "processed_stock_count": 0,
+      "classified_stock_count": 0,
       "truncated": false,
-      "status_counts": {
-        "breakout_up": 5,
-        "above": 6,
-        "tangle": 1,
-        "below_d2": 1,
-        "excluded": 36
-      },
-      "stocks": [
-        {
-          "code": "603926",
-          "name": "铁流股份",
-          "status": "breakout_up",
-          "ma20": 15.7,
-          "close": 16.34,
-          "change_pct": 10.03,
-          "deviation": 4.08,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600400",
-          "name": "红豆股份",
-          "status": "breakout_up",
-          "ma20": 3.216,
-          "close": 3.62,
-          "change_pct": 10.03,
-          "deviation": 12.56,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002387",
-          "name": "维信诺",
-          "status": "breakout_up",
-          "ma20": 6.072,
-          "close": 6.37,
-          "change_pct": 10.02,
-          "deviation": 4.92,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002164",
-          "name": "宁波东力",
-          "status": "breakout_up",
-          "ma20": 19.357,
-          "close": 19.73,
-          "change_pct": 9.98,
-          "deviation": 1.93,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "000678",
-          "name": "襄阳轴承",
-          "status": "breakout_up",
-          "ma20": 18.611,
-          "close": 19.58,
-          "change_pct": 4.82,
-          "deviation": 5.21,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603960",
-          "name": "克来机电",
-          "status": "above",
-          "ma20": 14.271,
-          "close": 16.91,
-          "change_pct": 10.02,
-          "deviation": 18.49,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002242",
-          "name": "九阳股份",
-          "status": "above",
-          "ma20": 26.747,
-          "close": 35.05,
-          "change_pct": 10.01,
-          "deviation": 31.04,
-          "above_streak": 30,
-          "below_streak": 0,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "605018",
-          "name": "长华集团",
-          "status": "above",
-          "ma20": 10.431,
-          "close": 12.42,
-          "change_pct": 10.01,
-          "deviation": 19.07,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002548",
-          "name": "金新农",
-          "status": "above",
-          "ma20": 3.672,
-          "close": 4.55,
-          "change_pct": 9.9,
-          "deviation": 23.93,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002689",
-          "name": "ST远智",
-          "status": "above",
-          "ma20": 2.801,
-          "close": 2.97,
-          "change_pct": 2.06,
-          "deviation": 6.01,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002197",
-          "name": "证通电子",
-          "status": "above",
-          "ma20": 5.664,
-          "close": 5.83,
-          "change_pct": -2.18,
-          "deviation": 2.92,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "603360",
-          "name": "百傲化学",
-          "status": "tangle",
-          "ma20": 9.844,
-          "close": 9.6,
-          "change_pct": 9.97,
-          "deviation": -2.48,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600681",
-          "name": "百川能源",
-          "status": "below_d2",
-          "ma20": 3.454,
-          "close": 3.14,
-          "change_pct": -4.56,
-          "deviation": -9.09,
-          "above_streak": 0,
-          "below_streak": 2,
-          "deviation_alert": null
-        },
-        {
-          "code": "002651",
-          "name": "利君股份",
-          "status": "excluded",
-          "ma20": 7.387,
-          "close": 7.18,
-          "change_pct": 9.95,
-          "deviation": -2.8,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "003033",
-          "name": "征和工业",
-          "status": "excluded",
-          "ma20": 71.549,
-          "close": 61.75,
-          "change_pct": 7.63,
-          "deviation": -13.7,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "002547",
-          "name": "*ST春兴",
-          "status": "excluded",
-          "ma20": 1.845,
-          "close": 1.55,
-          "change_pct": 6.16,
-          "deviation": -15.97,
-          "above_streak": 0,
-          "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "002196",
-          "name": "方正电机",
-          "status": "excluded",
-          "ma20": 9.274,
-          "close": 9.03,
-          "change_pct": 5.86,
-          "deviation": -2.63,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300020",
-          "name": "ST银江",
-          "status": "excluded",
-          "ma20": 2.935,
-          "close": 2.63,
-          "change_pct": 4.37,
-          "deviation": -10.39,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "301079",
-          "name": "邵阳液压",
-          "status": "excluded",
-          "ma20": 31.313,
-          "close": 26.18,
-          "change_pct": 3.56,
-          "deviation": -16.39,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "603178",
-          "name": "圣龙股份",
-          "status": "excluded",
-          "ma20": 14.315,
-          "close": 13.11,
-          "change_pct": 3.31,
-          "deviation": -8.41,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "002161",
-          "name": "远望谷",
-          "status": "excluded",
-          "ma20": 4.887,
-          "close": 4.37,
-          "change_pct": 1.86,
-          "deviation": -10.57,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300810",
-          "name": "中科海讯",
-          "status": "excluded",
-          "ma20": 19.655,
-          "close": 17.22,
-          "change_pct": 1.59,
-          "deviation": -12.39,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002625",
-          "name": "光启技术",
-          "status": "excluded",
-          "ma20": 18.564,
-          "close": 16.51,
-          "change_pct": 1.16,
-          "deviation": -11.06,
-          "above_streak": 0,
-          "below_streak": 21,
-          "deviation_alert": null
-        },
-        {
-          "code": "688581",
-          "name": "安杰思",
-          "status": "excluded",
-          "ma20": 49.68,
-          "close": 47.84,
-          "change_pct": 0.95,
-          "deviation": -3.7,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300527",
-          "name": "中船应急",
-          "status": "excluded",
-          "ma20": 6.472,
-          "close": 5.87,
-          "change_pct": 0.86,
-          "deviation": -9.3,
-          "above_streak": 0,
-          "below_streak": 22,
-          "deviation_alert": null
-        },
-        {
-          "code": "603825",
-          "name": "ST华扬",
-          "status": "excluded",
-          "ma20": 6.364,
-          "close": 5.38,
-          "change_pct": 0.56,
-          "deviation": -15.46,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "300600",
-          "name": "国瑞科技",
-          "status": "excluded",
-          "ma20": 8.349,
-          "close": 7.47,
-          "change_pct": 0.54,
-          "deviation": -10.53,
-          "above_streak": 0,
-          "below_streak": 26,
-          "deviation_alert": null
-        },
-        {
-          "code": "002691",
-          "name": "*ST冀凯",
-          "status": "excluded",
-          "ma20": 3.626,
-          "close": 3.24,
-          "change_pct": 0.31,
-          "deviation": -10.63,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002697",
-          "name": "红旗连锁",
-          "status": "excluded",
-          "ma20": 4.823,
-          "close": 4.49,
-          "change_pct": 0.22,
-          "deviation": -6.9,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "300460",
-          "name": "ST惠伦",
-          "status": "excluded",
-          "ma20": 7.884,
-          "close": 7.53,
-          "change_pct": 0.13,
-          "deviation": -4.49,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300463",
-          "name": "迈克生物",
-          "status": "excluded",
-          "ma20": 8.758,
-          "close": 8.07,
-          "change_pct": -0.25,
-          "deviation": -7.86,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300875",
-          "name": "捷强装备",
-          "status": "excluded",
-          "ma20": 27.816,
-          "close": 23.7,
-          "change_pct": -0.25,
-          "deviation": -14.8,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "920367",
-          "name": "新赣江",
-          "status": "excluded",
-          "ma20": 19.448,
-          "close": 17.22,
-          "change_pct": -0.29,
-          "deviation": -11.46,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300190",
-          "name": "维尔利",
-          "status": "excluded",
-          "ma20": 3.179,
-          "close": 2.77,
-          "change_pct": -0.36,
-          "deviation": -12.88,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "688592",
-          "name": "司南导航",
-          "status": "excluded",
-          "ma20": 18.804,
-          "close": 16.52,
-          "change_pct": -0.42,
-          "deviation": -12.15,
-          "above_streak": 0,
-          "below_streak": 22,
-          "deviation_alert": null
-        },
-        {
-          "code": "603398",
-          "name": "*ST沐邦",
-          "status": "excluded",
-          "ma20": 5.621,
-          "close": 4.38,
-          "change_pct": -0.45,
-          "deviation": -22.08,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "600729",
-          "name": "重百集团",
-          "status": "excluded",
-          "ma20": 18.821,
-          "close": 17.69,
-          "change_pct": -0.56,
-          "deviation": -6.01,
-          "above_streak": 0,
-          "below_streak": 3,
-          "deviation_alert": null
-        },
-        {
-          "code": "600682",
-          "name": "南京新百",
-          "status": "excluded",
-          "ma20": 5.09,
-          "close": 4.57,
-          "change_pct": -0.87,
-          "deviation": -10.22,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "301107",
-          "name": "瑜欣电子",
-          "status": "excluded",
-          "ma20": 18.661,
-          "close": 16.72,
-          "change_pct": -0.89,
-          "deviation": -10.4,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300290",
-          "name": "ST荣科",
-          "status": "excluded",
-          "ma20": 5.008,
-          "close": 4.25,
-          "change_pct": -0.93,
-          "deviation": -15.13,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "002144",
-          "name": "宏达高科",
-          "status": "excluded",
-          "ma20": 9.092,
-          "close": 8.25,
-          "change_pct": -0.96,
-          "deviation": -9.27,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002224",
-          "name": "三力士",
-          "status": "excluded",
-          "ma20": 3.341,
-          "close": 3.01,
-          "change_pct": -0.99,
-          "deviation": -9.92,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "002059",
-          "name": "云南旅游",
-          "status": "excluded",
-          "ma20": 3.842,
-          "close": 3.48,
-          "change_pct": -1.14,
-          "deviation": -9.42,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "688022",
-          "name": "ST瀚川",
-          "status": "excluded",
-          "ma20": 8.728,
-          "close": 7.66,
-          "change_pct": -1.16,
-          "deviation": -12.24,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "603789",
-          "name": "ST星农",
-          "status": "excluded",
-          "ma20": 5.241,
-          "close": 4.6,
-          "change_pct": -1.29,
-          "deviation": -12.23,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "300081",
-          "name": "ST恒信",
-          "status": "excluded",
-          "ma20": 3.136,
-          "close": 2.9,
-          "change_pct": -1.36,
-          "deviation": -7.54,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "300753",
-          "name": "爱朋医疗",
-          "status": "excluded",
-          "ma20": 19.455,
-          "close": 16.59,
-          "change_pct": -1.72,
-          "deviation": -14.73,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "600196",
-          "name": "复星医药",
-          "status": "excluded",
-          "ma20": 22.255,
-          "close": 20.34,
-          "change_pct": -1.88,
-          "deviation": -8.6,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "600053",
-          "name": "*ST九鼎",
-          "status": "excluded",
-          "ma20": 6.021,
-          "close": 5.15,
-          "change_pct": -1.9,
-          "deviation": -14.47,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        }
-      ],
+      "status_counts": {},
+      "stocks": [],
       "klines": [
         {
-          "date": "2026-07-14",
-          "open": 3754.488,
-          "high": 3798.919,
-          "low": 3679.291,
-          "close": 3798.321
-        },
-        {
           "date": "2026-07-15",
-          "open": 3800.607,
-          "high": 3839.452,
-          "low": 3765.585,
-          "close": 3782.976
+          "open": 2413.542,
+          "high": 2432.721,
+          "low": 2375.265,
+          "close": 2387.29
         },
         {
           "date": "2026-07-16",
-          "open": 3749.617,
-          "high": 3827.971,
-          "low": 3728.103,
-          "close": 3752.87
+          "open": 2363.997,
+          "high": 2420.001,
+          "low": 2346.853,
+          "close": 2358.337
         },
         {
           "date": "2026-07-17",
-          "open": 3742.148,
-          "high": 3748.812,
-          "low": 3527.396,
-          "close": 3547.48
+          "open": 2352.022,
+          "high": 2354.698,
+          "low": 2192.783,
+          "close": 2202.548
         },
         {
           "date": "2026-07-20",
-          "open": 3577.918,
-          "high": 3605.556,
-          "low": 3368.592,
-          "close": 3427.469
+          "open": 2226.52,
+          "high": 2239.541,
+          "low": 2067.712,
+          "close": 2108.83
         },
         {
           "date": "2026-07-21",
-          "open": 3432.644,
-          "high": 3515.72,
-          "low": 3261.847,
-          "close": 3515.571
+          "open": 2117.257,
+          "high": 2186.574,
+          "low": 2005.653,
+          "close": 2186.53
         },
         {
           "date": "2026-07-22",
-          "open": 3489.024,
-          "high": 3525.636,
-          "low": 3442.332,
-          "close": 3462.542
+          "open": 2169.146,
+          "high": 2191.82,
+          "low": 2127.977,
+          "close": 2141.868
         },
         {
           "date": "2026-07-23",
-          "open": 3458.312,
-          "high": 3519.806,
-          "low": 3452.021,
-          "close": 3519.302
+          "open": 2138.417,
+          "high": 2167.49,
+          "low": 2128.204,
+          "close": 2163.776
         },
         {
           "date": "2026-07-24",
-          "open": 3478.349,
-          "high": 3502.293,
-          "low": 3423.163,
-          "close": 3427.133
+          "open": 2132.613,
+          "high": 2153.19,
+          "low": 2096.684,
+          "close": 2099.507
         },
         {
           "date": "2026-07-27",
-          "open": 3419.563,
-          "high": 3540.456,
-          "low": 3419.563,
-          "close": 3540.447
+          "open": 2097.749,
+          "high": 2173.405,
+          "low": 2096.983,
+          "close": 2173.405
         },
         {
           "date": "2026-07-28",
-          "open": 3505.163,
-          "high": 3568.637,
-          "low": 3488.304,
-          "close": 3502.508
+          "open": 2149.263,
+          "high": 2191.635,
+          "low": 2130.855,
+          "close": 2140.226
         },
         {
           "date": "2026-07-29",
-          "open": 3503.029,
-          "high": 3552.98,
-          "low": 3464.435,
-          "close": 3538.557
+          "open": 2141.182,
+          "high": 2169.014,
+          "low": 2105.527,
+          "close": 2157.856
         },
         {
           "date": "2026-07-30",
-          "open": 3519.087,
-          "high": 3546.39,
-          "low": 3427.172,
-          "close": 3444.581
+          "open": 2144.632,
+          "high": 2160.427,
+          "low": 2079.546,
+          "close": 2090.389
         },
         {
           "date": "2026-07-31",
-          "open": 3524.384,
-          "high": 3610.413,
-          "low": 3524.384,
-          "close": 3565.684
+          "open": 2156.478,
+          "high": 2215.607,
+          "low": 2156.478,
+          "close": 2181.327
         },
         {
           "date": "2026-08-03",
-          "open": 3568.766,
-          "high": 3613.249,
-          "low": 3568.208,
-          "close": 3613.249
+          "open": 2184.666,
+          "high": 2221.4,
+          "low": 2183.709,
+          "close": 2208.72
         },
         {
           "date": "2026-08-04",
-          "open": 3637.112,
-          "high": 3710.09,
-          "low": 3619.73,
-          "close": 3701.464
+          "open": 2222.819,
+          "high": 2278.332,
+          "low": 2208.422,
+          "close": 2271.501
         },
         {
           "date": "2026-08-05",
-          "open": 3698.622,
-          "high": 3798.584,
-          "low": 3698.515,
-          "close": 3787.339
+          "open": 2268.667,
+          "high": 2345.249,
+          "low": 2268.667,
+          "close": 2337.021
         },
         {
           "date": "2026-08-06",
-          "open": 3762.245,
-          "high": 3817.777,
-          "low": 3750.267,
-          "close": 3805.001
+          "open": 2317.273,
+          "high": 2360.557,
+          "low": 2312.132,
+          "close": 2345.663
         },
         {
           "date": "2026-08-07",
-          "open": 3806.172,
-          "high": 3838.233,
-          "low": 3740.779,
-          "close": 3838.222
+          "open": 2349.383,
+          "high": 2375.777,
+          "low": 2306.745,
+          "close": 2374.97
         },
         {
           "date": "2026-08-10",
-          "open": 3848.607,
-          "high": 3866.36,
-          "low": 3806.006,
-          "close": 3866.36
+          "open": 2381.376,
+          "high": 2381.592,
+          "low": 2345.245,
+          "close": 2378.607
         },
         {
           "date": "2026-08-11",
-          "open": 3849.478,
-          "high": 3891.217,
-          "low": 3812.115,
-          "close": 3860.013
+          "open": 2366.683,
+          "high": 2404.216,
+          "low": 2342.183,
+          "close": 2383.475
         },
         {
           "date": "2026-08-12",
-          "open": 3858.889,
-          "high": 3910.428,
-          "low": 3855.742,
-          "close": 3908.942
+          "open": 2382.497,
+          "high": 2416.464,
+          "low": 2380.089,
+          "close": 2414.94
         },
         {
           "date": "2026-08-13",
-          "open": 3925.791,
-          "high": 3933.437,
-          "low": 3856.758,
-          "close": 3856.758
+          "open": 2427.901,
+          "high": 2436.665,
+          "low": 2378.754,
+          "close": 2378.754
         },
         {
           "date": "2026-08-14",
-          "open": 3866.921,
-          "high": 3876.778,
-          "low": 3826.205,
-          "close": 3875.117
+          "open": 2387.574,
+          "high": 2394.668,
+          "low": 2359.216,
+          "close": 2393.06
         },
         {
           "date": "2026-08-17",
-          "open": 3882.759,
-          "high": 3954.899,
-          "low": 3858.033,
-          "close": 3954.899
+          "open": 2399.588,
+          "high": 2456.487,
+          "low": 2387.877,
+          "close": 2456.487
         },
         {
           "date": "2026-08-18",
-          "open": 3951.743,
-          "high": 3961.162,
-          "low": 3907.26,
-          "close": 3957.091
+          "open": 2453.182,
+          "high": 2470.866,
+          "low": 2431.738,
+          "close": 2468.585
         },
         {
           "date": "2026-08-19",
-          "open": 3907.262,
-          "high": 3907.262,
-          "low": 3728.694,
-          "close": 3737.749
+          "open": 2431.388,
+          "high": 2431.388,
+          "low": 2293.462,
+          "close": 2299.326
         },
         {
           "date": "2026-08-20",
-          "open": 3772.242,
-          "high": 3805.037,
-          "low": 3752.739,
-          "close": 3778.573
+          "open": 2320.13,
+          "high": 2336.696,
+          "low": 2300.194,
+          "close": 2314.647
         },
         {
           "date": "2026-08-21",
-          "open": 3760.467,
-          "high": 3804.335,
-          "low": 3716.41,
-          "close": 3795.638
+          "open": 2302.927,
+          "high": 2337.663,
+          "low": 2277.349,
+          "close": 2331.225
         },
         {
           "date": "2026-08-24",
-          "open": 3799.58,
-          "high": 3812.128,
-          "low": 3695.925,
-          "close": 3742.413
+          "open": 2333.839,
+          "high": 2342.768,
+          "low": 2261.535,
+          "close": 2294.39
         },
         {
           "date": "2026-08-25",
-          "open": 3716.346,
-          "high": 3812.278,
-          "low": 3697.824,
-          "close": 3801.796
+          "open": 2276.091,
+          "high": 2334.451,
+          "low": 2257.698,
+          "close": 2327.049
         },
         {
           "date": "2026-08-26",
-          "open": 3802.004,
-          "high": 3822.404,
-          "low": 3760.511,
-          "close": 3795.522
+          "open": 2327.269,
+          "high": 2341.668,
+          "low": 2297.36,
+          "close": 2319.48
         },
         {
           "date": "2026-08-27",
-          "open": 3792.96,
-          "high": 3852.353,
-          "low": 3785.018,
-          "close": 3852.353
+          "open": 2318.409,
+          "high": 2364.489,
+          "low": 2312.178,
+          "close": 2364.028
         },
         {
           "date": "2026-08-28",
-          "open": 3850.735,
-          "high": 3887.71,
-          "low": 3843.451,
-          "close": 3843.827
+          "open": 2364.163,
+          "high": 2389.975,
+          "low": 2349.123,
+          "close": 2349.396
         },
         {
           "date": "2026-08-31",
-          "open": 3806.767,
-          "high": 3908.041,
-          "low": 3805.186,
-          "close": 3907.644
+          "open": 2323.557,
+          "high": 2395.561,
+          "low": 2323.17,
+          "close": 2395.561
         },
         {
           "date": "2026-09-01",
-          "open": 3907.619,
-          "high": 3920.017,
-          "low": 3877.915,
-          "close": 3902.643
+          "open": 2397.444,
+          "high": 2397.444,
+          "low": 2366.784,
+          "close": 2381.187
         },
         {
           "date": "2026-09-02",
-          "open": 3872.996,
-          "high": 3900.525,
-          "low": 3846.945,
-          "close": 3881.425
+          "open": 2359.664,
+          "high": 2379.889,
+          "low": 2342.889,
+          "close": 2367.765
         },
         {
           "date": "2026-09-03",
-          "open": 3899.799,
-          "high": 3918.953,
-          "low": 3855.177,
-          "close": 3880.076
+          "open": 2382.592,
+          "high": 2399.664,
+          "low": 2360.111,
+          "close": 2378.427
         },
         {
           "date": "2026-09-04",
-          "open": 3905.76,
-          "high": 3931.796,
-          "low": 3822.168,
-          "close": 3843.127
+          "open": 2397.208,
+          "high": 2413.05,
+          "low": 2326.952,
+          "close": 2340.638
         },
         {
           "date": "2026-09-07",
-          "open": 3855.849,
-          "high": 3903.712,
-          "low": 3849.279,
-          "close": 3893.608
+          "open": 2350.106,
+          "high": 2390.721,
+          "low": 2348.218,
+          "close": 2382.029
         },
         {
           "date": "2026-09-08",
-          "open": 3896.899,
-          "high": 3909.537,
-          "low": 3874.742,
-          "close": 3892.795
+          "open": 2383.799,
+          "high": 2392.623,
+          "low": 2362.046,
+          "close": 2372.262
         },
         {
           "date": "2026-09-09",
-          "open": 3894.673,
-          "high": 3903.56,
-          "low": 3852.396,
-          "close": 3872.18
+          "open": 2375.928,
+          "high": 2385.955,
+          "low": 2347.678,
+          "close": 2361.266
         },
         {
           "date": "2026-09-10",
-          "open": 3853.65,
-          "high": 3853.65,
-          "low": 3813.188,
-          "close": 3817.206
+          "open": 2348.215,
+          "high": 2348.215,
+          "low": 2319.389,
+          "close": 2320.538
         },
         {
           "date": "2026-09-11",
-          "open": 3786.748,
-          "high": 3786.748,
-          "low": 3689.229,
-          "close": 3752.922
+          "open": 2299.073,
+          "high": 2299.073,
+          "low": 2235.627,
+          "close": 2279.184
         },
         {
           "date": "2026-09-14",
-          "open": 3738.125,
-          "high": 3799.307,
-          "low": 3722.69,
-          "close": 3778.613
+          "open": 2267.808,
+          "high": 2312.103,
+          "low": 2254.303,
+          "close": 2296.561
         },
         {
           "date": "2026-09-15",
-          "open": 3772.853,
-          "high": 3784.561,
-          "low": 3731.312,
-          "close": 3733.619
+          "open": 2293.039,
+          "high": 2306.644,
+          "low": 2272.902,
+          "close": 2274.601
         },
         {
           "date": "2026-09-16",
-          "open": 3727.48,
-          "high": 3802.526,
-          "low": 3709.864,
-          "close": 3794.912
+          "open": 2270.886,
+          "high": 2322.827,
+          "low": 2259.035,
+          "close": 2315.675
         },
         {
           "date": "2026-09-17",
-          "open": 3781.304,
-          "high": 3811.879,
-          "low": 3763.978,
-          "close": 3799.892
+          "open": 2307.5,
+          "high": 2333.07,
+          "low": 2301.349,
+          "close": 2325.479
         },
         {
           "date": "2026-09-18",
-          "open": 3827.874,
-          "high": 3870.037,
-          "low": 3827.874,
-          "close": 3865.865
+          "open": 2345.152,
+          "high": 2372.118,
+          "low": 2345.152,
+          "close": 2369.259
         },
         {
           "date": "2026-09-21",
-          "open": 3877.276,
-          "high": 3926.774,
-          "low": 3877.276,
-          "close": 3926.763
+          "open": 2376.3,
+          "high": 2408.649,
+          "low": 2376.3,
+          "close": 2400.536
         },
         {
           "date": "2026-09-22",
-          "open": 3946.546,
-          "high": 3961.627,
-          "low": 3922.023,
-          "close": 3935.579
+          "open": 2416.41,
+          "high": 2426.874,
+          "low": 2394.727,
+          "close": 2403.634
         },
         {
           "date": "2026-09-23",
-          "open": 3936.692,
-          "high": 3938.833,
-          "low": 3920.895,
-          "close": 3930.012
+          "open": 2404.14,
+          "high": 2413.255,
+          "low": 2395.686,
+          "close": 2407.218
         },
         {
           "date": "2026-09-24",
-          "open": 3919.529,
-          "high": 3934.04,
-          "low": 3881.537,
-          "close": 3882.546
+          "open": 2399.97,
+          "high": 2417.262,
+          "low": 2374.964,
+          "close": 2375.512
         },
         {
           "date": "2026-09-28",
-          "open": 3880.161,
-          "high": 3880.161,
-          "low": 3756.507,
-          "close": 3776.572
+          "open": 2373.447,
+          "high": 2373.447,
+          "low": 2290.993,
+          "close": 2305.959
         },
         {
           "date": "2026-09-29",
-          "open": 3768.918,
-          "high": 3827.775,
-          "low": 3762.88,
-          "close": 3808.154
+          "open": 2301.27,
+          "high": 2333.956,
+          "low": 2295.496,
+          "close": 2320.884
         },
         {
           "date": "2026-09-30",
-          "open": 3826.367,
-          "high": 3827.444,
-          "low": 3783.007,
-          "close": 3785.174
+          "open": 2333.233,
+          "high": 2340.9,
+          "low": 2305.982,
+          "close": 2306.877
         },
         {
           "date": "2026-10-08",
-          "open": 3790.311,
-          "high": 3829.284,
-          "low": 3698.308,
-          "close": 3721.59
+          "open": 2308.374,
+          "high": 2331.522,
+          "low": 2240.098,
+          "close": 2254.73
         },
         {
           "date": "2026-10-09",
-          "open": 3711.919,
-          "high": 3734.896,
-          "low": 3587.188,
-          "close": 3728.117
+          "open": 2247.251,
+          "high": 2263.202,
+          "low": 2166.749,
+          "close": 2256.45
         },
         {
           "date": "2026-10-12",
-          "open": 3722.332,
-          "high": 3731.452,
-          "low": 3670.544,
-          "close": 3672.722
+          "open": 2251.753,
+          "high": 2255.781,
+          "low": 2217.681,
+          "close": 2219.371
         },
         {
           "date": "2026-10-13",
-          "open": 3622.505,
-          "high": 3709.134,
-          "low": 3550.281,
-          "close": 3680.796
+          "open": 2184.622,
+          "high": 2235.637,
+          "low": 2138.73,
+          "close": 2217.414
         },
         {
           "date": "2026-10-14",
-          "open": 3672.703,
-          "high": 3677.161,
-          "low": 3603.521,
-          "close": 3605.725
+          "open": 2211.054,
+          "high": 2214.625,
+          "low": 2163.897,
+          "close": 2164.546
         },
         {
           "date": "2026-10-15",
-          "open": 3519.136,
-          "high": 3552.059,
-          "low": 3477.886,
-          "close": 3487.926
+          "open": 2106.191,
+          "high": 2127.492,
+          "low": 2080.431,
+          "close": 2086.485
         },
         {
           "date": "2026-10-16",
-          "open": 3538.535,
-          "high": 3585.237,
-          "low": 3489.228,
-          "close": 3514.905
+          "open": 2119.73,
+          "high": 2151.263,
+          "low": 2093.431,
+          "close": 2109.825
         },
         {
           "date": "2026-10-19",
-          "open": 3496.613,
-          "high": 3554.391,
-          "low": 3436.223,
-          "close": 3536.593
+          "open": 2097.188,
+          "high": 2152.608,
+          "low": 2061.044,
+          "close": 2140.662
         },
         {
           "date": "2026-10-20",
-          "open": 3528.299,
-          "high": 3642.826,
-          "low": 3525.559,
-          "close": 3619.573
+          "open": 2135.174,
+          "high": 2224.134,
+          "low": 2134.468,
+          "close": 2207.451
         },
         {
           "date": "2026-10-21",
-          "open": 3630.749,
-          "high": 3654.928,
-          "low": 3595.009,
-          "close": 3606.006
+          "open": 2214.609,
+          "high": 2228.807,
+          "low": 2194.532,
+          "close": 2201.16
         },
         {
           "date": "2026-10-22",
-          "open": 3605.318,
-          "high": 3632.739,
-          "low": 3531.535,
-          "close": 3531.535
+          "open": 2199.996,
+          "high": 2228.644,
+          "low": 2161.825,
+          "close": 2161.825
         },
         {
           "date": "2026-10-23",
-          "open": 3476.909,
-          "high": 3661.942,
-          "low": 3377.545,
-          "close": 3652.77
+          "open": 2122.96,
+          "high": 2265.928,
+          "low": 2065.228,
+          "close": 2258.246
         },
         {
           "date": "2026-10-26",
-          "open": 3634.375,
-          "high": 3665.776,
-          "low": 3602.239,
-          "close": 3626.884
+          "open": 2248.031,
+          "high": 2269.393,
+          "low": 2224.644,
+          "close": 2240.465
         },
         {
           "date": "2026-10-27",
-          "open": 3629.918,
-          "high": 3662.86,
-          "low": 3519.965,
-          "close": 3519.965
+          "open": 2239.484,
+          "high": 2269.058,
+          "low": 2178.702,
+          "close": 2178.702
         },
         {
           "date": "2026-10-28",
-          "open": 3540.455,
-          "high": 3667.302,
-          "low": 3527.585,
-          "close": 3630.43
+          "open": 2191.128,
+          "high": 2301.845,
+          "low": 2191.128,
+          "close": 2268.784
         },
         {
           "date": "2026-10-29",
-          "open": 3602.448,
-          "high": 3605.487,
-          "low": 3504.66,
-          "close": 3504.796
+          "open": 2245.622,
+          "high": 2249.731,
+          "low": 2176.019,
+          "close": 2176.019
         },
         {
           "date": "2026-10-30",
-          "open": 3431.796,
-          "high": 3533.486,
-          "low": 3369.45,
-          "close": 3369.45
+          "open": 2121.572,
+          "high": 2192.68,
+          "low": 2084.692,
+          "close": 2084.692
         },
         {
           "date": "2026-11-02",
-          "open": 3383.825,
-          "high": 3469.19,
-          "low": 3308.505,
-          "close": 3448.139
+          "open": 2090.749,
+          "high": 2145.268,
+          "low": 2030.433,
+          "close": 2127.545
         },
         {
           "date": "2026-11-03",
-          "open": 3422.239,
-          "high": 3472.261,
-          "low": 3360.395,
-          "close": 3383.087
+          "open": 2108.739,
+          "high": 2135.365,
+          "low": 2056.506,
+          "close": 2068.972
         },
         {
           "date": "2026-11-04",
-          "open": 3387.107,
-          "high": 3511.473,
-          "low": 3344.069,
-          "close": 3504.526
+          "open": 2073.832,
+          "high": 2172.403,
+          "low": 2042.126,
+          "close": 2167.907
         },
         {
           "date": "2026-11-05",
-          "open": 3473.678,
-          "high": 3605.572,
-          "low": 3472.113,
-          "close": 3590.58
+          "open": 2143.27,
+          "high": 2237.895,
+          "low": 2143.27,
+          "close": 2223.436
         },
         {
           "date": "2026-11-06",
-          "open": 3461.465,
-          "high": 3550.61,
-          "low": 3461.465,
-          "close": 3503.234
+          "open": 2132.133,
+          "high": 2194.367,
+          "low": 2132.133,
+          "close": 2158.203
         },
         {
           "date": "2026-11-09",
-          "open": 3551.986,
-          "high": 3602.079,
-          "low": 3519.813,
-          "close": 3531.913
+          "open": 2193.316,
+          "high": 2239.201,
+          "low": 2180.294,
+          "close": 2192.708
         },
         {
           "date": "2026-11-10",
-          "open": 3584.253,
-          "high": 3635.37,
-          "low": 3584.253,
-          "close": 3627.704
+          "open": 2230.117,
+          "high": 2275.13,
+          "low": 2230.117,
+          "close": 2265.535
         },
         {
           "date": "2026-11-11",
-          "open": 3620.25,
-          "high": 3697.676,
-          "low": 3617.645,
-          "close": 3690.376
+          "open": 2259.671,
+          "high": 2320.882,
+          "low": 2258.532,
+          "close": 2315.044
         },
         {
           "date": "2026-11-12",
-          "open": 3690.74,
-          "high": 3705.164,
-          "low": 3599.133,
-          "close": 3601.036
+          "open": 2313.5,
+          "high": 2325.522,
+          "low": 2240.676,
+          "close": 2242.095
         },
         {
           "date": "2026-11-13",
-          "open": 3611.135,
-          "high": 3631.104,
-          "low": 3511.989,
-          "close": 3521.451
+          "open": 2251.032,
+          "high": 2268.718,
+          "low": 2181.562,
+          "close": 2188.502
         },
         {
           "date": "2026-11-16",
-          "open": 3501.324,
-          "high": 3501.324,
-          "low": 3398.661,
-          "close": 3416.487
+          "open": 2172.474,
+          "high": 2172.474,
+          "low": 2092.28,
+          "close": 2104.48
         },
         {
           "date": "2026-11-17",
-          "open": 3390.16,
-          "high": 3439.181,
-          "low": 3321.012,
-          "close": 3341.778
+          "open": 2086.246,
+          "high": 2112.83,
+          "low": 2027.033,
+          "close": 2041.797
         },
         {
           "date": "2026-11-18",
-          "open": 3359.431,
-          "high": 3364.017,
-          "low": 3263.85,
-          "close": 3302.805
+          "open": 2054.488,
+          "high": 2061.138,
+          "low": 1987.317,
+          "close": 2015.89
         },
         {
           "date": "2026-11-19",
-          "open": 3291.777,
-          "high": 3291.777,
-          "low": 3192.689,
-          "close": 3206.337
+          "open": 2009.021,
+          "high": 2010.808,
+          "low": 1944.873,
+          "close": 1953.899
         },
         {
           "date": "2026-11-20",
-          "open": 3138.159,
-          "high": 3172.258,
-          "low": 3039.218,
-          "close": 3039.218
+          "open": 1907.65,
+          "high": 1936.176,
+          "low": 1847.699,
+          "close": 1847.699
         },
         {
           "date": "2026-11-23",
-          "open": 2993.385,
-          "high": 3186.307,
-          "low": 2979.857,
-          "close": 3172.857
+          "open": 1817.835,
+          "high": 1966.976,
+          "low": 1817.835,
+          "close": 1956.918
         },
         {
           "date": "2026-11-24",
-          "open": 3252.977,
-          "high": 3298.228,
-          "low": 3181.963,
-          "close": 3194.509
+          "open": 2014.27,
+          "high": 2053.182,
+          "low": 1973.735,
+          "close": 1980.984
+        },
+        {
+          "date": "2026-11-25",
+          "open": 1953.397,
+          "high": 1985.135,
+          "low": 1866.744,
+          "close": 1866.744
         }
       ]
     },
     {
       "name": "粮食概念",
       "matched_symbol": "粮食概念",
-      "matched_code": "308956",
-      "index_symbol": "农业种植",
-      "member_source": "ths-html:308956(49)",
+      "matched_code": null,
+      "index_symbol": "粮食概念",
+      "member_source": "none",
       "status": "bearish",
-      "ma20": 2147.95,
-      "close": 2008.27,
-      "deviation": -6.5,
-      "source_stock_count": 49,
-      "processed_stock_count": 49,
-      "classified_stock_count": 49,
+      "ma20": 770.01,
+      "close": 711.74,
+      "deviation": -7.57,
+      "source_stock_count": 0,
+      "processed_stock_count": 0,
+      "classified_stock_count": 0,
       "truncated": false,
-      "status_counts": {
-        "breakout_up": 1,
-        "above": 2,
-        "tangle": 5,
-        "excluded": 41
-      },
-      "stocks": [
-        {
-          "code": "920087",
-          "name": "秋乐种业",
-          "status": "breakout_up",
-          "ma20": 12.623,
-          "close": 12.98,
-          "change_pct": 5.61,
-          "deviation": 2.83,
-          "above_streak": 1,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600371",
-          "name": "万向德农",
-          "status": "above",
-          "ma20": 11.152,
-          "close": 12.02,
-          "change_pct": 4.52,
-          "deviation": 7.79,
-          "above_streak": 2,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600186",
-          "name": "莲花控股",
-          "status": "above",
-          "ma20": 8.751,
-          "close": 9.3,
-          "change_pct": 1.75,
-          "deviation": 6.27,
-          "above_streak": 3,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "301301",
-          "name": "川宁生物",
-          "status": "tangle",
-          "ma20": 7.639,
-          "close": 7.79,
-          "change_pct": 4.42,
-          "deviation": 1.98,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "002385",
-          "name": "大北农",
-          "status": "tangle",
-          "ma20": 2.952,
-          "close": 2.96,
-          "change_pct": 0.0,
-          "deviation": 0.25,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "300999",
-          "name": "金龙鱼",
-          "status": "tangle",
-          "ma20": 25.606,
-          "close": 25.0,
-          "change_pct": -0.48,
-          "deviation": -2.37,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
-          "status": "tangle",
-          "ma20": 7.863,
-          "close": 7.74,
-          "change_pct": -1.02,
-          "deviation": -1.56,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600300",
-          "name": "维维股份",
-          "status": "tangle",
-          "ma20": 3.025,
-          "close": 2.95,
-          "change_pct": -1.99,
-          "deviation": -2.48,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
-          "code": "600180",
-          "name": "*ST瑞茂",
-          "status": "excluded",
-          "ma20": 0.885,
-          "close": 0.55,
-          "change_pct": 10.0,
-          "deviation": -37.85,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": "warn"
-        },
-        {
-          "code": "600785",
-          "name": "新华百货",
-          "status": "excluded",
-          "ma20": 11.299,
-          "close": 10.38,
-          "change_pct": 3.08,
-          "deviation": -8.13,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002661",
-          "name": "克明食品",
-          "status": "excluded",
-          "ma20": 6.785,
-          "close": 6.45,
-          "change_pct": 1.57,
-          "deviation": -4.94,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "920403",
-          "name": "康农种业",
-          "status": "excluded",
-          "ma20": 18.41,
-          "close": 17.77,
-          "change_pct": 1.54,
-          "deviation": -3.48,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "002496",
-          "name": "辉丰股份",
-          "status": "excluded",
-          "ma20": 1.755,
-          "close": 1.58,
-          "change_pct": 0.64,
-          "deviation": -10.0,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "920786",
-          "name": "骑士乳业",
-          "status": "excluded",
-          "ma20": 6.651,
-          "close": 6.04,
-          "change_pct": 0.5,
-          "deviation": -9.18,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "002316",
-          "name": "亚联发展",
-          "status": "excluded",
-          "ma20": 3.943,
-          "close": 3.46,
-          "change_pct": 0.0,
-          "deviation": -12.26,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "status": "excluded",
-          "ma20": 13.343,
-          "close": 12.88,
-          "change_pct": -0.62,
-          "deviation": -3.47,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "600108",
-          "name": "亚盛集团",
-          "status": "excluded",
-          "ma20": 3.155,
-          "close": 3.0,
-          "change_pct": -0.66,
-          "deviation": -4.9,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300021",
-          "name": "大禹节水",
-          "status": "excluded",
-          "ma20": 3.184,
-          "close": 2.95,
-          "change_pct": -0.67,
-          "deviation": -7.36,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "002688",
-          "name": "金河生物",
-          "status": "excluded",
-          "ma20": 4.529,
-          "close": 4.06,
-          "change_pct": -0.73,
-          "deviation": -10.36,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "002041",
-          "name": "登海种业",
-          "status": "excluded",
-          "ma20": 8.508,
-          "close": 8.2,
-          "change_pct": -0.73,
-          "deviation": -3.62,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "002646",
-          "name": "天佑德酒",
-          "status": "excluded",
-          "ma20": 6.667,
-          "close": 5.77,
-          "change_pct": -0.86,
-          "deviation": -13.45,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "000930",
-          "name": "中粮科技",
-          "status": "excluded",
-          "ma20": 4.629,
-          "close": 4.35,
-          "change_pct": -0.91,
-          "deviation": -6.04,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "600313",
-          "name": "农发种业",
-          "status": "excluded",
-          "ma20": 5.635,
-          "close": 5.41,
-          "change_pct": -0.92,
-          "deviation": -4.0,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "600675",
-          "name": "中华企业",
-          "status": "excluded",
-          "ma20": 2.127,
-          "close": 1.98,
-          "change_pct": -1.0,
-          "deviation": -6.89,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "600540",
-          "name": "新赛股份",
-          "status": "excluded",
-          "ma20": 4.215,
-          "close": 3.91,
-          "change_pct": -1.01,
-          "deviation": -7.24,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "001338",
-          "name": "永顺泰",
-          "status": "excluded",
-          "ma20": 8.133,
-          "close": 7.55,
-          "change_pct": -1.18,
-          "deviation": -7.17,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "301058",
-          "name": "中粮科工",
-          "status": "excluded",
-          "ma20": 7.844,
-          "close": 7.26,
-          "change_pct": -1.22,
-          "deviation": -7.45,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "000019",
-          "name": "深粮控股",
-          "status": "excluded",
-          "ma20": 5.999,
-          "close": 5.6,
-          "change_pct": -1.23,
-          "deviation": -6.65,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "300189",
-          "name": "神农种业",
-          "status": "excluded",
-          "ma20": 4.988,
-          "close": 4.73,
-          "change_pct": -1.25,
-          "deviation": -5.16,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "000505",
-          "name": "京粮控股",
-          "status": "excluded",
-          "ma20": 5.465,
-          "close": 5.07,
-          "change_pct": -1.36,
-          "deviation": -7.24,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "002133",
-          "name": "广宇集团",
-          "status": "excluded",
-          "ma20": 2.422,
-          "close": 2.16,
-          "change_pct": -1.37,
-          "deviation": -10.84,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "000713",
-          "name": "国投丰乐",
-          "status": "excluded",
-          "ma20": 5.328,
-          "close": 5.03,
-          "change_pct": -1.37,
-          "deviation": -5.58,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "600127",
-          "name": "金健米业",
-          "status": "excluded",
-          "ma20": 9.679,
-          "close": 8.53,
-          "change_pct": -1.39,
-          "deviation": -11.87,
-          "above_streak": 0,
-          "below_streak": 27,
-          "deviation_alert": null
-        },
-        {
-          "code": "920866",
-          "name": "绿亨科技",
-          "status": "excluded",
-          "ma20": 5.412,
-          "close": 4.97,
-          "change_pct": -1.39,
-          "deviation": -8.16,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "000716",
-          "name": "黑芝麻",
-          "status": "excluded",
-          "ma20": 5.083,
-          "close": 4.69,
-          "change_pct": -1.47,
-          "deviation": -7.72,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "600354",
-          "name": "敦煌种业",
-          "status": "excluded",
-          "ma20": 6.818,
-          "close": 6.47,
-          "change_pct": -1.52,
-          "deviation": -5.1,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "601952",
-          "name": "苏垦农发",
-          "status": "excluded",
-          "ma20": 8.036,
-          "close": 7.68,
-          "change_pct": -1.66,
-          "deviation": -4.43,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "002758",
-          "name": "浙农股份",
-          "status": "excluded",
-          "ma20": 7.368,
-          "close": 6.96,
-          "change_pct": -1.69,
-          "deviation": -5.54,
-          "above_streak": 0,
-          "below_streak": 5,
-          "deviation_alert": null
-        },
-        {
-          "code": "600359",
-          "name": "新农开发",
-          "status": "excluded",
-          "ma20": 5.784,
-          "close": 5.2,
-          "change_pct": -1.7,
-          "deviation": -10.1,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "603182",
-          "name": "嘉华股份",
-          "status": "excluded",
-          "ma20": 11.298,
-          "close": 10.17,
-          "change_pct": -1.74,
-          "deviation": -9.98,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002556",
-          "name": "辉隆股份",
-          "status": "excluded",
-          "ma20": 4.237,
-          "close": 3.95,
-          "change_pct": -1.74,
-          "deviation": -6.78,
-          "above_streak": 0,
-          "below_streak": 29,
-          "deviation_alert": null
-        },
-        {
-          "code": "600692",
-          "name": "亚通股份",
-          "status": "excluded",
-          "ma20": 5.484,
-          "close": 4.98,
-          "change_pct": -1.78,
-          "deviation": -9.18,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002999",
-          "name": "天禾股份",
-          "status": "excluded",
-          "ma20": 5.393,
-          "close": 4.9,
-          "change_pct": -1.8,
-          "deviation": -9.14,
-          "above_streak": 0,
-          "below_streak": 6,
-          "deviation_alert": null
-        },
-        {
-          "code": "600965",
-          "name": "*ST福成",
-          "status": "excluded",
-          "ma20": 2.146,
-          "close": 1.84,
-          "change_pct": -2.13,
-          "deviation": -14.26,
-          "above_streak": 0,
-          "below_streak": 8,
-          "deviation_alert": null
-        },
-        {
-          "code": "002419",
-          "name": "天虹股份",
-          "status": "excluded",
-          "ma20": 4.728,
-          "close": 4.04,
-          "change_pct": -2.18,
-          "deviation": -14.55,
-          "above_streak": 0,
-          "below_streak": 4,
-          "deviation_alert": null
-        },
-        {
-          "code": "002114",
-          "name": "罗平锌电",
-          "status": "excluded",
-          "ma20": 5.728,
-          "close": 5.03,
-          "change_pct": -2.52,
-          "deviation": -12.19,
-          "above_streak": 0,
-          "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "600191",
-          "name": "华资实业",
-          "status": "excluded",
-          "ma20": 7.539,
-          "close": 6.56,
-          "change_pct": -2.53,
-          "deviation": -12.99,
-          "above_streak": 0,
-          "below_streak": 30,
-          "deviation_alert": null
-        },
-        {
-          "code": "300087",
-          "name": "ST荃银",
-          "status": "excluded",
-          "ma20": 4.875,
-          "close": 4.44,
-          "change_pct": -2.84,
-          "deviation": -8.93,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "000564",
-          "name": "供销大集",
-          "status": "excluded",
-          "ma20": 1.297,
-          "close": 1.19,
-          "change_pct": -3.25,
-          "deviation": -8.29,
-          "above_streak": 0,
-          "below_streak": 7,
-          "deviation_alert": null
-        }
-      ],
+      "status_counts": {},
+      "stocks": [],
       "klines": [
         {
-          "date": "2026-07-14",
-          "open": 2143.515,
-          "high": 2194.368,
-          "low": 2140.005,
-          "close": 2194.318
-        },
-        {
           "date": "2026-07-15",
-          "open": 2174.278,
-          "high": 2244.919,
-          "low": 2172.56,
-          "close": 2235.836
+          "open": 728.236,
+          "high": 752.002,
+          "low": 727.7,
+          "close": 747.548
         },
         {
           "date": "2026-07-16",
-          "open": 2218.678,
-          "high": 2257.959,
-          "low": 2206.616,
-          "close": 2246.871
+          "open": 743.931,
+          "high": 757.673,
+          "low": 741.559,
+          "close": 752.142
         },
         {
           "date": "2026-07-17",
-          "open": 2236.936,
-          "high": 2265.234,
-          "low": 2163.093,
-          "close": 2177.584
+          "open": 750.129,
+          "high": 759.377,
+          "low": 724.614,
+          "close": 730.149
         },
         {
           "date": "2026-07-20",
-          "open": 2168.745,
-          "high": 2207.941,
-          "low": 2129.891,
-          "close": 2154.987
+          "open": 728.119,
+          "high": 741.328,
+          "low": 711.923,
+          "close": 719.912
         },
         {
           "date": "2026-07-21",
-          "open": 2147.585,
-          "high": 2147.585,
-          "low": 2079.357,
-          "close": 2127.531
+          "open": 717.788,
+          "high": 718.732,
+          "low": 696.394,
+          "close": 711.18
         },
         {
           "date": "2026-07-22",
-          "open": 2118.504,
-          "high": 2146.068,
-          "low": 2114.949,
-          "close": 2128.002
+          "open": 707.507,
+          "high": 716.948,
+          "low": 705.471,
+          "close": 712.09
         },
         {
           "date": "2026-07-23",
-          "open": 2116.502,
-          "high": 2173.38,
-          "low": 2109.887,
-          "close": 2173.024
+          "open": 709.566,
+          "high": 732.505,
+          "low": 708.491,
+          "close": 732.071
         },
         {
           "date": "2026-07-24",
-          "open": 2161.847,
-          "high": 2169.661,
-          "low": 2101.84,
-          "close": 2102.927
+          "open": 727.045,
+          "high": 730.881,
+          "low": 708.838,
+          "close": 709.941
         },
         {
           "date": "2026-07-27",
-          "open": 2094.849,
-          "high": 2152.332,
-          "low": 2091.617,
-          "close": 2150.945
+          "open": 706.714,
+          "high": 724.546,
+          "low": 706.211,
+          "close": 723.688
         },
         {
           "date": "2026-07-28",
-          "open": 2138.515,
-          "high": 2174.927,
-          "low": 2138.515,
-          "close": 2161.229
+          "open": 720.98,
+          "high": 736.942,
+          "low": 720.98,
+          "close": 732.315
         },
         {
           "date": "2026-07-29",
-          "open": 2162.084,
-          "high": 2209.926,
-          "low": 2162.084,
-          "close": 2202.53
+          "open": 732.169,
+          "high": 748.625,
+          "low": 732.169,
+          "close": 745.551
         },
         {
           "date": "2026-07-30",
-          "open": 2193.074,
-          "high": 2238.159,
-          "low": 2185.488,
-          "close": 2195.432
+          "open": 743.643,
+          "high": 760.107,
+          "low": 740.788,
+          "close": 746.31
         },
         {
           "date": "2026-07-31",
-          "open": 2182.445,
-          "high": 2232.067,
-          "low": 2182.445,
-          "close": 2231.77
+          "open": 743.348,
+          "high": 756.747,
+          "low": 743.348,
+          "close": 756.747
         },
         {
           "date": "2026-08-03",
-          "open": 2231.259,
-          "high": 2269.985,
-          "low": 2231.259,
-          "close": 2269.985
+          "open": 757.379,
+          "high": 775.159,
+          "low": 757.379,
+          "close": 775.159
         },
         {
           "date": "2026-08-04",
-          "open": 2272.727,
-          "high": 2279.121,
-          "low": 2253.388,
-          "close": 2265.189
+          "open": 776.463,
+          "high": 778.596,
+          "low": 767.821,
+          "close": 770.865
         },
         {
           "date": "2026-08-05",
-          "open": 2265.044,
-          "high": 2275.957,
-          "low": 2250.03,
-          "close": 2267.896
+          "open": 772.255,
+          "high": 775.988,
+          "low": 765.317,
+          "close": 772.022
         },
         {
           "date": "2026-08-06",
-          "open": 2266.497,
-          "high": 2291.526,
-          "low": 2244.946,
-          "close": 2286.777
+          "open": 772.076,
+          "high": 794.781,
+          "low": 764.68,
+          "close": 791.356
         },
         {
           "date": "2026-08-07",
-          "open": 2278.833,
-          "high": 2290.484,
-          "low": 2250.568,
-          "close": 2289.888
+          "open": 785.938,
+          "high": 785.938,
+          "low": 768.28,
+          "close": 781.447
         },
         {
           "date": "2026-08-10",
-          "open": 2287.804,
-          "high": 2333.674,
-          "low": 2287.804,
-          "close": 2333.148
+          "open": 780.127,
+          "high": 800.848,
+          "low": 780.127,
+          "close": 800.623
         },
         {
           "date": "2026-08-11",
-          "open": 2327.47,
-          "high": 2339.395,
-          "low": 2312.002,
-          "close": 2315.558
+          "open": 798.758,
+          "high": 798.758,
+          "low": 788.269,
+          "close": 789.097
         },
         {
           "date": "2026-08-12",
-          "open": 2311.284,
-          "high": 2343.487,
-          "low": 2308.502,
-          "close": 2342.858
+          "open": 788.47,
+          "high": 798.144,
+          "low": 785.888,
+          "close": 797.516
         },
         {
           "date": "2026-08-13",
-          "open": 2336.682,
-          "high": 2358.416,
-          "low": 2316.119,
-          "close": 2333.731
+          "open": 796.609,
+          "high": 797.522,
+          "low": 788.47,
+          "close": 788.759
         },
         {
           "date": "2026-08-14",
-          "open": 2327.875,
-          "high": 2331.863,
-          "low": 2294.378,
-          "close": 2306.817
+          "open": 788.739,
+          "high": 789.286,
+          "low": 777.057,
+          "close": 782.881
         },
         {
           "date": "2026-08-17",
-          "open": 2316.162,
-          "high": 2362.435,
-          "low": 2305.533,
-          "close": 2357.704
+          "open": 790.065,
+          "high": 817.417,
+          "low": 790.065,
+          "close": 814.621
         },
         {
           "date": "2026-08-18",
-          "open": 2353.231,
-          "high": 2449.73,
-          "low": 2353.231,
-          "close": 2449.18
+          "open": 814.53,
+          "high": 868.018,
+          "low": 814.53,
+          "close": 867.723
         },
         {
           "date": "2026-08-19",
-          "open": 2432.384,
-          "high": 2453.202,
-          "low": 2369.245,
-          "close": 2378.876
+          "open": 864.887,
+          "high": 877.428,
+          "low": 843.271,
+          "close": 848.33
         },
         {
           "date": "2026-08-20",
-          "open": 2371.327,
-          "high": 2425.126,
-          "low": 2355.269,
-          "close": 2413.465
+          "open": 835.514,
+          "high": 865.263,
+          "low": 824.59,
+          "close": 856.115
         },
         {
           "date": "2026-08-21",
-          "open": 2385.26,
-          "high": 2385.26,
-          "low": 2328.544,
-          "close": 2346.759
+          "open": 847.962,
+          "high": 847.962,
+          "low": 820.119,
+          "close": 826.691
         },
         {
           "date": "2026-08-24",
-          "open": 2349.486,
-          "high": 2357.599,
-          "low": 2325.056,
-          "close": 2340.238
+          "open": 829.032,
+          "high": 843.542,
+          "low": 824.213,
+          "close": 835.06
         },
         {
           "date": "2026-08-25",
-          "open": 2327.021,
-          "high": 2402.444,
-          "low": 2327.021,
-          "close": 2401.141
+          "open": 829.56,
+          "high": 869.115,
+          "low": 829.56,
+          "close": 865.149
         },
         {
           "date": "2026-08-26",
-          "open": 2385.124,
-          "high": 2429.804,
-          "low": 2385.124,
-          "close": 2417.53
+          "open": 855.466,
+          "high": 874.312,
+          "low": 855.466,
+          "close": 866.685
         },
         {
           "date": "2026-08-27",
-          "open": 2429.071,
-          "high": 2479.004,
-          "low": 2429.071,
-          "close": 2475.846
+          "open": 874.371,
+          "high": 897.73,
+          "low": 874.371,
+          "close": 896.022
         },
         {
           "date": "2026-08-28",
-          "open": 2479.934,
-          "high": 2542.474,
-          "low": 2465.702,
-          "close": 2531.41
+          "open": 898.792,
+          "high": 930.582,
+          "low": 890.891,
+          "close": 922.141
         },
         {
           "date": "2026-08-31",
-          "open": 2537.974,
-          "high": 2539.717,
-          "low": 2487.338,
-          "close": 2488.766
+          "open": 933.726,
+          "high": 937.807,
+          "low": 907.063,
+          "close": 907.958
         },
         {
           "date": "2026-09-01",
-          "open": 2484.074,
-          "high": 2591.116,
-          "low": 2484.074,
-          "close": 2590.495
+          "open": 905.477,
+          "high": 968.432,
+          "low": 905.477,
+          "close": 964.893
         },
         {
           "date": "2026-09-02",
-          "open": 2568.753,
-          "high": 2568.753,
-          "low": 2511.393,
-          "close": 2516.531
+          "open": 957.576,
+          "high": 957.576,
+          "low": 919.149,
+          "close": 925.755
         },
         {
           "date": "2026-09-03",
-          "open": 2506.128,
-          "high": 2520.313,
-          "low": 2477.977,
-          "close": 2492.534
+          "open": 917.131,
+          "high": 923.762,
+          "low": 905.671,
+          "close": 913.975
         },
         {
           "date": "2026-09-04",
-          "open": 2480.241,
-          "high": 2557.943,
-          "low": 2466.943,
-          "close": 2525.065
+          "open": 904.701,
+          "high": 943.649,
+          "low": 896.128,
+          "close": 930.655
         },
         {
           "date": "2026-09-07",
-          "open": 2537.113,
-          "high": 2589.971,
-          "low": 2537.113,
-          "close": 2583.26
+          "open": 937.037,
+          "high": 966.949,
+          "low": 937.037,
+          "close": 965.091
         },
         {
           "date": "2026-09-08",
-          "open": 2603.889,
-          "high": 2683.176,
-          "low": 2603.889,
-          "close": 2663.884
+          "open": 971.343,
+          "high": 1011.385,
+          "low": 971.343,
+          "close": 998.627
         },
         {
           "date": "2026-09-09",
-          "open": 2641.383,
-          "high": 2679.235,
-          "low": 2639.392,
-          "close": 2660.443
+          "open": 986.911,
+          "high": 1010.519,
+          "low": 985.896,
+          "close": 1003.02
         },
         {
           "date": "2026-09-10",
-          "open": 2656.856,
-          "high": 2658.985,
-          "low": 2585.681,
-          "close": 2585.681
+          "open": 1001.32,
+          "high": 1001.32,
+          "low": 972.881,
+          "close": 973.833
         },
         {
           "date": "2026-09-11",
-          "open": 2571.076,
-          "high": 2578.248,
-          "low": 2497.297,
-          "close": 2507.458
+          "open": 965.805,
+          "high": 973.724,
+          "low": 935.726,
+          "close": 940.742
         },
         {
           "date": "2026-09-14",
-          "open": 2484.891,
-          "high": 2496.682,
-          "low": 2446.339,
-          "close": 2474.646
+          "open": 924.519,
+          "high": 932.299,
+          "low": 905.545,
+          "close": 921.039
         },
         {
           "date": "2026-09-15",
-          "open": 2462.84,
-          "high": 2462.84,
-          "low": 2387.737,
-          "close": 2388.823
+          "open": 915.128,
+          "high": 915.128,
+          "low": 878.231,
+          "close": 878.996
         },
         {
           "date": "2026-09-16",
-          "open": 2380.369,
-          "high": 2408.761,
-          "low": 2366.322,
-          "close": 2401.069
+          "open": 872.033,
+          "high": 888.911,
+          "low": 866.529,
+          "close": 883.663
         },
         {
           "date": "2026-09-17",
-          "open": 2397.103,
-          "high": 2453.659,
-          "low": 2377.066,
-          "close": 2444.845
+          "open": 882.754,
+          "high": 913.844,
+          "low": 869.613,
+          "close": 908.855
         },
         {
           "date": "2026-09-18",
-          "open": 2422.6,
-          "high": 2466.547,
-          "low": 2422.6,
-          "close": 2452.714
+          "open": 893.309,
+          "high": 916.775,
+          "low": 893.309,
+          "close": 909.219
         },
         {
           "date": "2026-09-21",
-          "open": 2449.365,
-          "high": 2525.876,
-          "low": 2449.365,
-          "close": 2522.158
+          "open": 907.147,
+          "high": 937.924,
+          "low": 905.415,
+          "close": 934.556
         },
         {
           "date": "2026-09-22",
-          "open": 2518.138,
-          "high": 2536.466,
-          "low": 2491.742,
-          "close": 2512.936
+          "open": 932.143,
+          "high": 941.371,
+          "low": 916.964,
+          "close": 929.397
         },
         {
           "date": "2026-09-23",
-          "open": 2505.027,
-          "high": 2506.478,
-          "low": 2479.985,
-          "close": 2480.812
+          "open": 926.742,
+          "high": 931.283,
+          "low": 915.738,
+          "close": 919.14
         },
         {
           "date": "2026-09-24",
-          "open": 2482.192,
-          "high": 2488.342,
-          "low": 2436.651,
-          "close": 2437.779
+          "open": 919.153,
+          "high": 922.468,
+          "low": 898.077,
+          "close": 899.976
         },
         {
           "date": "2026-09-28",
-          "open": 2443.992,
-          "high": 2450.548,
-          "low": 2382.724,
-          "close": 2395.468
+          "open": 901.138,
+          "high": 902.854,
+          "low": 875.073,
+          "close": 880.026
         },
         {
           "date": "2026-09-29",
-          "open": 2379.911,
-          "high": 2400.223,
-          "low": 2373.163,
-          "close": 2384.114
+          "open": 873.851,
+          "high": 880.202,
+          "low": 871.474,
+          "close": 875.986
         },
         {
           "date": "2026-09-30",
-          "open": 2394.75,
-          "high": 2426.124,
-          "low": 2391.919,
-          "close": 2419.505
+          "open": 878.477,
+          "high": 898.192,
+          "low": 877.076,
+          "close": 894.061
         },
         {
           "date": "2026-10-08",
-          "open": 2423.767,
-          "high": 2453.352,
-          "low": 2405.91,
-          "close": 2416.241
+          "open": 897.923,
+          "high": 915.68,
+          "low": 889.476,
+          "close": 894.164
         },
         {
           "date": "2026-10-09",
-          "open": 2413.798,
-          "high": 2484.499,
-          "low": 2399.058,
-          "close": 2483.476
+          "open": 894.117,
+          "high": 926.143,
+          "low": 888.515,
+          "close": 925.275
         },
         {
           "date": "2026-10-12",
-          "open": 2475.522,
-          "high": 2497.227,
-          "low": 2421.133,
-          "close": 2422.401
+          "open": 923.429,
+          "high": 937.313,
+          "low": 887.876,
+          "close": 888.432
         },
         {
           "date": "2026-10-13",
-          "open": 2395.174,
-          "high": 2447.285,
-          "low": 2381.839,
-          "close": 2435.835
+          "open": 873.84,
+          "high": 900.375,
+          "low": 868.86,
+          "close": 897.843
         },
         {
           "date": "2026-10-14",
-          "open": 2428.348,
-          "high": 2438.566,
-          "low": 2388.443,
-          "close": 2389.354
+          "open": 895.296,
+          "high": 899.091,
+          "low": 876.175,
+          "close": 877.027
         },
         {
           "date": "2026-10-15",
-          "open": 2352.284,
-          "high": 2363.004,
-          "low": 2314.323,
-          "close": 2320.035
+          "open": 866.003,
+          "high": 866.704,
+          "low": 846.626,
+          "close": 848.55
         },
         {
           "date": "2026-10-16",
-          "open": 2338.622,
-          "high": 2373.531,
-          "low": 2312.104,
-          "close": 2328.416
+          "open": 856.168,
+          "high": 872.44,
+          "low": 850.16,
+          "close": 856.812
         },
         {
           "date": "2026-10-19",
-          "open": 2311.453,
-          "high": 2317.118,
-          "low": 2268.097,
-          "close": 2287.569
+          "open": 849.935,
+          "high": 850.836,
+          "low": 827.556,
+          "close": 836.736
         },
         {
           "date": "2026-10-20",
-          "open": 2287.117,
-          "high": 2310.204,
-          "low": 2279.771,
-          "close": 2296.867
+          "open": 835.478,
+          "high": 844.657,
+          "low": 832.623,
+          "close": 840.253
         },
         {
           "date": "2026-10-21",
-          "open": 2299.426,
-          "high": 2330.627,
-          "low": 2289.25,
-          "close": 2296.525
+          "open": 840.229,
+          "high": 857.007,
+          "low": 839.92,
+          "close": 842.953
         },
         {
           "date": "2026-10-22",
-          "open": 2298.355,
-          "high": 2298.919,
-          "low": 2225.989,
-          "close": 2225.989
+          "open": 843.061,
+          "high": 845.23,
+          "low": 815.541,
+          "close": 815.541
         },
         {
           "date": "2026-10-23",
-          "open": 2205.737,
-          "high": 2245.551,
-          "low": 2147.311,
-          "close": 2242.916
+          "open": 808.649,
+          "high": 820.363,
+          "low": 785.235,
+          "close": 819.186
         },
         {
           "date": "2026-10-26",
-          "open": 2231.342,
-          "high": 2246.944,
-          "low": 2214.801,
-          "close": 2235.033
+          "open": 814.446,
+          "high": 821.567,
+          "low": 805.75,
+          "close": 816.011
         },
         {
           "date": "2026-10-27",
-          "open": 2230.958,
-          "high": 2240.835,
-          "low": 2180.135,
-          "close": 2180.135
+          "open": 816.561,
+          "high": 821.119,
+          "low": 797.214,
+          "close": 797.214
         },
         {
           "date": "2026-10-28",
-          "open": 2180.753,
-          "high": 2190.082,
-          "low": 2157.629,
-          "close": 2182.676
+          "open": 797.769,
+          "high": 799.619,
+          "low": 787.268,
+          "close": 794.726
         },
         {
           "date": "2026-10-29",
-          "open": 2174.836,
-          "high": 2184.04,
-          "low": 2139.609,
-          "close": 2139.609
+          "open": 791.512,
+          "high": 794.844,
+          "low": 775.249,
+          "close": 775.574
         },
         {
           "date": "2026-10-30",
-          "open": 2124.464,
-          "high": 2180.575,
-          "low": 2113.602,
-          "close": 2119.765
+          "open": 769.568,
+          "high": 785.745,
+          "low": 761.901,
+          "close": 761.901
         },
         {
           "date": "2026-11-02",
-          "open": 2131.112,
-          "high": 2163.791,
-          "low": 2101.707,
-          "close": 2163.791
+          "open": 763.919,
+          "high": 776.952,
+          "low": 752.781,
+          "close": 776.37
         },
         {
           "date": "2026-11-03",
-          "open": 2153.976,
-          "high": 2200.803,
-          "low": 2150.31,
-          "close": 2168.569
+          "open": 772.235,
+          "high": 794.936,
+          "low": 772.235,
+          "close": 781.736
         },
         {
           "date": "2026-11-04",
-          "open": 2170.608,
-          "high": 2192.936,
-          "low": 2155.552,
-          "close": 2192.677
+          "open": 781.069,
+          "high": 794.457,
+          "low": 773.609,
+          "close": 794.457
         },
         {
           "date": "2026-11-05",
-          "open": 2186.076,
-          "high": 2228.162,
-          "low": 2186.076,
-          "close": 2228.162
+          "open": 791.057,
+          "high": 806.316,
+          "low": 791.057,
+          "close": 805.865
         },
         {
           "date": "2026-11-06",
-          "open": 2187.558,
-          "high": 2247.17,
-          "low": 2187.252,
-          "close": 2228.174
+          "open": 791.579,
+          "high": 819.789,
+          "low": 791.361,
+          "close": 811.687
         },
         {
           "date": "2026-11-09",
-          "open": 2232.704,
-          "high": 2238.856,
-          "low": 2218.779,
-          "close": 2223.142
+          "open": 809.872,
+          "high": 816.373,
+          "low": 804.444,
+          "close": 808.285
         },
         {
           "date": "2026-11-10",
-          "open": 2226.606,
-          "high": 2232.687,
-          "low": 2217.783,
-          "close": 2232.687
+          "open": 806.687,
+          "high": 812.132,
+          "low": 803.499,
+          "close": 810.644
         },
         {
           "date": "2026-11-11",
-          "open": 2228.013,
-          "high": 2239.141,
-          "low": 2208.626,
-          "close": 2229.387
+          "open": 809.876,
+          "high": 815.773,
+          "low": 800.56,
+          "close": 808.557
         },
         {
           "date": "2026-11-12",
-          "open": 2226.642,
-          "high": 2241.692,
-          "low": 2209.626,
-          "close": 2210.864
+          "open": 807.69,
+          "high": 815.277,
+          "low": 801.84,
+          "close": 802.86
         },
         {
           "date": "2026-11-13",
-          "open": 2209.032,
-          "high": 2217.919,
-          "low": 2181.967,
-          "close": 2185.561
+          "open": 801.469,
+          "high": 801.469,
+          "low": 783.549,
+          "close": 785.67
         },
         {
           "date": "2026-11-16",
-          "open": 2181.587,
-          "high": 2186.035,
-          "low": 2153.984,
-          "close": 2160.835
+          "open": 782.905,
+          "high": 786.15,
+          "low": 771.929,
+          "close": 774.767
         },
         {
           "date": "2026-11-17",
-          "open": 2151.454,
-          "high": 2163.655,
-          "low": 2123.006,
-          "close": 2130.835
+          "open": 770.349,
+          "high": 773.292,
+          "low": 757.807,
+          "close": 760.719
         },
         {
           "date": "2026-11-18",
-          "open": 2125.664,
-          "high": 2132.659,
-          "low": 2083.108,
-          "close": 2104.419
+          "open": 758.253,
+          "high": 761.009,
+          "low": 742.807,
+          "close": 750.278
         },
         {
           "date": "2026-11-19",
-          "open": 2091.337,
-          "high": 2091.337,
-          "low": 2042.849,
-          "close": 2047.216
+          "open": 745.128,
+          "high": 745.128,
+          "low": 725.851,
+          "close": 727.754
         },
         {
           "date": "2026-11-20",
-          "open": 2013.95,
-          "high": 2036.606,
-          "low": 1975.709,
-          "close": 1982.059
+          "open": 715.515,
+          "high": 729.218,
+          "low": 700.958,
+          "close": 708.75
         },
         {
           "date": "2026-11-23",
-          "open": 1959.332,
-          "high": 2020.283,
-          "low": 1940.266,
-          "close": 2020.283
+          "open": 698.119,
+          "high": 722.755,
+          "low": 690.828,
+          "close": 722.755
         },
         {
           "date": "2026-11-24",
-          "open": 2036.657,
-          "high": 2059.865,
-          "low": 1998.204,
-          "close": 2008.273
+          "open": 724.784,
+          "high": 735.727,
+          "low": 711.098,
+          "close": 719.761
+        },
+        {
+          "date": "2026-11-25",
+          "open": 717.067,
+          "high": 740.479,
+          "low": 711.741,
+          "close": 711.741
         }
       ]
     }
   ],
-  "deviation_alerts": [
+  "deviation_alerts": [],
+  "errors": [
     {
-      "sector": "AI应用·算力",
-      "code": "002771",
-      "name": "真视通",
-      "deviation": 47.0,
-      "alert": "warn",
-      "close": 18.12,
-      "ma20": 12.327
+      "sector": "小金属",
+      "message": "未抓到成分股；可能是概念名不匹配或数据源暂不可用"
     },
     {
-      "sector": "商业航天",
-      "code": "688066",
-      "name": "*ST航图",
-      "deviation": -39.3,
-      "alert": "warn",
-      "close": 3.45,
-      "ma20": 5.683
+      "sector": "AI应用",
+      "message": "未抓到成分股；可能是概念名不匹配或数据源暂不可用"
     },
     {
-      "sector": "粮食概念",
-      "code": "600180",
-      "name": "*ST瑞茂",
-      "deviation": -37.85,
-      "alert": "warn",
-      "close": 0.55,
-      "ma20": 0.885
+      "sector": "算力",
+      "message": "未抓到成分股；可能是概念名不匹配或数据源暂不可用"
     },
     {
       "sector": "芯片",
-      "code": "603324",
-      "name": "盛剑科技",
-      "deviation": 34.96,
-      "alert": "warn",
-      "close": 29.34,
-      "ma20": 21.739
+      "message": "未抓到成分股；可能是概念名不匹配或数据源暂不可用"
     },
     {
       "sector": "商业航天",
-      "code": "300069",
-      "name": "金利华电",
-      "deviation": -31.54,
-      "alert": "warn",
-      "close": 14.97,
-      "ma20": 21.868
-    },
-    {
-      "sector": "算力·芯片·商业航天",
-      "code": "002579",
-      "name": "中京电子",
-      "deviation": 31.22,
-      "alert": "warn",
-      "close": 16.2,
-      "ma20": 12.345
+      "message": "未抓到成分股；可能是概念名不匹配或数据源暂不可用"
     },
     {
       "sector": "机器人",
-      "code": "002242",
-      "name": "九阳股份",
-      "deviation": 31.04,
-      "alert": "warn",
-      "close": 35.05,
-      "ma20": 26.747
+      "message": "未抓到成分股；可能是概念名不匹配或数据源暂不可用"
+    },
+    {
+      "sector": "粮食概念",
+      "message": "未抓到成分股；可能是概念名不匹配或数据源暂不可用"
     }
-  ],
-  "errors": []
+  ]
 }
