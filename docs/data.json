@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28 03:41",
+  "updated_at": "2026-11-28 10:17",
   "trade_date": "2026-11-28",
   "config": {
     "sector_limit": null,
@@ -7248,10 +7248,10 @@
           "code": "600186",
           "name": "莲花控股",
           "status": "breakout_up",
-          "ma20": 8.792,
+          "ma20": 8.791,
           "close": 9.61,
           "change_pct": 9.95,
-          "deviation": 9.31,
+          "deviation": 9.32,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -7344,10 +7344,10 @@
           "code": "301282",
           "name": "金禄电子",
           "status": "above",
-          "ma20": 32.478,
+          "ma20": 32.359,
           "close": 41.3,
           "change_pct": 18.07,
-          "deviation": 27.16,
+          "deviation": 27.63,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
@@ -7416,10 +7416,10 @@
           "code": "002042",
           "name": "华孚时尚",
           "status": "above",
-          "ma20": 3.597,
+          "ma20": 3.544,
           "close": 4.25,
           "change_pct": 6.52,
-          "deviation": 18.15,
+          "deviation": 19.92,
           "above_streak": 11,
           "below_streak": 0,
           "deviation_alert": null
@@ -7860,10 +7860,10 @@
           "code": "300634",
           "name": "彩讯股份",
           "status": "tangle",
-          "ma20": 18.16,
+          "ma20": 18.131,
           "close": 18.15,
           "change_pct": 12.87,
-          "deviation": -0.06,
+          "deviation": 0.11,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -8688,12 +8688,12 @@
           "code": "000967",
           "name": "盈峰环境",
           "status": "excluded",
-          "ma20": 6.016,
+          "ma20": 6.009,
           "close": 5.8,
           "change_pct": 6.62,
-          "deviation": -3.59,
+          "deviation": -3.47,
           "above_streak": 0,
-          "below_streak": 30,
+          "below_streak": 12,
           "deviation_alert": null
         },
         {
@@ -8733,6 +8733,18 @@
           "deviation_alert": null
         },
         {
+          "code": "600131",
+          "name": "XD国网信",
+          "status": "excluded",
+          "ma20": 13.362,
+          "close": 12.82,
+          "change_pct": 6.13,
+          "deviation": -4.06,
+          "above_streak": 0,
+          "below_streak": 13,
+          "deviation_alert": null
+        },
+        {
           "code": "002355",
           "name": "兴民智通",
           "status": "excluded",
@@ -8754,18 +8766,6 @@
           "deviation": -8.27,
           "above_streak": 0,
           "below_streak": 12,
-          "deviation_alert": null
-        },
-        {
-          "code": "600131",
-          "name": "XD国网信",
-          "status": "excluded",
-          "ma20": 13.409,
-          "close": 12.82,
-          "change_pct": 5.69,
-          "deviation": -4.4,
-          "above_streak": 0,
-          "below_streak": 13,
           "deviation_alert": null
         },
         {
@@ -9441,9 +9441,9 @@
       "classified_stock_count": 473,
       "truncated": false,
       "status_counts": {
-        "breakout_up": 90,
+        "breakout_up": 91,
         "above": 23,
-        "tangle": 161,
+        "tangle": 160,
         "excluded": 199
       },
       "stocks": [
@@ -9899,6 +9899,18 @@
           "close": 47.94,
           "change_pct": 19.67,
           "deviation": 5.56,
+          "above_streak": 1,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "300236",
+          "name": "上海新阳",
+          "status": "breakout_up",
+          "ma20": 72.793,
+          "close": 74.87,
+          "change_pct": 19.45,
+          "deviation": 2.85,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
@@ -10984,18 +10996,6 @@
           "deviation_alert": null
         },
         {
-          "code": "300236",
-          "name": "上海新阳",
-          "status": "tangle",
-          "ma20": 73.078,
-          "close": 74.87,
-          "change_pct": 18.88,
-          "deviation": 2.45,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "688801",
           "name": "燧原科技-U",
           "status": "tangle",
@@ -11479,10 +11479,10 @@
           "code": "301308",
           "name": "江波龙",
           "status": "tangle",
-          "ma20": 206.81,
+          "ma20": 205.184,
           "close": 203.15,
           "change_pct": 13.57,
-          "deviation": -1.77,
+          "deviation": -0.99,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -11515,10 +11515,10 @@
           "code": "300373",
           "name": "扬杰科技",
           "status": "tangle",
-          "ma20": 69.824,
+          "ma20": 69.424,
           "close": 68.2,
           "change_pct": 13.36,
-          "deviation": -2.33,
+          "deviation": -1.76,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -12403,10 +12403,10 @@
           "code": "002241",
           "name": "歌尔股份",
           "status": "tangle",
-          "ma20": 23.343,
+          "ma20": 23.328,
           "close": 23.18,
           "change_pct": 7.27,
-          "deviation": -0.7,
+          "deviation": -0.64,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -12547,10 +12547,10 @@
           "code": "300627",
           "name": "华测导航",
           "status": "tangle",
-          "ma20": 20.319,
+          "ma20": 20.207,
           "close": 20.07,
           "change_pct": 6.19,
-          "deviation": -1.23,
+          "deviation": -0.68,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -13039,10 +13039,10 @@
           "code": "688179",
           "name": "阿拉丁",
           "status": "excluded",
-          "ma20": 13.922,
+          "ma20": 13.873,
           "close": 13.45,
           "change_pct": 14.37,
-          "deviation": -3.39,
+          "deviation": -3.05,
           "above_streak": 0,
           "below_streak": 11,
           "deviation_alert": null
@@ -13243,10 +13243,10 @@
           "code": "301099",
           "name": "雅创电子",
           "status": "excluded",
-          "ma20": 35.647,
+          "ma20": 35.608,
           "close": 34.3,
           "change_pct": 12.5,
-          "deviation": -3.78,
+          "deviation": -3.67,
           "above_streak": 0,
           "below_streak": 11,
           "deviation_alert": null
@@ -13824,7 +13824,7 @@
           "change_pct": 10.0,
           "deviation": -6.0,
           "above_streak": 0,
-          "below_streak": 30,
+          "below_streak": 24,
           "deviation_alert": null
         },
         {
@@ -13843,10 +13843,10 @@
           "code": "002281",
           "name": "光迅科技",
           "status": "excluded",
-          "ma20": 90.003,
+          "ma20": 89.763,
           "close": 87.05,
           "change_pct": 9.99,
-          "deviation": -3.28,
+          "deviation": -3.02,
           "above_streak": 0,
           "below_streak": 30,
           "deviation_alert": null
@@ -14443,10 +14443,10 @@
           "code": "002669",
           "name": "康达新材",
           "status": "excluded",
-          "ma20": 10.566,
+          "ma20": 10.562,
           "close": 10.04,
           "change_pct": 7.96,
-          "deviation": -4.97,
+          "deviation": -4.94,
           "above_streak": 0,
           "below_streak": 11,
           "deviation_alert": null
@@ -14815,10 +14815,10 @@
           "code": "002516",
           "name": "旷达科技",
           "status": "excluded",
-          "ma20": 5.203,
+          "ma20": 5.186,
           "close": 4.97,
           "change_pct": 6.42,
-          "deviation": -4.48,
+          "deviation": -4.17,
           "above_streak": 0,
           "below_streak": 9,
           "deviation_alert": null
@@ -16202,10 +16202,10 @@
           "code": "301282",
           "name": "金禄电子",
           "status": "above",
-          "ma20": 32.478,
+          "ma20": 32.359,
           "close": 41.3,
           "change_pct": 18.07,
-          "deviation": 27.16,
+          "deviation": 27.63,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
@@ -16238,10 +16238,10 @@
           "code": "002651",
           "name": "利君股份",
           "status": "above",
-          "ma20": 7.549,
+          "ma20": 7.543,
           "close": 9.56,
           "change_pct": 10.01,
-          "deviation": 26.64,
+          "deviation": 26.73,
           "above_streak": 3,
           "below_streak": 0,
           "deviation_alert": null
@@ -17186,10 +17186,10 @@
           "code": "300627",
           "name": "华测导航",
           "status": "tangle",
-          "ma20": 20.319,
+          "ma20": 20.207,
           "close": 20.07,
           "change_pct": 6.19,
-          "deviation": -1.23,
+          "deviation": -0.68,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -18146,10 +18146,10 @@
           "code": "000962",
           "name": "东方钽业",
           "status": "excluded",
-          "ma20": 34.868,
+          "ma20": 34.817,
           "close": 31.43,
           "change_pct": 10.01,
-          "deviation": -9.86,
+          "deviation": -9.73,
           "above_streak": 0,
           "below_streak": 11,
           "deviation_alert": null
@@ -18806,10 +18806,10 @@
           "code": "002669",
           "name": "康达新材",
           "status": "excluded",
-          "ma20": 10.566,
+          "ma20": 10.562,
           "close": 10.04,
           "change_pct": 7.96,
-          "deviation": -4.97,
+          "deviation": -4.94,
           "above_streak": 0,
           "below_streak": 11,
           "deviation_alert": null
@@ -18866,10 +18866,10 @@
           "code": "300129",
           "name": "泰胜风能",
           "status": "excluded",
-          "ma20": 6.131,
+          "ma20": 6.125,
           "close": 5.62,
           "change_pct": 7.87,
-          "deviation": -8.34,
+          "deviation": -8.25,
           "above_streak": 0,
           "below_streak": 10,
           "deviation_alert": null
@@ -19382,10 +19382,10 @@
           "code": "002516",
           "name": "旷达科技",
           "status": "excluded",
-          "ma20": 5.203,
+          "ma20": 5.186,
           "close": 4.97,
           "change_pct": 6.42,
-          "deviation": -4.48,
+          "deviation": -4.17,
           "above_streak": 0,
           "below_streak": 9,
           "deviation_alert": null
@@ -19903,7 +19903,7 @@
           "change_pct": 3.85,
           "deviation": -3.01,
           "above_streak": 0,
-          "below_streak": 17,
+          "below_streak": 16,
           "deviation_alert": null
         },
         {
@@ -20605,8 +20605,8 @@
       "status_counts": {
         "breakout_up": 86,
         "above": 33,
-        "tangle": 222,
-        "excluded": 525
+        "tangle": 223,
+        "excluded": 524
       },
       "stocks": [
         {
@@ -21657,10 +21657,10 @@
           "code": "301282",
           "name": "金禄电子",
           "status": "above",
-          "ma20": 32.478,
+          "ma20": 32.359,
           "close": 41.3,
           "change_pct": 18.07,
-          "deviation": 27.16,
+          "deviation": 27.63,
           "above_streak": 2,
           "below_streak": 0,
           "deviation_alert": null
@@ -22389,10 +22389,10 @@
           "code": "301529",
           "name": "福赛科技",
           "status": "tangle",
-          "ma20": 161.055,
+          "ma20": 160.986,
           "close": 162.66,
           "change_pct": 15.21,
-          "deviation": 1.0,
+          "deviation": 1.04,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -22533,10 +22533,10 @@
           "code": "301315",
           "name": "威士顿",
           "status": "tangle",
-          "ma20": 35.652,
+          "ma20": 35.621,
           "close": 34.74,
           "change_pct": 13.98,
-          "deviation": -2.56,
+          "deviation": -2.47,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -22605,10 +22605,10 @@
           "code": "301308",
           "name": "江波龙",
           "status": "tangle",
-          "ma20": 206.81,
+          "ma20": 205.184,
           "close": 203.15,
           "change_pct": 13.57,
-          "deviation": -1.77,
+          "deviation": -0.99,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -22725,10 +22725,10 @@
           "code": "300634",
           "name": "彩讯股份",
           "status": "tangle",
-          "ma20": 18.16,
+          "ma20": 18.131,
           "close": 18.15,
           "change_pct": 12.87,
-          "deviation": -0.06,
+          "deviation": 0.11,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -22905,10 +22905,10 @@
           "code": "300735",
           "name": "光弘科技",
           "status": "tangle",
-          "ma20": 14.34,
+          "ma20": 14.335,
           "close": 14.2,
           "change_pct": 11.37,
-          "deviation": -0.97,
+          "deviation": -0.94,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -23181,10 +23181,10 @@
           "code": "603040",
           "name": "新坐标",
           "status": "tangle",
-          "ma20": 36.622,
+          "ma20": 36.547,
           "close": 35.64,
           "change_pct": 10.0,
-          "deviation": -2.68,
+          "deviation": -2.48,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -23289,10 +23289,10 @@
           "code": "002152",
           "name": "广电运通",
           "status": "tangle",
-          "ma20": 8.402,
+          "ma20": 8.367,
           "close": 8.49,
           "change_pct": 9.97,
-          "deviation": 1.04,
+          "deviation": 1.46,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -23841,10 +23841,10 @@
           "code": "603112",
           "name": "华翔股份",
           "status": "tangle",
-          "ma20": 15.251,
+          "ma20": 15.203,
           "close": 15.18,
           "change_pct": 7.66,
-          "deviation": -0.47,
+          "deviation": -0.15,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -23881,6 +23881,18 @@
           "close": 16.29,
           "change_pct": 7.45,
           "deviation": -1.26,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
+          "code": "603596",
+          "name": "伯特利",
+          "status": "tangle",
+          "ma20": 18.802,
+          "close": 18.61,
+          "change_pct": 7.45,
+          "deviation": -1.02,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -24534,6 +24546,18 @@
           "deviation_alert": null
         },
         {
+          "code": "600998",
+          "name": "XD九州通",
+          "status": "tangle",
+          "ma20": 5.114,
+          "close": 5.11,
+          "change_pct": 2.4,
+          "deviation": -0.08,
+          "above_streak": 0,
+          "below_streak": 0,
+          "deviation_alert": null
+        },
+        {
           "code": "603338",
           "name": "浙江鼎力",
           "status": "tangle",
@@ -24609,10 +24633,10 @@
           "code": "600894",
           "name": "广日股份",
           "status": "tangle",
-          "ma20": 7.548,
+          "ma20": 7.503,
           "close": 7.55,
           "change_pct": 1.48,
-          "deviation": 0.03,
+          "deviation": 0.63,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -24654,25 +24678,13 @@
           "deviation_alert": null
         },
         {
-          "code": "600998",
-          "name": "XD九州通",
-          "status": "tangle",
-          "ma20": 5.209,
-          "close": 5.11,
-          "change_pct": 0.39,
-          "deviation": -1.9,
-          "above_streak": 0,
-          "below_streak": 0,
-          "deviation_alert": null
-        },
-        {
           "code": "603766",
           "name": "隆鑫通用",
           "status": "tangle",
-          "ma20": 15.972,
+          "ma20": 15.835,
           "close": 16.06,
           "change_pct": 0.25,
-          "deviation": 0.55,
+          "deviation": 1.42,
           "above_streak": 0,
           "below_streak": 0,
           "deviation_alert": null
@@ -24825,10 +24837,10 @@
           "code": "301550",
           "name": "斯菱智驱",
           "status": "excluded",
-          "ma20": 111.246,
+          "ma20": 111.206,
           "close": 108.5,
           "change_pct": 15.61,
-          "deviation": -2.47,
+          "deviation": -2.43,
           "above_streak": 0,
           "below_streak": 10,
           "deviation_alert": null
@@ -25473,10 +25485,10 @@
           "code": "688777",
           "name": "中控技术",
           "status": "excluded",
-          "ma20": 61.79,
+          "ma20": 61.751,
           "close": 57.28,
           "change_pct": 12.09,
-          "deviation": -7.3,
+          "deviation": -7.24,
           "above_streak": 0,
           "below_streak": 12,
           "deviation_alert": null
@@ -26613,10 +26625,10 @@
           "code": "003036",
           "name": "泰坦股份",
           "status": "excluded",
-          "ma20": 28.067,
+          "ma20": 28.042,
           "close": 27.19,
           "change_pct": 9.99,
-          "deviation": -3.12,
+          "deviation": -3.04,
           "above_streak": 0,
           "below_streak": 11,
           "deviation_alert": null
@@ -27762,6 +27774,18 @@
           "deviation_alert": null
         },
         {
+          "code": "301199",
+          "name": "迈赫股份",
+          "status": "excluded",
+          "ma20": 17.425,
+          "close": 16.71,
+          "change_pct": 8.41,
+          "deviation": -4.1,
+          "above_streak": 0,
+          "below_streak": 8,
+          "deviation_alert": null
+        },
+        {
           "code": "301345",
           "name": "涛涛车业",
           "status": "excluded",
@@ -28257,10 +28281,10 @@
           "code": "301449",
           "name": "天溯计量",
           "status": "excluded",
-          "ma20": 32.353,
+          "ma20": 32.218,
           "close": 30.11,
           "change_pct": 7.77,
-          "deviation": -6.93,
+          "deviation": -6.54,
           "above_streak": 0,
           "below_streak": 11,
           "deviation_alert": null
@@ -28275,18 +28299,6 @@
           "deviation": -7.39,
           "above_streak": 0,
           "below_streak": 10,
-          "deviation_alert": null
-        },
-        {
-          "code": "301199",
-          "name": "迈赫股份",
-          "status": "excluded",
-          "ma20": 17.517,
-          "close": 16.71,
-          "change_pct": 7.74,
-          "deviation": -4.61,
-          "above_streak": 0,
-          "below_streak": 8,
           "deviation_alert": null
         },
         {
@@ -28503,18 +28515,6 @@
           "deviation": -11.67,
           "above_streak": 0,
           "below_streak": 9,
-          "deviation_alert": null
-        },
-        {
-          "code": "603596",
-          "name": "伯特利",
-          "status": "excluded",
-          "ma20": 21.208,
-          "close": 18.61,
-          "change_pct": 7.45,
-          "deviation": -12.25,
-          "above_streak": 0,
-          "below_streak": 14,
           "deviation_alert": null
         },
         {
@@ -28905,7 +28905,7 @@
           "code": "688151",
           "name": "华强科技",
           "status": "excluded",
-          "ma20": 14.544,
+          "ma20": 14.543,
           "close": 14.01,
           "change_pct": 6.95,
           "deviation": -3.67,
@@ -29001,10 +29001,10 @@
           "code": "603273",
           "name": "天元智能",
           "status": "excluded",
-          "ma20": 13.914,
+          "ma20": 13.905,
           "close": 12.26,
           "change_pct": 6.79,
-          "deviation": -11.89,
+          "deviation": -11.83,
           "above_streak": 0,
           "below_streak": 10,
           "deviation_alert": null
@@ -29121,12 +29121,12 @@
           "code": "000967",
           "name": "盈峰环境",
           "status": "excluded",
-          "ma20": 6.016,
+          "ma20": 6.009,
           "close": 5.8,
           "change_pct": 6.62,
-          "deviation": -3.59,
+          "deviation": -3.47,
           "above_streak": 0,
-          "below_streak": 30,
+          "below_streak": 12,
           "deviation_alert": null
         },
         {
@@ -29301,10 +29301,10 @@
           "code": "002516",
           "name": "旷达科技",
           "status": "excluded",
-          "ma20": 5.203,
+          "ma20": 5.186,
           "close": 4.97,
           "change_pct": 6.42,
-          "deviation": -4.48,
+          "deviation": -4.17,
           "above_streak": 0,
           "below_streak": 9,
           "deviation_alert": null
@@ -29690,7 +29690,7 @@
           "change_pct": 5.92,
           "deviation": -5.62,
           "above_streak": 0,
-          "below_streak": 11,
+          "below_streak": 10,
           "deviation_alert": null
         },
         {
@@ -29913,12 +29913,12 @@
           "code": "003008",
           "name": "开普检测",
           "status": "excluded",
-          "ma20": 17.317,
+          "ma20": 17.281,
           "close": 16.71,
           "change_pct": 5.63,
-          "deviation": -3.51,
+          "deviation": -3.3,
           "above_streak": 0,
-          "below_streak": 9,
+          "below_streak": 8,
           "deviation_alert": null
         },
         {
@@ -30194,7 +30194,7 @@
           "change_pct": 5.21,
           "deviation": -4.23,
           "above_streak": 0,
-          "below_streak": 30,
+          "below_streak": 28,
           "deviation_alert": null
         },
         {
@@ -30213,10 +30213,10 @@
           "code": "600141",
           "name": "兴发集团",
           "status": "excluded",
-          "ma20": 22.197,
+          "ma20": 22.067,
           "close": 21.12,
           "change_pct": 5.18,
-          "deviation": -4.85,
+          "deviation": -4.29,
           "above_streak": 0,
           "below_streak": 12,
           "deviation_alert": null
@@ -30447,6 +30447,18 @@
           "deviation": -8.78,
           "above_streak": 0,
           "below_streak": 8,
+          "deviation_alert": null
+        },
+        {
+          "code": "603298",
+          "name": "XD杭叉集",
+          "status": "excluded",
+          "ma20": 23.459,
+          "close": 22.7,
+          "change_pct": 4.42,
+          "deviation": -3.24,
+          "above_streak": 0,
+          "below_streak": 3,
           "deviation_alert": null
         },
         {
@@ -30723,18 +30735,6 @@
           "deviation": -4.27,
           "above_streak": 0,
           "below_streak": 7,
-          "deviation_alert": null
-        },
-        {
-          "code": "603298",
-          "name": "XD杭叉集",
-          "status": "excluded",
-          "ma20": 23.65,
-          "close": 22.7,
-          "change_pct": 3.46,
-          "deviation": -4.01,
-          "above_streak": 0,
-          "below_streak": 3,
           "deviation_alert": null
         },
         {
@@ -31660,10 +31660,10 @@
           "code": "600186",
           "name": "莲花控股",
           "status": "breakout_up",
-          "ma20": 8.792,
+          "ma20": 8.791,
           "close": 9.61,
           "change_pct": 9.95,
-          "deviation": 9.31,
+          "deviation": 9.32,
           "above_streak": 1,
           "below_streak": 0,
           "deviation_alert": null
